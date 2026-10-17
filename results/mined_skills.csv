@@ -1,0 +1,1002 @@
+term,df_cue,df_all,employers,cue_ratio
+Excel,65,117,56,0.556
+Docker,44,69,37,0.638
+Projektmanagement,38,100,37,0.38
+Marketing,35,297,30,0.118
+AWS,33,74,29,0.446
+Azure,33,84,27,0.393
+Vertrieb,32,126,28,0.254
+React,30,73,25,0.411
+Kubernetes,28,63,24,0.444
+Linux,26,82,19,0.317
+LinkedIn,25,64,25,0.391
+Terraform,24,48,22,0.5
+APIs,23,126,23,0.183
+Canva,23,37,23,0.622
+Claude,23,66,21,0.348
+Controlling,23,56,22,0.411
+E-Commerce,23,88,18,0.261
+SAP,22,90,14,0.244
+Social Media,22,98,21,0.224
+Google Ads,20,37,15,0.541
+Instagram,19,58,19,0.328
+Photoshop,19,24,17,0.792
+Jira,17,34,14,0.5
+Node,17,39,17,0.436
+Automatisierung,16,99,14,0.162
+BWL,16,71,12,0.225
+CI/CD,16,98,16,0.163
+ChatGPT,16,27,15,0.593
+LLMs,16,37,12,0.432
+Microsoft 365,16,38,16,0.421
+Angular,15,29,13,0.517
+CRM-Systemen,15,21,13,0.714
+Cursor,15,24,14,0.625
+GCP,15,25,14,0.6
+HTML,15,24,13,0.625
+Performance Marketing,15,45,15,0.333
+Softwareentwicklung,15,65,15,0.231
+ERP-Systemen,14,19,13,0.737
+Figma,14,33,13,0.424
+Finance,14,79,13,0.177
+Illustrator,14,18,12,0.778
+ROAS,14,30,13,0.467
+SEO,14,42,14,0.333
+ISO 27001,13,23,12,0.565
+PowerPoint,13,27,12,0.481
+Windows,13,60,11,0.217
+n8n,13,28,12,0.464
+C1-C2,12,14,2,0.857
+CapCut,12,26,12,0.462
+DATEV,12,31,11,0.387
+Scrum,12,31,11,0.387
+Shopify,12,22,10,0.545
+Administration,11,82,11,0.134
+Business Development,11,44,11,0.25
+Claude Code,11,28,11,0.393
+GitHub Actions,11,20,7,0.55
+Go,11,76,10,0.145
+HubSpot,11,31,10,0.355
+MS-Office-Anwendungen,11,15,9,0.733
+Make,11,47,10,0.234
+Next,11,25,11,0.44
+Spring Boot,11,18,10,0.611
+Stakeholdern,11,55,11,0.2
+Wirtschaftsingenieurwesen,11,28,8,0.393
+Account Management,10,35,10,0.286
+Amazon,10,26,9,0.385
+Consulting,10,37,9,0.27
+Customer Success,10,45,10,0.222
+Influencer Marketing,10,19,8,0.526
+Medien,10,40,8,0.25
+Meta,10,50,10,0.2
+Position,10,71,9,0.141
+Rechnungswesen,10,38,9,0.263
+Reporting,10,96,9,0.104
+TikTok,10,66,9,0.152
+Voraussetzung,10,40,8,0.25
+Vue,10,18,10,0.556
+Architektur,9,82,6,0.11
+Bash,9,14,7,0.643
+Bereiche,9,41,6,0.22
+C1-Niveau,9,32,7,0.281
+Facebook,9,25,9,0.36
+FastAPI,9,17,6,0.529
+Finanzbuchhaltung,9,20,8,0.45
+Firewalls,9,19,8,0.474
+Germany,9,71,8,0.127
+GitHub,9,43,8,0.209
+InDesign,9,12,9,0.75
+Kanban,9,14,9,0.643
+Oracle,9,20,7,0.45
+REST,9,55,9,0.164
+REST APIs,9,17,9,0.529
+Salesforce,9,26,8,0.346
+Wirtschaftsinformatik,9,74,9,0.122
+YouTube,9,25,9,0.36
+Adobe Creative Cloud,8,13,7,0.615
+Airflow,8,10,8,0.8
+B2B-Vertrieb,8,15,8,0.533
+CAD,8,35,7,0.229
+Confluence,8,15,6,0.533
+Copilot,8,22,7,0.364
+Django,8,11,5,0.727
+Einkauf,8,36,6,0.222
+Entra ID,8,22,7,0.364
+Fehleranalyse,8,26,8,0.308
+GA4,8,14,8,0.571
+Google Workspace,8,11,7,0.727
+Grafana,8,13,7,0.615
+Kaltakquise,8,30,4,0.267
+Kundenkontakt,8,52,7,0.154
+Kundenservice,8,15,8,0.533
+MS-Office,8,59,8,0.136
+MongoDB,8,12,8,0.667
+Notion,8,13,7,0.615
+Playwright,8,16,7,0.5
+SolidWorks,8,10,7,0.8
+VOB,8,14,7,0.571
+VPN,8,15,8,0.533
+AI tools,7,50,7,0.14
+Anlagen,7,54,7,0.13
+CAC,7,14,7,0.5
+Co,7,54,5,0.13
+DSGVO,7,11,7,0.636
+Forecasting,7,12,5,0.583
+Führung von Teams,7,7,7,1.0
+Gesundheitswesen,7,23,6,0.304
+Google Tag Manager,7,8,5,0.875
+GraphQL,7,13,7,0.538
+HGB,7,33,6,0.212
+IAM,7,19,6,0.368
+Immobilien,7,12,7,0.583
+Kotlin,7,16,7,0.438
+Kundenbetreuung,7,42,6,0.167
+Master,7,56,6,0.125
+Microsoft Office,7,16,7,0.438
+NIS2,7,10,7,0.7
+Normen,7,14,7,0.5
+Power BI,7,14,7,0.5
+PowerShell,7,19,7,0.368
+Profil ab,7,44,7,0.159
+PyTorch,7,16,7,0.438
+RAG,7,27,5,0.259
+Routing,7,13,7,0.538
+Ubuntu,7,7,7,1.0
+Verkauf,7,30,3,0.233
+Virtualisierung,7,15,6,0.467
+Word,7,9,7,0.778
+After Effects,6,12,6,0.5
+Anlagenbau,6,9,5,0.667
+Arbeitnehmerüberlassung,6,6,3,1.0
+Azure DevOps,6,9,5,0.667
+B2B SaaS,6,24,5,0.25
+Content Creation,6,10,6,0.6
+Conversion Rate,6,16,5,0.375
+DNS,6,19,5,0.316
+Dienstleistungen,6,28,6,0.214
+E-Mail-Marketing,6,16,6,0.375
+Gemini,6,7,4,0.857
+HTML5,6,6,6,1.0
+IFRS,6,10,6,0.6
+IHK,6,11,6,0.545
+Kafka,6,8,6,0.75
+Key Account Management,6,12,5,0.5
+Klaviyo,6,11,6,0.545
+Kundenberatung,6,31,5,0.194
+MCP,6,23,6,0.261
+MEDDPICC,6,6,5,1.0
+Meta Ads,6,15,5,0.4
+Node.js,6,33,6,0.182
+Online-Marketing,6,23,4,0.261
+PC,6,12,6,0.5
+Personaladministration,6,12,4,0.5
+Redis,6,9,5,0.667
+Retention,6,19,6,0.316
+SEA,6,24,6,0.25
+Sheets,6,19,6,0.316
+Slack,6,10,4,0.6
+Spring,6,27,5,0.222
+Startup,6,38,6,0.158
+Testautomatisierung,6,13,5,0.462
+Videoschnitt,6,10,5,0.6
+Zapier,6,12,6,0.5
+ABAP OO,5,6,3,0.833
+Abrechnung,5,25,5,0.2
+Adobe Creative Suite,5,9,5,0.556
+Apollo,5,10,4,0.5
+Außendienst,5,12,4,0.417
+B DATEV,5,5,4,1.0
+BI,5,41,4,0.122
+BI-Tools,5,7,5,0.714
+Bauleitung,5,12,5,0.417
+Berechtigungen,5,21,5,0.238
+C/C++,5,7,4,0.714
+CTO,5,23,4,0.217
+CTR,5,14,5,0.357
+Content-Erstellung,5,11,4,0.455
+DHCP,5,13,4,0.385
+DORA,5,9,5,0.556
+Datenmodellierung,5,10,5,0.5
+Digital Marketing,5,9,5,0.556
+Digitalisierung,5,50,5,0.1
+Google Analytics,5,11,5,0.455
+Google Sheets,5,12,4,0.417
+IP,5,18,4,0.278
+IT-Support,5,12,5,0.417
+Industrie,5,17,5,0.294
+Informationen,5,47,5,0.106
+Informationssicherheit,5,11,4,0.455
+Infrastructure as Code,5,20,5,0.25
+Kundensupport,5,7,3,0.714
+M365,5,10,4,0.5
+Microsoft Dynamics,5,11,5,0.455
+NetSuite,5,9,4,0.556
+Netzwerktechnologien,5,9,5,0.556
+Online Marketing,5,11,5,0.455
+Outlook,5,9,5,0.556
+Personio,5,8,2,0.625
+Premiere,5,29,5,0.172
+Premiere Pro,5,20,5,0.25
+Projektmanagement mit,5,6,5,0.833
+Prometheus,5,10,4,0.5
+Prozessoptimierung,5,30,5,0.167
+REST-APIs,5,11,4,0.455
+Recherche,5,40,4,0.125
+Rust,5,12,5,0.417
+SAP Fiori,5,7,4,0.714
+SAP S/4HANA,5,16,4,0.312
+SPI,5,5,5,1.0
+Search,5,25,4,0.2
+Shopping,5,14,4,0.357
+Snowflake,5,12,4,0.417
+Software-Entwicklung,5,8,4,0.625
+Supply Chain,5,27,5,0.185
+Switching,5,8,4,0.625
+Systemadministration,5,10,5,0.5
+TIA Portal,5,6,5,0.833
+Telesales,5,6,2,0.833
+VMware,5,15,4,0.333
+VWL,5,10,3,0.5
+Website,5,35,5,0.143
+bAV,5,10,3,0.5
+iSFP,5,5,5,1.0
+Abschlüsse,4,25,4,0.16
+Administration von Microsoft,4,5,3,0.8
+Adobe Premiere Pro,4,12,4,0.333
+Agenturen,4,23,4,0.174
+Anthropic,4,10,4,0.4
+B Canva,4,4,4,1.0
+B durch Praktika,4,4,4,1.0
+BI tools,4,6,4,0.667
+Bilanzbuchhaltung,4,5,4,0.8
+Branchen,4,33,4,0.121
+Buchhaltungssoftware,4,5,3,0.8
+Budgetplanung,4,16,4,0.25
+C1 Level,4,7,2,0.571
+CAN,4,6,4,0.667
+CATIA,4,4,4,1.0
+CI/CD-Pipelines,4,19,4,0.211
+Codex,4,7,4,0.571
+Command of the,4,4,3,1.0
+Cypress,4,9,4,0.444
+Dagster,4,4,4,1.0
+Data Science,4,22,4,0.182
+Display,4,10,4,0.4
+E-Commerce-Umfeld,4,7,4,0.571
+ERP-System,4,15,3,0.267
+Energieausweisen,4,4,4,1.0
+Entwicklung von Geschäftsbeziehungen,4,4,4,1.0
+Exchange,4,15,3,0.267
+Facebook Ads,4,5,2,0.8
+Fachinformatiker Systemintegration,4,9,3,0.444
+Finanzen,4,22,4,0.182
+French,4,11,3,0.364
+Frontend-Frameworks,4,6,4,0.667
+Fusion 360,4,4,3,1.0
+GDPR,4,10,4,0.4
+GitHub Copilot,4,7,4,0.571
+GitLab CI,4,14,3,0.286
+Google Cloud Platform,4,4,3,1.0
+Grafiken,4,18,4,0.222
+HOAI,4,9,3,0.444
+Heizlastberechnungen,4,4,4,1.0
+I2C,4,4,4,1.0
+IaC,4,9,3,0.444
+Identity,4,23,4,0.174
+Installation,4,37,4,0.108
+KI-Technologien,4,11,3,0.364
+Landingpages,4,22,4,0.182
+Langfuse,4,6,4,0.667
+Leitung von Teams,4,4,4,1.0
+MEDDIC,4,4,4,1.0
+MS-Office Anwendungen,4,4,4,1.0
+MSc,4,7,3,0.571
+Microsoft Azure,4,16,3,0.25
+Microsoft Entra ID,4,7,4,0.571
+Microsoft Graph,4,6,3,0.667
+Midjourney,4,4,4,1.0
+Netzwerkadministration,4,5,4,0.8
+Netzwerken,4,18,4,0.222
+Netzwerktechnik,4,6,4,0.667
+Next.js,4,20,4,0.2
+Office-Anwendungen,4,25,3,0.16
+OpenAI,4,11,4,0.364
+PKI,4,4,3,1.0
+PX4,4,5,3,0.8
+Postman,4,6,4,0.667
+Produktentwicklung,4,20,4,0.2
+Programmiersprachen,4,16,3,0.25
+Projektsteuerung,4,11,4,0.364
+Prompting,4,8,4,0.5
+React Native,4,9,4,0.444
+Rechnungslegung nach HGB,4,4,4,1.0
+Regelwerke,4,8,3,0.5
+Richtlinien,4,31,4,0.129
+S/4HANA,4,25,3,0.16
+SRE,4,7,3,0.571
+Schnitt,4,25,4,0.16
+SharePoint,4,11,4,0.364
+Siemens S7,4,4,4,1.0
+Social Media Marketing,4,6,4,0.667
+Startups,4,14,3,0.286
+TCP/IP,4,5,4,0.8
+TGA,4,17,2,0.235
+Tableau,4,12,4,0.333
+Thema einzuarbeiten,4,4,4,1.0
+UGC,4,16,4,0.25
+Vertragsmanagement,4,10,4,0.4
+Videoproduktion,4,5,4,0.8
+Videos,4,33,4,0.121
+Windows Server,4,15,3,0.267
+A/B testing,3,8,3,0.375
+A/B-Tests,3,13,3,0.231
+ABM,3,3,3,1.0
+AI tooling,3,18,3,0.167
+Abstimmungen,3,22,2,0.136
+Agenturumfeld,3,8,3,0.375
+Analysetools,3,4,3,0.75
+Anlagenmechaniker SHK,3,7,3,0.429
+Ansprechpartnern,3,28,3,0.107
+Ansys,3,3,3,1.0
+Apache,3,9,3,0.333
+Arbeitsweisen,3,12,3,0.25
+ArduPilot,3,3,3,1.0
+Art Direction,3,5,3,0.6
+Asana,3,8,3,0.375
+Auftragsabwicklung,3,9,3,0.333
+Ausschreibung,3,10,3,0.3
+AutoCAD,3,5,3,0.6
+Automatisierungstools,3,7,3,0.429
+Azure AI Foundry,3,4,3,0.75
+B CapCut,3,3,3,1.0
+B Claude,3,3,2,1.0
+B Marketing,3,3,2,1.0
+B Python,3,3,2,1.0
+B2-C1,3,3,3,1.0
+B2B Bereich,3,3,3,1.0
+B2C,3,18,3,0.167
+Backend-Entwicklung,3,8,3,0.375
+Bankenumfeld,3,10,2,0.3
+Baufinanzierung,3,9,3,0.333
+Bedingung,3,10,2,0.3
+Berater,3,26,3,0.115
+Bescheinigungen,3,10,3,0.3
+Bicep,3,3,3,1.0
+BigQuery,3,6,3,0.5
+Bilanzbuchhalter,3,15,3,0.2
+Bilder,3,9,3,0.333
+Branche,3,23,3,0.13
+CEO,3,20,3,0.15
+CI/CD practices,3,3,3,1.0
+CPA,3,6,3,0.5
+CPO,3,10,3,0.3
+CRM-System,3,18,3,0.167
+Captions,3,5,3,0.6
+Cloud ALM,3,6,2,0.5
+Cloud-Plattformen,3,10,3,0.3
+Cloud-Umgebungen,3,9,3,0.333
+Coding,3,25,3,0.12
+Community Management,3,9,3,0.333
+Content-Produktion,3,8,3,0.375
+Copy,3,12,3,0.25
+Corporate Finance,3,6,3,0.5
+DLR,3,3,2,1.0
+Dashboards,3,28,2,0.107
+Databricks,3,8,3,0.375
+Datenstrukturen,3,9,3,0.333
+Debugging,3,11,3,0.273
+Dein Profil ab,3,13,2,0.231
+Design-Tools,3,6,3,0.5
+Deutschlandticket,3,15,2,0.2
+ERP systems,3,10,3,0.3
+EW,3,3,2,1.0
+Einsatz von AI,3,8,3,0.375
+Einsatz von KI-Tools,3,6,2,0.5
+Energiewirtschaft,3,4,3,0.75
+Entwicklung von Anwendungen,3,3,2,1.0
+Entwurf,3,12,3,0.25
+Ethernet,3,3,3,1.0
+Express,3,8,3,0.375
+Fachinformatiker für Systemintegration,3,15,3,0.2
+Fashion,3,13,3,0.231
+Fertigung,3,20,2,0.15
+Flyer,3,7,3,0.429
+Formaten,3,18,3,0.167
+Freelancer,3,8,3,0.375
+Frontend-Technologien,3,5,3,0.6
+Full-Stack-Entwicklung,3,3,3,1.0
+Funnels,3,12,3,0.25
+Führung von Mitarbeitenden,3,3,3,1.0
+Gebäudetechnik,3,23,3,0.13
+Gehaltsabrechnung,3,14,3,0.214
+Geschäftsbereichen,3,6,2,0.5
+GitLab,3,23,3,0.13
+Golang,3,4,3,0.75
+Google Cloud,3,12,3,0.25
+Grafik,3,12,3,0.25
+HTTP,3,4,3,0.75
+Healthcare,3,9,3,0.333
+Helm,3,7,3,0.429
+Hooks,3,21,3,0.143
+Hubspot,3,5,2,0.6
+Hyper-V,3,7,3,0.429
+IT-Administration,3,3,3,1.0
+Iceberg,3,3,3,1.0
+Informationselektroniker,3,4,2,0.75
+Integrationen,3,18,3,0.167
+Intune,3,11,3,0.273
+Italian,3,5,2,0.6
+JSON,3,6,3,0.5
+Java Script,3,3,2,1.0
+KRITIS,3,6,3,0.5
+KUR,3,6,3,0.5
+Kapazitätsplanung,3,8,3,0.375
+Konstruktion,3,17,3,0.176
+Kubeflow,3,3,3,1.0
+LLM APIs,3,4,3,0.75
+Lager,3,18,3,0.167
+LangGraph,3,4,2,0.75
+Large Language Models,3,7,3,0.429
+Legal,3,14,3,0.214
+Lexware,3,6,3,0.5
+LiDAR,3,3,2,1.0
+Linear,3,5,3,0.6
+Liquid,3,6,3,0.5
+Logging,3,12,3,0.25
+Lohnsteuerrecht,3,3,2,1.0
+Looker,3,7,3,0.429
+Lovable,3,5,2,0.6
+MAVLink,3,4,2,0.75
+MM,3,9,3,0.333
+MS-Office Programmen,3,4,3,0.75
+Mac,3,6,3,0.5
+Machine Learning,3,15,3,0.2
+Managed Services,3,5,2,0.6
+MariaDB,3,5,3,0.6
+Meta Ads Manager,3,5,3,0.6
+Metabase,3,4,3,0.75
+Microsoft Ads,3,3,3,1.0
+Microsoft Dynamics 365,3,6,2,0.5
+Miro,3,3,2,1.0
+Mittelstand,3,16,3,0.188
+Model Context Protocol,3,4,3,0.75
+Moss,3,5,3,0.6
+Must-have,3,4,2,0.75
+Muttersprache,3,4,3,0.75
+Nachunternehmern,3,9,3,0.333
+NestJS,3,10,3,0.3
+Netzwerksicherheit,3,5,3,0.6
+NoSQL-Datenbanken,3,3,3,1.0
+NumPy,3,3,3,1.0
+OTA,3,4,2,0.75
+Odoo,3,3,3,1.0
+Okta,3,5,3,0.6
+OneDrive,3,6,3,0.5
+OpenCV,3,4,3,0.75
+OpenShift,3,3,2,1.0
+OpenTelemetry,3,4,3,0.75
+Oracle NetSuite,3,5,3,0.6
+PIM,3,4,3,0.75
+PM,3,11,3,0.273
+PMax,3,5,3,0.6
+PV,3,11,3,0.273
+Paid Social,3,11,3,0.273
+Perplexity,3,4,3,0.75
+Photovoltaik,3,5,2,0.6
+Pinterest,3,9,2,0.333
+Planner,3,4,3,0.75
+Planungssoftware,3,3,3,1.0
+Praktika,3,21,3,0.143
+Procurement,3,9,3,0.333
+Product Management,3,10,3,0.3
+Product Marketing,3,12,3,0.25
+Produktmanagement,3,23,3,0.13
+Projektentwicklung,3,7,3,0.429
+Projektkoordination,3,7,2,0.429
+Projektmanagementmethoden,3,3,3,1.0
+Queues,3,3,3,1.0
+RAG-Pipelines,3,5,2,0.6
+RabbitMQ,3,3,3,1.0
+Rahmenbedingungen,3,15,3,0.2
+Reddit,3,3,2,1.0
+Redshift,3,3,3,1.0
+Reinzeichnung,3,4,2,0.75
+RevOps,3,17,2,0.176
+Runway,3,3,3,1.0
+SAC,3,4,3,0.75
+SAP Analytics Cloud,3,7,3,0.429
+SAP CO,3,5,3,0.6
+SAP sind von,3,3,3,1.0
+SAPUI5,3,6,2,0.5
+SD,3,7,3,0.429
+SIEM,3,9,3,0.333
+SOC 2,3,6,3,0.5
+SOC2,3,3,3,1.0
+SPS,3,10,3,0.3
+SQL-Datenbanken,3,3,3,1.0
+Sachbearbeitung,3,7,3,0.429
+Segmentierung,3,7,3,0.429
+Shopware,3,4,2,0.75
+Social Ads,3,9,2,0.333
+Social Media Plattformen,3,4,3,0.75
+Softwarearchitektur,3,9,3,0.333
+Softwaretest,3,3,3,1.0
+Solutions Engineering,3,7,3,0.429
+Spanish,3,5,2,0.6
+Start-up,3,19,3,0.158
+Start-up-Umfeld,3,4,3,0.75
+Start-ups,3,12,3,0.25
+Stripe,3,5,3,0.6
+Städte,3,3,3,1.0
+TISAX,3,5,3,0.6
+Tailwind,3,10,3,0.3
+Tailwind CSS,3,4,3,0.75
+Tech-Umfeld,3,4,3,0.75
+Teilzeit,3,10,2,0.3
+Testmanagement,3,4,3,0.75
+Ticketsystemen,3,8,3,0.375
+Tiefbau,3,8,2,0.375
+TikTok Shop,3,8,2,0.375
+Transformation,3,30,3,0.1
+UART,3,4,3,0.75
+US,3,17,3,0.176
+Unit,3,22,3,0.136
+Urban Sports Club,3,21,2,0.143
+VLANs,3,4,3,0.75
+Veo,3,3,3,1.0
+Verkabelung,3,3,3,1.0
+Vertriebsinnendienst,3,4,3,0.75
+Videobearbeitung,3,8,3,0.375
+Webflow,3,4,3,0.75
+Webhooks,3,4,3,0.75
+Webservices,3,6,3,0.5
+Websites,3,10,3,0.3
+Webtechnologien,3,7,3,0.429
+WinCC,3,3,3,1.0
+Windows-Systemen,3,5,2,0.6
+Workshop-Moderation,3,3,2,1.0
+Zertifikate,3,12,3,0.25
+Zusammenarbeit mit Kunden,3,16,3,0.188
+vLLM,3,4,3,0.75
+3D printing,2,3,2,0.667
+3D-Modellierungssoftware,2,2,2,1.0
+3rd-Level-Support,2,11,2,0.182
+5-Tage-Woche,2,7,2,0.286
+A/B-Testing,2,7,2,0.286
+ACL,2,2,2,1.0
+AI Act,2,4,2,0.5
+AI coding tools,2,6,2,0.333
+AOV,2,6,2,0.333
+AP,2,3,2,0.667
+API-Testing,2,2,2,1.0
+ASP,2,6,2,0.333
+AWS/GCP,2,2,2,1.0
+Abrechnungssoftware,2,2,2,1.0
+Access Management,2,9,2,0.222
+Active Sourcing,2,5,2,0.4
+Adobe CC,2,4,2,0.5
+Adobe Express,2,2,2,1.0
+Adobe InDesign,2,2,2,1.0
+Adobe Premiere,2,14,2,0.143
+Aerospace,2,7,2,0.286
+Affiliate-Marketing,2,4,2,0.5
+Agile methodologies,2,2,2,1.0
+Agrarbranche,2,6,2,0.333
+Ahrefs,2,3,2,0.667
+Altium Designer,2,3,2,0.667
+Amazon Advertising,2,3,2,0.667
+Amplitude,2,3,2,0.667
+Analytics-Tools,2,3,2,0.667
+Anlagenbuchhaltung,2,6,2,0.333
+Anwendungsentwicklung,2,16,2,0.125
+Apex,2,5,2,0.4
+Application Insights,2,2,2,1.0
+Apps Script,2,3,2,0.667
+Arbeitsvorbereitung,2,6,2,0.333
+Architekturentscheidungen,2,16,2,0.125
+ArgoCD,2,3,2,0.667
+Atlassian,2,4,2,0.5
+Attribution,2,12,2,0.167
+Aufbau von Planungslösungen,2,2,2,1.0
+Auftraggebern,2,19,2,0.105
+Augenoptik,2,3,2,0.667
+Auslegung,2,11,2,0.182
+Ausschreibungen,2,10,2,0.2
+Ausschreibungsverfahren,2,3,2,0.667
+Austria,2,5,2,0.4
+Automotive,2,8,2,0.25
+Autopilot,2,4,2,0.5
+Außenanlagenbau,2,2,2,1.0
+Außenhandelsmanagement,2,3,2,0.667
+Azure AD,2,2,2,1.0
+B Anlagenmechaniker SHK,2,2,2,1.0
+B GitHub Actions,2,2,2,1.0
+B Grafik,2,2,2,1.0
+B Informatik,2,2,2,1.0
+B Java,2,2,2,1.0
+B PostgreSQL,2,2,2,1.0
+B Scrum,2,2,2,1.0
+B Terraform,2,2,2,1.0
+B mit CapCut,2,2,2,1.0
+B2B-Marketing,2,4,2,0.5
+B2B-Umfeld,2,8,2,0.25
+B2C-Vertrieb,2,2,2,1.0
+BI tools such,2,2,2,1.0
+BSI IT-Grundschutz,2,5,2,0.4
+BTP,2,5,2,0.4
+Balancing,2,2,2,1.0
+Bank,2,9,2,0.222
+Banner,2,9,2,0.222
+Barrierefreiheit,2,4,2,0.5
+Bauüberwachung,2,6,2,0.333
+Belgien,2,3,2,0.667
+Beratungsumfeld,2,3,2,0.667
+Berechnungen,2,11,2,0.182
+Bereichen Finanzen,2,2,2,1.0
+Bestand,2,8,2,0.25
+Bibliotheken,2,8,2,0.25
+Bidding,2,4,2,0.5
+Bildbearbeitung,2,12,2,0.167
+Bing Ads,2,3,2,0.667
+Bitbucket,2,3,2,0.667
+Brand Communications,2,2,2,1.0
+Brandschutz,2,2,2,1.0
+Breitbandausbau,2,2,2,1.0
+Budgetsteuerung,2,7,2,0.286
+Business Central,2,5,2,0.4
+Business Development im,2,3,2,0.667
+Büromanagement,2,12,2,0.167
+C1/C2,2,5,2,0.4
+CAE,2,2,2,1.0
+CDK,2,3,2,0.667
+CH,2,3,2,0.667
+CHRO,2,2,2,1.0
+CI/CD tools,2,2,2,1.0
+CMS-Systemen,2,3,2,0.667
+CPL,2,8,2,0.25
+CRM-Systeme,2,6,2,0.333
+CS,2,9,2,0.222
+CSP,2,3,2,0.667
+Category Management,2,4,2,0.5
+Challenger,2,5,2,0.4
+Channable,2,2,2,1.0
+Check Point,2,2,2,1.0
+Checkout,2,6,2,0.333
+Churn,2,6,2,0.333
+Cloud-Lösungen,2,7,2,0.286
+Cloud-Plattformen wie AWS,2,2,2,1.0
+Coach,2,17,2,0.118
+Computern,2,2,2,1.0
+Conditional Access,2,6,2,0.333
+Container-Orchestrierung,2,2,2,1.0
+Containerisierung,2,5,2,0.4
+Containern,2,2,2,1.0
+Content Marketing,2,4,2,0.5
+Conversion-Rates,2,2,2,1.0
+Copilot Studio,2,3,2,0.667
+Copywriting,2,11,2,0.182
+Corporate Development,2,2,2,1.0
+Customizing,2,7,2,0.286
+D2C,2,17,2,0.118
+DMS,2,3,2,0.667
+DaVinci Resolve,2,7,2,0.286
+Data Engineer,2,9,2,0.222
+Data Engineering,2,11,2,0.182
+Data Management,2,4,2,0.5
+Data Vault,2,3,2,0.667
+Data Warehouses,2,2,2,1.0
+Datenpflege,2,8,2,0.25
+Datensicherung,2,4,2,0.5
+Datenvisualisierung,2,3,2,0.667
+Datev,2,5,2,0.4
+Debian,2,3,2,0.667
+Debitoren,2,14,2,0.143
+Deep Learning,2,4,2,0.5
+Definition,2,20,2,0.1
+Demand Gen,2,6,2,0.333
+Deployment-Prozessen,2,5,2,0.4
+Didaktik,2,3,2,0.667
+Dienstleistungsumfeld,2,3,2,0.667
+Disposition,2,8,2,0.25
+Dynamics NAV,2,2,2,1.0
+DynamoDB,2,3,2,0.667
+E-Commerce Umfeld,2,2,2,1.0
+E-Mail Marketing,2,5,2,0.4
+E2E,2,5,2,0.4
+ECC,2,3,2,0.667
+EDR/XDR,2,2,2,1.0
+EDV-Systemen,2,2,2,1.0
+EGYM Wellpass,2,4,2,0.5
+EKS,2,3,2,0.667
+Einsatz von KI,2,13,2,0.154
+Einzelhandel,2,9,2,0.222
+Entity Framework Core,2,3,2,0.667
+Entscheidern,2,16,2,0.125
+Entwicklungspotenzial,2,4,2,0.5
+Eve,2,2,2,1.0
+Excel mit,2,2,2,1.0
+Exchange Online,2,8,2,0.25
+Expo,2,3,2,0.667
+Export,2,7,2,0.286
+FMEA,2,3,2,0.667
+FPGA,2,5,2,0.4
+Facility Management,2,3,2,0.667
+Film,2,3,2,0.667
+FinTech,2,9,2,0.222
+Finanzamt,2,3,2,0.667
+Finanzbereich,2,11,2,0.182
+Finanzumfeld,2,2,2,1.0
+Finanzwesen,2,4,2,0.5
+Fintech,2,4,2,0.5
+Flutter,2,5,2,0.4
+Flux,2,2,2,1.0
+Follow-ups,2,8,2,0.25
+Format,2,8,2,0.25
+Fortinet,2,5,2,0.4
+Founder,2,16,2,0.125
+FreeRTOS,2,2,2,1.0
+Frontend-Technologien wie Angular,2,2,2,1.0
+Fräsen,2,3,2,0.667
+Fullstack-Entwicklung,2,2,2,1.0
+Fütterung,2,2,2,1.0
+GEO,2,15,2,0.133
+GL,2,2,2,1.0
+GNC,2,3,2,0.667
+Gemeinden,2,2,2,1.0
+Gesundheit,2,19,2,0.105
+Gewinnspiele,2,2,2,1.0
+GitLab CI/CD,2,4,2,0.5
+Google AI Overviews,2,4,2,0.5
+Google Search Console,2,3,2,0.667
+Google Suite,2,2,2,1.0
+GraphQL API,2,3,2,0.667
+Gruppen,2,7,2,0.286
+Guardrails,2,4,2,0.5
+HRIS,2,4,2,0.5
+HSM,2,2,2,1.0
+Handel,2,10,2,0.2
+Heizung,2,8,2,0.25
+Hook,2,9,2,0.222
+Hook Rate,2,4,2,0.5
+Hotjar,2,2,2,1.0
+Hypervisoren,2,2,2,1.0
+ICLR,2,3,2,0.667
+ISO 13485,2,3,2,0.667
+ISO 26262,2,3,2,0.667
+IT-Consulting,2,4,2,0.5
+IT-Projektmanagement,2,3,2,0.667
+IT-Security,2,10,2,0.2
+IT-Systemadministration,2,2,2,1.0
+IT-Systemelektroniker,2,5,2,0.4
+Immobilienberatung,2,4,2,0.5
+Incident Response,2,5,2,0.4
+Industriekaufmann,2,10,2,0.2
+Industrieunternehmen,2,5,2,0.4
+InfluxDB,2,2,2,1.0
+Informatik o,2,2,2,1.0
+JUnit,2,4,2,0.5
+Jetpack Compose,2,3,2,0.667
+Juniper,2,2,2,1.0
+KI Tools,2,2,2,1.0
+Kalkulation,2,15,2,0.133
+Kampagnenanalysen,2,2,2,1.0
+Kaufmann,2,18,2,0.111
+Klima,2,11,2,0.182
+Kling,2,3,2,0.667
+Kommunikationsberatung,2,2,2,1.0
+Konsolidierung,2,5,2,0.4
+Kotlin Multiplatform,2,2,2,1.0
+Kreditoren,2,10,2,0.2
+Kundenanforderung,2,3,2,0.667
+Kundenkommunikation,2,20,2,0.1
+LIMS,2,2,2,1.0
+LLM-Systemen,2,2,2,1.0
+Laufzeiten,2,4,2,0.5
+Layout,2,11,2,0.182
+Lean Management,2,3,2,0.667
+Lebensmittel,2,6,2,0.333
+Leistungsdruck,2,2,2,1.0
+Lesen von technischen,2,3,2,0.667
+Licht,2,5,2,0.4
+Lightning Web Components,2,3,2,0.667
+LinkedIn Ads,2,2,2,1.0
+LinkedIn Campaign Manager,2,2,2,1.0
+LinkedIn Sales Navigator,2,3,2,0.667
+LoRA,2,3,2,0.667
+Log-Analyse,2,2,2,1.0
+Looker Studio,2,4,2,0.5
+LucaNet,2,3,2,0.667
+Lust darauf,2,11,2,0.182
+Lösungsvertrieb,2,2,2,1.0
+Lüftung,2,7,2,0.286
+MES,2,6,2,0.333
+MFA,2,12,2,0.167
+MLOps tools,2,2,2,1.0
+MLflow,2,3,2,0.667
+MQTT,2,4,2,0.5
+MS-Office-Programmen,2,2,2,1.0
+MaRisk,2,2,2,1.0
+MacOS,2,2,2,1.0
+Machbarkeit,2,13,2,0.154
+Manufacturing,2,11,2,0.182
+Markenbekanntheit,2,3,2,0.667
+Markenführung,2,6,2,0.333
+Marketing Automation,2,5,2,0.4
+Materialien,2,16,2,0.125
+Mediengestaltung,2,9,2,0.222
+Medizintechnik,2,7,2,0.286
+Meldewesen,2,3,2,0.667
+Microservices,2,7,2,0.286
+Microsoft Copilot,2,4,2,0.5
+Microsoft Intune,2,6,2,0.333
+Microsoft-Office-Anwendungen,2,3,2,0.667
+Milchleistung,2,2,2,1.0
+Mobile,2,18,2,0.111
+Modellierung,2,14,2,0.143
+MuJoCo,2,2,2,1.0
+NPS,2,4,2,0.5
+Nachtragsmanagement,2,3,2,0.667
+Nagios,2,2,2,1.0
+Nastran,2,2,2,1.0
+NeurIPS,2,3,2,0.667
+Nice-to-have,2,7,2,0.286
+Nielsen,2,2,2,1.0
+NoSQL databases,2,3,2,0.667
+Notebooks,2,7,2,0.286
+OPC-UA,2,2,2,1.0
+Observability,2,18,2,0.111
+Office-Programmen,2,6,2,0.333
+Offpage,2,4,2,0.5
+On-Premise,2,4,2,0.5
+Onpage,2,3,2,0.667
+Onshape,2,2,2,1.0
+Organisationen,2,10,2,0.2
+Organisationsentwicklung,2,3,2,0.667
+PAM,2,3,2,0.667
+PMO,2,4,2,0.5
+PMP,2,4,2,0.5
+POS,2,5,2,0.4
+PP,2,2,2,1.0
+Paid Ads,2,5,2,0.4
+Palo Alto,2,4,2,0.5
+Pandas,2,2,2,1.0
+Partitionierung,2,3,2,0.667
+PayPal,2,2,2,1.0
+Payment,2,10,2,0.2
+Performance Creative,2,2,2,1.0
+Performance Marketing mit,2,2,2,1.0
+Performance Max,2,5,2,0.4
+Performance-Analysen,2,4,2,0.5
+Performance-Marketing,2,10,2,0.2
+Performance-Optimierung,2,9,2,0.222
+Personalberatung,2,7,2,0.286
+Personalberatung mit,2,3,2,0.667
+Personalbereich,2,3,2,0.667
+Personalbetreuung,2,3,2,0.667
+Pflicht,2,12,2,0.167
+Pimcore,2,2,2,1.0
+Pitches,2,12,2,0.167
+Pivot,2,6,2,0.333
+Pixel,2,2,2,1.0
+Placements,2,2,2,1.0
+Planer,2,3,2,0.667
+Planungstechnologien,2,2,2,1.0
+Platform Engineering,2,2,2,1.0
+Pluspunkt,2,6,2,0.333
+Podcast,2,6,2,0.333
+Polars,2,2,2,1.0
+Postfix,2,2,2,1.0
+Pricing,2,17,2,0.118
+Print,2,11,2,0.182
+Probezeit,2,5,2,0.4
+Produktverantwortung,2,2,2,1.0
+Profibus,2,2,2,1.0
+Programmiersprache,2,8,2,0.25
+Projektgeschäft,2,5,2,0.4
+Projektierung,2,12,2,0.167
+Proxmox,2,3,2,0.667
+Prozessberatung,2,2,2,1.0
+Pub/Sub,2,3,2,0.667
+Purview,2,5,2,0.4
+Pytest,2,2,2,1.0
+RAG-Systemen,2,4,2,0.5
+RDS,2,2,2,1.0
+REST Assured,2,2,2,1.0
+RF,2,8,2,0.25
+RFPs,2,2,2,1.0
+RLHF,2,3,2,0.667
+ROS 2,2,4,2,0.5
+Rechnungslegung,2,7,2,0.286
+Restrukturierung,2,2,2,1.0
+Retail,2,14,2,0.143
+Retail-Umfeld,2,2,2,1.0
+Revit,2,4,2,0.5
+S3,2,5,2,0.4
+SAP BTP,2,3,2,0.667
+SAP HCM,2,4,2,0.5
+SAP MM,2,2,2,1.0
+SAP S/4HANA Finance,2,2,2,1.0
+SAP-Customizing,2,3,2,0.667
+SAP-Technologien wie SAP,2,2,2,1.0
+SCM,2,3,2,0.667
+SLAs,2,13,2,0.154
+SOPs,2,6,2,0.333
+SSO,2,10,2,0.2
+SaaS-Umfeld,2,5,2,0.4
+Salesforce Marketing Cloud,2,3,2,0.667
+Scheduling,2,3,2,0.667
+Screaming Frog,2,3,2,0.667
+Sektor,2,10,2,0.2
+Sentry,2,5,2,0.4
+Sequenzen,2,7,2,0.286
+Shell,2,5,2,0.4
+Shopsystemen,2,2,2,1.0
+Shorts,2,7,2,0.286
+Simulink,2,3,2,0.667
+Site Reliability Engineering,2,2,2,1.0
+Situationen,2,19,2,0.105
+Social Commerce,2,3,2,0.667
+Social Media mit,2,3,2,0.667
+Social-Media-Management,2,2,2,1.0
+Social-Media-Plattformen,2,5,2,0.4
+Sprache fließend in,2,2,2,1.0
+Sprachen sind ein,2,6,2,0.333
+Steuerfachangestellte,2,7,2,0.286
+Steuerung komplexer Projekte,2,2,2,1.0
+Storybook,2,2,2,1.0
+Suite,2,20,2,0.1
+SwiftUI,2,4,2,0.5
+Switzerland,2,10,2,0.2
+Symfony,2,4,2,0.5
+TDD,2,5,2,0.4
+Tablet,2,2,2,1.0
+Targeting,2,4,2,0.5
+Teamführung,2,14,2,0.143
+Technologieumfeld,2,2,2,1.0
+Templates,2,17,2,0.118
+TestNG,2,2,2,1.0
+Testen,2,17,2,0.118
+Testmethoden,2,2,2,1.0
+Text,2,14,2,0.143
+Tiergesundheit,2,4,2,0.5
+Tomcat,2,3,2,0.667
+Transformationsprojekten,2,6,2,0.333
+Treasury,2,5,2,0.4
+Triton,2,3,2,0.667
+Tätigkeitsfeld,2,4,2,0.5
+Umfeld sammeln,2,2,2,1.0
+Umsetzung von IT-Projekten,2,5,2,0.4
+Uni,2,9,2,0.222
+Unternehmensberatung,2,5,2,0.4
+Unternehmensplanung,2,3,2,0.667
+VLAN,2,3,2,0.667
+VMWare,2,2,2,1.0
+Verarbeitung,2,10,2,0.2
+Vercel,2,6,2,0.333
+Verfahrenstechnik,2,5,2,0.4
+Vergabe,2,11,2,0.182
+Versicherungen,2,8,2,0.25
+Versicherungsumfeld,2,3,2,0.667
+Versionierung,2,5,2,0.4
+Versorger,2,3,2,0.667
+Verständnis für moderne,2,3,2,0.667
+Voiceover,2,4,2,0.5
+Vorraussetzung,2,2,2,1.0
+Vulnerability Management,2,6,2,0.333
+WLAN,2,4,2,0.5
+Wareneingang,2,6,2,0.333
+Webinare,2,7,2,0.286
+Webshop,2,4,2,0.5
+Werkstudententätigkeiten,2,6,2,0.333
+Windows-Clients,2,3,2,0.667
+Windows-Server-Umgebungen,2,2,2,1.0
+Windows-Servern,2,3,2,0.667
+Wirtschaft,2,17,2,0.118
+Workday,2,5,2,0.4
+Wärmepumpe,2,4,2,0.5
+Zahlungsverkehr,2,9,2,0.222
+Zephyr,2,2,2,1.0
+Zusammenarbeit mit externen,2,8,2,0.25
+macOS,2,3,2,0.667
+v0,2,2,2,1.0

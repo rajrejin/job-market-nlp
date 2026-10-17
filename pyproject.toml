@@ -31,9 +31,12 @@ select = ["E", "F", "I", "UP", "B"]
 python_version = "3.11"
 ignore_missing_imports = true
 check_untyped_defs = true
-files = ["src"]
+files = ["src", "api"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src", "."]
 addopts = "-q"
+
+[tool.ruff.lint.per-file-ignores]
+"api/*" = ["B008"]

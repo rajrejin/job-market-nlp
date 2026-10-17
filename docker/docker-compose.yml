@@ -1,0 +1,28 @@
+# API and UI. Ollama runs on the host (http://host.docker.internal:11434).
+# Data, models, stores and results are mounted read-only from the project folder.
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      JOBNLP_API_KEY: ${JOBNLP_API_KEY:-}
+      JOBNLP_OLLAMA_HOST: http://host.docker.internal:11434
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    volumes:
+      - ../data/interim:/app/data/interim:ro
+      - ../models:/app/models:ro
+      - ../stores:/app/stores
+      - ../results:/app/results:ro
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.app
+    ports: ["127.0.0.1:8501:8501"]
+    environment:
+      JOBNLP_API_URL: http://api:8000
+      JOBNLP_API_KEY: ${JOBNLP_API_KEY:-}
+    depends_on:
+      api:
+        condition: service_healthy

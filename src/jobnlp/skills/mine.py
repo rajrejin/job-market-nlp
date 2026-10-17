@@ -27,7 +27,7 @@ SPLIT = re.compile(
     r"\bo\.\s?ä\.?|\bu\.\s?a\.?|\bähnlich\w*|\bsimilar\b|\bvergleichbar\w*|\bcomparable\b",
     re.IGNORECASE,
 )
-TOKEN_OK = re.compile(r"^[A-Za-zÄÖÜäöüß0-9][\w.+#-]*$")
+TOKEN_OK = re.compile(r"^[A-Za-zÄÖÜäöüß0-9][\w.+#/-]*$")
 STOP = {
     "erfahrung",
     "kenntnisse",
@@ -98,7 +98,31 @@ STOP = {
     "weitere",
     "etc",
     "bzw",
+    # found as noise in the first mining run (results reviewed 2026-10-17)
+    "wort",
+    "schrift",
+    "zeugnisse",
+    "muss",
+    "menschen",
+    "planung",
+    "anwendungen",
+    "senior",
+    "junior",
+    "agentur",
+    "niveau",
+    "level",
+    "jahre",
+    "years",
+    "team",
+    "teams",
+    "kunden",
+    "customers",
 }
+LANGUAGE_LEVEL = re.compile(r"^[ABC][12]\+?$")
+# slash compounds that name one thing (CI/CD, S/4HANA, TCP/IP, UI/UX, A/B) are protected from
+# splitting: the slash is swapped for a placeholder before splitting and restored after
+SLASH_COMPOUND = re.compile(r"\b([A-Za-z0-9]{1,4})/([A-Za-z0-9]{1,6})\b")
+SLASH_MARK = "⁄"
 
 
 @dataclass
@@ -116,15 +140,18 @@ class MinedTerm:
 def clean_item(item: str) -> str | None:
     """Trim an item to a short name: drop leading lower-case words (adjectives, articles)
     and anything after the third token; require a capital letter or digit somewhere."""
-    toks = item.strip().strip("-–•*\"'“”„").split()
+    raw = item.strip()
+    if raw.endswith("-"):
+        return None  # fragment of a German ellipsis compound ("Wirtschafts- und ...")
+    toks = raw.strip("–•*\"'“”„").split()
     while toks and (toks[0].lower() in STOP or (toks[0][:1].islower() and len(toks) > 1)):
         toks = toks[1:]
-    toks = [t.strip(".,;:!?\"'“”„") for t in toks[:3]]
+    toks = [t.strip(".,;:!?\"'“”„").replace(SLASH_MARK, "/") for t in toks[:3]]
     toks = [t for t in toks if t]
     if not toks or not all(TOKEN_OK.match(t) for t in toks):
         return None
     term = " ".join(toks)
-    if term.lower() in STOP or len(term) < 2 or len(term) > 40:
+    if term.lower() in STOP or len(term) < 2 or len(term) > 40 or LANGUAGE_LEVEL.match(term):
         return None
     if not re.search(r"[A-ZÄÖÜ0-9]", term):
         return None
@@ -138,6 +165,7 @@ def candidates(text: str) -> set[str]:
     tails = [m.group("tail") for m in CUE.finditer(text)]
     tails += [m.group(1) for m in PAREN.finditer(text)]
     for tail in tails:
+        tail = SLASH_COMPOUND.sub(rf"\1{SLASH_MARK}\2", tail)
         for item in SPLIT.split(tail):
             term = clean_item(item)
             if term:

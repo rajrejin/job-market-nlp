@@ -6,6 +6,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: "3.11"}
-      - run: pip install -e . pytest ruff mypy types-PyYAML pandas-stubs
-      - run: ruff check . && ruff format --check . && mypy && pytest
+        with:
+          python-version: "3.13"
+      - name: Install
+        run: |
+          pip install -r requirements-dev.txt
+          pip install --no-deps -e .
+      - name: Lint and types
+        run: |
+          ruff check .
+          ruff format --check .
+          mypy
+      - name: Tests (integration tests skip without the local corpus)
+        run: pytest --cov=src --cov=api --cov-report=term
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -f docker/Dockerfile.api -t jobnlp-api .
+      - run: docker build -f docker/Dockerfile.app -t jobnlp-app .
