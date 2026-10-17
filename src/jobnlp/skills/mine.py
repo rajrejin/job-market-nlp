@@ -118,6 +118,7 @@ STOP = {
     "kunden",
     "customers",
 }
+BULLET_MAX_WORDS = 8
 LANGUAGE_LEVEL = re.compile(r"^[ABC][12]\+?$")
 # slash compounds that name one thing (CI/CD, S/4HANA, TCP/IP, UI/UX, A/B) are protected from
 # splitting: the slash is swapped for a placeholder before splitting and restored after
@@ -164,6 +165,13 @@ def candidates(text: str) -> set[str]:
     found: set[str] = set()
     tails = [m.group("tail") for m in CUE.finditer(text)]
     tails += [m.group(1) for m in PAREN.finditer(text)]
+    # short list lines ("- Teamfähigkeit, Zuverlässigkeit und Eigeninitiative") name skills
+    # directly, without a cue phrase
+    tails += [
+        line.strip()[2:]
+        for line in text.split("\n")
+        if line.strip().startswith("- ") and len(line.split()) <= BULLET_MAX_WORDS
+    ]
     for tail in tails:
         tail = SLASH_COMPOUND.sub(rf"\1{SLASH_MARK}\2", tail)
         for item in SPLIT.split(tail):

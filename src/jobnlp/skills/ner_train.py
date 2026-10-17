@@ -75,7 +75,7 @@ def train(
         history.append(
             {
                 "epoch": epoch + 1,
-                "loss": round(losses.get("ner", 0.0), 2),
+                "loss": round(float(losses.get("ner", 0.0)), 2),
                 "weak_dev_f": round(float(scores.get("ents_f") or 0.0), 4),
             }
         )

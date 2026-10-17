@@ -27,6 +27,7 @@ from jobnlp.skills.gazetteer import Gazetteer, Match
 from jobnlp.skills.mine import MinedTerm, mine, select
 from jobnlp.text.sections import Section
 
+BLOCK_GRID = (0.0, 0.1, 0.2, 0.3, 0.4)
 MINING_GRID = [(d, r) for d in (2, 3, 5) for r in (0.0, 0.1, 0.2, 0.3, 0.5)]
 
 
@@ -41,7 +42,12 @@ def unseen_postings(corpus: pd.DataFrame, gold_ids: set[tuple[str, str]]) -> pd.
     keys = list(zip(corpus.source, corpus.posting_id, strict=True))
     is_gold = pd.Series([k in gold_ids for k in keys], index=corpus.index)
     gold_clusters = set(corpus.loc[is_gold, "dup_cluster"])
-    keep = corpus.in_germany & ~corpus.is_dup & ~corpus.dup_cluster.isin(gold_clusters)
+    keep = (
+        corpus.in_germany
+        & ~corpus.is_dup
+        & ~corpus.dup_cluster.isin(gold_clusters)
+        & (corpus.n_chars >= 200)
+    )
     return corpus[keep]
 
 
@@ -123,10 +129,23 @@ def tune(
     best = max(grid, key=lambda g: (g["f1"], -g["n_terms"]))
     selected = select(terms, known, min_df=best["min_df"], min_cue_ratio=best["min_cue_ratio"])
     mined_gaz = with_mined(base, selected)
-    blocked = tune_blocking(mined_gaz, dev)
+    block_grid = []
+    best_block: tuple[float, float, set[str]] = (-1.0, 0.0, set())
+    for max_p in BLOCK_GRID:
+        cand = tune_blocking(mined_gaz, dev, max_precision=max_p)
+        trial = mined_gaz.copy()
+        trial.blocked |= cand
+        canon = canon_for(trial)
+        f1 = evaluate(dev, predictor(trial, None, canon), canon)["all"]["partial"]["f1"]
+        block_grid.append({"max_precision": max_p, "n_blocked": len(cand), "dev_partial_f1": f1})
+        if f1 > best_block[0]:
+            best_block = (f1, max_p, cand)
+    blocked = best_block[2]
     base.blocked |= blocked
     mined_gaz.blocked |= blocked
     info = {
+        "blocking_grid": block_grid,
+        "blocking_chosen_max_precision": best_block[1],
         "mining_grid": grid,
         "chosen": best,
         "blocked_keys": sorted(blocked),

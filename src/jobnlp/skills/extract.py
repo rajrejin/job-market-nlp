@@ -31,7 +31,8 @@ def esco_phrases(esco: pd.DataFrame) -> dict[str, list[tuple[str, Phrase]]]:
     out: dict[str, list[tuple[str, Phrase]]] = {"de": [], "en": []}
     for rec in esco.to_dict("records"):
         pref = rec["pref_de"] or rec["pref_en"] or ""
-        phrase = Phrase(str(rec["uri"]), str(pref), "esco", str(rec["skill_type"]))
+        kind = "language" if "Language" in list(rec["scheme_titles"]) else str(rec["skill_type"])
+        phrase = Phrase(str(rec["uri"]), str(pref), "esco", kind)
         for lang, labels in (
             ("de", [rec["pref_de"], *list(rec["alt_de"])]),
             ("en", [rec["pref_en"], *list(rec["alt_en"])]),

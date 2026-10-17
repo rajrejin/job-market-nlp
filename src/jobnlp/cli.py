@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+from pathlib import Path
 from typing import TYPE_CHECKING
 
 import typer
@@ -130,9 +131,18 @@ def _gold_ids() -> set[tuple[str, str]]:
     return {(r["source"], r["posting_id"]) for r in map(json.loads, rows)}
 
 
+def _jsonable(x: object) -> object:
+    """numpy scalars and arrays (from spaCy, scikit-learn) to plain Python values."""
+    if hasattr(x, "item") and callable(x.item) and getattr(x, "ndim", 1) == 0:
+        return x.item()
+    if hasattr(x, "tolist"):
+        return x.tolist()
+    return str(x)
+
+
 def _write_result(name: str, data: object) -> None:
     (ROOT / "results" / name).write_text(
-        json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8"
+        json.dumps(data, indent=1, ensure_ascii=False, default=_jsonable), encoding="utf-8"
     )
 
 
@@ -218,6 +228,8 @@ def train_classifier(
     bert_epochs: int = typer.Option(0, help="0 = value from config."),
     bert_model: str = typer.Option("", help="Hugging Face id; default from config."),
     max_train: int = typer.Option(0, help="Cap on BERT training examples; 0 = config."),
+    seed: int = typer.Option(0, help="Seed for BERT fine-tuning."),
+    out_dir: str = typer.Option("", help="BERT output folder; default models/classifier_bert."),
 ) -> None:
     """Occupational-field classifier: baselines and BERT on grouped splits, with intervals."""
     import os
@@ -286,29 +298,32 @@ def train_classifier(
 
         cap = max_train or int(cfg["local_max_train"])
         tr_b = tr.sample(n=min(cap, len(tr)), random_state=0)
-        out_dir = ROOT / "models" / "classifier_bert"
+        bert_dir = Path(out_dir) if out_dir else ROOT / "models" / "classifier_bert"
         stats = train_bert(
             text_view(tr_b, "title+description"),
             tr_b.label.tolist(),
             text_view(va, "title+description"),
             va.label.tolist(),
             classes,
-            out_dir,
+            bert_dir,
             model_id=bert_model or cfg["model"],
             max_len=int(cfg["max_len"]),
             epochs=bert_epochs or int(cfg["epochs"]),
+            seed=seed,
         )
-        proba, order, latency = predict_proba(out_dir / "model", text_view(te, "title+description"))
+        proba, order, latency = predict_proba(
+            bert_dir / "model", text_view(te, "title+description")
+        )
         proba = proba[:, [order.index(c) for c in classes]]
         probas["bert:title+description"] = proba
         stats.pop("log_history", None)
         from jobnlp.manifest import make_manifest, write_manifest
 
         write_manifest(
-            out_dir / "model",
+            bert_dir / "model",
             make_manifest(
                 "classifier",
-                0,
+                seed,
                 {
                     "model": "bert",
                     "classes": classes,
@@ -495,6 +510,61 @@ def annotate_export() -> None:
         f"wrote {out}; edit annotation/gold_annotations.jsonl or this sheet, then rerun "
         "`jobnlp evaluate`"
     )
+
+
+@app.command("package-colab")
+def package_colab() -> None:
+    """Write dist/jobnlp_code.zip and dist/colab_inputs/ for the optional Colab run."""
+    from jobnlp.colab import package
+
+    typer.echo(json.dumps(package(ROOT / "dist"), indent=1))
+
+
+@app.command("import-colab")
+def import_colab(
+    folder: str = typer.Argument(..., help="Downloaded model folder (contains manifest.json)."),
+    name: str = typer.Option("colab", help="Name for the imported model."),
+) -> None:
+    """Validate a Colab-trained BERT model, copy it in, and re-evaluate it locally."""
+    import shutil
+
+    import pandas as pd
+
+    from jobnlp.classify.bert import predict_proba
+    from jobnlp.classify.data import group_split, label_table, text_view
+    from jobnlp.classify.evaluate import bootstrap_ci, metrics
+    from jobnlp.colab import validate_import
+
+    src = Path(folder)
+    manifest = validate_import(src)
+    dest = ROOT / "models" / f"classifier_bert_{name}"
+    if dest.exists():
+        shutil.rmtree(dest)
+    shutil.copytree(src, dest)
+    df, info = label_table(pd.read_parquet(ROOT / "data" / "processed" / "postings.parquet"))
+    df["split"] = group_split(df)
+    te = df[df.split == "test"]
+    classes = sorted(info["classes"])
+    proba, order, latency = predict_proba(dest, text_view(te, "title+description"))
+    proba = proba[:, [order.index(c) for c in classes]]
+    res = {
+        "source": "Colab-trained model, evaluated locally on the local test split",
+        "manifest": {k: manifest.get(k) for k in ("model_id", "seed", "git_commit", "created")},
+        **metrics(te.label.tolist(), proba, classes),
+        **bootstrap_ci(te.label.tolist(), proba, classes),
+        "latency_seconds_per_posting_local_cpu": round(latency, 5),
+    }
+    _write_result(f"classifier_{name}_eval.json", res)
+    typer.echo(f"imported to {dest}; macro-F1 {res['macro_f1']}")
+
+
+@app.command()
+def report() -> None:
+    """Regenerate docs/RESULTS.md and the README headline block from results/."""
+    from jobnlp.report import write_all
+
+    write_all()
+    typer.echo("wrote docs/RESULTS.md and README headline")
 
 
 @app.command("serve-api")

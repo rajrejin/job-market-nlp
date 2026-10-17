@@ -5,6 +5,7 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import json
+import os
 import platform
 import subprocess
 from importlib import metadata
@@ -35,6 +36,10 @@ def sha256_file(path: Path) -> str:
 
 
 def git_commit() -> str:
+    """HEAD of the repository; JOBNLP_GIT_COMMIT overrides it (set by the Colab notebook,
+    where the code arrives as a zip without git history)."""
+    if os.environ.get("JOBNLP_GIT_COMMIT"):
+        return os.environ["JOBNLP_GIT_COMMIT"]
     try:
         out = subprocess.run(
             ["git", "rev-parse", "HEAD"],

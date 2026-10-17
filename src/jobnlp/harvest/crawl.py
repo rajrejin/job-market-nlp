@@ -33,6 +33,8 @@ from jobnlp.harvest.store import PostingStore
 from jobnlp.logging_utils import get_logger
 
 SOURCE = "crawl"
+# a host whose postings name more hiring organisations than this is treated as a job board
+MAX_EMPLOYERS_PER_HOST = 3
 JOB_PATH = re.compile(
     r"/(jobs?|stellen|stellenangebote?|offene-stellen|karriere|career|careers|vacanc\w*|"
     r"position\w*|ausschreibung\w*|jobangebote?)(/|-|$)",
@@ -127,6 +129,7 @@ def host_task(
         return
     report.status = "crawled"
     empty_streak = 0
+    employers: set[str] = set()
     for url in job_urls:
         if urlparse(url).netloc.removeprefix("www.") != host.removeprefix("www."):
             continue
@@ -146,6 +149,7 @@ def host_task(
             return
         for p in postings:
             report.postings += 1
+            employers.add((employer_of(p) or "").lower())
             if not is_germany(p):
                 continue
             report.postings_de += 1
@@ -168,6 +172,9 @@ def host_task(
                 },
             )
         store.commit()
+        if len(employers - {""}) > MAX_EMPLOYERS_PER_HOST:
+            report.status = "aggregator"  # a job board or agency, not an employer career site
+            return
 
 
 def run_crawl(

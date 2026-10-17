@@ -90,8 +90,14 @@ def build(
     regions: dict[str, list[str]],
     person_finder: PersonFinder | None,
 ) -> pd.DataFrame:
+    rows = list(rows)
+    aggregators = aggregator_hosts(rows)
+    excluded = 0
     recs = []
     for source, pid, payload, first, last in rows:
+        if source == "crawl" and payload.get("host") in aggregators:
+            excluded += 1
+            continue
         r = unify(source, pid, payload, first, last)
         clean = BOILERPLATE.sub("", html_to_text(r.pop("html"))).strip()
         lang = detect(clean)
@@ -114,7 +120,23 @@ def build(
     df = pd.DataFrame(recs)
     df["dup_cluster"] = cluster_near_duplicates((df["title"] + "\n" + df["text"]).tolist())
     df["is_dup"] = df.groupby("dup_cluster").cumcount() > 0
+    df.attrs["excluded_aggregator_hosts"] = len(aggregators)
+    df.attrs["excluded_aggregator_postings"] = excluded
     return df
+
+
+def aggregator_hosts(
+    rows: list[tuple[str, str, dict[str, Any], str, str]], max_employers: int = 3
+) -> set[str]:
+    """Crawled hosts whose postings name more than `max_employers` hiring organisations are
+    job boards or agencies, not employer career sites; their postings are excluded."""
+    seen: dict[str, set[str]] = {}
+    for source, _, payload, _, _ in rows:
+        if source == "crawl":
+            seen.setdefault(str(payload.get("host")), set()).add(
+                str(payload.get("employer") or "").lower()
+            )
+    return {h for h, emps in seen.items() if len(emps - {""}) > max_employers}
 
 
 def corpus_stats(df: pd.DataFrame) -> dict[str, Any]:
@@ -124,6 +146,8 @@ def corpus_stats(df: pd.DataFrame) -> dict[str, Any]:
     shares = emp / max(1, len(de))
     return {
         "n_total": int(len(df)),
+        "excluded_aggregator_hosts": int(df.attrs.get("excluded_aggregator_hosts", 0)),
+        "excluded_aggregator_postings": int(df.attrs.get("excluded_aggregator_postings", 0)),
         "n_duplicates": int(df.is_dup.sum()),
         "n_germany_dedup": int(len(de)),
         "by_source": df.groupby("source").size().to_dict(),

@@ -8,6 +8,7 @@ one-letter labels only next to another tool match, to avoid matching ordinary wo
 
 from __future__ import annotations
 
+import re
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 
@@ -54,8 +55,10 @@ class Gazetteer:
         for (text, phrase), doc in zip(items, docs, strict=True):
             if len(doc) == 0 or len(doc) > MAX_TOKENS:
                 continue
-            if phrase.source == "esco" and (
-                all(t.is_stop for t in doc) or (len(doc) == 1 and doc[0].pos_ in NON_NOUN)
+            if (
+                phrase.source == "esco"
+                and phrase.kind != "language"
+                and (all(t.is_stop for t in doc) or (len(doc) == 1 and doc[0].pos_ in NON_NOUN))
             ):
                 continue  # single verbs, adjectives etc. ("reported", "deutschen") over-match
             keys: list[tuple[dict[str, Phrase], str]]
@@ -71,6 +74,14 @@ class Gazetteer:
                     table[key] = phrase
                 else:
                     table.setdefault(key, phrase)
+
+    def _compound_stem(self, token: str) -> Phrase | None:
+        """'Deutschkenntnisse', 'SQL-Kenntnisse', 'Python-Erfahrung' -> the stem's phrase."""
+        m = COMPOUND_SUFFIX.match(token)
+        if not m or len(m.group("stem")) < 1:
+            return None
+        stem = m.group("stem").rstrip("-")
+        return self.exact_short.get(stem) or self.surface.get(stem.lower())
 
     def copy(self) -> Gazetteer:
         return Gazetteer(
@@ -100,6 +111,10 @@ class Gazetteer:
                     found = (size, phrase)
                     break
             if found is None:
+                stem_phrase = self._compound_stem(doc[i].text)
+                if stem_phrase is not None:
+                    found = (1, stem_phrase)
+            if found is None:
                 i += 1
                 continue
             size, phrase = found
@@ -117,6 +132,9 @@ class Gazetteer:
             )
             i += size
         return _context_filter(out)
+
+
+COMPOUND_SUFFIX = re.compile(r"^(?P<stem>.+?)-?(kenntnisse|kenntnissen|erfahrung|skills)$", re.I)
 
 
 def _key(tokens: Iterable[str]) -> str:

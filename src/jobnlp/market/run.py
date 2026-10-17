@@ -20,10 +20,12 @@ from jobnlp.skills.gazetteer import Gazetteer
 from jobnlp.skills.pipeline import requirement_text
 
 matplotlib.use("Agg")
+MIN_CHARS = 200
 
 
 def market_postings(corpus: pd.DataFrame) -> pd.DataFrame:
-    p = corpus[corpus.in_germany & ~corpus.is_dup].copy()
+    # postings without a usable description (some JSON-LD lacks it) cannot show skills
+    p = corpus[corpus.in_germany & ~corpus.is_dup & (corpus.n_chars >= MIN_CHARS)].copy()
     p["posting_key"] = p.source + ":" + p.posting_id
     p["experience"] = [
         experience_level(t or "", x or "") for t, x in zip(p.title, p.text, strict=True)
