@@ -78,11 +78,12 @@ def html_to_text(raw: str) -> str:
                         if txt:
                             lines.append("## " + txt)
                         continue
-                    prefix = "- " if child.name == "li" else ""
-                    if prefix:
-                        buf.append(prefix)
+                    first = len(lines)
                     walk(child)
                     flush()
+                    # mark list items on their first line (li content is often wrapped in <p>)
+                    if child.name == "li" and len(lines) > first:
+                        lines[first] = "- " + lines[first].removeprefix("- ")
                 else:
                     walk(child)
 

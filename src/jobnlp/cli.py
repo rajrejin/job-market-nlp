@@ -63,6 +63,7 @@ def harvest(snapshot: str = typer.Option("", help="Snapshot date, default today 
 def crawl(
     n_hosts: int = typer.Option(0, help="Random sample of hosts (seed 0); 0 means all."),
     max_pages: int = typer.Option(200, help="Job pages per host per snapshot."),
+    workers: int = typer.Option(16, help="Hosts crawled in parallel."),
     snapshot: str = typer.Option("", help="Snapshot date, default today (UTC)."),
     out: str = typer.Option("results/crawl_summary.json", help="Summary output path."),
 ) -> None:
@@ -94,7 +95,7 @@ def crawl(
         timeout_s=20.0,
     )
     store = _store()
-    reports = run_crawl(client, store, hosts, cfg["user_agent"], snap, max_pages)
+    reports = run_crawl(client, store, hosts, cfg["user_agent"], snap, max_pages, workers)
     summary = {"snapshot": snap, "candidate_hosts": len(hosts), **summarise(reports)}
     (ROOT / out).write_text(json.dumps(summary, indent=1), encoding="utf-8")
     hosts_out = ROOT / "data" / "interim" / f"crawl_hosts_{snap}.json"
@@ -122,6 +123,90 @@ def esco() -> None:
     }
     (ROOT / "results" / "esco_summary.json").write_text(json.dumps(summary, indent=1), "utf-8")
     typer.echo(json.dumps(summary))
+
+
+def _gold_ids() -> set[tuple[str, str]]:
+    rows = (ROOT / "annotation" / "gold_sample.jsonl").read_text(encoding="utf-8").splitlines()
+    return {(r["source"], r["posting_id"]) for r in map(json.loads, rows)}
+
+
+def _write_result(name: str, data: object) -> None:
+    (ROOT / "results" / name).write_text(
+        json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8"
+    )
+
+
+@app.command("train-ner")
+def train_ner(
+    max_docs: int = typer.Option(3000, help="Weakly labelled training documents."),
+    epochs: int = typer.Option(8),
+) -> None:
+    """Tune the dictionary matcher on gold dev data, then train NER on its weak labels."""
+    import pandas as pd
+
+    from jobnlp.skills.evaluate import load_gold
+    from jobnlp.skills.ner_train import train
+    from jobnlp.skills.pipeline import mined_table, requirement_text, tune, unseen_postings
+
+    esco = pd.read_parquet(ROOT / "data" / "interim" / "esco_skills.parquet")
+    corpus = pd.read_parquet(ROOT / "data" / "processed" / "postings.parquet")
+    gold = load_gold(ROOT / "annotation")
+    dev = [g for g in gold if g.split == "dev"]
+    base, mined_gaz, info, selected = tune(esco, corpus, dev, _gold_ids())
+    mined_table(selected).to_csv(ROOT / "results" / "mined_skills.csv", index=False)
+    cfg = {"mined_terms": [t.term for t in selected], "blocked_keys": info["blocked_keys"]}
+    (ROOT / "stores").mkdir(exist_ok=True)
+    (ROOT / "stores" / "skills_config.json").write_text(
+        json.dumps(cfg, ensure_ascii=False, indent=1), encoding="utf-8"
+    )
+    pool = unseen_postings(corpus, _gold_ids()).sample(frac=1, random_state=0).head(max_docs)
+    texts = [requirement_text(s) for s in pool.sections]
+    stats = train(mined_gaz, texts, ROOT / "models" / "ner_weak", epochs=epochs)
+    _write_result("extraction_tuning.json", info)
+    _write_result("ner_training.json", stats)
+    typer.echo(
+        json.dumps(
+            {
+                "mined": len(selected),
+                "blocked": len(info["blocked_keys"]),
+                "ner_seconds": stats["seconds"],
+            }
+        )
+    )
+
+
+@app.command()
+def evaluate(what: str = typer.Option("extraction", help="extraction")) -> None:
+    """Evaluate skill extraction methods on the gold dev and held-out test halves."""
+    import pandas as pd
+    import spacy
+
+    from jobnlp.skills.evaluate import load_gold
+    from jobnlp.skills.extract import build_gazetteer
+    from jobnlp.skills.mine import MinedTerm
+    from jobnlp.skills.pipeline import evaluate_all, with_mined
+
+    if what != "extraction":
+        raise typer.BadParameter(
+            "only 'extraction' is evaluated here; classifiers by train-classifier"
+        )
+    esco = pd.read_parquet(ROOT / "data" / "interim" / "esco_skills.parquet")
+    cfg = json.loads((ROOT / "stores" / "skills_config.json").read_text(encoding="utf-8"))
+    base = build_gazetteer(esco, blocked=cfg["blocked_keys"])
+    mined_gaz = with_mined(base, [MinedTerm(t, 0, 0, 0) for t in cfg["mined_terms"]])
+    ner_dir = ROOT / "models" / "ner_weak"
+    ner = spacy.load(ner_dir) if ner_dir.exists() else None
+    gold = load_gold(ROOT / "annotation")
+    results = evaluate_all(base, mined_gaz, ner, gold)
+    _write_result("extraction_eval.json", results)
+    for split in ("dev", "test"):
+        for m, r in results[split].items():
+            if m != "necessity":
+                typer.echo(
+                    f"{split} {m}: partial F1 {r['all']['partial']['f1']}"
+                    f" exact F1 {r['all']['exact']['f1']}"
+                )
+        typer.echo(f"{split} necessity accuracy {results[split]['necessity']['accuracy']}")
 
 
 @app.command("build-corpus")

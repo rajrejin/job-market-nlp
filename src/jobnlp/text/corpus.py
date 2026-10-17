@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 from collections.abc import Iterable
 from typing import Any
 
@@ -16,6 +17,11 @@ from jobnlp.text.geo import GermanPlaces
 from jobnlp.text.lang import detect
 from jobnlp.text.redact import PersonFinder, redact
 from jobnlp.text.sections import split_sections
+
+# feed footer appended to every Arbeitnow posting
+BOILERPLATE = re.compile(
+    r"^Find (?:more )?(?:English Speaking )?Jobs in Germany on Arbeitnow\s*$", re.M
+)
 
 
 def _as_list(x: Any) -> list[str]:
@@ -87,14 +93,16 @@ def build(
     recs = []
     for source, pid, payload, first, last in rows:
         r = unify(source, pid, payload, first, last)
-        text = redact(html_to_text(r.pop("html")), person_finder)
+        clean = BOILERPLATE.sub("", html_to_text(r.pop("html"))).strip()
+        lang = detect(clean)
+        text = redact(clean, person_finder, lang)
         place = places.match(r["location_raw"])
         in_de = source == "crawl" or places.is_germany(r["location_raw"])
         secs = split_sections(text)
         r.update(
             text=text,
             n_chars=len(text),
-            lang=detect(text),
+            lang=lang,
             city=place.name if place else None,
             state=place.state if place else None,
             in_germany=in_de,

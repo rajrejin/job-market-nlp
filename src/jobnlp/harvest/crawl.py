@@ -14,6 +14,7 @@ import hashlib
 import re
 from collections import Counter
 from collections.abc import Generator
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import urlparse
@@ -176,34 +177,35 @@ def run_crawl(
     user_agent: str,
     snapshot: str,
     max_pages: int = 200,
+    workers: int = 16,
 ) -> list[HostReport]:
+    """Crawl hosts with `workers` threads, one host per worker at a time. The client's per-host
+    rate limiter still spaces requests to each host; concurrency is only across hosts."""
     store.start_snapshot(SOURCE, snapshot, dt.datetime.now(dt.UTC).isoformat())
     reports = {h: HostReport(h) for h in hosts}
-    active: dict[str, tuple[HostTask, str]] = {}
-    for h in hosts:
+
+    def run_host(h: str) -> None:
         gen = host_task(h, user_agent, store, snapshot, reports[h], max_pages)
-        active[h] = (gen, next(gen))
-    while active:
-        for h in list(active):
-            gen, url = active[h]
-            try:
+        try:
+            url = next(gen)
+            while True:
                 resp = client.get(url, namespace=f"{SOURCE}:{snapshot}")
-            except RuntimeError as exc:
-                reports[h].status = "error"
-                reports[h].notes.append(type(exc).__name__)
-                del active[h]
-                continue
-            try:
-                active[h] = (gen, gen.send(resp))
-            except StopIteration:
-                del active[h]
-                log.info(
-                    "host done %s %s pages=%d de=%d",
-                    h,
-                    reports[h].status,
-                    reports[h].pages,
-                    reports[h].postings_de,
-                )
+                url = gen.send(resp)
+        except StopIteration:
+            pass
+        except Exception as exc:  # one broken host must not stop the crawl
+            reports[h].status = "error"
+            reports[h].notes.append(type(exc).__name__)
+        log.info(
+            "host done %s %s pages=%d de=%d",
+            h,
+            reports[h].status,
+            reports[h].pages,
+            reports[h].postings_de,
+        )
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        list(pool.map(run_host, hosts))
     total = sum(r.postings_de for r in reports.values())
     store.finish_snapshot(SOURCE, snapshot, dt.datetime.now(dt.UTC).isoformat(), total)
     return list(reports.values())
