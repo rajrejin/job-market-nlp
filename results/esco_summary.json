@@ -1,0 +1,12 @@
+{
+ "skills": 13479,
+ "api_total": null,
+ "with_german_label": 13479,
+ "digital": 0,
+ "by_type": {
+  "skill": 10579,
+  "knowledge": 2900
+ },
+ "accessed": "2026-10-17",
+ "source": "ESCO web service API https://ec.europa.eu/esco/api"
+}

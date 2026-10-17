@@ -77,5 +77,11 @@ class PostingStore:
         for s, pid, body in self.con.execute(q, args).fetchall():
             yield s, pid, json.loads(body)
 
+    def iter_rows(self) -> Iterator[tuple[str, str, dict[str, Any], str, str]]:
+        """(source, posting_id, payload, first_seen, last_seen) for every posting."""
+        q = "SELECT source, posting_id, payload, first_seen, last_seen FROM postings"
+        for s, pid, body, first, last in self.con.execute(q).fetchall():
+            yield s, pid, json.loads(body), first, last
+
     def counts(self) -> dict[str, int]:
         return dict(self.con.execute("SELECT source, COUNT(*) FROM postings GROUP BY source"))
