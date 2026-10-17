@@ -1,0 +1,12 @@
+seed: 0
+paths: {raw: data/raw, interim: data/interim, processed: data/processed, stores: stores, results: results}
+harvest:
+  base_url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service
+  api_key_header: jobboerse-jobsuche
+  min_interval_s: 1.0
+  user_agent: "jobnlp-research/0.1 (non-commercial portfolio project)"
+  window_days: 100
+  corpus_a_per_field: 900
+  corpus_b_target: 5000
+market: {min_group_size: 30}
+classifier: {model: distilbert-base-german-cased, max_len: 256, epochs: 2, local_max_train: 3000, seeds: [0]}

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobnlp"
+version = "0.1.0"
+description = "German job market NLP analyser and CV gap tool"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy", "pandas", "pyarrow", "duckdb", "scipy", "scikit-learn", "httpx", "tenacity",
+  "beautifulsoup4", "lxml", "pypdf", "python-docx", "pydantic", "pydantic-settings",
+  "pyyaml", "typer", "matplotlib", "plotly", "networkx", "psutil", "datasketch",
+  "lingua-language-detector",
+]
+
+[project.scripts]
+jobnlp = "jobnlp.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "api", "app", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+check_untyped_defs = true
+files = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-q"
