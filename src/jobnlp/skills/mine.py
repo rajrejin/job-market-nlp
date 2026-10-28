@@ -119,6 +119,36 @@ STOP = {
     "customers",
 }
 BULLET_MAX_WORDS = 8
+FUNCTION = {
+    "in",
+    "im",
+    "und",
+    "oder",
+    "mit",
+    "für",
+    "von",
+    "der",
+    "die",
+    "das",
+    "des",
+    "auf",
+    "zu",
+    "zur",
+    "zum",
+    "bei",
+    "als",
+    "an",
+    "über",
+    "of",
+    "and",
+    "or",
+    "with",
+    "for",
+    "the",
+    "to",
+    "on",
+    "at",
+}
 LANGUAGE_LEVEL = re.compile(r"^[ABC][12]\+?$")
 # slash compounds that name one thing (CI/CD, S/4HANA, TCP/IP, UI/UX, A/B) are protected from
 # splitting: the slash is swapped for a placeholder before splitting and restored after
@@ -147,7 +177,9 @@ def clean_item(item: str) -> str | None:
     toks = raw.strip("–•*\"'“”„").split()
     while toks and (toks[0].lower() in STOP or (toks[0][:1].islower() and len(toks) > 1)):
         toks = toks[1:]
-    toks = [t.strip(".,;:!?\"'“”„").replace(SLASH_MARK, "/") for t in toks[:3]]
+    # a name ends before the first function word: "Deutschkenntnisse in Wort" -> one token
+    cut = next((k for k, t in enumerate(toks) if k > 0 and t.lower() in FUNCTION), len(toks))
+    toks = [t.strip(".,;:!?\"'“”„").replace(SLASH_MARK, "/") for t in toks[: min(cut, 3)]]
     toks = [t for t in toks if t]
     if not toks or not all(TOKEN_OK.match(t) for t in toks):
         return None
@@ -161,17 +193,19 @@ def clean_item(item: str) -> str | None:
     return term
 
 
-def candidates(text: str) -> set[str]:
+def candidates(text: str, bullets: bool = True) -> set[str]:
     found: set[str] = set()
     tails = [m.group("tail") for m in CUE.finditer(text)]
     tails += [m.group(1) for m in PAREN.finditer(text)]
     # short list lines ("- Teamfähigkeit, Zuverlässigkeit und Eigeninitiative") name skills
-    # directly, without a cue phrase
-    tails += [
-        line.strip()[2:]
-        for line in text.split("\n")
-        if line.strip().startswith("- ") and len(line.split()) <= BULLET_MAX_WORDS
-    ]
+    # directly, without a cue phrase; only for requirement sections (task bullets name duties
+    # and objects such as "Ansprechpartner" or "Patienten", not skills)
+    if bullets:
+        tails += [
+            line.strip()[2:]
+            for line in text.split("\n")
+            if line.strip().startswith("- ") and len(line.split()) <= BULLET_MAX_WORDS
+        ]
     for tail in tails:
         tail = SLASH_COMPOUND.sub(rf"\1{SLASH_MARK}\2", tail)
         for item in SPLIT.split(tail):
@@ -181,19 +215,21 @@ def candidates(text: str) -> set[str]:
     return found
 
 
-def mine(docs: Iterable[tuple[str, str]]) -> list[MinedTerm]:
-    """docs: (employer, requirement text). Returns every candidate with its statistics."""
+def mine(docs: Iterable[tuple[str, str, str]]) -> list[MinedTerm]:
+    """docs: (employer, requirements text, tasks text). Returns every candidate with its
+    statistics."""
     docs = list(docs)
     cue_docs: Counter[str] = Counter()
     employers: dict[str, set[str]] = defaultdict(set)
-    for employer, text in docs:
-        for term in candidates(text):
+    for employer, req, tasks in docs:
+        for term in candidates(req, bullets=True) | candidates(tasks, bullets=False):
             cue_docs[term] += 1
             employers[term].add(employer)
     terms = list(cue_docs)
     patterns = {t: re.compile(rf"(?<![\w]){re.escape(t)}(?![\w])") for t in terms}
     all_docs: Counter[str] = Counter()
-    for _, text in docs:
+    for _, req, tasks in docs:
+        text = req + "\n" + tasks
         for t in terms:
             if t in text and patterns[t].search(text):
                 all_docs[t] += 1

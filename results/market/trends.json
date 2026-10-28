@@ -1,0 +1,558 @@
+{
+ "arbeitnow": {
+  "window_start": "2026-10-10",
+  "split_date": "2026-10-15",
+  "window_end": "2026-10-17",
+  "postings_early": 1647,
+  "postings_late": 386,
+  "min_mentions": 20,
+  "tested": 217,
+  "flagged_uncorrected": 21,
+  "flagged_bonferroni": 2,
+  "flagged": [
+   {
+    "skill": "Lernbereitschaft",
+    "share_early": 0.0243,
+    "share_late": 0.0052,
+    "diff": -0.0191,
+    "ci_low": -0.0288,
+    "ci_high": -0.0083,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Selbstständigkeit",
+    "share_early": 0.014,
+    "share_late": 0.0,
+    "diff": -0.014,
+    "ci_low": -0.02,
+    "ci_high": -0.0091,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   }
+  ]
+ },
+ "crawl": {
+  "window_start": "2026-07-09",
+  "split_date": "2026-10-01",
+  "window_end": "2026-10-17",
+  "postings_early": 1028,
+  "postings_late": 986,
+  "min_mentions": 20,
+  "tested": 120,
+  "flagged_uncorrected": 70,
+  "flagged_bonferroni": 51,
+  "flagged": [
+   {
+    "skill": "Politik",
+    "share_early": 0.0224,
+    "share_late": 0.0,
+    "diff": -0.0224,
+    "ci_low": -0.0321,
+    "ci_high": -0.0136,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Deutsch",
+    "share_early": 0.1887,
+    "share_late": 0.3418,
+    "diff": 0.1531,
+    "ci_low": 0.1124,
+    "ci_high": 0.1936,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Inbetriebnahme",
+    "share_early": 0.0924,
+    "share_late": 0.0396,
+    "diff": -0.0529,
+    "ci_low": -0.0736,
+    "ci_high": -0.0329,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Sozialpädagogik",
+    "share_early": 0.0019,
+    "share_late": 0.0183,
+    "diff": 0.0163,
+    "ci_low": 0.0081,
+    "ci_high": 0.0254,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Marken",
+    "share_early": 0.0204,
+    "share_late": 0.001,
+    "diff": -0.0194,
+    "ci_low": -0.0291,
+    "ci_high": -0.0116,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Englisch",
+    "share_early": 0.0846,
+    "share_late": 0.1552,
+    "diff": 0.0705,
+    "ci_low": 0.0416,
+    "ci_high": 0.0984,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Verhaltensauffälligkeiten",
+    "share_early": 0.0,
+    "share_late": 0.0274,
+    "diff": 0.0274,
+    "ci_low": 0.0183,
+    "ci_high": 0.0385,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Pädagogik",
+    "share_early": 0.0039,
+    "share_late": 0.0396,
+    "diff": 0.0357,
+    "ci_low": 0.0235,
+    "ci_high": 0.0488,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Datenschutz",
+    "share_early": 0.0379,
+    "share_late": 0.0801,
+    "diff": 0.0422,
+    "ci_low": 0.022,
+    "ci_high": 0.0619,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Umwelttechnik",
+    "share_early": 0.0233,
+    "share_late": 0.0,
+    "diff": -0.0233,
+    "ci_low": -0.0331,
+    "ci_high": -0.0146,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Intensivmedizin",
+    "share_early": 0.001,
+    "share_late": 0.0375,
+    "diff": 0.0366,
+    "ci_low": 0.0254,
+    "ci_high": 0.0488,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Anlagenbau",
+    "share_early": 0.0195,
+    "share_late": 0.0041,
+    "diff": -0.0154,
+    "ci_low": -0.0243,
+    "ci_high": -0.0066,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Außendienst",
+    "share_early": 0.0049,
+    "share_late": 0.0436,
+    "diff": 0.0387,
+    "ci_low": 0.0255,
+    "ci_high": 0.053,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Belastbarkeit",
+    "share_early": 0.0233,
+    "share_late": 0.0943,
+    "diff": 0.071,
+    "ci_low": 0.0498,
+    "ci_high": 0.0911,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "C1-C2",
+    "share_early": 0.0126,
+    "share_late": 0.0345,
+    "diff": 0.0218,
+    "ci_low": 0.0089,
+    "ci_high": 0.036,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Einen unbefristeten Arbeitsvertrag",
+    "share_early": 0.0214,
+    "share_late": 0.003,
+    "diff": -0.0184,
+    "ci_low": -0.0281,
+    "ci_high": -0.0094,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Engagierte",
+    "share_early": 0.0574,
+    "share_late": 0.0203,
+    "diff": -0.0371,
+    "ci_low": -0.0526,
+    "ci_high": -0.0216,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Entwicklungsmöglichkeiten",
+    "share_early": 0.0321,
+    "share_late": 0.1176,
+    "diff": 0.0855,
+    "ci_low": 0.0635,
+    "ci_high": 0.1076,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Ergebnisorientierung",
+    "share_early": 0.0058,
+    "share_late": 0.0203,
+    "diff": 0.0144,
+    "ci_low": 0.0054,
+    "ci_high": 0.0246,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Flexibilität",
+    "share_early": 0.0681,
+    "share_late": 0.1856,
+    "diff": 0.1175,
+    "ci_low": 0.0892,
+    "ci_high": 0.1467,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Führerschein Klasse B",
+    "share_early": 0.0311,
+    "share_late": 0.1197,
+    "diff": 0.0885,
+    "ci_low": 0.0685,
+    "ci_high": 0.1116,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Führungszeugnis",
+    "share_early": 0.0117,
+    "share_late": 0.0497,
+    "diff": 0.038,
+    "ci_low": 0.0231,
+    "ci_high": 0.0541,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Geduld",
+    "share_early": 0.0097,
+    "share_late": 0.0507,
+    "diff": 0.041,
+    "ci_low": 0.026,
+    "ci_high": 0.0562,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Gruppen",
+    "share_early": 0.0039,
+    "share_late": 0.0304,
+    "diff": 0.0265,
+    "ci_low": 0.0155,
+    "ci_high": 0.0386,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Haustechnik",
+    "share_early": 0.0204,
+    "share_late": 0.001,
+    "diff": -0.0194,
+    "ci_low": -0.0292,
+    "ci_high": -0.0106,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Kommunikationsfähigkeit",
+    "share_early": 0.0282,
+    "share_late": 0.0568,
+    "diff": 0.0286,
+    "ci_low": 0.0106,
+    "ci_high": 0.0465,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Kommunikationsstärke",
+    "share_early": 0.0545,
+    "share_late": 0.1227,
+    "diff": 0.0682,
+    "ci_low": 0.043,
+    "ci_high": 0.0916,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Kreativität",
+    "share_early": 0.0126,
+    "share_late": 0.0751,
+    "diff": 0.0624,
+    "ci_low": 0.0444,
+    "ci_high": 0.0805,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Kundenbetreuung",
+    "share_early": 0.0467,
+    "share_late": 0.0071,
+    "diff": -0.0396,
+    "ci_low": -0.0533,
+    "ci_high": -0.0261,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Kundenorientierung",
+    "share_early": 0.0156,
+    "share_late": 0.0862,
+    "diff": 0.0706,
+    "ci_low": 0.0525,
+    "ci_high": 0.09,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Langjährige Erfahrung",
+    "share_early": 0.0019,
+    "share_late": 0.07,
+    "diff": 0.068,
+    "ci_low": 0.0529,
+    "ci_high": 0.0842,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Mitarbeiterrabatte",
+    "share_early": 0.0292,
+    "share_late": 0.003,
+    "diff": -0.0261,
+    "ci_low": -0.0368,
+    "ci_high": -0.0162,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Organisationsfähigkeit",
+    "share_early": 0.0068,
+    "share_late": 0.0456,
+    "diff": 0.0388,
+    "ci_low": 0.0248,
+    "ci_high": 0.0529,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Patienten",
+    "share_early": 0.0097,
+    "share_late": 0.0517,
+    "diff": 0.042,
+    "ci_low": 0.0269,
+    "ci_high": 0.0572,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Professionelles Auftreten",
+    "share_early": 0.0,
+    "share_late": 0.0487,
+    "diff": 0.0487,
+    "ci_low": 0.0345,
+    "ci_high": 0.0629,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Selbstständige",
+    "share_early": 0.0866,
+    "share_late": 0.0416,
+    "diff": -0.045,
+    "ci_low": -0.0666,
+    "ci_high": -0.0235,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Selbstständigkeit",
+    "share_early": 0.0146,
+    "share_late": 0.0548,
+    "diff": 0.0402,
+    "ci_low": 0.0242,
+    "ci_high": 0.0564,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Sport",
+    "share_early": 0.0,
+    "share_late": 0.0984,
+    "diff": 0.0984,
+    "ci_low": 0.0801,
+    "ci_high": 0.1167,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Teamfähigkeit",
+    "share_early": 0.1401,
+    "share_late": 0.215,
+    "diff": 0.0749,
+    "ci_low": 0.0421,
+    "ci_high": 0.1087,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Ticketsystemen",
+    "share_early": 0.0,
+    "share_late": 0.0203,
+    "diff": 0.0203,
+    "ci_low": 0.0121,
+    "ci_high": 0.0294,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Unbefristeter Arbeitsvertrag",
+    "share_early": 0.0428,
+    "share_late": 0.0061,
+    "diff": -0.0367,
+    "ci_low": -0.0504,
+    "ci_high": -0.0237,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Urlaubsplanung",
+    "share_early": 0.001,
+    "share_late": 0.0243,
+    "diff": 0.0234,
+    "ci_low": 0.0142,
+    "ci_high": 0.0335,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Verkauf",
+    "share_early": 0.0049,
+    "share_late": 0.0487,
+    "diff": 0.0438,
+    "ci_low": 0.0306,
+    "ci_high": 0.0599,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Vermögenswirksame Leistungen",
+    "share_early": 0.0204,
+    "share_late": 0.003,
+    "diff": -0.0174,
+    "ci_low": -0.0262,
+    "ci_high": -0.0077,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Verstehen",
+    "share_early": 0.0156,
+    "share_late": 0.0375,
+    "diff": 0.022,
+    "ci_low": 0.0089,
+    "ci_high": 0.0351,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Weihnachtsgeld",
+    "share_early": 0.0253,
+    "share_late": 0.1552,
+    "diff": 0.1299,
+    "ci_low": 0.1054,
+    "ci_high": 0.1544,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Weiterbildungsangebote",
+    "share_early": 0.0243,
+    "share_late": 0.0041,
+    "diff": -0.0203,
+    "ci_low": -0.031,
+    "ci_high": -0.0105,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Weiterbildungsmöglichkeiten",
+    "share_early": 0.034,
+    "share_late": 0.002,
+    "diff": -0.032,
+    "ci_low": -0.0438,
+    "ci_high": -0.0213,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Windows",
+    "share_early": 0.0019,
+    "share_late": 0.0274,
+    "diff": 0.0254,
+    "ci_low": 0.0153,
+    "ci_high": 0.0366,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Zielorientierung",
+    "share_early": 0.001,
+    "share_late": 0.0365,
+    "diff": 0.0355,
+    "ci_low": 0.0244,
+    "ci_high": 0.0477,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   },
+   {
+    "skill": "Zuverlässigkeit",
+    "share_early": 0.1235,
+    "share_late": 0.2069,
+    "diff": 0.0834,
+    "ci_low": 0.0521,
+    "ci_high": 0.1156,
+    "flag_uncorrected": true,
+    "flag_bonferroni": true
+   }
+  ]
+ }
+}

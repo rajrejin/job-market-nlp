@@ -1,0 +1,3120 @@
+{
+ "dev": {
+  "gazetteer_esco": {
+   "all": {
+    "exact": {
+     "precision": 0.5763,
+     "recall": 0.1265,
+     "f1": 0.2075,
+     "tp": 136,
+     "n_pred": 236,
+     "n_gold": 1075
+    },
+    "partial": {
+     "precision": 0.7246,
+     "recall": 0.1591,
+     "f1": 0.2609,
+     "tp": 171,
+     "n_pred": 236,
+     "n_gold": 1075
+    },
+    "skill_set": {
+     "precision": 0.578,
+     "recall": 0.1234,
+     "f1": 0.2034,
+     "tp": 126,
+     "n_pred": 218,
+     "n_gold": 1021
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6218,
+     "recall": 0.1137,
+     "f1": 0.1922,
+     "tp": 74,
+     "n_pred": 119,
+     "n_gold": 651
+    },
+    "partial": {
+     "precision": 0.7479,
+     "recall": 0.1367,
+     "f1": 0.2312,
+     "tp": 89,
+     "n_pred": 119,
+     "n_gold": 651
+    },
+    "skill_set": {
+     "precision": 0.6228,
+     "recall": 0.1132,
+     "f1": 0.1916,
+     "tp": 71,
+     "n_pred": 114,
+     "n_gold": 627
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.5896,
+     "recall": 0.1286,
+     "f1": 0.2111,
+     "tp": 125,
+     "n_pred": 212,
+     "n_gold": 972
+    },
+    "partial": {
+     "precision": 0.7406,
+     "recall": 0.1615,
+     "f1": 0.2652,
+     "tp": 157,
+     "n_pred": 212,
+     "n_gold": 972
+    },
+    "skill_set": {
+     "precision": 0.5897,
+     "recall": 0.1239,
+     "f1": 0.2048,
+     "tp": 115,
+     "n_pred": 195,
+     "n_gold": 928
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.5299,
+     "recall": 0.1462,
+     "f1": 0.2292,
+     "tp": 62,
+     "n_pred": 117,
+     "n_gold": 424
+    },
+    "partial": {
+     "precision": 0.7009,
+     "recall": 0.1934,
+     "f1": 0.3031,
+     "tp": 82,
+     "n_pred": 117,
+     "n_gold": 424
+    },
+    "skill_set": {
+     "precision": 0.5288,
+     "recall": 0.1396,
+     "f1": 0.2209,
+     "tp": 55,
+     "n_pred": 104,
+     "n_gold": 394
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.4583,
+     "recall": 0.1068,
+     "f1": 0.1732,
+     "tp": 11,
+     "n_pred": 24,
+     "n_gold": 103
+    },
+    "partial": {
+     "precision": 0.5833,
+     "recall": 0.1359,
+     "f1": 0.2205,
+     "tp": 14,
+     "n_pred": 24,
+     "n_gold": 103
+    },
+    "skill_set": {
+     "precision": 0.4783,
+     "recall": 0.1183,
+     "f1": 0.1897,
+     "tp": 11,
+     "n_pred": 23,
+     "n_gold": 93
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.0,
+    "knowledge": 0.1023,
+    "language": 0.987,
+    "soft": 0.0403,
+    "tool": 0.1543
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      8
+     ],
+     [
+      "ml",
+      7
+     ],
+     [
+      "deutschen",
+      4
+     ],
+     [
+      "communications",
+      2
+     ],
+     [
+      "crm",
+      2
+     ],
+     [
+      "saas",
+      2
+     ],
+     [
+      "deutsch",
+      1
+     ],
+     [
+      "englisch",
+      1
+     ],
+     [
+      "cisco",
+      1
+     ],
+     [
+      "troubleshoot problems",
+      1
+     ],
+     [
+      "projekte managen",
+      1
+     ],
+     [
+      "getränke",
+      1
+     ],
+     [
+      "biotechnologie",
+      1
+     ],
+     [
+      "data analysis",
+      1
+     ],
+     [
+      "computational linguistics",
+      1
+     ],
+     [
+      "working independently",
+      1
+     ],
+     [
+      "semantic",
+      1
+     ],
+     [
+      "algorithms",
+      1
+     ],
+     [
+      "are flexible",
+      1
+     ],
+     [
+      "data security",
+      1
+     ],
+     [
+      "boxes",
+      1
+     ],
+     [
+      "supply chain management",
+      1
+     ],
+     [
+      "marken",
+      1
+     ],
+     [
+      "beratungs-",
+      1
+     ],
+     [
+      "ernährung",
+      1
+     ],
+     [
+      "marke",
+      1
+     ],
+     [
+      "interpret data",
+      1
+     ],
+     [
+      "identify patterns",
+      1
+     ],
+     [
+      "managing websites",
+      1
+     ],
+     [
+      "search engines",
+      1
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "teamfähigkeit",
+      11
+     ],
+     [
+      "consulting",
+      6
+     ],
+     [
+      "ownership",
+      6
+     ],
+     [
+      "zuverlässigkeit",
+      5
+     ],
+     [
+      "excel",
+      5
+     ],
+     [
+      "deutsch- und englischkenntnisse",
+      5
+     ],
+     [
+      "eigeninitiative",
+      5
+     ],
+     [
+      "social media",
+      5
+     ],
+     [
+      "strukturierte arbeitsweise",
+      5
+     ],
+     [
+      "kommunikationsstärke",
+      5
+     ],
+     [
+      "business development",
+      4
+     ],
+     [
+      "technisches verständnis",
+      4
+     ],
+     [
+      "projektmanagement",
+      4
+     ],
+     [
+      "powerpoint",
+      4
+     ],
+     [
+      "ki",
+      4
+     ],
+     [
+      "machine learning",
+      4
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "buchhaltung",
+      3
+     ],
+     [
+      "kommunikationsfähigkeit",
+      3
+     ],
+     [
+      "organisationstalent",
+      3
+     ],
+     [
+      "engagement",
+      3
+     ],
+     [
+      "marketing",
+      3
+     ],
+     [
+      "communication skills",
+      3
+     ],
+     [
+      "communicator",
+      3
+     ],
+     [
+      "photoshop",
+      3
+     ],
+     [
+      "teamplayer",
+      3
+     ],
+     [
+      "führerschein der klasse b",
+      3
+     ],
+     [
+      "verantwortungsbewusstsein",
+      3
+     ],
+     [
+      "storytelling",
+      3
+     ],
+     [
+      "computer vision",
+      3
+     ]
+    ]
+   }
+  },
+  "gazetteer_esco_mined": {
+   "all": {
+    "exact": {
+     "precision": 0.6497,
+     "recall": 0.3572,
+     "f1": 0.461,
+     "tp": 384,
+     "n_pred": 591,
+     "n_gold": 1075
+    },
+    "partial": {
+     "precision": 0.7817,
+     "recall": 0.4298,
+     "f1": 0.5546,
+     "tp": 462,
+     "n_pred": 591,
+     "n_gold": 1075
+    },
+    "skill_set": {
+     "precision": 0.6488,
+     "recall": 0.3565,
+     "f1": 0.4602,
+     "tp": 364,
+     "n_pred": 561,
+     "n_gold": 1021
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6905,
+     "recall": 0.4147,
+     "f1": 0.5182,
+     "tp": 270,
+     "n_pred": 391,
+     "n_gold": 651
+    },
+    "partial": {
+     "precision": 0.8031,
+     "recall": 0.4823,
+     "f1": 0.6027,
+     "tp": 314,
+     "n_pred": 391,
+     "n_gold": 651
+    },
+    "skill_set": {
+     "precision": 0.6887,
+     "recall": 0.4163,
+     "f1": 0.5189,
+     "tp": 261,
+     "n_pred": 379,
+     "n_gold": 627
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.6578,
+     "recall": 0.356,
+     "f1": 0.4619,
+     "tp": 346,
+     "n_pred": 526,
+     "n_gold": 972
+    },
+    "partial": {
+     "precision": 0.789,
+     "recall": 0.427,
+     "f1": 0.5541,
+     "tp": 415,
+     "n_pred": 526,
+     "n_gold": 972
+    },
+    "skill_set": {
+     "precision": 0.658,
+     "recall": 0.3545,
+     "f1": 0.4608,
+     "tp": 329,
+     "n_pred": 500,
+     "n_gold": 928
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.57,
+     "recall": 0.2689,
+     "f1": 0.3654,
+     "tp": 114,
+     "n_pred": 200,
+     "n_gold": 424
+    },
+    "partial": {
+     "precision": 0.74,
+     "recall": 0.3491,
+     "f1": 0.4744,
+     "tp": 148,
+     "n_pred": 200,
+     "n_gold": 424
+    },
+    "skill_set": {
+     "precision": 0.5659,
+     "recall": 0.2614,
+     "f1": 0.3576,
+     "tp": 103,
+     "n_pred": 182,
+     "n_gold": 394
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.5846,
+     "recall": 0.3689,
+     "f1": 0.4524,
+     "tp": 38,
+     "n_pred": 65,
+     "n_gold": 103
+    },
+    "partial": {
+     "precision": 0.7231,
+     "recall": 0.4563,
+     "f1": 0.5595,
+     "tp": 47,
+     "n_pred": 65,
+     "n_gold": 103
+    },
+    "skill_set": {
+     "precision": 0.5738,
+     "recall": 0.3763,
+     "f1": 0.4545,
+     "tp": 35,
+     "n_pred": 61,
+     "n_gold": 93
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.125,
+    "knowledge": 0.2998,
+    "language": 0.987,
+    "soft": 0.4032,
+    "tool": 0.6571
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      8
+     ],
+     [
+      "ml",
+      5
+     ],
+     [
+      "deutschen",
+      4
+     ],
+     [
+      "sap",
+      4
+     ],
+     [
+      "consulting",
+      4
+     ],
+     [
+      "windows",
+      2
+     ],
+     [
+      "mac",
+      2
+     ],
+     [
+      "selbstständige arbeitsweise",
+      2
+     ],
+     [
+      "communications",
+      2
+     ],
+     [
+      "engagement",
+      2
+     ],
+     [
+      "seo",
+      2
+     ],
+     [
+      "crm",
+      2
+     ],
+     [
+      "deutsch",
+      1
+     ],
+     [
+      "englisch",
+      1
+     ],
+     [
+      "gesundheitswesen",
+      1
+     ],
+     [
+      "cisco",
+      1
+     ],
+     [
+      "pc",
+      1
+     ],
+     [
+      "troubleshoot problems",
+      1
+     ],
+     [
+      "projekte managen",
+      1
+     ],
+     [
+      "du bist kommunikativ",
+      1
+     ],
+     [
+      "bwl",
+      1
+     ],
+     [
+      "getränke",
+      1
+     ],
+     [
+      "außenhandelsmanagement",
+      1
+     ],
+     [
+      "industriekaufmann",
+      1
+     ],
+     [
+      "attraktive vergütung",
+      1
+     ],
+     [
+      "biotechnologie",
+      1
+     ],
+     [
+      "normen",
+      1
+     ],
+     [
+      "flache hierarchien",
+      1
+     ],
+     [
+      "utilities",
+      1
+     ],
+     [
+      "weiterbildungsmöglichkeiten",
+      1
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "ownership",
+      6
+     ],
+     [
+      "deutsch- und englischkenntnisse",
+      5
+     ],
+     [
+      "ki",
+      4
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "marketing",
+      3
+     ],
+     [
+      "communication skills",
+      3
+     ],
+     [
+      "communicator",
+      3
+     ],
+     [
+      "teamplayer",
+      3
+     ],
+     [
+      "führerschein der klasse b",
+      3
+     ],
+     [
+      "storytelling",
+      3
+     ],
+     [
+      "computer vision",
+      3
+     ],
+     [
+      "data",
+      3
+     ],
+     [
+      "tiktok",
+      3
+     ],
+     [
+      "deutsch- und gute englischkenntnisse",
+      3
+     ],
+     [
+      "billing",
+      3
+     ],
+     [
+      "b2b-vertriebserfahrung",
+      2
+     ],
+     [
+      "kommunikativ",
+      2
+     ],
+     [
+      "erp",
+      2
+     ],
+     [
+      "it-affinität",
+      2
+     ],
+     [
+      "operations",
+      2
+     ],
+     [
+      "fast learner",
+      2
+     ],
+     [
+      "workflows",
+      2
+     ],
+     [
+      "datengetriebenes arbeiten",
+      2
+     ],
+     [
+      "sales",
+      2
+     ],
+     [
+      "flexible",
+      2
+     ],
+     [
+      "abschlussorientierung",
+      2
+     ],
+     [
+      "proof-of-concepts",
+      2
+     ],
+     [
+      "posture management",
+      2
+     ],
+     [
+      "solution design",
+      2
+     ],
+     [
+      "proactive",
+      2
+     ]
+    ]
+   }
+  },
+  "ner_weak": {
+   "all": {
+    "exact": {
+     "precision": 0.6337,
+     "recall": 0.346,
+     "f1": 0.4477,
+     "tp": 372,
+     "n_pred": 587,
+     "n_gold": 1075
+    },
+    "partial": {
+     "precision": 0.77,
+     "recall": 0.4205,
+     "f1": 0.5439,
+     "tp": 452,
+     "n_pred": 587,
+     "n_gold": 1075
+    },
+    "skill_set": {
+     "precision": 0.639,
+     "recall": 0.3467,
+     "f1": 0.4495,
+     "tp": 354,
+     "n_pred": 554,
+     "n_gold": 1021
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6725,
+     "recall": 0.4101,
+     "f1": 0.5095,
+     "tp": 267,
+     "n_pred": 397,
+     "n_gold": 651
+    },
+    "partial": {
+     "precision": 0.7985,
+     "recall": 0.4869,
+     "f1": 0.605,
+     "tp": 317,
+     "n_pred": 397,
+     "n_gold": 651
+    },
+    "skill_set": {
+     "precision": 0.6806,
+     "recall": 0.4147,
+     "f1": 0.5154,
+     "tp": 260,
+     "n_pred": 382,
+     "n_gold": 627
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.6412,
+     "recall": 0.3457,
+     "f1": 0.4492,
+     "tp": 336,
+     "n_pred": 524,
+     "n_gold": 972
+    },
+    "partial": {
+     "precision": 0.7786,
+     "recall": 0.4198,
+     "f1": 0.5455,
+     "tp": 408,
+     "n_pred": 524,
+     "n_gold": 972
+    },
+    "skill_set": {
+     "precision": 0.6485,
+     "recall": 0.3459,
+     "f1": 0.4512,
+     "tp": 321,
+     "n_pred": 495,
+     "n_gold": 928
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.5526,
+     "recall": 0.2476,
+     "f1": 0.342,
+     "tp": 105,
+     "n_pred": 190,
+     "n_gold": 424
+    },
+    "partial": {
+     "precision": 0.7105,
+     "recall": 0.3184,
+     "f1": 0.4397,
+     "tp": 135,
+     "n_pred": 190,
+     "n_gold": 424
+    },
+    "skill_set": {
+     "precision": 0.5465,
+     "recall": 0.2386,
+     "f1": 0.3322,
+     "tp": 94,
+     "n_pred": 172,
+     "n_gold": 394
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.5714,
+     "recall": 0.3495,
+     "f1": 0.4337,
+     "tp": 36,
+     "n_pred": 63,
+     "n_gold": 103
+    },
+    "partial": {
+     "precision": 0.6984,
+     "recall": 0.4272,
+     "f1": 0.5301,
+     "tp": 44,
+     "n_pred": 63,
+     "n_gold": 103
+    },
+    "skill_set": {
+     "precision": 0.5593,
+     "recall": 0.3548,
+     "f1": 0.4342,
+     "tp": 33,
+     "n_pred": 59,
+     "n_gold": 93
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.25,
+    "knowledge": 0.2945,
+    "language": 0.974,
+    "soft": 0.3831,
+    "tool": 0.6457
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      8
+     ],
+     [
+      "sap",
+      7
+     ],
+     [
+      "ml",
+      5
+     ],
+     [
+      "consulting",
+      5
+     ],
+     [
+      "deutschen",
+      4
+     ],
+     [
+      "sd",
+      3
+     ],
+     [
+      "windows",
+      2
+     ],
+     [
+      "mac",
+      2
+     ],
+     [
+      "selbstständige arbeitsweise",
+      2
+     ],
+     [
+      "engagement",
+      2
+     ],
+     [
+      "seo",
+      2
+     ],
+     [
+      "crm",
+      2
+     ],
+     [
+      "abschlussarbeiten",
+      1
+     ],
+     [
+      "deutsch",
+      1
+     ],
+     [
+      "englisch",
+      1
+     ],
+     [
+      "gesundheitswesen",
+      1
+     ],
+     [
+      "cisco",
+      1
+     ],
+     [
+      "pc",
+      1
+     ],
+     [
+      "funktechnik",
+      1
+     ],
+     [
+      "bwl",
+      1
+     ],
+     [
+      "getränke",
+      1
+     ],
+     [
+      "außenhandelsmanagement",
+      1
+     ],
+     [
+      "industriekaufmann",
+      1
+     ],
+     [
+      "attraktive vergütung",
+      1
+     ],
+     [
+      "biotechnologie",
+      1
+     ],
+     [
+      "normen",
+      1
+     ],
+     [
+      "process equipment",
+      1
+     ],
+     [
+      "flache hierarchien",
+      1
+     ],
+     [
+      "weiterbildungsmöglichkeiten",
+      1
+     ],
+     [
+      "data analysis",
+      1
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "ownership",
+      6
+     ],
+     [
+      "deutsch- und englischkenntnisse",
+      5
+     ],
+     [
+      "ki",
+      4
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "marketing",
+      3
+     ],
+     [
+      "communication skills",
+      3
+     ],
+     [
+      "communicator",
+      3
+     ],
+     [
+      "teamplayer",
+      3
+     ],
+     [
+      "führerschein der klasse b",
+      3
+     ],
+     [
+      "storytelling",
+      3
+     ],
+     [
+      "computer vision",
+      3
+     ],
+     [
+      "data",
+      3
+     ],
+     [
+      "attention to detail",
+      3
+     ],
+     [
+      "tiktok",
+      3
+     ],
+     [
+      "deutsch- und gute englischkenntnisse",
+      3
+     ],
+     [
+      "billing",
+      3
+     ],
+     [
+      "sap sd",
+      3
+     ],
+     [
+      "b2b-vertriebserfahrung",
+      2
+     ],
+     [
+      "kommunikativ",
+      2
+     ],
+     [
+      "erp",
+      2
+     ],
+     [
+      "it-affinität",
+      2
+     ],
+     [
+      "operations",
+      2
+     ],
+     [
+      "fast learner",
+      2
+     ],
+     [
+      "workflows",
+      2
+     ],
+     [
+      "datengetriebenes arbeiten",
+      2
+     ],
+     [
+      "sales",
+      2
+     ],
+     [
+      "flexible",
+      2
+     ],
+     [
+      "abschlussorientierung",
+      2
+     ],
+     [
+      "proof-of-concepts",
+      2
+     ],
+     [
+      "posture management",
+      2
+     ]
+    ]
+   }
+  },
+  "union": {
+   "all": {
+    "exact": {
+     "precision": 0.6299,
+     "recall": 0.3721,
+     "f1": 0.4678,
+     "tp": 400,
+     "n_pred": 635,
+     "n_gold": 1075
+    },
+    "partial": {
+     "precision": 0.7638,
+     "recall": 0.4512,
+     "f1": 0.5673,
+     "tp": 485,
+     "n_pred": 635,
+     "n_gold": 1075
+    },
+    "skill_set": {
+     "precision": 0.6279,
+     "recall": 0.3702,
+     "f1": 0.4658,
+     "tp": 378,
+     "n_pred": 602,
+     "n_gold": 1021
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6763,
+     "recall": 0.4301,
+     "f1": 0.5258,
+     "tp": 280,
+     "n_pred": 414,
+     "n_gold": 651
+    },
+    "partial": {
+     "precision": 0.7947,
+     "recall": 0.5054,
+     "f1": 0.6178,
+     "tp": 329,
+     "n_pred": 414,
+     "n_gold": 651
+    },
+    "skill_set": {
+     "precision": 0.6733,
+     "recall": 0.4306,
+     "f1": 0.5253,
+     "tp": 270,
+     "n_pred": 401,
+     "n_gold": 627
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.6401,
+     "recall": 0.3714,
+     "f1": 0.4701,
+     "tp": 361,
+     "n_pred": 564,
+     "n_gold": 972
+    },
+    "partial": {
+     "precision": 0.7748,
+     "recall": 0.4496,
+     "f1": 0.569,
+     "tp": 437,
+     "n_pred": 564,
+     "n_gold": 972
+    },
+    "skill_set": {
+     "precision": 0.6393,
+     "recall": 0.3685,
+     "f1": 0.4675,
+     "tp": 342,
+     "n_pred": 535,
+     "n_gold": 928
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.543,
+     "recall": 0.283,
+     "f1": 0.3721,
+     "tp": 120,
+     "n_pred": 221,
+     "n_gold": 424
+    },
+    "partial": {
+     "precision": 0.7059,
+     "recall": 0.3679,
+     "f1": 0.4837,
+     "tp": 156,
+     "n_pred": 221,
+     "n_gold": 424
+    },
+    "skill_set": {
+     "precision": 0.5373,
+     "recall": 0.2741,
+     "f1": 0.363,
+     "tp": 108,
+     "n_pred": 201,
+     "n_gold": 394
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.5493,
+     "recall": 0.3786,
+     "f1": 0.4483,
+     "tp": 39,
+     "n_pred": 71,
+     "n_gold": 103
+    },
+    "partial": {
+     "precision": 0.6761,
+     "recall": 0.466,
+     "f1": 0.5517,
+     "tp": 48,
+     "n_pred": 71,
+     "n_gold": 103
+    },
+    "skill_set": {
+     "precision": 0.5373,
+     "recall": 0.3871,
+     "f1": 0.45,
+     "tp": 36,
+     "n_pred": 67,
+     "n_gold": 93
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.25,
+    "knowledge": 0.3298,
+    "language": 0.987,
+    "soft": 0.4153,
+    "tool": 0.6686
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      8
+     ],
+     [
+      "ml",
+      5
+     ],
+     [
+      "deutschen",
+      4
+     ],
+     [
+      "sap",
+      4
+     ],
+     [
+      "consulting",
+      4
+     ],
+     [
+      "windows",
+      2
+     ],
+     [
+      "mac",
+      2
+     ],
+     [
+      "selbstständige arbeitsweise",
+      2
+     ],
+     [
+      "communications",
+      2
+     ],
+     [
+      "engagement",
+      2
+     ],
+     [
+      "seo",
+      2
+     ],
+     [
+      "crm",
+      2
+     ],
+     [
+      "abschlussarbeiten",
+      1
+     ],
+     [
+      "deutsch",
+      1
+     ],
+     [
+      "englisch",
+      1
+     ],
+     [
+      "gesundheitswesen",
+      1
+     ],
+     [
+      "cisco",
+      1
+     ],
+     [
+      "pc",
+      1
+     ],
+     [
+      "troubleshoot problems",
+      1
+     ],
+     [
+      "projekte managen",
+      1
+     ],
+     [
+      "du bist kommunikativ",
+      1
+     ],
+     [
+      "funktechnik",
+      1
+     ],
+     [
+      "bwl",
+      1
+     ],
+     [
+      "getränke",
+      1
+     ],
+     [
+      "außenhandelsmanagement",
+      1
+     ],
+     [
+      "industriekaufmann",
+      1
+     ],
+     [
+      "attraktive vergütung",
+      1
+     ],
+     [
+      "biotechnologie",
+      1
+     ],
+     [
+      "normen",
+      1
+     ],
+     [
+      "process equipment",
+      1
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "ownership",
+      6
+     ],
+     [
+      "deutsch- und englischkenntnisse",
+      5
+     ],
+     [
+      "ki",
+      4
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "marketing",
+      3
+     ],
+     [
+      "communication skills",
+      3
+     ],
+     [
+      "communicator",
+      3
+     ],
+     [
+      "teamplayer",
+      3
+     ],
+     [
+      "führerschein der klasse b",
+      3
+     ],
+     [
+      "storytelling",
+      3
+     ],
+     [
+      "computer vision",
+      3
+     ],
+     [
+      "data",
+      3
+     ],
+     [
+      "tiktok",
+      3
+     ],
+     [
+      "deutsch- und gute englischkenntnisse",
+      3
+     ],
+     [
+      "billing",
+      3
+     ],
+     [
+      "b2b-vertriebserfahrung",
+      2
+     ],
+     [
+      "kommunikativ",
+      2
+     ],
+     [
+      "erp",
+      2
+     ],
+     [
+      "it-affinität",
+      2
+     ],
+     [
+      "operations",
+      2
+     ],
+     [
+      "fast learner",
+      2
+     ],
+     [
+      "workflows",
+      2
+     ],
+     [
+      "datengetriebenes arbeiten",
+      2
+     ],
+     [
+      "sales",
+      2
+     ],
+     [
+      "flexible",
+      2
+     ],
+     [
+      "abschlussorientierung",
+      2
+     ],
+     [
+      "proof-of-concepts",
+      2
+     ],
+     [
+      "posture management",
+      2
+     ],
+     [
+      "solution design",
+      2
+     ],
+     [
+      "proactive",
+      2
+     ]
+    ]
+   }
+  },
+  "necessity": {
+   "n_spans": 1075,
+   "accuracy": 0.9609,
+   "majority_baseline_accuracy": 0.9219,
+   "nice_precision": 0.6842,
+   "nice_recall": 0.9286,
+   "confusion": {
+    "gold=must,pred=must": 955,
+    "gold=must,pred=nice": 36,
+    "gold=nice,pred=nice": 78,
+    "gold=nice,pred=must": 6
+   }
+  }
+ },
+ "test": {
+  "gazetteer_esco": {
+   "all": {
+    "exact": {
+     "precision": 0.5889,
+     "recall": 0.1306,
+     "f1": 0.2139,
+     "tp": 159,
+     "n_pred": 270,
+     "n_gold": 1217
+    },
+    "partial": {
+     "precision": 0.7519,
+     "recall": 0.1668,
+     "f1": 0.273,
+     "tp": 203,
+     "n_pred": 270,
+     "n_gold": 1217
+    },
+    "skill_set": {
+     "precision": 0.6076,
+     "recall": 0.1235,
+     "f1": 0.2053,
+     "tp": 144,
+     "n_pred": 237,
+     "n_gold": 1166
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.5333,
+     "recall": 0.1452,
+     "f1": 0.2283,
+     "tp": 88,
+     "n_pred": 165,
+     "n_gold": 606
+    },
+    "partial": {
+     "precision": 0.7091,
+     "recall": 0.1931,
+     "f1": 0.3035,
+     "tp": 117,
+     "n_pred": 165,
+     "n_gold": 606
+    },
+    "skill_set": {
+     "precision": 0.5603,
+     "recall": 0.1372,
+     "f1": 0.2204,
+     "tp": 79,
+     "n_pred": 141,
+     "n_gold": 576
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.5922,
+     "recall": 0.1362,
+     "f1": 0.2214,
+     "tp": 151,
+     "n_pred": 255,
+     "n_gold": 1109
+    },
+    "partial": {
+     "precision": 0.7608,
+     "recall": 0.1749,
+     "f1": 0.2845,
+     "tp": 194,
+     "n_pred": 255,
+     "n_gold": 1109
+    },
+    "skill_set": {
+     "precision": 0.6178,
+     "recall": 0.13,
+     "f1": 0.2148,
+     "tp": 139,
+     "n_pred": 225,
+     "n_gold": 1069
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6762,
+     "recall": 0.1162,
+     "f1": 0.1983,
+     "tp": 71,
+     "n_pred": 105,
+     "n_gold": 611
+    },
+    "partial": {
+     "precision": 0.819,
+     "recall": 0.1408,
+     "f1": 0.2402,
+     "tp": 86,
+     "n_pred": 105,
+     "n_gold": 611
+    },
+    "skill_set": {
+     "precision": 0.6771,
+     "recall": 0.1102,
+     "f1": 0.1895,
+     "tp": 65,
+     "n_pred": 96,
+     "n_gold": 590
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.5333,
+     "recall": 0.0741,
+     "f1": 0.1301,
+     "tp": 8,
+     "n_pred": 15,
+     "n_gold": 108
+    },
+    "partial": {
+     "precision": 0.6,
+     "recall": 0.0833,
+     "f1": 0.1463,
+     "tp": 9,
+     "n_pred": 15,
+     "n_gold": 108
+    },
+    "skill_set": {
+     "precision": 0.4167,
+     "recall": 0.0515,
+     "f1": 0.0917,
+     "tp": 5,
+     "n_pred": 12,
+     "n_gold": 97
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.0,
+    "knowledge": 0.1038,
+    "language": 1.0,
+    "soft": 0.045,
+    "tool": 0.1733
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      11
+     ],
+     [
+      "hr",
+      7
+     ],
+     [
+      "robotics",
+      6
+     ],
+     [
+      "databases",
+      3
+     ],
+     [
+      "prototyping",
+      2
+     ],
+     [
+      "mechanical engineering",
+      2
+     ],
+     [
+      "logic",
+      2
+     ],
+     [
+      "deutschen",
+      2
+     ],
+     [
+      "hr management",
+      2
+     ],
+     [
+      "psychologie",
+      2
+     ],
+     [
+      "beratung",
+      2
+     ],
+     [
+      "german",
+      2
+     ],
+     [
+      "electrical engineering",
+      2
+     ],
+     [
+      "sensor",
+      2
+     ],
+     [
+      "camera",
+      2
+     ],
+     [
+      "design process",
+      2
+     ],
+     [
+      "english",
+      1
+     ],
+     [
+      "assembly",
+      1
+     ],
+     [
+      "ecosystem",
+      1
+     ],
+     [
+      "written english",
+      1
+     ],
+     [
+      "reads people",
+      1
+     ],
+     [
+      "communications",
+      1
+     ],
+     [
+      "speak german",
+      1
+     ],
+     [
+      "source",
+      1
+     ],
+     [
+      "automotive technology",
+      1
+     ],
+     [
+      "ux",
+      1
+     ],
+     [
+      "aesthetic",
+      1
+     ],
+     [
+      "semantic",
+      1
+     ],
+     [
+      "electronics",
+      1
+     ],
+     [
+      "search engine",
+      1
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "deutsch- und englischkenntnisse",
+      9
+     ],
+     [
+      "apis",
+      8
+     ],
+     [
+      "ai",
+      8
+     ],
+     [
+      "ai tools",
+      7
+     ],
+     [
+      "eigeninitiative",
+      6
+     ],
+     [
+      "teamfähigkeit",
+      6
+     ],
+     [
+      "personio",
+      5
+     ],
+     [
+      "kommunikationsstärke",
+      5
+     ],
+     [
+      "automatisierung",
+      5
+     ],
+     [
+      "terraform",
+      4
+     ],
+     [
+      "aws",
+      4
+     ],
+     [
+      "recruiting",
+      4
+     ],
+     [
+      "communication skills",
+      4
+     ],
+     [
+      "e-commerce",
+      4
+     ],
+     [
+      "ci/cd",
+      4
+     ],
+     [
+      "recruitment",
+      4
+     ],
+     [
+      "azure",
+      3
+     ],
+     [
+      "kubernetes",
+      3
+     ],
+     [
+      "excel",
+      3
+     ],
+     [
+      "sap",
+      3
+     ],
+     [
+      "ownership",
+      3
+     ],
+     [
+      "docker",
+      3
+     ],
+     [
+      "react",
+      3
+     ],
+     [
+      "programmierkenntnisse",
+      3
+     ],
+     [
+      "power bi",
+      3
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "linux",
+      3
+     ],
+     [
+      "kundenorientierung",
+      3
+     ],
+     [
+      "führerschein klasse b",
+      3
+     ],
+     [
+      "softwareentwicklung",
+      3
+     ]
+    ]
+   }
+  },
+  "gazetteer_esco_mined": {
+   "all": {
+    "exact": {
+     "precision": 0.6129,
+     "recall": 0.35,
+     "f1": 0.4456,
+     "tp": 426,
+     "n_pred": 695,
+     "n_gold": 1217
+    },
+    "partial": {
+     "precision": 0.7626,
+     "recall": 0.4355,
+     "f1": 0.5544,
+     "tp": 530,
+     "n_pred": 695,
+     "n_gold": 1217
+    },
+    "skill_set": {
+     "precision": 0.6248,
+     "recall": 0.3456,
+     "f1": 0.4451,
+     "tp": 403,
+     "n_pred": 645,
+     "n_gold": 1166
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.5967,
+     "recall": 0.3003,
+     "f1": 0.3996,
+     "tp": 182,
+     "n_pred": 305,
+     "n_gold": 606
+    },
+    "partial": {
+     "precision": 0.741,
+     "recall": 0.3729,
+     "f1": 0.4962,
+     "tp": 226,
+     "n_pred": 305,
+     "n_gold": 606
+    },
+    "skill_set": {
+     "precision": 0.6227,
+     "recall": 0.2951,
+     "f1": 0.4005,
+     "tp": 170,
+     "n_pred": 273,
+     "n_gold": 576
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.6171,
+     "recall": 0.3589,
+     "f1": 0.4538,
+     "tp": 398,
+     "n_pred": 645,
+     "n_gold": 1109
+    },
+    "partial": {
+     "precision": 0.7736,
+     "recall": 0.45,
+     "f1": 0.569,
+     "tp": 499,
+     "n_pred": 645,
+     "n_gold": 1109
+    },
+    "skill_set": {
+     "precision": 0.6327,
+     "recall": 0.3545,
+     "f1": 0.4544,
+     "tp": 379,
+     "n_pred": 599,
+     "n_gold": 1069
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6256,
+     "recall": 0.3993,
+     "f1": 0.4875,
+     "tp": 244,
+     "n_pred": 390,
+     "n_gold": 611
+    },
+    "partial": {
+     "precision": 0.7795,
+     "recall": 0.4975,
+     "f1": 0.6074,
+     "tp": 304,
+     "n_pred": 390,
+     "n_gold": 611
+    },
+    "skill_set": {
+     "precision": 0.6263,
+     "recall": 0.3949,
+     "f1": 0.4844,
+     "tp": 233,
+     "n_pred": 372,
+     "n_gold": 590
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.56,
+     "recall": 0.2593,
+     "f1": 0.3544,
+     "tp": 28,
+     "n_pred": 50,
+     "n_gold": 108
+    },
+    "partial": {
+     "precision": 0.62,
+     "recall": 0.287,
+     "f1": 0.3924,
+     "tp": 31,
+     "n_pred": 50,
+     "n_gold": 108
+    },
+    "skill_set": {
+     "precision": 0.5217,
+     "recall": 0.2474,
+     "f1": 0.3357,
+     "tp": 24,
+     "n_pred": 46,
+     "n_gold": 97
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.4286,
+    "knowledge": 0.3003,
+    "language": 1.0,
+    "soft": 0.42,
+    "tool": 0.5867
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      11
+     ],
+     [
+      "hr",
+      7
+     ],
+     [
+      "robotics",
+      6
+     ],
+     [
+      "aerospace",
+      4
+     ],
+     [
+      "serviceorientierung",
+      4
+     ],
+     [
+      "strukturierte arbeitsweise",
+      4
+     ],
+     [
+      "automotive",
+      4
+     ],
+     [
+      "industriekaufmann",
+      3
+     ],
+     [
+      "databases",
+      3
+     ],
+     [
+      "bwl",
+      3
+     ],
+     [
+      "buchhaltung",
+      3
+     ],
+     [
+      "administration",
+      3
+     ],
+     [
+      "selbstständige",
+      3
+     ],
+     [
+      "pricing",
+      3
+     ],
+     [
+      "programmiersprache",
+      3
+     ],
+     [
+      "palo alto",
+      2
+     ],
+     [
+      "firewalls",
+      2
+     ],
+     [
+      "fundiertes verständnis",
+      2
+     ],
+     [
+      "prototyping",
+      2
+     ],
+     [
+      "mechanical engineering",
+      2
+     ],
+     [
+      "debugging",
+      2
+     ],
+     [
+      "logic",
+      2
+     ],
+     [
+      "copy",
+      2
+     ],
+     [
+      "product management",
+      2
+     ],
+     [
+      "data science",
+      2
+     ],
+     [
+      "deutschen",
+      2
+     ],
+     [
+      "work-life-balance",
+      2
+     ],
+     [
+      "flexible arbeitszeiten",
+      2
+     ],
+     [
+      "funktion",
+      2
+     ],
+     [
+      "rechnungswesen",
+      2
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "deutsch- und englischkenntnisse",
+      9
+     ],
+     [
+      "apis",
+      8
+     ],
+     [
+      "ai",
+      8
+     ],
+     [
+      "ai tools",
+      7
+     ],
+     [
+      "recruiting",
+      4
+     ],
+     [
+      "communication skills",
+      4
+     ],
+     [
+      "recruitment",
+      4
+     ],
+     [
+      "kubernetes",
+      3
+     ],
+     [
+      "ownership",
+      3
+     ],
+     [
+      "programmierkenntnisse",
+      3
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "testing",
+      2
+     ],
+     [
+      "troubleshooting",
+      2
+     ],
+     [
+      "technical documentation",
+      2
+     ],
+     [
+      "lösungsorientierte arbeitsweise",
+      2
+     ],
+     [
+      "gitops",
+      2
+     ],
+     [
+      "log analysis",
+      2
+     ],
+     [
+      "sales",
+      2
+     ],
+     [
+      "talent acquisition",
+      2
+     ],
+     [
+      "ms office",
+      2
+     ],
+     [
+      "entrepreneurial mindset",
+      2
+     ],
+     [
+      "curiosity",
+      2
+     ],
+     [
+      "distributed systems",
+      2
+     ],
+     [
+      "logistik",
+      2
+     ],
+     [
+      "git",
+      2
+     ],
+     [
+      "webanwendungen",
+      2
+     ],
+     [
+      "automations",
+      2
+     ],
+     [
+      "manufacturing",
+      2
+     ],
+     [
+      "supply chain",
+      2
+     ],
+     [
+      "it-asset-management",
+      2
+     ]
+    ]
+   }
+  },
+  "ner_weak": {
+   "all": {
+    "exact": {
+     "precision": 0.6116,
+     "recall": 0.3558,
+     "f1": 0.4499,
+     "tp": 433,
+     "n_pred": 708,
+     "n_gold": 1217
+    },
+    "partial": {
+     "precision": 0.7528,
+     "recall": 0.438,
+     "f1": 0.5538,
+     "tp": 533,
+     "n_pred": 708,
+     "n_gold": 1217
+    },
+    "skill_set": {
+     "precision": 0.6227,
+     "recall": 0.3525,
+     "f1": 0.4502,
+     "tp": 411,
+     "n_pred": 660,
+     "n_gold": 1166
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.6177,
+     "recall": 0.2987,
+     "f1": 0.4027,
+     "tp": 181,
+     "n_pred": 293,
+     "n_gold": 606
+    },
+    "partial": {
+     "precision": 0.7509,
+     "recall": 0.363,
+     "f1": 0.4894,
+     "tp": 220,
+     "n_pred": 293,
+     "n_gold": 606
+    },
+    "skill_set": {
+     "precision": 0.6464,
+     "recall": 0.2951,
+     "f1": 0.4052,
+     "tp": 170,
+     "n_pred": 263,
+     "n_gold": 576
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.6181,
+     "recall": 0.3634,
+     "f1": 0.4577,
+     "tp": 403,
+     "n_pred": 652,
+     "n_gold": 1109
+    },
+    "partial": {
+     "precision": 0.7638,
+     "recall": 0.4491,
+     "f1": 0.5656,
+     "tp": 498,
+     "n_pred": 652,
+     "n_gold": 1109
+    },
+    "skill_set": {
+     "precision": 0.6332,
+     "recall": 0.3601,
+     "f1": 0.4592,
+     "tp": 385,
+     "n_pred": 608,
+     "n_gold": 1069
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6072,
+     "recall": 0.4124,
+     "f1": 0.4912,
+     "tp": 252,
+     "n_pred": 415,
+     "n_gold": 611
+    },
+    "partial": {
+     "precision": 0.7542,
+     "recall": 0.5123,
+     "f1": 0.6101,
+     "tp": 313,
+     "n_pred": 415,
+     "n_gold": 611
+    },
+    "skill_set": {
+     "precision": 0.6071,
+     "recall": 0.4085,
+     "f1": 0.4883,
+     "tp": 241,
+     "n_pred": 397,
+     "n_gold": 590
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.5357,
+     "recall": 0.2778,
+     "f1": 0.3659,
+     "tp": 30,
+     "n_pred": 56,
+     "n_gold": 108
+    },
+    "partial": {
+     "precision": 0.625,
+     "recall": 0.3241,
+     "f1": 0.4268,
+     "tp": 35,
+     "n_pred": 56,
+     "n_gold": 108
+    },
+    "skill_set": {
+     "precision": 0.5,
+     "recall": 0.268,
+     "f1": 0.349,
+     "tp": 26,
+     "n_pred": 52,
+     "n_gold": 97
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.5,
+    "knowledge": 0.3003,
+    "language": 0.974,
+    "soft": 0.425,
+    "tool": 0.5933
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      11
+     ],
+     [
+      "hr",
+      9
+     ],
+     [
+      "robotics",
+      6
+     ],
+     [
+      "serviceorientierung",
+      4
+     ],
+     [
+      "strukturierte arbeitsweise",
+      4
+     ],
+     [
+      "automotive",
+      4
+     ],
+     [
+      "aerospace",
+      3
+     ],
+     [
+      "industriekaufmann",
+      3
+     ],
+     [
+      "databases",
+      3
+     ],
+     [
+      "bwl",
+      3
+     ],
+     [
+      "buchhaltung",
+      3
+     ],
+     [
+      "administration",
+      3
+     ],
+     [
+      "selbstständige",
+      3
+     ],
+     [
+      "pricing",
+      3
+     ],
+     [
+      "programmiersprache",
+      3
+     ],
+     [
+      "palo alto",
+      2
+     ],
+     [
+      "firewalls",
+      2
+     ],
+     [
+      "fundiertes verständnis",
+      2
+     ],
+     [
+      "prototyping",
+      2
+     ],
+     [
+      "mechanical engineering",
+      2
+     ],
+     [
+      "debugging",
+      2
+     ],
+     [
+      "logic",
+      2
+     ],
+     [
+      "copy",
+      2
+     ],
+     [
+      "data science",
+      2
+     ],
+     [
+      "einschlägige erfahrung",
+      2
+     ],
+     [
+      "deutschen",
+      2
+     ],
+     [
+      "work-life-balance",
+      2
+     ],
+     [
+      "flexible arbeitszeiten",
+      2
+     ],
+     [
+      "funktion",
+      2
+     ],
+     [
+      "rechnungswesen",
+      2
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "deutsch- und englischkenntnisse",
+      9
+     ],
+     [
+      "apis",
+      8
+     ],
+     [
+      "ai",
+      8
+     ],
+     [
+      "ai tools",
+      7
+     ],
+     [
+      "recruiting",
+      4
+     ],
+     [
+      "communication skills",
+      4
+     ],
+     [
+      "recruitment",
+      4
+     ],
+     [
+      "kubernetes",
+      3
+     ],
+     [
+      "ownership",
+      3
+     ],
+     [
+      "programmierkenntnisse",
+      3
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "testing",
+      2
+     ],
+     [
+      "troubleshooting",
+      2
+     ],
+     [
+      "technical documentation",
+      2
+     ],
+     [
+      "lösungsorientierte arbeitsweise",
+      2
+     ],
+     [
+      "gitops",
+      2
+     ],
+     [
+      "log analysis",
+      2
+     ],
+     [
+      "sales",
+      2
+     ],
+     [
+      "english",
+      2
+     ],
+     [
+      "talent acquisition",
+      2
+     ],
+     [
+      "german",
+      2
+     ],
+     [
+      "ms office",
+      2
+     ],
+     [
+      "entrepreneurial mindset",
+      2
+     ],
+     [
+      "curiosity",
+      2
+     ],
+     [
+      "distributed systems",
+      2
+     ],
+     [
+      "logistik",
+      2
+     ],
+     [
+      "git",
+      2
+     ],
+     [
+      "webanwendungen",
+      2
+     ],
+     [
+      "automations",
+      2
+     ],
+     [
+      "manufacturing",
+      2
+     ]
+    ]
+   }
+  },
+  "union": {
+   "all": {
+    "exact": {
+     "precision": 0.5987,
+     "recall": 0.3714,
+     "f1": 0.4584,
+     "tp": 452,
+     "n_pred": 755,
+     "n_gold": 1217
+    },
+    "partial": {
+     "precision": 0.7417,
+     "recall": 0.4601,
+     "f1": 0.568,
+     "tp": 560,
+     "n_pred": 755,
+     "n_gold": 1217
+    },
+    "skill_set": {
+     "precision": 0.6088,
+     "recall": 0.3671,
+     "f1": 0.458,
+     "tp": 428,
+     "n_pred": 703,
+     "n_gold": 1166
+    }
+   },
+   "lang=en": {
+    "exact": {
+     "precision": 0.5891,
+     "recall": 0.3218,
+     "f1": 0.4162,
+     "tp": 195,
+     "n_pred": 331,
+     "n_gold": 606
+    },
+    "partial": {
+     "precision": 0.7281,
+     "recall": 0.3977,
+     "f1": 0.5144,
+     "tp": 241,
+     "n_pred": 331,
+     "n_gold": 606
+    },
+    "skill_set": {
+     "precision": 0.6128,
+     "recall": 0.316,
+     "f1": 0.417,
+     "tp": 182,
+     "n_pred": 297,
+     "n_gold": 576
+    }
+   },
+   "section=requirements": {
+    "exact": {
+     "precision": 0.6058,
+     "recall": 0.3796,
+     "f1": 0.4667,
+     "tp": 421,
+     "n_pred": 695,
+     "n_gold": 1109
+    },
+    "partial": {
+     "precision": 0.754,
+     "recall": 0.4725,
+     "f1": 0.5809,
+     "tp": 524,
+     "n_pred": 695,
+     "n_gold": 1109
+    },
+    "skill_set": {
+     "precision": 0.6198,
+     "recall": 0.3751,
+     "f1": 0.4674,
+     "tp": 401,
+     "n_pred": 647,
+     "n_gold": 1069
+    }
+   },
+   "lang=de": {
+    "exact": {
+     "precision": 0.6061,
+     "recall": 0.4206,
+     "f1": 0.4966,
+     "tp": 257,
+     "n_pred": 424,
+     "n_gold": 611
+    },
+    "partial": {
+     "precision": 0.7524,
+     "recall": 0.5221,
+     "f1": 0.6164,
+     "tp": 319,
+     "n_pred": 424,
+     "n_gold": 611
+    },
+    "skill_set": {
+     "precision": 0.6059,
+     "recall": 0.4169,
+     "f1": 0.494,
+     "tp": 246,
+     "n_pred": 406,
+     "n_gold": 590
+    }
+   },
+   "section=tasks": {
+    "exact": {
+     "precision": 0.5167,
+     "recall": 0.287,
+     "f1": 0.369,
+     "tp": 31,
+     "n_pred": 60,
+     "n_gold": 108
+    },
+    "partial": {
+     "precision": 0.6,
+     "recall": 0.3333,
+     "f1": 0.4286,
+     "tp": 36,
+     "n_pred": 60,
+     "n_gold": 108
+    },
+    "skill_set": {
+     "precision": 0.4821,
+     "recall": 0.2784,
+     "f1": 0.3529,
+     "tp": 27,
+     "n_pred": 56,
+     "n_gold": 97
+    }
+   },
+   "recall_by_type_partial": {
+    "certificate": 0.5,
+    "knowledge": 0.3291,
+    "language": 1.0,
+    "soft": 0.435,
+    "tool": 0.6133
+   },
+   "n_items": 100,
+   "errors": {
+    "false_positives_top30": [
+     [
+      "englischkenntnisse",
+      11
+     ],
+     [
+      "hr",
+      7
+     ],
+     [
+      "robotics",
+      6
+     ],
+     [
+      "aerospace",
+      4
+     ],
+     [
+      "serviceorientierung",
+      4
+     ],
+     [
+      "strukturierte arbeitsweise",
+      4
+     ],
+     [
+      "automotive",
+      4
+     ],
+     [
+      "industriekaufmann",
+      3
+     ],
+     [
+      "databases",
+      3
+     ],
+     [
+      "bwl",
+      3
+     ],
+     [
+      "buchhaltung",
+      3
+     ],
+     [
+      "administration",
+      3
+     ],
+     [
+      "selbstständige",
+      3
+     ],
+     [
+      "pricing",
+      3
+     ],
+     [
+      "programmiersprache",
+      3
+     ],
+     [
+      "palo alto",
+      2
+     ],
+     [
+      "firewalls",
+      2
+     ],
+     [
+      "fundiertes verständnis",
+      2
+     ],
+     [
+      "prototyping",
+      2
+     ],
+     [
+      "mechanical engineering",
+      2
+     ],
+     [
+      "debugging",
+      2
+     ],
+     [
+      "logic",
+      2
+     ],
+     [
+      "copy",
+      2
+     ],
+     [
+      "product management",
+      2
+     ],
+     [
+      "data science",
+      2
+     ],
+     [
+      "einschlägige erfahrung",
+      2
+     ],
+     [
+      "deutschen",
+      2
+     ],
+     [
+      "work-life-balance",
+      2
+     ],
+     [
+      "flexible arbeitszeiten",
+      2
+     ],
+     [
+      "funktion",
+      2
+     ]
+    ],
+    "false_negatives_top30": [
+     [
+      "deutsch- und englischkenntnisse",
+      9
+     ],
+     [
+      "apis",
+      8
+     ],
+     [
+      "ai",
+      8
+     ],
+     [
+      "ai tools",
+      7
+     ],
+     [
+      "recruiting",
+      4
+     ],
+     [
+      "communication skills",
+      4
+     ],
+     [
+      "recruitment",
+      4
+     ],
+     [
+      "kubernetes",
+      3
+     ],
+     [
+      "ownership",
+      3
+     ],
+     [
+      "programmierkenntnisse",
+      3
+     ],
+     [
+      "schnittstellen",
+      3
+     ],
+     [
+      "testing",
+      2
+     ],
+     [
+      "troubleshooting",
+      2
+     ],
+     [
+      "technical documentation",
+      2
+     ],
+     [
+      "lösungsorientierte arbeitsweise",
+      2
+     ],
+     [
+      "gitops",
+      2
+     ],
+     [
+      "log analysis",
+      2
+     ],
+     [
+      "sales",
+      2
+     ],
+     [
+      "talent acquisition",
+      2
+     ],
+     [
+      "ms office",
+      2
+     ],
+     [
+      "entrepreneurial mindset",
+      2
+     ],
+     [
+      "curiosity",
+      2
+     ],
+     [
+      "distributed systems",
+      2
+     ],
+     [
+      "logistik",
+      2
+     ],
+     [
+      "git",
+      2
+     ],
+     [
+      "webanwendungen",
+      2
+     ],
+     [
+      "automations",
+      2
+     ],
+     [
+      "manufacturing",
+      2
+     ],
+     [
+      "supply chain",
+      2
+     ],
+     [
+      "it-asset-management",
+      2
+     ]
+    ]
+   }
+  },
+  "necessity": {
+   "n_spans": 1217,
+   "accuracy": 0.9384,
+   "majority_baseline_accuracy": 0.8948,
+   "nice_precision": 0.6646,
+   "nice_recall": 0.8359,
+   "confusion": {
+    "gold=must,pred=must": 1035,
+    "gold=nice,pred=must": 21,
+    "gold=nice,pred=nice": 107,
+    "gold=must,pred=nice": 54
+   }
+  }
+ }
+}

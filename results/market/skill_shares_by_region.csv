@@ -1,0 +1,74 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+other,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,1425,4674,0.3049,0.2918,0.3182
+other,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,1041,4674,0.2227,0.211,0.2349
+other,mined:teamfähigkeit,Teamfähigkeit,532,4674,0.1138,0.105,0.1232
+other,mined:zuverlässigkeit,Zuverlässigkeit,454,4674,0.0971,0.089,0.106
+other,mined:flexibilität,Flexibilität,362,4674,0.0774,0.0701,0.0855
+other,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,345,4674,0.0738,0.0667,0.0817
+other,mined:kommunikationsstärke,Kommunikationsstärke,304,4674,0.065,0.0583,0.0725
+other,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,297,4674,0.0635,0.0569,0.0709
+other,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,294,4674,0.0629,0.0563,0.0702
+other,mined:selbstständige,Selbstständige,258,4674,0.0552,0.049,0.0621
+other,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,235,4674,0.0503,0.0444,0.0569
+other,mined:engagement,Engagement,229,4674,0.049,0.0432,0.0556
+other,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),220,4674,0.0471,0.0414,0.0535
+other,mined:führerschein klasse b,Führerschein Klasse B,196,4674,0.0419,0.0366,0.0481
+other,mined:technisches verständnis,Technisches Verständnis,185,4674,0.0396,0.0344,0.0456
+other,mined:weihnachtsgeld,Weihnachtsgeld,180,4674,0.0385,0.0334,0.0444
+other,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,180,4674,0.0385,0.0334,0.0444
+other,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,168,4674,0.0359,0.031,0.0417
+other,mined:elektroniker,Elektroniker,165,4674,0.0353,0.0304,0.041
+other,mined:eigeninitiative,Eigeninitiative,157,4674,0.0336,0.0288,0.0392
+other,mined:verstehen,Verstehen,156,4674,0.0334,0.0286,0.0389
+other,mined:bauen,Bauen,154,4674,0.0329,0.0282,0.0385
+other,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,153,4674,0.0327,0.028,0.0382
+other,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,153,4674,0.0327,0.028,0.0382
+other,mined:sorgfalt,Sorgfalt,150,4674,0.0321,0.0274,0.0375
+other,mined:kreativität,Kreativität,150,4674,0.0321,0.0274,0.0375
+other,mined:excel,Excel,149,4674,0.0319,0.0272,0.0373
+other,mined:belastbarkeit,Belastbarkeit,146,4674,0.0312,0.0266,0.0366
+other,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,145,4674,0.031,0.0264,0.0364
+other,mined:kundenorientierung,Kundenorientierung,138,4674,0.0295,0.025,0.0348
+rhine_main,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,88,184,0.4783,0.4073,0.5501
+rhine_main,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,81,184,0.4402,0.3704,0.5124
+rhine_main,mined:teamfähigkeit,Teamfähigkeit,25,184,0.1359,0.0938,0.1929
+rhine_main,mined:weihnachtsgeld,Weihnachtsgeld,23,184,0.125,0.0848,0.1806
+rhine_main,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,22,184,0.1196,0.0803,0.1744
+rhine_main,mined:kommunikationsstärke,Kommunikationsstärke,21,184,0.1141,0.0759,0.1682
+rhine_main,mined:zuverlässigkeit,Zuverlässigkeit,17,184,0.0924,0.0585,0.143
+rhine_main,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,14,184,0.0761,0.0459,0.1237
+rhine_main,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),13,184,0.0707,0.0418,0.1171
+rhine_main,mined:flexibilität,Flexibilität,12,184,0.0652,0.0377,0.1105
+rhine_main,mined:persönliche betreuung,Persönliche Betreuung,11,184,0.0598,0.0337,0.1039
+rhine_main,mined:administration,Administration,11,184,0.0598,0.0337,0.1039
+rhine_main,mined:technisches verständnis,Technisches Verständnis,11,184,0.0598,0.0337,0.1039
+rhine_main,mined:selbstständige,Selbstständige,11,184,0.0598,0.0337,0.1039
+rhine_main,mined:eigeninitiative,Eigeninitiative,10,184,0.0543,0.0298,0.0971
+rhine_main,mined:abgeschlossene kaufmännische ausbildung,Abgeschlossene kaufmännische Ausbildung,10,184,0.0543,0.0298,0.0971
+rhine_main,mined:urlaubsgeld,Urlaubsgeld,10,184,0.0543,0.0298,0.0971
+rhine_main,mined:excel,Excel,10,184,0.0543,0.0298,0.0971
+rhine_main,mined:projektmanagement,Projektmanagement,10,184,0.0543,0.0298,0.0971
+rhine_main,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,10,184,0.0543,0.0298,0.0971
+rhine_main,mined:linkedin,LinkedIn,9,184,0.0489,0.0259,0.0903
+rhine_main,http://data.europa.eu/esco/skill/d88cb3f1-8e02-4618-bf32-4b0488066934,Mechatronik,9,184,0.0489,0.0259,0.0903
+rhine_main,mined:patienten,Patienten,9,184,0.0489,0.0259,0.0903
+rhine_main,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,8,184,0.0435,0.0222,0.0834
+rhine_main,mined:social media,Social Media,8,184,0.0435,0.0222,0.0834
+rhine_main,mined:flexible arbeitszeiten,Flexible Arbeitszeiten,8,184,0.0435,0.0222,0.0834
+rhine_main,mined:engagement,Engagement,8,184,0.0435,0.0222,0.0834
+rhine_main,http://data.europa.eu/esco/skill/b483124c-180c-4d3a-8b7c-72e4e7a5b49b,Migration,7,184,0.038,0.0185,0.0764
+rhine_main,mined:sicherer arbeitsplatz,Sicherer Arbeitsplatz,7,184,0.038,0.0185,0.0764
+rhine_main,mined:kundenorientierung,Kundenorientierung,7,184,0.038,0.0185,0.0764
+rhine_neckar,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,43,76,0.5658,0.4539,0.6714
+rhine_neckar,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,18,76,0.2368,0.1554,0.3436
+rhine_neckar,mined:teamfähigkeit,Teamfähigkeit,12,76,0.1579,0.0927,0.256
+rhine_neckar,mined:excel,Excel,9,76,0.1184,0.0636,0.21
+rhine_neckar,mined:kommunikationsstärke,Kommunikationsstärke,9,76,0.1184,0.0636,0.21
+rhine_neckar,http://data.europa.eu/esco/skill/d88cb3f1-8e02-4618-bf32-4b0488066934,Mechatronik,8,76,0.1053,0.0543,0.1942
+rhine_neckar,mined:selbstständige,Selbstständige,8,76,0.1053,0.0543,0.1942
+rhine_neckar,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,6,76,0.0789,0.0367,0.1617
+rhine_neckar,mined:sap,SAP,6,76,0.0789,0.0367,0.1617
+rhine_neckar,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),6,76,0.0789,0.0367,0.1617
+rhine_neckar,http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce,Chemie,5,76,0.0658,0.0284,0.1449
+rhine_neckar,mined:projektmanagement,Projektmanagement,5,76,0.0658,0.0284,0.1449
+rhine_neckar,mined:know-how,Know-How,5,76,0.0658,0.0284,0.1449

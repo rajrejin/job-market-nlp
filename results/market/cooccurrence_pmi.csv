@@ -1,0 +1,2498 @@
+skill_a,skill_b,co_postings,pmi
+Geriatrie,Gefäßchirurgie,8,8.777
+Gastroenterologie,Geriatrie,8,8.777
+Gastroenterologie,Gefäßchirurgie,8,8.625
+Kreditberatung,Telesales,8,8.461
+Chirurgie,Gefäßchirurgie,10,8.362
+Chirurgie,Geriatrie,8,8.192
+Grafana,Prometheus,11,8.121
+Gastroenterologie,Chirurgie,8,8.04
+Illustrator,InDesign,12,7.876
+Schweißverfahren,MIG,8,7.868
+DHCP,DNS,12,7.831
+Geriatrie,Kardiologie,8,7.575
+Hydraulik,Pneumatik,11,7.471
+Chirurgie,Kardiologie,12,7.423
+Gefäßchirurgie,Kardiologie,8,7.423
+Gastroenterologie,Kardiologie,8,7.423
+InDesign,Photoshop,11,7.336
+Illustrator,Photoshop,19,7.317
+Django,FastAPI,9,7.309
+CSS,HTML,19,7.229
+Auftragsabwicklung,Vertriebsinnendienst,8,7.224
+Playwright,Testautomatisierung,8,7.114
+Ergebnisorientierung,Zielstrebigkeit,25,7.113
+iOS,Android (mobile Betriebssysteme),14,7.099
+ISMS,ISO 27001,9,7.072
+Typografie,Illustrator,8,7.069
+Freizeitaktivitäten,Betten machen,12,7.04
+Drehen,Fräsen,18,7.04
+Routing,Switching,10,6.976
+ML (Computerprogrammierung),ML models,8,6.929
+Kanban,Scrum,15,6.918
+Schweißverfahren,WIG,12,6.868
+Cursor,GitHub Copilot,8,6.859
+Verhaltensauffälligkeiten,Gruppen,27,6.842
+Typografie,Photoshop,9,6.824
+n8n,Zapier,12,6.809
+Android (mobile Betriebssysteme),Kotlin,8,6.777
+ISO 27001,NIS2,11,6.777
+Grundieren,Reinigen,9,6.773
+MIG,WIG,11,6.742
+Claude Code,Codex,8,6.737
+Bash,Scripting,8,6.722
+Verhaltensauffälligkeiten,Pädagogik,24,6.639
+Google Ads,Shopping,11,6.635
+HOAI,VOB,11,6.635
+MAG,WIG,27,6.609
+MAG,MIG,9,6.609
+Schweißverfahren,MAG,9,6.609
+CAC,ROAS,8,6.603
+ROAS,Shopping,8,6.603
+Firewalls,VPN,12,6.577
+Ernährung,Abitur,17,6.568
+GA4,SEA,8,6.514
+Informationssicherheit,ISO 27001,11,6.514
+Suchmaschinenoptimierung,SEO,8,6.514
+CTR,ROAS,8,6.504
+Confluence,JIRA,18,6.455
+Geriatrie,Intensivmedizin,8,6.455
+Kunden beraten,Mode,9,6.394
+Meta,Pinterest,8,6.383
+Jahresabschluss,IFRS,8,6.374
+Claude Code,Cursor,21,6.364
+Exchange Online,Microsoft 365,8,6.332
+Gefäßchirurgie,Intensivmedizin,8,6.303
+Gastroenterologie,Intensivmedizin,8,6.303
+ServiceNow,Ticketsystemen,8,6.291
+ChatGPT,Claude,24,6.285
+Claude,Gemini,10,6.275
+Java (Computerprogrammierung),Spring Boot,18,6.269
+Machine Learning,PyTorch,14,6.257
+Angular,Spring Boot,10,6.251
+Firewalls,Virtualisierung,11,6.25
+Facebook,Instagram,23,6.23
+Suchmaschinen,SEO,8,6.224
+Canva,Grafiken,10,6.218
+Entra ID,PowerShell,9,6.214
+Grafikdesign,Photoshop,8,6.213
+Conversion Rate,ROAS,10,6.209
+Clay,Hubspot,8,6.192
+Chirurgie,Intensivmedizin,11,6.177
+Bauleitung,VOB,8,6.176
+Hohes Verantwortungsbewusstsein,Urlaubsplanung,8,6.176
+ML (Computerprogrammierung),PyTorch,11,6.166
+Fachinformatiker Systemintegration,IT-Support,8,6.165
+Meta,Paid Social,10,6.164
+Online-Marketing,SEA,9,6.16
+HGB,IFRS,11,6.149
+Instagram,Shorts,8,6.121
+Adobe Creative Cloud,Figma,8,6.114
+Grundieren,Schleifen,11,6.113
+Professionelles Auftreten,Zielorientierung,35,6.076
+Canva,Content Creation,8,6.076
+Display,Google Ads,8,6.076
+Urlaubsplanung,Work-Life-Balance,23,6.047
+Java (Computerprogrammierung),Spring,12,6.046
+C1-C2,Verhandlungssicher,45,6.046
+Entra ID,Microsoft 365,15,6.037
+Google Ads,SEA,14,6.036
+Abgeschlossene kaufmännische Ausbildung,Kreditberatung,8,6.002
+DNS,Firewalls,8,5.992
+GA4,Google Ads,8,5.983
+Pädagogik,Gruppen,24,5.968
+Anlagenbau,Projektabwicklung,13,5.955
+Grafikdesign,Figma,9,5.943
+Google Ads,ROAS,14,5.933
+Facebook,YouTube,8,5.929
+SEA,SEO,16,5.929
+Microsoft 365,SharePoint,9,5.917
+Elektrotechnik,Sensoren,12,5.917
+Führungszeugnis,Zielorientierung,34,5.905
+Infrastructure as Code,Terraform,25,5.9
+PostgreSQL,Django,10,5.9
+Ernährung,ZVK,13,5.876
+Prometheus,Terraform,9,5.855
+Außendienst,Zielorientierung,35,5.847
+Ansible,Terraform,15,5.833
+Verhaltensauffälligkeiten,Langjährige Erfahrung,24,5.832
+Mac,Windows,9,5.829
+Canva,CapCut,12,5.813
+Kardiologie,Intensivmedizin,13,5.802
+PostgreSQL,MongoDB,8,5.801
+Grafana,Terraform,10,5.801
+Kameras,CapCut,10,5.791
+Pädagogik,Langjährige Erfahrung,38,5.79
+Instagram,YouTube,19,5.784
+Next.js,React,24,5.778
+Einen unbefristeten Arbeitsvertrag,Weiterbildungsangebote,10,5.729
+verteilte Verzeichnisinformationsdienste,Entra ID,12,5.715
+Raumfahrttechnik,Aerospace,8,5.706
+Politik,Weiterbildungsangebote,11,5.686
+Google Analytics,SEO,9,5.684
+Eigenverantwortliches Arbeiten,Organisationsgeschick,17,5.677
+Rechnungswesen,Wirtschaftsprüfung,9,5.674
+Getränke,ZVK,36,5.654
+Microsoft 365,Windows Server,9,5.654
+Conversion Rate,Meta,10,5.641
+Linux,Ubuntu,8,5.623
+Reinigen,Schleifen,16,5.603
+Data Science,Machine Learning,16,5.594
+Engagierte,Kreditberatung,8,5.582
+ML (Computerprogrammierung),Machine Learning,15,5.579
+verteilte Verzeichnisinformationsdienste,Exchange,9,5.576
+Professionelles Auftreten,Smartphones,8,5.568
+Mathematik,Physik,16,5.561
+Content Creation,Instagram,9,5.554
+verteilte Verzeichnisinformationsdienste,PowerShell,12,5.538
+CapCut,Instagram,16,5.536
+Führungszeugnis,Professionelles Auftreten,42,5.532
+Java (Computerprogrammierung),Kotlin,12,5.532
+CAC,Performance Marketing,8,5.53
+DevOps,Infrastructure as Code,14,5.52
+Aerospace,Automotive,11,5.514
+Bash,Linux,14,5.513
+Firewalls,Routing,8,5.507
+Kreditberatung,Verkauf,8,5.5
+Abitur,ZVK,13,5.489
+verteilte Verzeichnisinformationsdienste,Windows Server,8,5.484
+Mitarbeiterrabatte,Urlaubsgeld,33,5.478
+Fachinformatiker Systemintegration,Windows,14,5.467
+Controlling,Unternehmenssteuerung,10,5.466
+Meta,ROAS,11,5.444
+Führungszeugnis,Smartphones,8,5.439
+GitHub Actions,Infrastructure as Code,8,5.439
+TypeScript,Frontend-Entwicklung,8,5.436
+Jahresabschluss,HGB,11,5.429
+JavaScript,CSS,12,5.428
+JavaScript,HTML,12,5.428
+Kleinbusse,PKW,10,5.423
+Sensoren,Robotik,17,5.419
+Microsoft 365,PowerShell,11,5.413
+Conversion Rate,Performance Marketing,12,5.399
+Canva,Instagram,21,5.398
+Canva,Facebook,8,5.398
+Bohren,Schleifen,11,5.397
+MySQL,PostgreSQL,9,5.386
+PostgreSQL,FastAPI,10,5.386
+Ansible,DevOps,8,5.383
+Figma,Photoshop,9,5.383
+FastAPI,React,14,5.379
+Abgeschlossene kaufmännische Ausbildung,Telesales,9,5.364
+Digital Marketing,SEO,8,5.362
+Paid Social,Performance Marketing,8,5.338
+verteilte Verzeichnisinformationsdienste,IT-Support,10,5.332
+Lager,Staplern,8,5.33
+IAM,Terraform,11,5.322
+Datev,Finanzbuchhaltung,16,5.32
+JavaScript,MySQL,8,5.317
+AWS,NestJS,9,5.314
+Postgres,React,10,5.309
+Verkauf,Zielorientierung,35,5.308
+Organisationsfähigkeit,Zielstrebigkeit,13,5.307
+Facebook,LinkedIn,13,5.297
+Sensoren,Aerospace,10,5.291
+Freizeitaktivitäten,Getränke,12,5.291
+Politik,Einen unbefristeten Arbeitsvertrag,8,5.274
+GitHub Actions,Terraform,12,5.27
+TypeScript,React Native,8,5.266
+Kameras,Sensoren,9,5.265
+Außendienst,Professionelles Auftreten,37,5.249
+Azure,GCP,23,5.245
+HGB,Rechnungswesen,20,5.241
+AWS,GCP,24,5.227
+Docker,Redis,9,5.222
+Elektronik,Mechanik,11,5.218
+Sensoren,C++,11,5.206
+CI/CD,Prometheus,9,5.199
+Personalwesen,Personaladministration,10,5.193
+Algorithmen,C++,9,5.188
+E-Commerce,Shopify,13,5.184
+TypeScript,NestJS,10,5.173
+verteilte Verzeichnisinformationsdienste,Ticketsystemen,10,5.168
+Online-Marketing,SEO,8,5.16
+Gruppen,Langjährige Erfahrung,24,5.16
+Docker,Prometheus,8,5.159
+Telesales,Verkauf,11,5.152
+BWL,VWL,10,5.144
+Elektriker,Höhentauglichkeit,8,5.144
+Google Ads,Meta,12,5.142
+Node.js,React,19,5.141
+PostgreSQL,REST APIs,8,5.138
+Sprachen sind ein,Verlässlichkeit,9,5.135
+Ergebnisorientierung,Organisationsfähigkeit,14,5.125
+CI/CD,Infrastructure as Code,23,5.124
+Personalwesen,Personio,8,5.119
+Elektrotechnik,Robotik,11,5.113
+Reflexion,Know-How,13,5.1
+AWS,Redis,9,5.092
+Gabelstaplern,Lager,9,5.085
+Azure,Cloud-Umgebungen,9,5.072
+Elektrotechnik,C++,8,5.069
+Performance Marketing,ROAS,12,5.065
+SAP,SAP S/4HANA,14,5.054
+Statistik,Data Science,11,5.054
+Google Ads,Performance Marketing,16,5.052
+DevOps,Terraform,17,5.047
+Administration,Benutzerverwaltung,9,5.037
+Datev,Rechnungswesen,20,5.032
+Airflow,CI/CD,8,5.029
+Professionelles Auftreten,Verkauf,46,5.024
+Mathematik,Data Science,11,5.021
+TypeScript,Node.js,24,5.021
+Patienten,Urlaubsplanung,20,5.02
+Gabelstaplerschein,Lager,10,5.015
+Docker,Spring Boot,10,5.011
+Java (Computerprogrammierung),Angular,15,5.006
+Intensivmedizin,Langjährige Erfahrung,25,5.002
+GCP,Terraform,13,4.999
+Meta,Performance Marketing,17,4.999
+Außendienst,Führungszeugnis,34,4.998
+Controlling,Wirtschaftsprüfung,9,4.992
+Robotik,Aerospace,13,4.992
+CI/CD,Grafana,9,4.992
+TypeScript,Postgres,11,4.988
+Fräsen,Schleifen,9,4.987
+Datev,HGB,15,4.983
+TypeScript,Next.js,19,4.983
+Ernährung,Einsatzbereitschaft,17,4.969
+Notebooks,Windows,9,4.967
+Engagierte,Telesales,9,4.945
+Mode,Work-Life-Balance,9,4.935
+IT-Support,Windows,11,4.934
+Getränke,Betten machen,13,4.933
+Claude,n8n,10,4.931
+Schaltpläne,Elektriker,18,4.93
+ABAP,SAP,8,4.924
+TypeScript,React,58,4.919
+Ansible,Linux,12,4.918
+Arbeitsrecht,Personalwesen,10,4.917
+AWS,Azure,50,4.914
+Canva,Figma,9,4.905
+Datenbankmanagementsysteme,Tableau,13,4.904
+iOS,Windows,12,4.896
+CI/CD,GCP,19,4.89
+Aerospace,Simulation,8,4.889
+Claude,Cursor,10,4.888
+Kundenorientierung,Zielorientierung,35,4.886
+PowerShell,Windows,11,4.878
+Excel,Google Sheets,12,4.876
+Statistik,Machine Learning,11,4.875
+verteilte Verzeichnisinformationsdienste,Firewalls,9,4.87
+Ansible,Docker,11,4.859
+PostgreSQL,GitHub Actions,9,4.855
+Instagram,LinkedIn,25,4.848
+CI/CD,Terraform,32,4.847
+PostgreSQL,Node.js,11,4.845
+Mathematik,Machine Learning,11,4.842
+Elektronik,Mechatronik,16,4.841
+Robotik,Simulation,12,4.837
+ERP-Systemen,Rechnungswesen,13,4.826
+Kunden beraten,Work-Life-Balance,9,4.809
+Excel,Word,20,4.806
+PostgreSQL,Oracle,8,4.801
+AWS,Terraform,31,4.801
+Smartphones,Verkauf,8,4.8
+Flurförderfahrzeugen,Lager,8,4.8
+C++,Debugging,8,4.789
+Datenbankmanagementsysteme,BigQuery,8,4.789
+MM,SAP,8,4.787
+Kardiologie,Patienten,15,4.782
+C1-C2,Organisationsfähigkeit,16,4.777
+TypeScript,Playwright,12,4.773
+Führungszeugnis,Verkauf,42,4.763
+Ernährung,Getränke,12,4.761
+Performance Marketing,SEA,9,4.753
+Azure,Entra ID,11,4.745
+verteilte Verzeichnisinformationsdienste,Microsoft 365,13,4.74
+MySQL,AWS,9,4.729
+AWS,GitHub Actions,13,4.729
+MySQL,React,8,4.724
+Linux,VMWare,10,4.722
+Influencer Marketing,Social Media,17,4.712
+TypeScript,FastAPI,12,4.699
+Finanzbuchhaltung,HGB,9,4.699
+DevOps,CI/CD,21,4.695
+MySQL,Docker,8,4.689
+PostgreSQL,Next.js,8,4.685
+Content Creation,Social Media,10,4.684
+Conversion Rate,E-Commerce,10,4.675
+verteilte Verzeichnisinformationsdienste,Windows,18,4.674
+Datenbankmanagementsysteme,Airflow,8,4.673
+Geduld,Sport,38,4.671
+C++,Simulation,8,4.667
+Abitur,Einsatzbereitschaft,18,4.665
+TypeScript,Angular,21,4.658
+C++,Robotik,12,4.654
+Verhaltensauffälligkeiten,Entwicklungsmöglichkeiten,24,4.647
+DNS,Linux,9,4.641
+Softwareentwicklung,Spring Boot,8,4.639
+AWS,Node.js,15,4.636
+Angular,React,15,4.63
+Azure,Terraform,26,4.627
+Schweißverfahren,technische Zeichnungen,8,4.626
+Geduld,Selbstständigkeit,30,4.621
+JavaScript,TypeScript,31,4.608
+Pädagogik,Entwicklungsmöglichkeiten,38,4.606
+CI/CD,CI/CD-Pipelines,11,4.604
+Mitarbeiterrabatte,Weiterbildungsmöglichkeiten,22,4.603
+Genauigkeit,Sorgfalt,84,4.599
+Canva,LinkedIn,13,4.596
+Angular,Docker,15,4.596
+LinkedIn,YouTube,9,4.596
+Hohe Einsatzbereitschaft,Verlässlichkeit,12,4.596
+Virtualisierung,Windows,8,4.595
+Physik,Statistik,8,4.594
+Cloud-Technologien,DevOps,8,4.594
+Figma,Meta,8,4.594
+Außendienst,Verkauf,40,4.593
+Sport,Sprachen sind ein,9,4.593
+Weiterbildungsangebote,Work-Life-Balance,10,4.592
+Kameras,Robotik,9,4.587
+Account Management,Customer Success,11,4.573
+Kameras,Instagram,10,4.569
+Sozialpädagogik,Sport,11,4.561
+Docker,Terraform,24,4.561
+PostgreSQL,Docker,24,4.561
+Flache Hierarchien,Flexible Arbeitszeiten,12,4.559
+Mathematik,Statistik,9,4.553
+Migration,PowerShell,8,4.546
+Personalmanagement,Personalwesen,8,4.534
+Entwicklungsmöglichkeiten,Langjährige Erfahrung,63,4.528
+Finanzbereich,Flexible Arbeitszeiten,10,4.528
+DevOps,Docker,17,4.52
+Führungszeugnis,Hohe Einsatzbereitschaft,10,4.507
+AWS,Infrastructure as Code,15,4.507
+CI/CD,Data Engineering,9,4.507
+Datenbank,DevOps,11,4.494
+Chirurgie,Patienten,8,4.491
+CI/CD,GitHub Actions,11,4.488
+JavaScript,Node.js,8,4.487
+Finanzbuchhaltung,Rechnungswesen,10,4.485
+Kundenbeziehungsmanagement,RevOps,10,4.481
+Docker,GitHub Actions,10,4.481
+E-Commerce,ROAS,11,4.478
+Docker,GCP,13,4.472
+Mitarbeiterrabatte,Smartphone,8,4.456
+Flurförderzeugen,Lager,13,4.446
+CI/CD-Pipelines,Docker,9,4.444
+Canva,Social Media,22,4.443
+Buchhaltung,Rechnungswesen,17,4.432
+Azure,PowerShell,10,4.431
+Debugging,Reliability,11,4.431
+Datenschutz,C1-C2,31,4.428
+Urlaubsplanung,Weihnachtsgeld,23,4.426
+Selbstständigkeit,Sport,47,4.423
+Führerschein Klasse B,Zielorientierung,35,4.418
+Buchhaltung,Datev,15,4.409
+Access Management,CI/CD,8,4.407
+AWS,FastAPI,8,4.407
+Google Ads,SEO,8,4.398
+Customer Success,Retention,9,4.396
+Controlling,Rechnungswesen,23,4.395
+Java (Computerprogrammierung),JavaScript,15,4.394
+Cursor,React,12,4.391
+PostgreSQL,Angular,9,4.386
+Excel,PowerPoint,27,4.383
+CI/CD,IAM,9,4.376
+Azure,Microsoft Azure,10,4.376
+Getränke,Abitur,12,4.374
+Robotik,Debugging,8,4.374
+Betten machen,Engagement,25,4.374
+Python (Computerprogrammierung),Django,14,4.368
+Python (Computerprogrammierung),FastAPI,20,4.368
+CI/CD,Docker,33,4.364
+Robotik,Machine Learning,10,4.357
+Schaltpläne,Körperliche Belastbarkeit,8,4.356
+Grafiken,Social Media,9,4.351
+Urlaubsgeld,Weiterbildungsmöglichkeiten,20,4.346
+Prototyp für User-Experience-Lösung erstellen,Prototyping,10,4.343
+Sport,Weihnachtsgeld,96,4.343
+Prototyp für User-Experience-Lösung erstellen,Figma,10,4.343
+Handeln,Urlaubsplanung,8,4.339
+AWS,Data Engineering,8,4.337
+CapCut,Social Media,14,4.321
+Belastbarkeit,Urlaubsplanung,16,4.32
+Datenschutz,Zielstrebigkeit,16,4.304
+DevOps,AWS,16,4.303
+Datenbankmanagementsysteme,Power BI,10,4.303
+Kundenorientierung,Professionelles Auftreten,37,4.288
+Linux,Windows,25,4.287
+Datenbank,PostgreSQL,13,4.279
+Elektriker,Körperliche Belastbarkeit,10,4.279
+Einsatzbereitschaft,ZVK,17,4.277
+Buchhaltung,Finanzbuchhaltung,10,4.276
+Mechatronik,Automatisierungstechnik,8,4.274
+Festanstellung,Finanzbereich,10,4.272
+Prototyp für User-Experience-Lösung erstellen,Angular,9,4.269
+IAM,Linux,8,4.269
+MySQL,TypeScript,8,4.266
+Azure,Infrastructure as Code,12,4.265
+Cloud-Technologien,Azure,13,4.262
+PostgreSQL,React,19,4.259
+PostgreSQL,Datenbanken,16,4.257
+Administration,VMWare,10,4.256
+Administration,Notes,9,4.248
+Geduld,Weihnachtsgeld,50,4.247
+Instagram,Social Media,31,4.245
+C1-C2,Genauigkeit,21,4.243
+AWS,CI/CD,33,4.235
+Organisationsfähigkeit,Verhandlungssicher,16,4.232
+Azure,CI/CD-Pipelines,8,4.224
+Mitarbeiterrabatte,Unbefristeter Arbeitsvertrag,14,4.218
+ML (Computerprogrammierung),Reliability,10,4.211
+Linux,Oracle,8,4.208
+Datenbanken,Softwareentwicklung,23,4.203
+JavaScript,React,17,4.2
+Python (Computerprogrammierung),Data Engineer,8,4.198
+Unbefristeter Arbeitsvertrag,Urlaubsgeld,15,4.198
+Payment,React,8,4.193
+DevOps,Azure,14,4.19
+Docker,Infrastructure as Code,11,4.189
+Elektroniker,Industrieelektriker,8,4.184
+Persönliche Betreuung,Urlaubsgeld,16,4.183
+Java (Computerprogrammierung),GCP,8,4.181
+Gültiger Staplerschein,Lager,10,4.178
+serviceorientierte Modellierung,Ökosysteme,13,4.175
+Intensivmedizin,Entwicklungsmöglichkeiten,32,4.173
+Unbefristeter Arbeitsvertrag,Weiterbildungsmöglichkeiten,18,4.172
+Know-How,Start-ups,10,4.165
+Backwaren,Weihnachtsgeld,11,4.156
+Datenschutz,Organisationsfähigkeit,32,4.152
+Python (Computerprogrammierung),PyTorch,18,4.145
+Handwerkliches Geschick,Körperliche Belastbarkeit,20,4.145
+Facebook,Social Media,11,4.143
+TypeScript,PostgreSQL,24,4.138
+Schaltpläne,Elektroniker,28,4.138
+Cloud-Technologien,Terraform,8,4.138
+Energie,Sprachen sind ein,9,4.135
+Python (Computerprogrammierung),Airflow,11,4.127
+E-Commerce,SEA,8,4.121
+Führungszeugnis,Kundenorientierung,36,4.119
+TypeScript,MCP,10,4.114
+TypeScript,Kotlin,8,4.114
+MATLAB,Python (Computerprogrammierung),10,4.105
+Elektriker,Elektroniker,36,4.101
+Azure,Microsoft 365,15,4.101
+Infrastructure as Code,Reliability,9,4.1
+PostgreSQL,AWS,19,4.095
+Durchsetzungsvermögen,Sicheres Auftreten,22,4.09
+Docker,Linux,26,4.084
+Ästhetik,Social Media,11,4.084
+Intensivmedizin,Patienten,20,4.076
+AWS,Docker,27,4.075
+Sport,Verlässlichkeit,31,4.073
+Intensivmedizin,Schichtbereitschaft,12,4.06
+TypeScript,GitHub Actions,10,4.057
+Ansible,Automatisierung,10,4.054
+GitHub,Softwareentwicklung,8,4.054
+Projektleitung,Anlagenbau,12,4.051
+TypeScript,Cursor,13,4.049
+Lager,Verpacken,19,4.048
+Python (Computerprogrammierung),RAG,16,4.046
+Verhaltensauffälligkeiten,Abgeschlossene Berufsausbildung,27,4.04
+Docker,Node.js,9,4.029
+Führerschein Klasse B,ServiceNow,12,4.025
+Azure,CI/CD,27,4.025
+Kundenorientierung,Zielstrebigkeit,13,4.024
+Java (Computerprogrammierung),Cloud-Technologien,8,4.021
+Medizin,Patienten,10,4.02
+Außendienst,Kundenorientierung,36,4.02
+Datenschutz,Ergebnisorientierung,16,4.015
+Claude Code,React,10,4.006
+technische Zeichnungen,MAG,14,4.004
+Sicherheitstechnik,Elektroniker,13,4.0
+Patienten,Work-Life-Balance,25,3.998
+Engagierte,Persönliche Betreuung,23,3.997
+Betten machen,Verantwortungsbewusstsein,25,3.988
+Linux,Routing,8,3.985
+Datenbankmanagementsysteme,Data Engineering,8,3.981
+Logik,Reliability,9,3.981
+Java (Computerprogrammierung),Softwareentwicklung,18,3.979
+C1-C2,Sorgfalt,23,3.978
+Lager,Sie sind bereit,8,3.977
+Entwicklungsmöglichkeiten,Gruppen,24,3.976
+Administration,Entra ID,9,3.972
+Java (Computerprogrammierung),PostgreSQL,12,3.971
+serviceorientierte Modellierung,Account Management,9,3.967
+Attraktive Vergütung,Weiterbildungsangebote,10,3.964
+TypeScript,CSS,9,3.962
+Angular,Softwareentwicklung,10,3.961
+Haustechnik,Kundenbetreuung,9,3.956
+ML (Computerprogrammierung),Python (Computerprogrammierung),27,3.953
+Automatisierung,PowerShell,11,3.951
+technische Zeichnungen,WIG,15,3.948
+Digital Marketing,Social Media,8,3.947
+Cloud-Technologien,AWS,11,3.941
+Controlling,HGB,13,3.938
+technische Zeichnungen,CNC-Maschinen,8,3.934
+TypeScript,Claude Code,13,3.927
+Vermögenswirksame Leistungen,Weihnachtsgeld,18,3.915
+E-Commerce,Google Ads,10,3.913
+serviceorientierte Modellierung,Forecasting,8,3.909
+TypeScript,Payment,9,3.905
+TypeScript,Guardrails,10,3.9
+Datenbank,Terraform,10,3.9
+CI/CD,Node.js,9,3.899
+Python (Computerprogrammierung),Machine Learning,31,3.896
+Prototyp für User-Experience-Lösung erstellen,TypeScript,22,3.895
+LLMs,React,10,3.894
+Berufseinsteiger,Genauigkeit,23,3.893
+Aerospace,Reliability,8,3.889
+Energie,Energietechnik,9,3.887
+Verhaltensauffälligkeiten,Kommunikationsstärke,27,3.885
+Organisationsgeschick,Patienten,14,3.884
+Datenbankmanagementsysteme,Datenmodelle,16,3.882
+Verantwortungsbewusstsein,ZVK,39,3.881
+Spaziergänge,Verantwortungsbewusstsein,13,3.881
+Buchhaltung,HGB,9,3.881
+ML (Computerprogrammierung),CI/CD,10,3.881
+Reliability,Terraform,13,3.877
+Illustrator,Social Media,8,3.876
+serviceorientierte Modellierung,Customer Success,12,3.871
+Automatisierung,DNS,8,3.87
+Schaltpläne,PKW,16,3.868
+Cloud-Technologien,Linux,10,3.867
+C++,Linux,11,3.86
+Persönliche Betreuung,Unbefristeter Arbeitsvertrag,13,3.86
+Azure,Docker,22,3.859
+Hubspot,LinkedIn,9,3.859
+Geduld,Kreativität,30,3.854
+technische Zeichnungen,Fräsen,9,3.852
+TypeScript,CI/CD-Pipelines,8,3.851
+CI/CD,Claude Code,10,3.842
+Attraktive Vergütung,Zielstrebigkeit,8,3.841
+Firewalls,Linux,8,3.839
+Automatisierung,Entra ID,9,3.838
+Python (Computerprogrammierung),Rust,9,3.837
+Datenschutz,Verhandlungssicher,30,3.837
+Datenbank,Reliability,12,3.837
+Social Media,YouTube,10,3.836
+Administration,Netzwerke,11,3.831
+technische Zeichnungen,Metallbearbeitung,11,3.831
+Microsoft 365,Windows,10,3.826
+Python (Computerprogrammierung),Data Science,26,3.82
+Kreativität,Selbstständigkeit,43,3.818
+Politik,Einsatzbereitschaft,10,3.817
+Java (Computerprogrammierung),AWS,17,3.817
+AWS,React,22,3.814
+CI/CD,Cursor,9,3.812
+Digitalisierung,Rechnungswesen,14,3.809
+Docker,React,20,3.806
+Genauigkeit,Hohe Einsatzbereitschaft,10,3.803
+Migration,Microsoft 365,9,3.801
+Einsatzbereitschaft,Weiterbildungsangebote,9,3.798
+Engagierte,Weiterbildungsangebote,9,3.798
+Administration,PowerShell,9,3.796
+Festanstellung,Flexible Arbeitszeiten,29,3.793
+Freizeitaktivitäten,Engagement,12,3.789
+Mechatronik,Robotik,8,3.789
+Berufseinsteiger,C1-C2,9,3.787
+Datenbank,React,13,3.787
+Führerschein Klasse B,Professionelles Auftreten,36,3.78
+JavaScript,PostgreSQL,9,3.774
+Sprachen sind ein,Weihnachtsgeld,9,3.773
+Kundenbeziehungsmanagement,B2B SaaS,10,3.761
+Mitarbeiterrabatte,Persönliche Betreuung,11,3.761
+E-Commerce,Performance Marketing,14,3.753
+Selbstständigkeit,Weihnachtsgeld,52,3.749
+Kreativität,Sport,50,3.745
+Datev,Digitalisierung,12,3.744
+Sozialpädagogik,Weihnachtsgeld,11,3.741
+Eigenverantwortliches Arbeiten,Patienten,13,3.741
+Ergebnisorientierung,Kundenorientierung,13,3.735
+Kommunikationsstärke,Zielorientierung,36,3.733
+Azure,Data Science,9,3.731
+Account Management,Business Development,8,3.718
+Datenbank,TypeScript,17,3.716
+Administration,Microsoft 365,16,3.711
+TypeScript,AWS,28,3.704
+Genauigkeit,Verhandlungssicher,21,3.699
+Kundenorientierung,Organisationsfähigkeit,23,3.695
+Excel,Outlook,11,3.692
+DevOps,Linux,10,3.688
+Kameras,Social Media,11,3.684
+Instagram,Performance Marketing,10,3.682
+Genauigkeit,Zielstrebigkeit,8,3.681
+Einen unbefristeten Arbeitsvertrag,Einsatzbereitschaft,8,3.675
+Engagement,Smartphones,8,3.673
+PostgreSQL,Terraform,9,3.673
+TypeScript,Docker,25,3.67
+Energie,Haustechnik,11,3.669
+Automatisierung,Virtualisierung,8,3.668
+Python (Computerprogrammierung),Databricks,8,3.667
+Java (Computerprogrammierung),Docker,14,3.667
+Sozialpädagogik,Entwicklungsmöglichkeiten,9,3.665
+Infrastructure as Code,Linux,8,3.664
+Sensoren,Linux,8,3.664
+Kundenbeziehungsmanagement,Hubspot,15,3.661
+AWS,Data Science,9,3.651
+Elektrotechnik,Python (Computerprogrammierung),17,3.648
+Datenmodelle,Datenbanken,8,3.647
+Kommunikationsfähigkeit,Organisationsfähigkeit,25,3.639
+Elektriker,PKW,18,3.639
+C1-C2,Kommunikationsfähigkeit,20,3.639
+Datenbank,Docker,12,3.637
+DevOps,Reliability,8,3.633
+Migration,verteilte Verzeichnisinformationsdienste,8,3.631
+Inbetriebnahme,Lüftungsanlagen,12,3.631
+Belastbarkeit,Hohes Verantwortungsbewusstsein,8,3.628
+C++,Python (Computerprogrammierung),25,3.619
+Berufseinsteiger,Organisationsfähigkeit,10,3.617
+Java (Computerprogrammierung),Azure,14,3.616
+JavaScript,Softwareentwicklung,12,3.613
+Linux,Terraform,13,3.611
+Digitalisierung,Finanzbuchhaltung,8,3.611
+Cloud-Technologien,Docker,8,3.611
+Führerschein Klasse B,Notebooks,10,3.61
+CI/CD,Reliability,17,3.607
+Java (Computerprogrammierung),TypeScript,18,3.606
+Abgeschlossene kaufmännische Ausbildung,Rechnungswesen,11,3.603
+Python (Computerprogrammierung),GCP,20,3.602
+Sensoren,CI/CD,8,3.6
+Kundenorientierung,Verkauf,39,3.596
+Selbstständige Arbeitsweise,Sicheres Auftreten,20,3.593
+Außendienst,Führerschein Klasse B,37,3.591
+Beratung,Zielorientierung,36,3.581
+technische Zeichnungen,Drehen,8,3.571
+Buchhaltung,Controlling,15,3.57
+Führerschein Klasse B,Führungszeugnis,34,3.569
+Wartung und Reparatur,Elektroniker,20,3.563
+Python (Computerprogrammierung),Data Engineering,12,3.56
+Python (Computerprogrammierung),Programmiersprache,8,3.56
+Datenmodelle,CI/CD,10,3.559
+Angular,AWS,8,3.559
+Angular,CI/CD,8,3.559
+Java (Computerprogrammierung),Terraform,9,3.556
+Attraktive Vergütung,Ergebnisorientierung,8,3.552
+PostgreSQL,CI/CD,13,3.547
+Agenturen,Social Media,10,3.546
+Geriatrie,Flexibilität,8,3.544
+Verhaltensauffälligkeiten,Flexibilität,24,3.544
+JavaScript,Datenbanken,9,3.528
+Kundenbeziehungsmanagement,n8n,10,3.524
+AWS,Reliability,16,3.52
+verteilte Verzeichnisinformationsdienste,Administration,14,3.519
+Freizeitaktivitäten,Verantwortungsbewusstsein,13,3.518
+Logik,TypeScript,10,3.51
+Algorithmen,Python (Computerprogrammierung),16,3.51
+Genauigkeit,Leistungsbereitschaft,10,3.51
+Ernährung,Abgeschlossene Berufsausbildung,18,3.509
+Datenbank,AWS,12,3.507
+Führerschein Klasse B,Ticketsystemen,13,3.503
+Pädagogik,Flexibilität,38,3.502
+Begeisterungsfähigkeit,Kreativität,11,3.499
+Berufseinsteiger,Sorgfalt,23,3.497
+Kundenbeziehungsmanagement,Retention,11,3.496
+Sorgfalt,Verhandlungssicher,24,3.495
+Python (Computerprogrammierung),Scripting,12,3.493
+Controlling,Datev,11,3.488
+Sicherer Arbeitsplatz,Weihnachtsgeld,12,3.488
+Durchsetzungsvermögen,Selbstständige Arbeitsweise,21,3.483
+Prototyp für User-Experience-Lösung erstellen,React,12,3.478
+Kundendienst,Customer Success,9,3.476
+Handeln,Unternehmerisches Denken,12,3.475
+Geschäftsprozesse,Einkauf,9,3.474
+AWS,Machine Learning,9,3.473
+Kommunikationsstärke,Professionelles Auftreten,48,3.47
+Automatisierungstechnik,Elektroniker,15,3.47
+Durchsetzungsvermögen,Verhandlungsgeschick,8,3.467
+E-Commerce,Pricing,9,3.461
+E-Commerce,SEO,9,3.461
+Photoshop,Social Media,8,3.461
+Datenbankmanagementsysteme,GCP,9,3.456
+E-Commerce,Meta,8,3.45
+Python (Computerprogrammierung),Bash,9,3.45
+Claude,React,9,3.449
+CI/CD,React,17,3.442
+Energie,TGA,8,3.441
+Python (Computerprogrammierung),Terraform,31,3.439
+Kundenbeziehungsmanagement,Salesforce,8,3.439
+TypeScript,LLMs,10,3.436
+Datenschutz,Genauigkeit,37,3.436
+Schaltpläne,Handwerkliches Geschick,14,3.434
+Bauen,Mitarbeiterrabatte,20,3.429
+LinkedIn,Social Media,19,3.429
+Flexibilität,Langjährige Erfahrung,63,3.424
+Robotik,Reliability,9,3.422
+Führungszeugnis,Verlässlichkeit,12,3.42
+Python (Computerprogrammierung),GitHub,14,3.42
+C++,Softwareentwicklung,8,3.417
+BWL,Medien,9,3.407
+JavaScript,CI/CD,11,3.407
+Datenmodelle,AWS,9,3.407
+C1-C2,Kundenorientierung,15,3.401
+JavaScript,Docker,10,3.4
+Datenschutz,Leistungsbereitschaft,12,3.396
+Gastroenterologie,Flexibilität,8,3.392
+Gefäßchirurgie,Flexibilität,8,3.392
+Ergebnisorientierung,Genauigkeit,8,3.391
+Pädagogik,Abgeschlossene Berufsausbildung,28,3.388
+Körperliche Belastbarkeit,PKW,10,3.387
+PostgreSQL,Softwareentwicklung,11,3.386
+Prototyp für User-Experience-Lösung erstellen,PostgreSQL,8,3.386
+Kreditberatung,Zuverlässigkeit,8,3.383
+Bauen,Urlaubsgeld,21,3.38
+Beratung,Professionelles Auftreten,50,3.377
+Ernährung,Verantwortungsbewusstsein,17,3.375
+Datenbank,Datenbankmanagementsysteme,14,3.374
+Engagierte,Freundliches Auftreten,8,3.373
+Abgeschlossene Berufsausbildung,Gruppen,27,3.368
+Ansible,Python (Computerprogrammierung),11,3.368
+Python (Computerprogrammierung),Tableau,9,3.368
+Digitalisierung,HGB,8,3.367
+Datenmodelle,Docker,8,3.367
+verteilte Verzeichnisinformationsdienste,Azure,9,3.364
+PostgreSQL,Migration,8,3.364
+Marken,Figma,8,3.362
+Medien,Social Media,12,3.362
+Abitur,Verantwortungsbewusstsein,22,3.36
+Source (Videospielerstellungssysteme),Reliability,12,3.359
+Kommunikationsstärke,Smartphones,9,3.354
+Java (Computerprogrammierung),React,11,3.353
+Präzision,Sorgfalt,9,3.352
+Docker,Reliability,13,3.35
+Account Management,Consulting,8,3.347
+Beratung,Verhandlungsstärke,13,3.346
+Marken,Instagram,13,3.333
+Python (Computerprogrammierung),Infrastructure as Code,17,3.326
+Administration,Netzwerken,8,3.326
+Sensoren,Python (Computerprogrammierung),17,3.326
+Marken,Canva,8,3.325
+Fachinformatiker Systemintegration,Führerschein Klasse B,9,3.321
+Python (Computerprogrammierung),AWS,45,3.32
+Kommunikationsfähigkeit,Zielstrebigkeit,9,3.317
+Marken,Social Media,26,3.311
+Energie,Elektroniker,53,3.309
+Java (Computerprogrammierung),Datenbanken,9,3.309
+Robotik,Linux,10,3.307
+Docker,Softwareentwicklung,15,3.307
+Abgeschlossene kaufmännische Ausbildung,Datev,8,3.301
+Verlässlichkeit,Weihnachtsgeld,32,3.299
+Datenbankmanagementsysteme,Data Science,9,3.296
+Python (Computerprogrammierung),LLMs,19,3.294
+Datenbankmanagementsysteme,CI/CD,22,3.294
+PostgreSQL,Python (Computerprogrammierung),28,3.292
+Inbetriebnahme,Wärmepumpen,9,3.29
+Python (Computerprogrammierung),REST APIs,9,3.29
+TypeScript,CI/CD,21,3.289
+JavaScript,Python (Computerprogrammierung),26,3.287
+Sorgfalt,Zielstrebigkeit,8,3.285
+Pädagogik,Kommunikationsstärke,29,3.283
+Handwerkliches Geschick,Schleifen,15,3.281
+Python (Computerprogrammierung),Semantik,8,3.28
+Attraktive Vergütung,Organisationsfähigkeit,12,3.274
+Handwerkliches Geschick,Messmitteln,8,3.274
+Geschäftsprozesse,Digitalisierung,9,3.274
+JavaScript,AWS,10,3.27
+Statistik,Datenbankmanagementsysteme,10,3.269
+Gruppen,Kommunikationsstärke,28,3.266
+TypeScript,Datenmodelle,10,3.266
+Energie,HOAI,8,3.264
+Belastbarkeit,Sport,34,3.263
+Hohe Einsatzbereitschaft,Sorgfalt,9,3.255
+Datenbankmanagementsysteme,Python (Computerprogrammierung),55,3.254
+Python (Computerprogrammierung),GitHub Actions,12,3.252
+Reliability,Scope,9,3.252
+LinkedIn,Performance Marketing,8,3.25
+PostgreSQL,Azure,10,3.248
+Gültiger Führerschein,Selbstständige,8,3.248
+Business Development,Consulting,14,3.247
+Python (Computerprogrammierung),Simulation,17,3.246
+Python (Computerprogrammierung),Reliability,34,3.246
+Datenbank,CI/CD,10,3.244
+Datenbankmanagementsysteme,Datenbanken,16,3.244
+Berufseinsteiger,Verhandlungssicher,9,3.243
+Datenschutz,Berufseinsteiger,19,3.241
+Getränke,Verantwortungsbewusstsein,50,3.239
+PostgreSQL,Linux,10,3.232
+Elektriker,Handwerkliches Geschick,16,3.227
+HGB,Selbstständigkeit,8,3.222
+Python (Computerprogrammierung),CI/CD,42,3.221
+Wartung und Reparatur,Kundenbetreuung,10,3.219
+Führungszeugnis,Kommunikationsstärke,44,3.215
+Kundenbeziehungsmanagement,Forecasting,9,3.207
+unstrukturierte Daten,Python (Computerprogrammierung),8,3.198
+Urlaubsplanung,Verantwortungsbewusstsein,15,3.194
+Getränke,Einsatzbereitschaft,16,3.19
+BWL,Controlling,16,3.19
+Statistik,Python (Computerprogrammierung),19,3.189
+Datenbanken,Docker,11,3.189
+Python (Computerprogrammierung),Cursor,15,3.187
+Marken,Meta,8,3.184
+Python (Computerprogrammierung),MCP,11,3.183
+Attraktive Vergütung,C1-C2,9,3.181
+Ergebnisorientierung,Kommunikationsfähigkeit,10,3.18
+JavaScript,Datenbankmanagementsysteme,12,3.177
+PostgreSQL,Reliability,8,3.176
+Langjährige Erfahrung,Schichtbereitschaft,10,3.174
+Python (Computerprogrammierung),Docker,37,3.168
+Handeln,Work-Life-Balance,9,3.165
+Datenbankmanagementsysteme,Claude Code,8,3.164
+verteilte Verzeichnisinformationsdienste,Automatisierung,12,3.162
+Automatisierung,Microsoft 365,12,3.162
+TypeScript,Softwareentwicklung,18,3.146
+Performance Marketing,Social Media,14,3.145
+Python (Computerprogrammierung),Power BI,9,3.145
+Raumfahrttechnik,Python (Computerprogrammierung),9,3.145
+Python (Computerprogrammierung),Programmiersprachen,9,3.145
+Attraktive Vergütung,Work-Life-Balance,12,3.137
+Jobrad,Patienten,11,3.13
+Logik,Datenbankmanagementsysteme,8,3.126
+Verhaltensauffälligkeiten,Teamfähigkeit,27,3.116
+Datenschutz,Sorgfalt,39,3.116
+Genauigkeit,Organisationsfähigkeit,12,3.114
+Cloud-Technologien,Automatisierung,9,3.114
+Intensivmedizin,Flexibilität,33,3.114
+Migration,Administration,14,3.111
+Migration,Azure,10,3.109
+Beratung,Führungszeugnis,45,3.096
+Kommunikationsfähigkeit,Verhandlungssicher,20,3.095
+Bauen,Weiterbildungsmöglichkeiten,21,3.09
+Weihnachtsgeld,Work-Life-Balance,23,3.082
+Pünktlichkeit,Zuverlässigkeit,17,3.078
+Mathematik,Python (Computerprogrammierung),18,3.078
+Geschäftsprozesse,SAP,12,3.076
+Handwerkliches Geschick,Technisches Verständnis,46,3.068
+Belastbarkeit,Work-Life-Balance,17,3.064
+Automatisierung,Infrastructure as Code,8,3.062
+CI/CD,Linux,14,3.061
+Belastbarkeit,Weihnachtsgeld,52,3.056
+Führerschein Klasse B,Verkauf,37,3.052
+Java (Computerprogrammierung),CI/CD,10,3.051
+Flexibilität,Gruppen,27,3.043
+Abgeschlossene Berufsausbildung,Abitur,17,3.04
+Datenschutz,Kundenorientierung,36,3.039
+Attraktive Vergütung,Jobrad,9,3.038
+Python (Computerprogrammierung),Azure,35,3.038
+Python (Computerprogrammierung),React,33,3.037
+Beratung,Smartphones,8,3.033
+Automatisierung,Digitalisierung,19,3.03
+Prototyp für User-Experience-Lösung erstellen,Docker,9,3.029
+Physik,Python (Computerprogrammierung),15,3.027
+Cloud-Technologien,Python (Computerprogrammierung),15,3.027
+Sozialpädagogik,Kommunikationsstärke,11,3.022
+Belastbarkeit,Freude am Umgang,15,3.021
+React,Softwareentwicklung,12,3.019
+Abgeschlossene kaufmännische Ausbildung,Engagierte,13,3.016
+Datenschutz,Kommunikationsfähigkeit,40,3.015
+Consulting,Scope,10,3.013
+Meta,Social Media,9,3.012
+Kreativität,Weihnachtsgeld,53,3.009
+SEO,Social Media,10,3.006
+Beratung,Außendienst,45,2.996
+Beratung,Beratungskompetenz,12,2.996
+Ergebnisorientierung,Sorgfalt,8,2.995
+TypeScript,Python (Computerprogrammierung),44,2.994
+Buchhaltung,Einkauf,8,2.993
+Elektroniker,Körperliche Belastbarkeit,11,2.987
+Administration,Windows,14,2.984
+Canva,Kreativität,10,2.983
+Außendienst,Kommunikationsstärke,40,2.978
+Freundlichkeit,Zuverlässigkeit,9,2.968
+Geduld,Verlässlichkeit,8,2.965
+Python (Computerprogrammierung),Datenmodelle,17,2.963
+Leistungsbereitschaft,Sorgfalt,9,2.962
+Datenbankmanagementsysteme,Pricing,9,2.959
+Inbetriebnahme,Automatisierungstechnik,15,2.953
+Bauingenieurwesen,Projektmanagement,8,2.947
+technische Zeichnungen,Präzise,23,2.943
+Beratung,Verkauf,63,2.942
+Abgeschlossene kaufmännische Ausbildung,Buchhaltung,8,2.936
+Python (Computerprogrammierung),Clear communication,10,2.935
+Python (Computerprogrammierung),Microsoft Azure,10,2.935
+DevOps,Automatisierung,9,2.935
+HGB,SAP,9,2.924
+Azure,Linux,12,2.918
+Attraktive Vergütung,Unbefristeter Arbeitsvertrag,10,2.918
+Datenbankmanagementsysteme,Azure,16,2.914
+Engagierte,Serviceorientierung,8,2.91
+Diskretion,Selbstständige,8,2.907
+Energie,Sicheres Auftreten,18,2.906
+Elektroniker,Sicheres Auftreten,19,2.904
+Kundenbeziehungsmanagement,Performance Marketing,12,2.9
+Buchhaltung,Excel,17,2.898
+Automatisierung,Terraform,12,2.894
+Inbetriebnahme,Wartung und Reparatur,18,2.894
+Azure,React,11,2.894
+Inbetriebnahme,Kundenbetreuung,38,2.888
+Flexibilität,Sprachen sind ein,9,2.884
+Kommunikationsfähigkeit,Kundenorientierung,36,2.882
+Engagement,Weiterbildungsangebote,11,2.879
+Datev,Excel,13,2.876
+Kundenbeziehungsmanagement,Customer Success,11,2.873
+Flexible Arbeitszeiten,Mitarbeiterrabatte,8,2.871
+Python (Computerprogrammierung),Claude Code,13,2.859
+Handwerkliches Geschick,PKW,23,2.859
+Kundenorientierung,Verhandlungssicher,15,2.856
+CI/CD,Softwareentwicklung,12,2.855
+AWS,Softwareentwicklung,12,2.855
+Attraktive Vergütung,Genauigkeit,17,2.851
+Marken,Performance Marketing,9,2.85
+Python (Computerprogrammierung),DevOps,15,2.848
+Python (Computerprogrammierung),Next.js,9,2.837
+Consulting,Customer Success,8,2.836
+Datenbankmanagementsysteme,AWS,16,2.835
+Java (Computerprogrammierung),Datenbankmanagementsysteme,11,2.833
+Python (Computerprogrammierung),Guardrails,10,2.832
+Java (Computerprogrammierung),Python (Computerprogrammierung),22,2.827
+Projektleitung,Projektmanagement,13,2.826
+Entwicklungsmöglichkeiten,Freude am Umgang,15,2.817
+PostgreSQL,Datenbankmanagementsysteme,10,2.813
+Datenbank,Python (Computerprogrammierung),19,2.808
+Chirurgie,Flexibilität,8,2.807
+Einschlägige Berufserfahrung,Präzise,8,2.807
+technische Zeichnungen,Programmieren,8,2.802
+Getränke,Flexible Arbeitszeiten,11,2.796
+Elektroniker,PKW,27,2.794
+Belastbarkeit,Selbstständigkeit,20,2.788
+TypeScript,Azure,14,2.784
+Detailgenauigkeit,Python (Computerprogrammierung),8,2.783
+Python (Computerprogrammierung),Independent,11,2.783
+Controlling,Digitalisierung,11,2.779
+Präzision,Technisches Verständnis,8,2.774
+CI/CD,Datenbanken,9,2.77
+TypeScript,Datenbanken,11,2.766
+Abgeschlossene kaufmännische Ausbildung,Digitalisierung,9,2.762
+Kommunikationsstärke,Verkauf,50,2.761
+Handeln,Patienten,12,2.754
+Eigenverantwortliches Arbeiten,Flexibilität,21,2.749
+Politik,Engagement,11,2.746
+Telesales,Zuverlässigkeit,9,2.745
+Führerschein Klasse B,Kundenorientierung,40,2.742
+Datenschutz,Automatisierungstechnik,8,2.737
+Gruppen,Teamfähigkeit,33,2.734
+Python (Computerprogrammierung),Robotik,18,2.73
+Excel,Kommunikationsstark,9,2.724
+Entwicklungsmöglichkeiten,Flexibilität,88,2.722
+Freude am Umgang,Sorgfalt,12,2.718
+TypeScript,Datenbankmanagementsysteme,18,2.711
+Durchsetzungsvermögen,Unternehmerisches Denken,8,2.709
+Engagierte,Work-Life-Balance,9,2.708
+Controlling,SAP,16,2.707
+Excel,HGB,10,2.706
+Automatisierung,Hubspot,8,2.7
+Abgeschlossene technische Ausbildung,Strukturierte Arbeitsweise,10,2.699
+React,Reliability,8,2.684
+Jobrad,Weihnachtsgeld,14,2.683
+serviceorientierte Modellierung,Kundenbeziehungsmanagement,12,2.681
+Abgeschlossene Berufsausbildung,Langjährige Erfahrung,30,2.68
+Instagram,Kreativität,13,2.67
+Datenbankmanagementsysteme,Terraform,9,2.661
+Administration,Linux,14,2.658
+Genauigkeit,Zuverlässigkeit,69,2.658
+Python (Computerprogrammierung),Aerospace,11,2.657
+technische Zeichnungen,Werkzeugen,8,2.654
+Administration,Serviceorientierung,8,2.654
+Abgeschlossene Berufsausbildung,ZVK,16,2.647
+Energie,Wartung und Reparatur,10,2.643
+Flexibilität,Organisationsgeschick,19,2.64
+Attraktive Vergütung,Verhandlungssicher,9,2.637
+Kardiologie,Verantwortungsbewusstsein,9,2.634
+Excel,Finanzbuchhaltung,8,2.628
+Belastbarkeit,Verlässlichkeit,15,2.624
+Handwerkliches Geschick,Sorgfältige Arbeitsweise,13,2.615
+Selbstständige,Verantwortungsbewusste,13,2.607
+Excel,Rechnungswesen,12,2.603
+Python (Computerprogrammierung),Debugging,10,2.602
+Inbetriebnahme,Umwelttechnik,10,2.602
+Azure,Reliability,8,2.6
+Hohe Einsatzbereitschaft,Zuverlässigkeit,18,2.599
+Inbetriebnahme,Elektroniker,49,2.599
+Berufseinsteiger,Kundenorientierung,12,2.598
+Energie,Elektriker,12,2.596
+Organisationsfähigkeit,Sorgfalt,11,2.592
+Sorgfalt,Zuverlässigkeit,86,2.58
+Analytisches Denkvermögen,Strukturierte Arbeitsweise,8,2.58
+serviceorientierte Modellierung,CI/CD,8,2.58
+Logik,Python (Computerprogrammierung),11,2.579
+Automatisierung,Claude,8,2.577
+Geduld,Verantwortungsbewusstsein,24,2.573
+Geduld,Patienten,9,2.568
+Lager,SAP,17,2.565
+Pädagogik,Teamfähigkeit,30,2.564
+Lager,Persönliche Betreuung,9,2.562
+Python (Computerprogrammierung),Routing,8,2.56
+Verpacken,Verstehen,10,2.559
+Präzise,Schleifen,8,2.554
+Organisationsgeschick,Teamfähigkeit,27,2.549
+TypeScript,Reliability,10,2.548
+Source (Videospielerstellungssysteme),Python (Computerprogrammierung),22,2.542
+Marken,E-Commerce,10,2.54
+Automatisierung,Azure,14,2.54
+Patienten,Weihnachtsgeld,28,2.54
+Intensivmedizin,Engagement,14,2.537
+Python (Computerprogrammierung),Linux,25,2.536
+Kreativität,Social Media,24,2.532
+Attraktive Vergütung,Berufseinsteiger,8,2.53
+Kommunikationsstärke,Langjährige Erfahrung,30,2.525
+Automatisierung,Linux,14,2.523
+Lager,Schichtbereitschaft,9,2.521
+Controlling,Einkauf,8,2.52
+Azure,Softwareentwicklung,9,2.52
+serviceorientierte Modellierung,Consulting,8,2.519
+technische Zeichnungen,Schleifen,8,2.519
+Know-How,Selbstständigkeit,12,2.518
+Controlling,Excel,18,2.507
+C1-C2,Zuverlässigkeit,26,2.498
+Hohe Einsatzbereitschaft,Verantwortungsbewusstsein,11,2.493
+Python (Computerprogrammierung),Automotive,9,2.493
+Migration,Automatisierung,10,2.491
+Führungszeugnis,Genauigkeit,9,2.476
+Einen unbefristeten Arbeitsvertrag,Engagement,8,2.467
+Flexible Arbeitszeiten,Weiterbildungsmöglichkeiten,8,2.463
+Automatisierung,Controlling,14,2.46
+Flexibilität,Weiterbildungsangebote,13,2.46
+Attraktive Vergütung,Sorgfalt,17,2.455
+Python (Computerprogrammierung),Prototyping,10,2.442
+Kundenbeziehungsmanagement,E-Commerce,12,2.439
+Kundendienst,Kundenbeziehungsmanagement,10,2.439
+Automatisierung,Softwareentwicklung,13,2.433
+BWL,Excel,17,2.425
+AWS,Linux,9,2.424
+Abgeschlossene kaufmännische Ausbildung,Excel,14,2.417
+TypeScript,Migration,8,2.413
+Inbetriebnahme,Elektriker,16,2.413
+Selbstständigkeit,Verlässlichkeit,8,2.41
+Python (Computerprogrammierung),Datenbanken,18,2.408
+Abgeschlossene kaufmännische Ausbildung,Verkauf,9,2.403
+Schaltpläne,Inbetriebnahme,12,2.398
+Flexibilität,Patienten,47,2.398
+Bauingenieurwesen,Entwicklungsmöglichkeiten,8,2.391
+Einsatzbereitschaft,Verantwortungsbewusstsein,34,2.389
+Selbstständigkeit,Verantwortungsbewusstsein,31,2.387
+Lagerbereich,Zuverlässigkeit,9,2.383
+Durchsetzungsvermögen,Elektroniker,15,2.382
+Datenschutz,Unbefristeter Arbeitsvertrag,10,2.381
+Belastbarkeit,Handeln,12,2.377
+Selbstständige,Teamorientierte,9,2.371
+Abgeschlossene Berufsausbildung,MAG,11,2.37
+Entwicklungsmöglichkeiten,Schichtbereitschaft,13,2.368
+Python (Computerprogrammierung),Node.js,8,2.368
+Bauingenieurwesen,Strukturierte Arbeitsweise,9,2.368
+Energie,Durchsetzungsvermögen,14,2.363
+Teamfähigkeit,Zielstrebigkeit,16,2.361
+Jobrad,Verantwortungsbewusstsein,17,2.347
+Personalwesen,Administration,9,2.346
+Kreativität,Verlässlichkeit,13,2.343
+Abgeschlossene Berufsausbildung,WIG,12,2.339
+Kundenbeziehungsmanagement,Business Development,10,2.339
+Python (Computerprogrammierung),Claude,12,2.338
+Flexibilität,Urlaubsplanung,10,2.335
+Datenbankmanagementsysteme,Reliability,9,2.334
+Automatisierung,Rechnungswesen,8,2.334
+Kundenbeziehungsmanagement,LinkedIn,9,2.329
+Leistungsbereitschaft,Teamfähigkeit,22,2.328
+Urlaubsgeld,Weihnachtsgeld,13,2.326
+Kameras,Python (Computerprogrammierung),8,2.323
+Belastbarkeit,Patienten,18,2.32
+verteilte Verzeichnisinformationsdienste,Führerschein Klasse B,10,2.318
+Kommunikationsstärke,Kundenorientierung,49,2.31
+Leistungsbereitschaft,Zuverlässigkeit,18,2.305
+Datenbankmanagementsysteme,E-Commerce,10,2.303
+Genauigkeit,Verlässlichkeit,9,2.302
+Inbetriebnahme,Fehleranalyse,15,2.297
+Berufseinsteiger,Kommunikationsfähigkeit,11,2.296
+Elektroniker,Selbstständige Arbeitsweise,18,2.287
+Beratung,CRM-Systemen,11,2.286
+Eigenverantwortliches Arbeiten,Teamfähigkeit,23,2.282
+Qualitätsbewusstsein,Strukturierte Arbeitsweise,8,2.267
+Automatisierung,CI/CD,12,2.238
+Freude am Umgang,Zuverlässigkeit,27,2.231
+Python (Computerprogrammierung),Softwareentwicklung,20,2.23
+Migration,SAP,8,2.224
+Beratung,Kundenorientierung,51,2.216
+Python (Computerprogrammierung),Angular,8,2.198
+Sorgfalt,Verlässlichkeit,11,2.195
+Belastbarkeit,Geduld,9,2.191
+Kardiologie,Flexibilität,8,2.19
+Personalwesen,Excel,11,2.186
+Belastbarkeit,Sorgfalt,21,2.184
+Selbstständige,Strukturierte Arbeitsweise,51,2.183
+Einkauf,Projektmanagement,8,2.164
+Kommunikationsstärke,Organisationstalent,20,2.162
+Ergebnisorientierung,Teamfähigkeit,17,2.159
+Datenbankmanagementsysteme,Excel,18,2.151
+Energie,Kundenbetreuung,15,2.144
+Intensivmedizin,Führerschein Klasse B,9,2.136
+Inbetriebnahme,Anlagenbau,10,2.135
+Datenbankmanagementsysteme,Docker,9,2.134
+Source (Videospielerstellungssysteme),Kundenbeziehungsmanagement,9,2.131
+Einen unbefristeten Arbeitsvertrag,Flexibilität,10,2.129
+Serviceorientierung,Strukturierte Arbeitsweise,9,2.122
+Energie,Verlässlichkeit,11,2.12
+Datenschutz,Weiterbildungsmöglichkeiten,10,2.114
+Abgeschlossene Berufsausbildung,Einsatzbereitschaft,27,2.108
+BWL,Verstehen,13,2.099
+Belastbarkeit,Verantwortungsbewusstsein,41,2.097
+Wartung und Reparatur,Abgeschlossene Berufsausbildung,13,2.096
+Kundenbeziehungsmanagement,Personalwesen,8,2.096
+Datenbankmanagementsysteme,Source (Videospielerstellungssysteme),8,2.088
+Administration,Docker,9,2.087
+Politik,Flexibilität,11,2.086
+Freude am Umgang,Verantwortungsbewusstsein,16,2.081
+Führungszeugnis,Sorgfalt,9,2.08
+Spanisch,Englisch,10,2.074
+Englisch,Google Sheets,12,2.074
+Englisch,Workday,8,2.074
+Englisch,You are fluent,9,2.074
+Flexibilität,Jobrad,17,2.073
+Genauigkeit,Kommunikationsfähigkeit,16,2.069
+Umwelttechnik,Selbstständige,8,2.067
+Einsatzbereitschaft,Engagierte,9,2.065
+Automatisierung,Datenbanken,8,2.062
+Gewissenhaftigkeit,Zuverlässigkeit,8,2.061
+Administration,Automatisierung,14,2.057
+Genauigkeit,Kundenorientierung,14,2.053
+Attraktive Vergütung,Entwicklungsmöglichkeiten,15,2.052
+Elektroniker,Handwerkliches Geschick,19,2.045
+Führerschein Klasse B,Langjährige Erfahrung,13,2.044
+Administration,Azure,9,2.037
+Einkauf,SAP,8,2.037
+Teamorientierte,Verantwortungsbewusstsein,8,2.034
+Beratung,Kundenservice,8,2.033
+Patienten,Verantwortungsbewusstsein,30,2.024
+Verantwortungsbewusstsein,Weihnachtsgeld,52,2.023
+Kommunikationsstärke,Organisationsgeschick,11,2.022
+Flexibilität,Sicherer Arbeitsplatz,8,2.014
+technische Zeichnungen,Technisches Verständnis,20,2.011
+Berufseinsteiger,Teamfähigkeit,31,2.004
+Microsoft 365,Selbstständige,11,2.0
+Elektriker,Technisches Verständnis,10,2.0
+Datenbankmanagementsysteme,React,8,1.999
+Entwicklungsmöglichkeiten,Kundenbetreuung,15,1.996
+C1-C2,Teamfähigkeit,22,1.991
+Beratung,Microsoft Azure,8,1.978
+Entwicklungsmöglichkeiten,Sport,16,1.972
+Energie,Inbetriebnahme,30,1.971
+technische Zeichnungen,Abgeschlossene Berufsausbildung,29,1.955
+Verhandlungssicher,Zuverlässigkeit,26,1.954
+Automatisierung,Docker,9,1.952
+Freundliches Auftreten,Selbstständige,8,1.945
+E-Commerce,Excel,11,1.943
+technische Zeichnungen,Handwerkliches Geschick,13,1.939
+Softwareentwicklung,Verstehen,11,1.938
+Präzise,Verstehen,15,1.938
+Deutsch sprechen,Englisch,10,1.936
+Englisch,IT-Equipment,10,1.936
+Einsatzbereitschaft,Flexibilität,30,1.934
+Verpacken,Zuverlässigkeit,19,1.93
+Belastbarkeit,Flexibilität,44,1.925
+Englisch,C1 Level,9,1.922
+Biotechnologie,Englisch,9,1.922
+Führerschein Klasse B,Schichtbereitschaft,11,1.92
+Führerschein Klasse B,Windows,11,1.92
+Elektroniker,Fehleranalyse,8,1.908
+Finanzbuchhaltung,Selbstständige,8,1.907
+Abgeschlossene technische Ausbildung,Selbstständige,8,1.907
+Eigeninitiative,Kommunikationsfähigkeiten,10,1.906
+Englisch,ServiceNow,16,1.904
+Englisch,Spezifikation,8,1.904
+Beratung,Netzwerken,9,1.903
+technische Zeichnungen,Verstehen,15,1.902
+Sport,Verantwortungsbewusstsein,27,1.897
+Energie,Selbstständige Arbeitsweise,13,1.897
+Administration,Consulting,9,1.896
+Python (Computerprogrammierung),Ökosysteme,9,1.894
+CNC-Maschinen,Teamfähigkeit,9,1.894
+Selbstständige,Sorgfältige Arbeitsweise,16,1.888
+Abgeschlossene Berufsausbildung,Präzise,27,1.888
+Getränke,Engagement,15,1.888
+Marken,Projektmanagement,9,1.885
+Englisch,Anforderungsmanagement,13,1.867
+Kreativität,LinkedIn,8,1.859
+Kardiologie,Zuverlässigkeit,8,1.859
+Verantwortungsbewusstsein,Verlässlichkeit,18,1.854
+Verantwortungsbewusstsein,Work-Life-Balance,15,1.85
+Inbetriebnahme,Scope,11,1.85
+Kundenorientierung,Sorgfalt,16,1.85
+Langjährige Erfahrung,Teamfähigkeit,32,1.849
+Präzision,Zuverlässigkeit,10,1.847
+Inbetriebnahme,PKW,20,1.844
+Unbefristeter Arbeitsvertrag,Zuverlässigkeit,22,1.842
+Englisch,Französisch,22,1.833
+Englisch,Smartphones,11,1.833
+Beratung,Führerschein Klasse B,54,1.83
+Beratung,Begeisterungsfähigkeit,8,1.826
+Energie,Sport,13,1.82
+Kundenbeziehungsmanagement,Consulting,9,1.816
+Engagierte,Verkauf,8,1.814
+Python (Computerprogrammierung),Automatisierung,23,1.814
+Englisch,IT-Umfeld,20,1.811
+Englisch,Oracle,20,1.811
+Englisch,BI-Tools,10,1.811
+Eigeninitiative,Organisationstalent,8,1.806
+serviceorientierte Modellierung,Python (Computerprogrammierung),12,1.803
+Entwicklungsmöglichkeiten,Führerschein Klasse B,25,1.803
+Attraktive Vergütung,Festanstellung,8,1.802
+technische Zeichnungen,PKW,10,1.802
+Sicheres Auftreten,Teamfähigkeit,30,1.794
+Digitalisierung,Excel,10,1.789
+Abgeschlossene Berufsausbildung,Elektriker,13,1.786
+Englisch,Grafik,9,1.784
+Englisch,Corporate Finance,9,1.784
+Englisch,2nd-Level-Support,9,1.784
+Englisch,MM,9,1.784
+Berufseinsteiger,Zuverlässigkeit,22,1.776
+Geduld,Zuverlässigkeit,21,1.775
+Kundenbeziehungsmanagement,Automatisierung,12,1.754
+Beratung,Unternehmerisches Denken,18,1.753
+Datenbankmanagementsysteme,Administration,10,1.753
+Englisch,Professional Services,8,1.752
+Englisch,DOORS,8,1.752
+Englisch,ERP systems,8,1.752
+Englisch,Softwarearchitektur,8,1.752
+Englisch,Italienisch,8,1.752
+Durchsetzungsvermögen,Selbstständige,16,1.745
+Belastbarkeit,Entwicklungsmöglichkeiten,18,1.739
+Handwerkliches Geschick,Präzise,11,1.734
+Automatisierung,Know-How,10,1.732
+Eigeninitiative,Kommunikationsfähigkeit,19,1.732
+Datenschutz,Zuverlässigkeit,47,1.728
+Englisch,Ticketsystemen,22,1.726
+Durchsetzungsvermögen,Kommunikationsstärke,19,1.723
+Bauen,Verstehen,17,1.721
+Eigeninitiative,Lernbereitschaft,8,1.721
+Sorgfalt,Teamfähigkeit,57,1.72
+Entwicklungsmöglichkeiten,Kommunikationsstärke,39,1.719
+Präzision,Teamfähigkeit,11,1.718
+E-Commerce,Verstehen,9,1.715
+Flexibilität,Freude am Umgang,15,1.714
+verteilte Verzeichnisinformationsdienste,Selbstständige,9,1.71
+Beratung,Kommunikationsstärke,82,1.707
+Inbetriebnahme,Projektleitung,12,1.705
+Belastbarkeit,Kreativität,16,1.699
+Analytisches Denken,Kommunikationsstärke,9,1.697
+Engagement,Professionelles Auftreten,10,1.696
+Handeln,Weihnachtsgeld,10,1.696
+Englisch,CPO,10,1.695
+Abgeschlossene Berufsausbildung,Schleifen,11,1.692
+Belastbarkeit,Zuverlässigkeit,47,1.69
+Attraktive Vergütung,Kommunikationsfähigkeit,11,1.689
+Beratung,ISO 27001,8,1.689
+Öffentlichkeitsarbeit,Englisch,13,1.687
+Englisch,IFRS,13,1.687
+Entwicklungsmöglichkeiten,Verlässlichkeit,9,1.683
+Flache Hierarchien,Teamfähigkeit,10,1.683
+Englisch,Data Engineering,16,1.681
+Englisch,Influencer Marketing,19,1.678
+Verantwortungsbewusstsein,Zuverlässigkeit,95,1.672
+Organisationsfähigkeit,Teamfähigkeit,22,1.669
+Intensivmedizin,Verantwortungsbewusstsein,10,1.666
+Attraktive Vergütung,Zuverlässigkeit,31,1.665
+Deutsch,C1-C2,47,1.665
+Persönliche Betreuung,Weihnachtsgeld,9,1.665
+Durchsetzungsvermögen,Kommunikationsfähigkeit,9,1.663
+Beratung,Verhandlungsgeschick,10,1.663
+Englisch,SAP S/4HANA,12,1.659
+Englisch,Industrial Engineering,9,1.659
+Englisch,Verhandlungssicheres Deutsch,18,1.659
+Flexibilität,Verlässlichkeit,19,1.658
+Eigeninitiative,Social Media,14,1.658
+Beratung,Abgeschlossene technische Ausbildung,9,1.655
+Deutsch,Verhandlungssicher,68,1.653
+Führerschein Klasse B,Kommunikationsstärke,43,1.653
+Engagement,Verantwortungsbewusstsein,47,1.648
+Business Development,Excel,8,1.647
+Beratung,Serviceorientierung,12,1.646
+Kundenbetreuung,Projektmanagement,8,1.646
+Teamfähigkeit,Zuverlässigkeit,170,1.64
+Deutsch,Betten machen,24,1.636
+Fehleranalyse,Führerschein Klasse B,8,1.633
+Abgeschlossene Berufsausbildung,Persönliche Betreuung,13,1.632
+Selbständige Arbeitsweise,Zuverlässigkeit,8,1.628
+Hohe Einsatzbereitschaft,Teamfähigkeit,11,1.621
+Datenbankmanagementsysteme,Automatisierung,10,1.619
+Sorgfalt,Verantwortungsbewusstsein,29,1.617
+Englisch,Venture Capital,8,1.614
+Englisch,Du bist kommunikativ,8,1.614
+Englisch,Customizing,8,1.614
+Englisch,Datenstrukturen,8,1.614
+Englisch,Mac,8,1.614
+Englisch,Cloud-Plattformen,8,1.614
+Marken,Kreativität,10,1.61
+Genauigkeit,Teamfähigkeit,40,1.605
+Deutsch,Sprachen sind ein,15,1.602
+PC,Selbstständige,8,1.6
+Englisch,Maschinenbau,18,1.6
+Datenschutz,Azure,8,1.6
+Belastbarkeit,Teamfähigkeit,53,1.596
+Selbstständige,Unternehmerisches Denken,12,1.59
+Marken,Kundenbeziehungsmanagement,8,1.588
+Englisch,Durchsetzungsstärke,10,1.588
+Entwicklungsmöglichkeiten,Selbstständigkeit,10,1.585
+Deutsch,Zielorientierung,37,1.582
+Beratung,Kurze Entscheidungswege,9,1.581
+Attraktive Vergütung,Kundenorientierung,9,1.576
+Engagement,Führerschein Klasse B,29,1.573
+Englisch,Verhandlungsstärke,12,1.571
+Qualitätsstandards,Technisches Verständnis,11,1.568
+Englisch,Board,19,1.567
+Durchsetzungsvermögen,Teamfähigkeit,29,1.565
+Kommunikationsstärke,Strukturierte Arbeitsweise,40,1.563
+Jobrad,Zuverlässigkeit,15,1.562
+Automatisierung,Verstehen,13,1.561
+Englisch,M365,14,1.559
+Englisch,Account Management,28,1.559
+Selbstständige Arbeitsweise,Teamfähigkeit,37,1.558
+Getränke,Abgeschlossene Berufsausbildung,15,1.554
+PKW,Verstehen,11,1.552
+Datenschutz,Kreativität,14,1.545
+Projektmanagement,Social Media,9,1.544
+Englisch,Lieferkettenmanagement,9,1.543
+Deutsch,Führungszeugnis,63,1.543
+Abgeschlossene Berufsausbildung,Entwicklungsmöglichkeiten,31,1.543
+Deutsch,Italienisch,9,1.543
+Spanisch,Deutsch,9,1.543
+Eigeninitiative,Projektmanagement,12,1.541
+Prototyp für User-Experience-Lösung erstellen,Python (Computerprogrammierung),9,1.538
+Sorgfältige Arbeitsweise,Technisches Verständnis,9,1.535
+Sicherheitstechnik,Teamfähigkeit,8,1.531
+Selbstständiges Arbeiten,Teamfähigkeit,11,1.531
+Digitalisierung,Verstehen,8,1.528
+Beratung,Freude am Umgang,13,1.527
+Deutsch,E-Commerce-Umfeld,8,1.525
+Kreativität,Verantwortungsbewusstsein,29,1.524
+Datenschutz,AWS,8,1.52
+Ernährung,Deutsch,23,1.518
+Werkzeugen,Zuverlässigkeit,14,1.518
+Abgeschlossene Berufsausbildung,Programmieren,8,1.516
+Migration,Python (Computerprogrammierung),9,1.515
+Englisch,Chemie,21,1.512
+Teamfähigkeit,Verhandlungssicher,23,1.511
+Elektroniker,Genauigkeit,11,1.511
+Belastbarkeit,Einsatzbereitschaft,9,1.504
+Präzise,Selbstständige,19,1.496
+Entwicklungsmöglichkeiten,Sorgfalt,15,1.495
+Urlaubsgeld,Zuverlässigkeit,17,1.493
+Datenschutz,Teamfähigkeit,48,1.492
+Englisch,DSGVO,8,1.489
+Englisch,Datenmodellierung,10,1.489
+Englisch,MongoDB,8,1.489
+Englisch,Modellierung,10,1.489
+Englisch,Google Workspace,10,1.489
+Englisch,Scale-up,18,1.489
+Englisch,Kapazitätsplanung,10,1.489
+Englisch,Postgres,10,1.489
+Englisch,Cloud Security,8,1.489
+Englisch,BigQuery,8,1.489
+Englisch,Enterprise Software,8,1.489
+Englisch,Signalverarbeitung,8,1.489
+Englisch,Spring Boot,12,1.489
+Englisch,Mechatronik,34,1.489
+Englisch,Hohe Kundenorientierung,10,1.489
+Englisch,Informationssicherheit,12,1.489
+Abgeschlossene Berufsausbildung,Einschlägige Berufserfahrung,8,1.485
+Abgeschlossene Berufsausbildung,PC,8,1.485
+Technisches Verständnis,Unternehmerisches Denken,8,1.482
+Kommunikationsfähigkeit,Sorgfalt,14,1.481
+BWL,Eigeninitiative,9,1.481
+Know-How,Verstehen,10,1.478
+Strukturierte Arbeitsweise,Unternehmerisches Denken,8,1.475
+Deutsch,Premiere Pro,12,1.473
+Abgeschlossene Berufsausbildung,Teamfähigkeit,96,1.472
+Fräsen,Teamfähigkeit,8,1.472
+Englisch,Cloud-Technologien,25,1.47
+Durchsetzungsvermögen,Excel,8,1.467
+Automatisierung,Projektmanagement,9,1.467
+Flexibilität,Verantwortungsbewusste,8,1.466
+Flexibilität,Leistungsbereitschaft,8,1.466
+Abgeschlossene Berufsausbildung,Flexibilität,63,1.462
+Engagierte,Entwicklungsmöglichkeiten,10,1.453
+Englisch,FastAPI,13,1.452
+Englisch,Consulting,63,1.451
+Englisch,Claude Code,24,1.449
+Englisch,Key Account Management,11,1.446
+Englisch,IT-Security,11,1.446
+Engagement,Entwicklungsmöglichkeiten,23,1.446
+Englisch,Interpretation,11,1.446
+Projektmanagement,Technisches Verständnis,13,1.438
+Englisch,Salesforce,18,1.436
+Englisch,Snowflake,9,1.436
+Englisch,Django,9,1.436
+Englisch,Risikomanagement,18,1.436
+Englisch,ERP-Systemen,25,1.432
+Weiterbildungsangebote,Zuverlässigkeit,8,1.429
+Engagement,Langjährige Erfahrung,10,1.429
+Abgeschlossene kaufmännische Ausbildung,Kommunikationsstärke,14,1.425
+Präzise,Technisches Verständnis,13,1.425
+Englisch,Ansible,14,1.422
+Englisch,Scratch (Computerprogrammierung),14,1.422
+Flexibilität,Teamfähigkeit,116,1.42
+Engagement,Führungszeugnis,9,1.414
+Abgeschlossene Berufsausbildung,Elektroniker,27,1.411
+Englisch,PowerPoint,24,1.411
+SAP,Strukturierte Arbeitsweise,14,1.41
+Belastbarkeit,Know-How,9,1.409
+Controlling,Strukturierte Arbeitsweise,10,1.407
+Flexibilität,Weihnachtsgeld,41,1.406
+Entwicklungsmöglichkeiten,Weihnachtsgeld,19,1.4
+Flexible Arbeitszeiten,Verstehen,8,1.398
+Engagierte,Zuverlässigkeit,26,1.397
+Englisch,Ausgeprägte analytische Fähigkeiten,10,1.396
+Engagement,Scope,8,1.396
+WordPress,Englisch,10,1.396
+Datenschutz,Belastbarkeit,12,1.396
+Deutsch,Polnisch,13,1.395
+Engagement,Schichtbereitschaft,9,1.394
+Python (Computerprogrammierung),Scope,8,1.39
+Englisch,Simulation,23,1.388
+Schleifen,Zuverlässigkeit,14,1.383
+Englisch,C++,26,1.382
+Eigeninitiative,Strukturierte Arbeitsweise,18,1.377
+Kundenbeziehungsmanagement,Verstehen,11,1.375
+Deutsch,Videoschnitt,8,1.373
+Englisch,Scheduling,8,1.373
+Deutsch,Kleinbusse,8,1.373
+Englisch,GitHub Actions,16,1.373
+Deutsch,Exchange Online,8,1.373
+Englisch,Payment,16,1.373
+Englisch,Unternehmensberatung,8,1.373
+Englisch,REST-APIs,8,1.373
+Deutsch,C1 Level,8,1.373
+Flexibilität,Schichtbereitschaft,14,1.372
+Engagierte,Kommunikationsstärke,18,1.368
+Datenbankmanagementsysteme,Verstehen,10,1.365
+Englisch,Windows Server,11,1.363
+Beratung,Projektmanagement,23,1.362
+Marken,Eigeninitiative,9,1.362
+Selbständige Arbeitsweise,Teamfähigkeit,8,1.361
+Drehen,Teamfähigkeit,8,1.361
+Belastbarkeit,Genauigkeit,9,1.358
+Englisch,JIRA,28,1.358
+Automatisierung,Strukturierte Arbeitsweise,14,1.355
+Verantwortung zeigen,Englisch,17,1.354
+Selbstständigkeit,Zuverlässigkeit,23,1.352
+Physik,Englisch,23,1.349
+Fehleranalyse,Selbstständige,9,1.347
+Deutsch,Professionelles Auftreten,50,1.339
+Englisch,Fundiertes Verständnis,18,1.337
+Englisch,DNS,12,1.337
+Englisch,LLMs,24,1.337
+Englisch,Testautomatisierung,9,1.337
+Englisch,Display,9,1.337
+Englisch,Pitches,9,1.337
+analytisch denken,Englisch,12,1.337
+Englisch,Notion,9,1.337
+Englisch,MCP,15,1.337
+Englisch,NIS2,9,1.337
+Elektroniker,Kundenbetreuung,9,1.327
+Selbstständige,Technisches Verständnis,28,1.326
+Social Media,Strukturierte Arbeitsweise,13,1.325
+Englisch,Forecasting,22,1.324
+Deutsch,Fachinformatiker Systemintegration,17,1.323
+Englisch,PostgreSQL,35,1.32
+Kommunikationsstärke,Unternehmerisches Denken,12,1.32
+Deutsch,Heizungsbauer,10,1.316
+Deutsch,REST-APIs,10,1.316
+Englisch,Confluence,13,1.315
+Englisch,Problemlösungskompetenz,13,1.315
+Englisch,Kanban,10,1.308
+Englisch,6+ years,10,1.308
+Englisch,SLAs,10,1.308
+Flexibilität,Geduld,12,1.299
+Python (Computerprogrammierung),E-Commerce,10,1.297
+Englisch,Scrum,21,1.296
+Detailgenauigkeit,Englisch,14,1.296
+Beratung,Projektleitung,14,1.293
+Schnelle Auffassungsgabe,Teamfähigkeit,13,1.293
+Sorgfältige Arbeitsweise,Zuverlässigkeit,18,1.286
+Englisch,Exchange,11,1.285
+Englisch,Hinblick,11,1.285
+Präzise,Zuverlässigkeit,28,1.283
+Organisationsfähigkeit,Zuverlässigkeit,14,1.283
+Deutsch,IT-Umfeld,18,1.28
+Deutsch,Personio,12,1.28
+Entwicklungsmöglichkeiten,Flexible Arbeitszeiten,8,1.278
+Excel,Selbstständige Arbeitsweise,9,1.278
+Consulting,Excel,8,1.276
+Beratung,Know-How,20,1.274
+Einsatzbereitschaft,Engagement,12,1.272
+Inbetriebnahme,Präzise,14,1.268
+Englisch,Redis,8,1.266
+Englisch,Dienstleistungsorientierung,8,1.266
+Englisch,Messtechnik,8,1.266
+Englisch,Switching,8,1.266
+Raumfahrttechnik,Englisch,12,1.266
+Englisch,Spring,8,1.266
+Englisch,Copilot,8,1.266
+Datenschutz,Elektroniker,12,1.26
+Mathematik,Englisch,25,1.258
+Englisch,Azure,50,1.258
+Administration,Excel,10,1.256
+Flexibilität,Work-Life-Balance,12,1.255
+Strukturierte Einarbeitung,Zuverlässigkeit,8,1.254
+Lernbereitschaft,Zuverlässigkeit,16,1.254
+Entwicklungsmöglichkeiten,Teamfähigkeit,48,1.25
+Selbstständige,Sicheres Auftreten,10,1.248
+Patienten,Teamfähigkeit,32,1.246
+Kundenbeziehungsmanagement,Social Media,8,1.246
+Englisch,GA4,9,1.244
+Managementstrategien ändern,Englisch,9,1.244
+Englisch,Präsentationsfähigkeiten,9,1.244
+Englisch,Netzwerken,18,1.244
+Elektroniker,Sorgfalt,12,1.241
+Englisch,Customer Success,32,1.241
+Englisch,Outlook,14,1.237
+Englisch,IT-Support,14,1.237
+Bauen,Kundenbetreuung,8,1.237
+Deutsch,Corporate Finance,8,1.235
+Deutsch,Grafik,8,1.235
+Kundenbetreuung,Selbstständige,14,1.234
+Inbetriebnahme,Bauen,18,1.234
+Automatisierung,Eigeninitiative,11,1.233
+Berufseinsteiger,Flexibilität,12,1.233
+Beratung,Durchsetzungsvermögen,15,1.231
+Eigeninitiative,Kreativität,13,1.229
+Englisch,Hohe Eigenmotivation,10,1.226
+Englisch,Tableau,10,1.226
+Englisch,GitHub,15,1.226
+Englisch,Android (mobile Betriebssysteme),10,1.226
+Englisch,unstrukturierte Daten,10,1.226
+Datenschutz,Eigeninitiative,12,1.226
+strategisch denken,Englisch,10,1.226
+Deutsch,ServiceNow,13,1.225
+Qualitätsbewusstsein,Teamfähigkeit,11,1.218
+Qualitätsstandards,Abgeschlossene Berufsausbildung,13,1.217
+Englisch,Pre-Sales,16,1.216
+Englisch,verteilte Verzeichnisinformationsdienste,27,1.214
+technische Zeichnungen,Selbstständige,16,1.212
+Kommunikationsstärke,Serviceorientierung,8,1.212
+Englisch,B2B-Vertrieb,11,1.211
+Englisch,Notebooks,11,1.211
+Abgeschlossene kaufmännische Ausbildung,Selbstständige,10,1.21
+Deutsch,Ticketsystemen,20,1.209
+Englisch,Windows,39,1.209
+Deutsch,Shopify,15,1.209
+Flexibilität,Kreativität,28,1.199
+Englisch,ISO 27001,18,1.199
+Englisch,Wohnsitz,12,1.199
+Deutsch,Oracle,17,1.197
+PKW,Sorgfalt,8,1.194
+Deutsch,Key Account Management,12,1.192
+Englisch,Datenbanken,38,1.192
+Englisch,CI/CD-Pipelines,13,1.189
+Englisch,Pricing,26,1.189
+Englisch,Microsoft Office,13,1.189
+Abgeschlossene Berufsausbildung,Mitarbeiterrabatte,8,1.182
+Persönliche Betreuung,Zuverlässigkeit,15,1.181
+Führungszeugnis,Verantwortungsbewusstsein,10,1.18
+Deutsch,Notebooks,14,1.18
+Attraktive Vergütung,Eigeninitiative,8,1.178
+Englisch,BWL,50,1.178
+Engagement,Know-How,12,1.177
+Kommunikationsstärke,Teamfähigkeit,87,1.175
+Jahresabschluss,Englisch,15,1.173
+Englisch,iOS,15,1.173
+Englisch,Softwareentwicklung,47,1.169
+Lager,Verstehen,8,1.169
+Englisch,Serviceorientiert,8,1.167
+Englisch,VWL,8,1.167
+Bauen,Elektroniker,12,1.166
+Know-How,Kreativität,8,1.165
+Deutsch,PowerShell,18,1.164
+Einschlägige Berufserfahrung,Flexibilität,8,1.159
+Strukturierte Einarbeitung,Teamfähigkeit,9,1.157
+MAG,Teamfähigkeit,9,1.157
+Englisch,GCP,18,1.156
+Englisch,Hohe Eigenverantwortung,9,1.156
+Englisch,Start-Up,18,1.156
+Englisch,LinkedIn,36,1.156
+Einsatzbereitschaft,Zuverlässigkeit,22,1.156
+Handwerkliches Geschick,Selbstständige,17,1.155
+Deutsch,Dich sicher,11,1.154
+Englisch,Logistik,19,1.152
+Excel,Projektmanagement,9,1.151
+JavaScript,Englisch,29,1.15
+Englisch,Controlling,49,1.149
+Englisch,AWS,49,1.149
+Englisch,Marktanalyse,10,1.148
+Beratung,Geschäftsprozesse,9,1.148
+Englisch,Prototyping,20,1.148
+Weihnachtsgeld,Zuverlässigkeit,43,1.144
+Deutsch,Scratch (Computerprogrammierung),15,1.142
+Engagement,Flexibilität,40,1.141
+Englisch,Programmiersprachen,11,1.141
+Deutsch,Influencer Marketing,17,1.139
+Deutsch,Außendienst,51,1.139
+Englisch,Entra ID,12,1.135
+Englisch,Virtualisierung,12,1.135
+Deutsch,ChatGPT,21,1.133
+Deutsch,Abitur,23,1.131
+Englisch,Product Management,13,1.13
+Geschäftsprozesse,Kommunikationsstärke,8,1.13
+Rechnungswesen,Verantwortungsbewusstsein,8,1.13
+Flexibilität,Organisationsfähigkeit,10,1.129
+Kommunikationsstärke,Sport,17,1.127
+Englisch,Produktmanagement,14,1.126
+Englisch,TypeScript,59,1.124
+Englisch,Excel,87,1.124
+Englisch,Docker,44,1.124
+Englisch,Produktentwicklung,15,1.123
+Sport,Zuverlässigkeit,24,1.122
+Automatisierung,Excel,10,1.121
+Englisch,Firewalls,16,1.12
+Java (Computerprogrammierung),Englisch,33,1.118
+Englisch,Independent,17,1.117
+Abgeschlossene Berufsausbildung,Verantwortungsbewusstsein,41,1.117
+Kundenbeziehungsmanagement,Bauen,9,1.112
+Englisch,Datenbankmanagementsysteme,61,1.11
+Deutsch,Slack,8,1.11
+Englisch,Projektmanagement,61,1.11
+Deutsch,Freizeitaktivitäten,12,1.11
+Deutsch,After Effects,10,1.11
+Deutsch,Clay,8,1.11
+PKW,Technisches Verständnis,10,1.108
+Englisch,Datenmodelle,23,1.105
+Sorgfältige Arbeitsweise,Teamfähigkeit,19,1.097
+Flexibilität,Zuverlässigkeit,77,1.095
+Python (Computerprogrammierung),Consulting,10,1.09
+Inbetriebnahme,Consulting,10,1.09
+Jobrad,Teamfähigkeit,13,1.089
+Attraktive Vergütung,Teamfähigkeit,25,1.088
+Führerschein Klasse B,PKW,10,1.087
+Selbstständigkeit,Teamfähigkeit,23,1.085
+technische Zeichnungen,Teamfähigkeit,30,1.081
+Deutsch,Microsoft 365,32,1.08
+Deutsch,Entra ID,15,1.078
+Englisch,Cursor,17,1.074
+Englisch,Verkabelung,9,1.074
+Englisch,RAG,10,1.074
+Englisch,Industriekaufmann,8,1.074
+Englisch,Geschäftsprozesse,27,1.074
+Englisch,Angular,18,1.074
+Englisch,Polnisch,8,1.074
+Englisch,Digital Marketing,10,1.074
+Englisch,Personio,8,1.074
+Lager,Zuverlässigkeit,22,1.074
+Englisch,VPN,10,1.074
+MySQL,Englisch,9,1.074
+Englisch,Paid Social,8,1.074
+Englisch,Abläufe in der Verkaufsabteilung,9,1.074
+Englisch,Figma,19,1.074
+Englisch,im Team arbeiten,11,1.074
+Flexibilität,Handeln,12,1.07
+Deutsch,Grafiken,11,1.067
+Engagement,Verkauf,11,1.065
+Intensivmedizin,Zuverlässigkeit,10,1.061
+Flexibilität,Urlaubsgeld,10,1.059
+Deutsch,Copilot,9,1.057
+Deutsch,Jahresabschluss,18,1.057
+Deutsch,Verkauf,70,1.056
+Deutsch,Outlook,16,1.051
+Englisch,SAP,64,1.051
+Kommunikationsfähigkeit,SAP,9,1.05
+Englisch,Terraform,29,1.049
+Sorgfältige Arbeitsweise,Verantwortungsbewusstsein,10,1.043
+Geschäftsmodell,Englisch,22,1.041
+Englisch,Hubspot,22,1.041
+Kreativität,Präzise,8,1.04
+Englisch,Analytisches Denken,20,1.038
+Deutsch,Windows,45,1.037
+Kommunikationsfähigkeit,Teamfähigkeit,39,1.035
+Englisch,Sensoren,17,1.032
+Englisch,Infrastructure as Code,17,1.032
+Englisch,Automotive,16,1.029
+Englisch,Agenturen,16,1.029
+Lernbereitschaft,Verantwortungsbewusstsein,9,1.028
+Englisch,Linux,43,1.024
+Englisch,ROAS,14,1.023
+Einschlägige Berufserfahrung,Teamfähigkeit,11,1.021
+Flexibilität,Verantwortungsbewusstsein,48,1.018
+Englisch,Dein Profil ab,25,1.017
+Deutsch,Account Management,25,1.017
+Deutsch,Desktop,10,1.017
+Englisch,Umsetzungsstärke,12,1.015
+Kreativität,Zuverlässigkeit,31,1.015
+Englisch,serviceorientierte Modellierung,34,1.012
+Englisch,Qualitätsmanagement,11,1.01
+Urlaubsgeld,Verantwortungsbewusstsein,8,1.01
+Deutsch,Hubspot,28,1.01
+Schleifen,Teamfähigkeit,13,1.009
+Beratung,Engagement,36,1.008
+Englisch,Migration,31,1.006
+Englisch,Word,10,1.003
+Englisch,Verhandlungsgeschick,20,1.003
+Englisch,Möglichkeiten erkennen,10,1.003
+Beratung,Controlling,14,1.001
+Teamfähigkeit,WIG,9,1.001
+Englisch,Grafikdesign,9,0.996
+Deutsch,Smartphones,8,0.994
+Deutsch,EPLAN,8,0.994
+Deutsch,Kundenservice,16,0.994
+Deutsch,Französisch,16,0.994
+Englisch,Python (Computerprogrammierung),113,0.993
+Know-How,Weihnachtsgeld,9,0.992
+Englisch,Aerospace,17,0.991
+Unbefristeter Arbeitsvertrag,Verantwortungsbewusstsein,8,0.988
+Deutsch,verteilte Verzeichnisinformationsdienste,30,0.987
+Lernbereitschaft,Teamfähigkeit,16,0.987
+Englisch,Datenanalyse,8,0.986
+Englisch,Hohe Lernbereitschaft,8,0.986
+Englisch,Semantik,8,0.986
+Verlässlichkeit,Zuverlässigkeit,15,0.986
+Englisch,technische Pläne,8,0.986
+Automatisierung,Selbstständige,15,0.985
+Deutsch,Abläufe in der Verkaufsabteilung,11,0.984
+Deutsch,unstrukturierte Daten,11,0.984
+Handwerkliches Geschick,Teamfähigkeit,31,0.983
+Abgeschlossene Berufsausbildung,Sorgfalt,18,0.981
+Deutsch,Qualitätsmanagement,14,0.979
+Festanstellung,Weihnachtsgeld,9,0.979
+Kommunikationsstärke,Sicheres Auftreten,10,0.978
+Deutsch,iOS,17,0.975
+Englisch,Business Development,35,0.974
+Abgeschlossene Berufsausbildung,Berufseinsteiger,8,0.974
+Deutsch,Figma,23,0.971
+Kundenorientierung,Teamfähigkeit,33,0.971
+Flexibilität,Selbstständigkeit,14,0.967
+Englisch,Robotik,26,0.967
+Englisch,E-Commerce,39,0.967
+Beratung,Handeln,11,0.964
+Beratung,Sicheres Auftreten,11,0.964
+technische Zeichnungen,Zuverlässigkeit,23,0.964
+Englisch,Administration,57,0.964
+Deutsch,Google Workspace,9,0.958
+Deutsch,Testautomatisierung,9,0.958
+Deutsch,MCP,15,0.958
+Deutsch,Pitches,9,0.958
+Technisches Verständnis,Zuverlässigkeit,37,0.956
+Entwicklungsmöglichkeiten,Kreativität,11,0.955
+Kommunikationsstärke,SAP,17,0.95
+Entwicklungsmöglichkeiten,Patienten,8,0.947
+Einkauf,Selbstständige,8,0.945
+Deutsch,Scale-up,16,0.94
+Deutsch,Board,16,0.94
+Englisch,Fachinformatiker Systemintegration,10,0.936
+Deutsch,Wohnsitz,13,0.936
+Digitalisierung,Kommunikationsstärke,11,0.935
+Deutsch,Öffentlichkeitsarbeit,10,0.929
+Handeln,Verantwortungsbewusstsein,9,0.929
+Engagierte,Selbstständige,11,0.928
+Eigeninitiative,Kommunikationsstärke,22,0.926
+Handeln,Selbstständige,8,0.926
+Abgeschlossene kaufmännische Ausbildung,Zuverlässigkeit,14,0.923
+Englisch,Access Management,9,0.922
+Deutsch,Facebook,14,0.917
+Flexibilität,Führerschein Klasse B,29,0.914
+Englisch,Data Science,17,0.913
+Beratung,Kundenbetreuung,15,0.912
+Englisch,Einkauf,33,0.909
+Administration,Eigeninitiative,8,0.908
+Freundliches Auftreten,Teamfähigkeit,8,0.907
+Deutsch,Exchange,11,0.906
+Englisch,Clear communication,12,0.904
+Englisch,Microservices,8,0.904
+Englisch,Medien,20,0.904
+Englisch,Organisationen,8,0.904
+Englisch,Microsoft Azure,12,0.904
+Englisch,HGB,20,0.904
+Deutsch,HOAI,15,0.901
+Deutsch,Office-Anwendungen,15,0.901
+Kommunikationsstärke,Selbstständige,35,0.9
+Englisch,Verhandlungssicher,31,0.899
+Kommunikationsstärke,Projektmanagement,15,0.897
+Datenschutz,Flexibilität,21,0.897
+Englisch,DevOps,19,0.895
+Beratung,BWL,13,0.895
+Inbetriebnahme,Abgeschlossene Berufsausbildung,27,0.894
+Englisch,MS-Office,15,0.893
+Englisch,CI/CD,41,0.892
+Englisch,CEO,11,0.889
+Einsatzbereitschaft,Teamfähigkeit,22,0.889
+Deutsch,A/B-Tests,8,0.888
+Deutsch,Dienstleistungsorientierung,8,0.888
+Deutsch,Online Marketing,8,0.888
+Verantwortung zeigen,Deutsch,16,0.888
+Deutsch,IHK,8,0.888
+Elektriker,Zuverlässigkeit,11,0.888
+Energie,Weihnachtsgeld,12,0.884
+Deutsch,Kundenorientierung,83,0.88
+Inbetriebnahme,Führerschein Klasse B,18,0.879
+Deutsch,Claude Code,21,0.878
+Arbeitsrecht,Englisch,10,0.872
+Englisch,React,36,0.869
+Flexibilität,Sport,16,0.868
+Strukturierte Arbeitsweise,Weihnachtsgeld,15,0.866
+Deutsch,Englisch,660,0.866
+Deutsch,Zapier,9,0.865
+Deutsch,Auslieferung,9,0.865
+Strukturierte Arbeitsweise,Teamfähigkeit,42,0.865
+Sorgfalt,Technisches Verständnis,11,0.863
+Abgeschlossene Berufsausbildung,Technisches Verständnis,22,0.863
+Deutsch,Customer Success,32,0.862
+Genauigkeit,Verantwortungsbewusstsein,13,0.855
+Deutsch,Grundverständnis,24,0.854
+Excel,SAP,8,0.854
+Abgeschlossene Berufsausbildung,Zuverlässigkeit,52,0.854
+Administration,Strukturierte Arbeitsweise,9,0.852
+Englisch,Microsoft 365,21,0.851
+Kundendienst,Englisch,30,0.851
+Elektrotechnik,Englisch,12,0.851
+Englisch,Routing,12,0.851
+Englisch,Fintech,12,0.851
+Englisch,Power BI,9,0.851
+Englisch,B2B SaaS,12,0.851
+Englisch,Industrieunternehmen,9,0.851
+Deutsch,Consulting,54,0.85
+Deutsch,Spring Boot,10,0.847
+Beratung,Strukturierte Arbeitsweise,27,0.844
+Englisch,Elektronik,23,0.842
+Kundenorientierung,Zuverlässigkeit,25,0.837
+Englisch,Analytisches Denkvermögen,14,0.837
+Teamfähigkeit,Technisches Verständnis,41,0.837
+Deutsch,Berechtigungen,16,0.837
+Belastbarkeit,Strukturierte Arbeitsweise,11,0.836
+Engagierte,Flexibilität,14,0.835
+Bauen,Entwicklungsmöglichkeiten,10,0.835
+Englisch,Next.js,11,0.833
+Deutsch,B2B-Vertrieb,11,0.832
+Deutsch,VPN,11,0.832
+Deutsch,M365,11,0.832
+Eigeninitiative,Kundenorientierung,9,0.831
+Englisch,Automatisierung,57,0.83
+Logik,Englisch,16,0.826
+Englisch,REST APIs,8,0.826
+Englisch,Playwright,8,0.826
+Englisch,Notes,8,0.826
+Englisch,Smartphone,13,0.82
+Deutsch,Azure,48,0.82
+Elektroniker,Teamfähigkeit,34,0.82
+Führerschein Klasse B,Selbstständige,20,0.819
+Excel,Strukturierte Arbeitsweise,12,0.817
+Englisch,Meta,18,0.817
+Deutsch,LinkedIn,37,0.817
+Persönliche Betreuung,Teamfähigkeit,14,0.815
+Excel,Kommunikationsstärke,20,0.814
+Elektroniker,Führerschein Klasse B,12,0.812
+Flexibilität,Kommunikationsfähigkeit,22,0.807
+Deutsch,Canva,21,0.802
+Qualitätsstandards,Selbstständige,9,0.801
+Algorithmen,Englisch,12,0.801
+Administration,Selbstständige,12,0.797
+Deutsch,Salesforce,15,0.794
+Flexibilität,Kommunikationsstärke,44,0.79
+Deutsch,Display,8,0.788
+Deutsch,Adobe Creative Cloud,8,0.788
+Deutsch,Prompting,8,0.788
+Englisch,Google Ads,16,0.788
+Deutsch,SharePoint,8,0.788
+Beratung,Abgeschlossene kaufmännische Ausbildung,10,0.788
+Deutsch,Theorie,8,0.788
+Deutsch,Datenmodellierung,8,0.788
+Deutsch,Notion,8,0.788
+Deutsch,Postgres,8,0.788
+Deutsch,Business Development,40,0.788
+Englisch,Performance Marketing,25,0.787
+Englisch,Scripting,9,0.784
+Englisch,Personalwesen,29,0.782
+Englisch,Unternehmerisches Denken,29,0.782
+Deutsch,Claude,26,0.781
+Englisch,SEA,11,0.778
+Deutsch,Zusammenhängen,9,0.777
+Deutsch,Interpretation,9,0.777
+Deutsch,IFRS,9,0.777
+Englisch,Node.js,13,0.774
+Abgeschlossene Berufsausbildung,Sorgfältige Arbeitsweise,8,0.773
+JavaScript,Deutsch,29,0.772
+Englisch,Retention,15,0.771
+Elektroniker,Selbstständige,16,0.771
+Deutsch,Notes,10,0.769
+Qualitätsstandards,Zuverlässigkeit,15,0.766
+Englisch,Datev,21,0.766
+Deutsch,PostgreSQL,31,0.766
+Englisch,Eigeninitiative,69,0.764
+Inbetriebnahme,Kundenorientierung,12,0.763
+Kreativität,Strukturierte Arbeitsweise,11,0.762
+Abgeschlossene Berufsausbildung,Handwerkliches Geschick,14,0.76
+Technisches Verständnis,Verstehen,11,0.76
+Beratung,Kommunikationsfähigkeit,21,0.759
+Selbstständige,Teamfähigkeit,54,0.757
+Kommunikationsstärke,Lernbereitschaft,8,0.756
+Patienten,Strukturierte Arbeitsweise,8,0.754
+Englisch,Ökosysteme,20,0.752
+Englisch,Kundenbeziehungsmanagement,52,0.752
+Englisch,Ästhetik,10,0.752
+Englisch,Kotlin,8,0.752
+Englisch,Gehaltsabrechnung,8,0.752
+Deutsch,HTML,13,0.751
+Deutsch,CSS,13,0.751
+Englisch,Social Media,51,0.746
+Deutsch,Genauigkeit,59,0.745
+Eigeninitiative,Teamfähigkeit,33,0.743
+Kommunikationsstärke,Weihnachtsgeld,23,0.743
+Deutsch,Hohe Einsatzbereitschaft,16,0.741
+Flexibilität,Sorgfalt,19,0.733
+Englisch,Abgeschlossene technische Ausbildung,15,0.733
+Fehleranalyse,Zuverlässigkeit,10,0.727
+Datenbank,Englisch,22,0.726
+Englisch,CTO,11,0.726
+Automatisierung,Technisches Verständnis,9,0.725
+Englisch,Urban Sports Club,9,0.72
+Englisch,IAM,9,0.72
+Prototyp für User-Experience-Lösung erstellen,Englisch,25,0.718
+Excel,Verstehen,9,0.715
+Deutsch,serviceorientierte Modellierung,36,0.715
+Englisch,ChatGPT,12,0.705
+Elektroniker,Kundenorientierung,8,0.695
+Deutsch,Organisationen,9,0.695
+Deutsch,Datev,26,0.695
+Deutsch,MySQL,9,0.695
+Englisch,PowerShell,10,0.695
+Deutsch,Psychologie,8,0.695
+Deutsch,Erfolgreich abgeschlossene kaufmännische,8,0.695
+Selbstständige,Softwareentwicklung,8,0.695
+Deutsch,E-Commerce,42,0.695
+Englisch,Source (Videospielerstellungssysteme),30,0.695
+Deutsch,WordPress,8,0.695
+Know-How,Selbstständige,10,0.695
+Schichtbereitschaft,Zuverlässigkeit,11,0.693
+Englisch,Debugging,13,0.687
+Energie,Entwicklungsmöglichkeiten,9,0.683
+Englisch,Illustrator,8,0.681
+Englisch,VMWare,8,0.681
+Controlling,Kommunikationsstärke,10,0.668
+Abgeschlossene Berufsausbildung,PKW,11,0.654
+Kommunikationsstärke,Kreativität,17,0.65
+Deutsch,Kundenbeziehungsmanagement,63,0.65
+Beratung,LinkedIn,8,0.646
+Deutsch,Entscheidungen treffen,14,0.644
+Wartung und Reparatur,Teamfähigkeit,9,0.642
+Englisch,YouTube,10,0.641
+Englisch,CapCut,10,0.641
+Deutsch,GitHub,13,0.64
+Deutsch,CapCut,13,0.64
+Beratung,Selbstständigkeit,11,0.638
+Projektleitung,Kommunikationsstärke,8,0.637
+Beratung,Eigeninitiative,20,0.637
+Engagement,Präzise,9,0.637
+Deutsch,IT-Support,12,0.636
+Deutsch,Pricing,23,0.633
+Arbeitsrecht,Deutsch,11,0.631
+Deutsch,Online-Marketing,11,0.631
+Abgeschlossene Berufsausbildung,Patienten,11,0.629
+Eigeninitiative,Excel,9,0.628
+Englisch,Verhandlungssichere Deutschkenntnisse,11,0.626
+Abgeschlossene Berufsausbildung,Selbstständige,26,0.626
+Attraktive Vergütung,Flexibilität,12,0.626
+Deutsch,Instagram,30,0.625
+Deutsch,Raumfahrttechnik,10,0.625
+Deutsch,Spätschicht,10,0.625
+Engagierte,Verantwortungsbewusstsein,10,0.623
+Beratung,Selbstständige,32,0.62
+Handwerkliches Geschick,Zuverlässigkeit,20,0.617
+Deutsch,Grafikdesign,9,0.617
+Flexibilität,Sorgfältige Arbeitsweise,9,0.617
+Deutsch,Playwright,9,0.617
+Flexible Arbeitszeiten,Selbstständige,8,0.616
+Deutsch,BWL,44,0.615
+Deutsch,Controlling,44,0.615
+Englisch,Auftragsabwicklung,8,0.614
+Englisch,Know-How,40,0.614
+Teamfähigkeit,Werkzeugen,9,0.614
+Englisch,n8n,12,0.614
+Deutsch,Logistik,17,0.612
+Abgeschlossene Berufsausbildung,Kommunikationsstärke,31,0.61
+Deutsch,Hohe Eigenverantwortung,8,0.607
+Deutsch,Handel,8,0.607
+Deutsch,Rufbereitschaft,8,0.607
+Deutsch,Excel,79,0.606
+Präzise,Teamfähigkeit,21,0.602
+Kundenbeziehungsmanagement,Strukturierte Arbeitsweise,8,0.602
+Patienten,Zuverlässigkeit,17,0.6
+Englisch,Canva,14,0.596
+Beratung,Softwareentwicklung,10,0.596
+Deutsch,CRM-Systemen,14,0.595
+Sport,Teamfähigkeit,20,0.593
+Strukturierte Arbeitsweise,Verantwortungsbewusstsein,19,0.592
+Teamfähigkeit,Verantwortungsbewusstsein,54,0.59
+Deutsch,Photoshop,13,0.588
+Englisch,Photoshop,10,0.588
+Deutsch,Getränke,39,0.588
+Teamfähigkeit,Verpacken,9,0.586
+Deutsch,Administration,57,0.585
+Beratung,Personalwesen,8,0.584
+Projektmanagement,Selbstständige,10,0.582
+Englisch,Projektleitung,27,0.581
+Kommunikationsfähigkeit,Strukturierte Arbeitsweise,10,0.58
+Mitarbeiterrabatte,Teamfähigkeit,10,0.58
+Englisch,Hohe Einsatzbereitschaft,11,0.579
+Teamfähigkeit,Unbefristeter Arbeitsvertrag,11,0.576
+Strukturierte Arbeitsweise,Technisches Verständnis,12,0.573
+Deutsch,Retention,17,0.573
+Deutsch,Forecasting,17,0.573
+Deutsch,Automatisierung,62,0.572
+Englisch,Normen,12,0.571
+Elektroniker,Technisches Verständnis,10,0.57
+Deutsch,Microsoft Office,11,0.569
+Deutsch,CI/CD-Pipelines,11,0.569
+Energie,Teamfähigkeit,27,0.567
+Deutsch,Einsatzbereitschaft,47,0.563
+Englisch,Kommunikationsfähigkeiten,27,0.562
+Deutsch,Ansible,10,0.557
+Englisch,Machine Learning,15,0.554
+Englisch,Statistik,15,0.554
+Englisch,Online-Marketing,8,0.55
+Kreativität,Teamfähigkeit,27,0.549
+Deutsch,FastAPI,9,0.543
+Deutsch,Kommunikationsstark,18,0.543
+Kommunikationsfähigkeit,Zuverlässigkeit,23,0.54
+Deutsch,Kommunikationsfähigkeit,74,0.538
+Eigeninitiative,Technisches Verständnis,10,0.536
+Deutsch,Data Science,17,0.534
+Deutsch,TypeScript,51,0.534
+Deutsch,PowerPoint,17,0.534
+Attraktive Vergütung,Kommunikationsstärke,10,0.534
+Inbetriebnahme,Strukturierte Arbeitsweise,14,0.531
+Englisch,Gesundheitswesen,12,0.529
+Know-How,Verantwortungsbewusstsein,10,0.528
+Deutsch,Medien,20,0.525
+Mitarbeiterrabatte,Zuverlässigkeit,8,0.525
+Deutsch,AutoCAD,8,0.525
+Deutsch,Hohe Eigenmotivation,8,0.525
+Deutsch,Datenmodelle,20,0.525
+Deutsch,Angular,16,0.525
+Deutsch,Höhentauglichkeit,8,0.525
+Deutsch,Android (mobile Betriebssysteme),8,0.525
+Deutsch,Google Analytics,8,0.525
+Führerschein Klasse B,Handwerkliches Geschick,8,0.523
+Selbstständige Arbeitsweise,Zuverlässigkeit,15,0.522
+Englisch,Funktion,15,0.521
+Beratung,Attraktive Vergütung,11,0.52
+Englisch,Anlagenbau,16,0.519
+Beratung,Kundenbeziehungsmanagement,14,0.518
+Deutsch,DevOps,19,0.517
+Entwicklungsmöglichkeiten,Zuverlässigkeit,24,0.517
+Beratung,Englisch,126,0.516
+Flexible Arbeitszeiten,Kommunikationsstärke,9,0.516
+Deutsch,Cursor,15,0.514
+Flexibilität,Präzise,13,0.508
+Deutsch,Datenschutz,65,0.508
+Java (Computerprogrammierung),Deutsch,28,0.502
+Qualitätsstandards,Teamfähigkeit,15,0.5
+Deutsch,ERP-Systemen,17,0.497
+Deutsch,Docker,37,0.495
+Entwicklungsmöglichkeiten,Strukturierte Arbeitsweise,10,0.495
+Deutsch,Schnelle Auffassungsgabe,20,0.493
+Deutsch,Verstehen,70,0.493
+Englisch,SEO,16,0.489
+Englisch,Fehleranalyse,21,0.489
+Englisch,CRM-Systemen,10,0.489
+Englisch,Instagram,21,0.489
+Englisch,Sicheres Auftreten,25,0.489
+Englisch,Scope,21,0.489
+Deutsch,Beratung,160,0.482
+Deutsch,Gesundheitswesen,15,0.473
+Deutsch,Word,9,0.473
+Kundendienst,Deutsch,30,0.473
+Deutsch,Grundlagen,12,0.473
+Deutsch,Programmiersprachen,9,0.473
+Deutsch,Verhandlungsgeschick,18,0.473
+technische Zeichnungen,Flexibilität,13,0.472
+Beratung,Kommunikationsfähigkeiten,8,0.466
+Englisch,Rechnungswesen,19,0.464
+Deutsch,LLMs,17,0.46
+Englisch,Claude,16,0.459
+Deutsch,Automotive,14,0.458
+Deutsch,n8n,14,0.458
+Deutsch,GitHub Actions,11,0.454
+Englisch,Kommunikationsstark,13,0.452
+Teamfähigkeit,Weihnachtsgeld,32,0.451
+Englisch,Abgeschlossene kaufmännische Ausbildung,25,0.451
+Deutsch,HGB,19,0.451
+Deutsch,React,35,0.449
+Belastbarkeit,Engagement,10,0.448
+Logik,Deutsch,16,0.447
+Deutsch,Diskretion,8,0.447
+Deutsch,Fachangestellte,8,0.447
+Deutsch,Führerschein Klasse B,85,0.446
+Deutsch,Netzwerke,13,0.441
+Kundenorientierung,Strukturierte Arbeitsweise,8,0.435
+Abgeschlossene kaufmännische Ausbildung,Teamfähigkeit,12,0.434
+Deutsch,SEO,20,0.432
+Deutsch,Scrum,15,0.432
+Deutsch,Aerospace,15,0.432
+Deutsch,Organisationsfähigkeit,25,0.432
+Rechnungswesen,Teamfähigkeit,9,0.428
+Englisch,Einschlägige Berufserfahrung,15,0.426
+Deutsch,Datenbanken,29,0.424
+Führungszeugnis,Zuverlässigkeit,9,0.423
+Deutsch,Social Media,53,0.423
+Deutsch,Scope,26,0.418
+Deutsch,Start-Up,14,0.415
+Beratung,Präzise,12,0.411
+Beratung,SAP,13,0.411
+Energie,Flexibilität,16,0.41
+Deutsch,Performance Marketing,25,0.408
+Deutsch,Confluence,9,0.405
+Deutsch,im Team arbeiten,9,0.405
+Deutsch,Selbständige Arbeitsweise,11,0.399
+Beratung,Festanstellung,11,0.398
+Deutsch,Sorgfalt,61,0.397
+Deutsch,PC,19,0.388
+Deutsch,Dein Profil ab,21,0.387
+Englisch,Entscheidungen treffen,9,0.386
+Deutsch,Projektmanagement,48,0.385
+Eigeninitiative,Verantwortungsbewusstsein,14,0.377
+Inbetriebnahme,Entwicklungsmöglichkeiten,11,0.376
+Deutsch,Digital Marketing,8,0.373
+Deutsch,Gehaltsabrechnung,8,0.373
+Deutsch,Start-ups,10,0.373
+Deutsch,Gewissenhaftigkeit,8,0.373
+Deutsch,Fundiertes Verständnis,12,0.373
+Deutsch,Ökosysteme,20,0.373
+Beratung,Engagierte,10,0.369
+Einsatzbereitschaft,Kommunikationsstärke,9,0.368
+Englisch,Digitalisierung,26,0.365
+Qualitätsstandards,Flexibilität,9,0.36
+Deutsch,Testen,19,0.358
+Englisch,Schnelle Auffassungsgabe,14,0.358
+Deutsch,Personalwesen,28,0.353
+Technisches Verständnis,Verantwortungsbewusstsein,16,0.351
+Kameras,Englisch,10,0.351
+Englisch,Kommunikationsfähigkeit,50,0.351
+Englisch,Grundverständnis,13,0.348
+Handeln,Teamfähigkeit,11,0.347
+Engagement,Zuverlässigkeit,29,0.346
+Prototyp für User-Experience-Lösung erstellen,Deutsch,25,0.339
+Englisch,Kurze Entscheidungswege,12,0.337
+Engagierte,Teamfähigkeit,15,0.337
+Englisch,Automatisierungstechnik,12,0.337
+Kommunikationsstärke,Technisches Verständnis,17,0.336
+Selbstständige,Verantwortungsbewusstsein,22,0.333
+Deutsch,Geschäftsprozesse,21,0.332
+Flexibilität,Kundenorientierung,14,0.331
+Kommunikationsstärke,Selbstständigkeit,8,0.33
+Deutsch,Firewalls,12,0.326
+Beratung,Digitalisierung,8,0.324
+Deutsch,Datenbankmanagementsysteme,46,0.324
+Englisch,Reliability,22,0.324
+Elektroniker,Zuverlässigkeit,20,0.321
+Englisch,Flache Hierarchien,8,0.319
+Englisch,Mechanik,8,0.319
+Englisch,Strukturierte Arbeitsweise,59,0.313
+Kommunikationsfähigkeiten,Teamfähigkeit,11,0.309
+Datenbanken,Teamfähigkeit,10,0.309
+Fehleranalyse,Teamfähigkeit,9,0.309
+Beratung,Verstehen,15,0.309
+Englisch,Durchsetzungsvermögen,25,0.308
+Deutsch,MS-Office,13,0.308
+Deutsch,Möglichkeiten erkennen,8,0.303
+Deutsch,Pünktlichkeit,8,0.303
+Deutsch,VOB,8,0.303
+Deutsch,ZVK,16,0.303
+Englisch,Verstehen,47,0.297
+Python (Computerprogrammierung),Excel,10,0.297
+Deutsch,Fehlerbehebung,11,0.296
+Englisch,Testen,14,0.296
+Geschäftsmodell,Deutsch,17,0.291
+Englisch,Netzwerke,9,0.29
+Deutsch,Kommunikationsfähigkeiten,29,0.286
+Eigeninitiative,Engagement,10,0.278
+Englisch,Organisationstalent,19,0.277
+Deutsch,Engagement,89,0.276
+Deutsch,Buchhaltung,25,0.273
+Abgeschlossene Berufsausbildung,Lager,8,0.272
+Teamfähigkeit,Verlässlichkeit,11,0.272
+Deutsch,Meta,16,0.269
+Flexibilität,Lager,10,0.268
+Deutsch,Lernbereitschaft,26,0.266
+Deutsch,Strukturierte Einarbeitung,13,0.266
+Deutsch,Finanzbuchhaltung,14,0.254
+Deutsch,Prototyping,14,0.254
+Abgeschlossene Berufsausbildung,Belastbarkeit,11,0.251
+Beratung,Administration,11,0.25
+Kommunikationsfähigkeit,Selbstständige,11,0.248
+Englisch,Professionelles Auftreten,18,0.244
+Organisationstalent,Teamfähigkeit,9,0.242
+Beratung,Automatisierung,12,0.241
+Entwicklungsmöglichkeiten,Verantwortungsbewusstsein,13,0.237
+Deutsch,Auftragsabwicklung,8,0.235
+Deutsch,Analytisches Denkvermögen,12,0.235
+Deutsch,Abgeschlossene kaufmännische Ausbildung,28,0.235
+Englisch,Kommunikationsstärke,93,0.229
+Marken,Kommunikationsstärke,8,0.227
+Excel,Selbstständige,11,0.222
+Engagement,Teamfähigkeit,32,0.221
+Deutsch,Linux,32,0.219
+Deutsch,Google Ads,14,0.217
+Englisch,Berechtigungen,8,0.216
+Deutsch,C++,15,0.209
+Deutsch,B2B SaaS,10,0.209
+Inbetriebnahme,Verstehen,9,0.207
+Deutsch,Terraform,21,0.205
+Flexibilität,Genauigkeit,10,0.203
+Deutsch,AWS,33,0.2
+Deutsch,Elektriker,22,0.2
+Verkauf,Zuverlässigkeit,12,0.2
+Deutsch,SAP,46,0.196
+Eigeninitiative,Selbstständige,11,0.196
+Abgeschlossene Berufsausbildung,Führerschein Klasse B,14,0.189
+Führerschein Klasse B,Zuverlässigkeit,22,0.184
+Inbetriebnahme,Engagement,13,0.173
+Python (Computerprogrammierung),Kommunikationsfähigkeit,9,0.171
+Deutsch,Urban Sports Club,8,0.171
+Deutsch,Verpacken,18,0.164
+Deutsch,Next.js,9,0.164
+Deutsch,Arbeitsweisen,9,0.164
+Deutsch,Payment,9,0.164
+Elektriker,Teamfähigkeit,8,0.162
+Inbetriebnahme,Datenschutz,8,0.158
+Deutsch,Kommunikationsstärke,115,0.157
+Deutsch,CI/CD,32,0.156
+Englisch,Finanzbuchhaltung,10,0.148
+Deutsch,Leistungsbereitschaft,13,0.147
+Deutsch,Präzise,41,0.146
+Deutsch,Analytisches Denken,14,0.145
+Deutsch,Softwareentwicklung,30,0.142
+Teamfähigkeit,Urlaubsgeld,8,0.139
+Deutsch,Lager,37,0.136
+Deutsch,Eigeninitiative,58,0.135
+Abgeschlossene Berufsausbildung,Kommunikationsfähigkeit,11,0.133
+Beratung,Consulting,8,0.133
+Englisch,Selbstständige,72,0.13
+Flexibilität,Selbstständige,23,0.124
+Englisch,Teamorientierte,8,0.12
+Inbetriebnahme,Eigeninitiative,9,0.12
+Geduld,Teamfähigkeit,8,0.116
+Weiterbildungsmöglichkeiten,Zuverlässigkeit,8,0.116
+Deutsch,Zuverlässigkeit,158,0.113
+Administration,Kommunikationsstärke,9,0.112
+Deutsch,EDV-Kenntnisse,10,0.11
+Deutsch,Elektronik,18,0.11
+Deutsch,Selbstständiges Arbeiten,11,0.11
+Deutsch,Begeisterungsfähigkeit,10,0.11
+Deutsch,Fehleranalyse,21,0.11
+Deutsch,Personalmanagement,8,0.11
+Deutsch,Messmitteln,10,0.11
+Eigeninitiative,Flexibilität,14,0.103
+Know-How,Kommunikationsstärke,8,0.103
+Englisch,Buchhaltung,17,0.095
+SAP,Teamfähigkeit,16,0.094
+Abgeschlossene Berufsausbildung,Eigeninitiative,11,0.081
+Deutsch,JIRA,15,0.078
+Beratung,Marken,8,0.075
+Englisch,ML (Computerprogrammierung),9,0.074
+Bauen,Engagement,8,0.07
+Deutsch,Unternehmerisches Denken,23,0.069
+Engagement,Selbstständige,14,0.067
+Energie,Deutsch,51,0.064
+Inbetriebnahme,Selbstständige,14,0.061
+Deutsch,Robotik,18,0.057
+Deutsch,Risikomanagement,9,0.057
+Deutsch,CTO,9,0.057
+Marken,Flexibilität,8,0.056
+Inbetriebnahme,Technisches Verständnis,10,0.053
+Inbetriebnahme,Python (Computerprogrammierung),12,0.052
+Deutsch,Maschinenbau,8,0.051
+Deutsch,Product Management,8,0.051
+Buchhaltung,Teamfähigkeit,8,0.05
+Lager,Teamfähigkeit,13,0.049
+Festanstellung,Zuverlässigkeit,11,0.048
+Beratung,Einsatzbereitschaft,8,0.047
+Deutsch,Funktion,14,0.043
+Mathematik,Deutsch,14,0.043
+Deutsch,Urlaubsgeld,20,0.04
+Deutsch,Körperliche Belastbarkeit,13,0.038
+Projektleitung,Teamfähigkeit,9,0.038
+Deutsch,Marken,32,0.037
+Deutsch,Physik,12,0.032
+Deutsch,Verantwortungsbewusstsein,98,0.029
+Deutsch,Infrastructure as Code,11,0.025
+Deutsch,Sensoren,11,0.025
+Selbstständige,Zuverlässigkeit,27,0.024
+Deutsch,Node.js,10,0.017
+Deutsch,Produktentwicklung,9,0.007
+Deutsch,ROAS,9,0.007
+Deutsch,Strukturierte Arbeitsweise,62,0.005
+Deutsch,Sicherer Arbeitsplatz,8,-0.006
+Englisch,Serviceorientierung,12,-0.014
+Deutsch,Python (Computerprogrammierung),73,-0.016
+Inbetriebnahme,Englisch,56,-0.02
+Automatisierung,Kommunikationsstärke,9,-0.022
+Flexibilität,Strukturierte Arbeitsweise,15,-0.023
+Deutsch,Attraktive Vergütung,31,-0.023
+Deutsch,Verlässlichkeit,24,-0.024
+Deutsch,Agenturen,10,-0.028
+Kameras,Deutsch,10,-0.028
+Deutsch,Projektleitung,23,-0.029
+Schichtbereitschaft,Teamfähigkeit,8,-0.033
+Selbstständige,Weihnachtsgeld,11,-0.051
+Deutsch,Einschlägige Berufserfahrung,14,-0.052
+Deutsch,Inbetriebnahme,71,-0.056
+Deutsch,Unbefristeter Arbeitsvertrag,19,-0.057
+Deutsch,YouTube,8,-0.06
+Deutsch,SEA,8,-0.06
+Deutsch,Produktmanagement,8,-0.06
+Deutsch,Clear communication,8,-0.06
+Marken,Englisch,23,-0.061
+Deutsch,Schichtbereitschaft,21,-0.063
+Deutsch,GCP,10,-0.071
+Deutsch,Serviceorientierung,15,-0.071
+Deutsch,Normen,10,-0.071
+Deutsch,Rechnungswesen,17,-0.076
+Know-How,Zuverlässigkeit,10,-0.077
+Beratung,Inbetriebnahme,17,-0.08
+Festanstellung,Flexibilität,8,-0.08
+Deutsch,Smartphone,9,-0.089
+Deutsch,Cloud-Technologien,11,-0.094
+Deutsch,Abgeschlossene technische Ausbildung,11,-0.094
+Energie,Abgeschlossene Berufsausbildung,9,-0.094
+Flexible Arbeitszeiten,Teamfähigkeit,10,-0.101
+Engagement,Kommunikationsstärke,15,-0.103
+Python (Computerprogrammierung),Strukturierte Arbeitsweise,9,-0.106
+Datenbank,Deutsch,16,-0.112
+Deutsch,Berufserfahrung wünschenswert,8,-0.112
+Deutsch,Sorgfältige Arbeitsweise,22,-0.112
+Elektrotechnik,Deutsch,8,-0.112
+Englisch,Engagement,52,-0.121
+Deutsch,Berufseinsteiger,19,-0.123
+Kommunikationsstärke,Verstehen,10,-0.124
+Beratung,Weihnachtsgeld,14,-0.125
+Beratung,Kreativität,11,-0.129
+Deutsch,Digitalisierung,24,-0.13
+Beratung,Entwicklungsmöglichkeiten,12,-0.133
+Deutsch,Netzwerken,9,-0.135
+Englisch,Datenschutz,32,-0.136
+PKW,Zuverlässigkeit,10,-0.141
+Englisch,Bauen,34,-0.143
+Englisch,Lernbereitschaft,15,-0.149
+Englisch,Führungszeugnis,15,-0.149
+Energie,Selbstständige,8,-0.149
+Datenschutz,Kommunikationsstärke,9,-0.155
+Schaltpläne,Deutsch,13,-0.159
+Deutsch,Pre-Sales,8,-0.163
+Deutsch,Mitarbeiterrabatte,16,-0.163
+Deutsch,Persönliche Betreuung,19,-0.166
+Deutsch,Selbstständige Arbeitsweise,30,-0.166
+Beratung,Flexibilität,25,-0.177
+Deutsch,Know-How,30,-0.18
+Deutsch,Independent,9,-0.18
+Excel,Teamfähigkeit,17,-0.189
+Deutsch,Einkauf,20,-0.193
+Inbetriebnahme,Zuverlässigkeit,20,-0.196
+Deutsch,PKW,31,-0.196
+Deutsch,Eigenverantwortliches Arbeiten,11,-0.203
+Python (Computerprogrammierung),Engagement,10,-0.205
+Deutsch,Migration,17,-0.24
+Administration,Teamfähigkeit,12,-0.241
+Englisch,Technisches Verständnis,40,-0.241
+Beratung,Bauen,10,-0.249
+Englisch,Kundenorientierung,29,-0.258
+Deutsch,Selbständige,8,-0.259
+Deutsch,Selbstständige,71,-0.269
+PKW,Teamfähigkeit,11,-0.27
+Engagement,Strukturierte Arbeitsweise,8,-0.27
+Deutsch,Bauingenieurwesen,11,-0.272
+Englisch,Qualitätsstandards,18,-0.28
+Englisch,Programmieren,9,-0.28
+Engagement,Weihnachtsgeld,8,-0.292
+Englisch,Flexible Arbeitszeiten,18,-0.295
+Englisch,Selbstständige Arbeitsweise,21,-0.302
+Deutsch,Schleifen,14,-0.305
+Deutsch,Kurze Entscheidungswege,10,-0.305
+Deutsch,Flexibilität,94,-0.305
+Deutsch,Handwerkliches Geschick,34,-0.305
+Teamfähigkeit,Verstehen,15,-0.308
+Beratung,Technisches Verständnis,12,-0.318
+Projektmanagement,Teamfähigkeit,11,-0.319
+Beratung,Excel,10,-0.337
+Englisch,C1-C2,9,-0.341
+Deutsch,Source (Videospielerstellungssysteme),19,-0.343
+Kommunikationsstärke,Sorgfalt,8,-0.344
+Deutsch,Freundliches Auftreten,9,-0.345
+Deutsch,Simulation,9,-0.345
+Deutsch,Festanstellung,27,-0.345
+Englisch,Handeln,14,-0.348
+Deutsch,Organisationstalent,16,-0.349
+Deutsch,Ergebnisorientierung,8,-0.349
+Führerschein Klasse B,Verantwortungsbewusstsein,10,-0.349
+Linux,Teamfähigkeit,8,-0.359
+Beratung,Python (Computerprogrammierung),14,-0.36
+Belastbarkeit,Kommunikationsstärke,8,-0.363
+Deutsch,Sicheres Auftreten,18,-0.364
+Deutsch,Intensivmedizin,12,-0.364
+Englisch,Einsatzbereitschaft,19,-0.365
+Deutsch,Teamfähigkeit,136,-0.37
+Englisch,Verkauf,20,-0.372
+Deutsch,Technisches Verständnis,47,-0.387
+Englisch,Kreativität,29,-0.39
+Deutsch,Durchsetzungsvermögen,20,-0.393
+Deutsch,Mechatronik,12,-0.393
+Deutsch,Debugging,8,-0.393
+Deutsch,Gruppen,10,-0.409
+Deutsch,Statistik,10,-0.409
+Energie,Kommunikationsstärke,8,-0.419
+Deutsch,Jobrad,12,-0.448
+Eigeninitiative,Zuverlässigkeit,12,-0.45
+Strukturierte Arbeitsweise,Zuverlässigkeit,14,-0.454
+Deutsch,Engagierte,23,-0.468
+Beratung,Datenschutz,8,-0.476
+Deutsch,Bauen,35,-0.48
+Verstehen,Zuverlässigkeit,11,-0.489
+Deutsch,Kreativität,35,-0.498
+Deutsch,Programmieren,10,-0.507
+Englisch,Organisationsfähigkeit,10,-0.511
+Deutsch,Elektroniker,36,-0.519
+Deutsch,Handeln,16,-0.534
+Deutsch,Verantwortungsbewusste,8,-0.553
+Deutsch,Kundenbetreuung,22,-0.574
+Deutsch,Qualitätsstandards,19,-0.581
+Kommunikationsstärke,Verantwortungsbewusstsein,14,-0.589
+Deutsch,Patienten,24,-0.591
+Inbetriebnahme,Verantwortungsbewusstsein,10,-0.591
+Energie,Zuverlässigkeit,10,-0.599
+Deutsch,Belastbarkeit,31,-0.599
+Englisch,Sorgfältige Arbeitsweise,12,-0.608
+Beratung,Teamfähigkeit,28,-0.612
+Englisch,Mitarbeiterrabatte,9,-0.614
+Social Media,Zuverlässigkeit,8,-0.617
+Englisch,Getränke,13,-0.618
+Deutsch,Automatisierungstechnik,8,-0.627
+Deutsch,Freude am Umgang,12,-0.627
+Deutsch,Entwicklungsmöglichkeiten,35,-0.627
+Deutsch,Work-Life-Balance,13,-0.649
+Deutsch,Werkzeugen,10,-0.656
+Deutsch,Qualitätsbewusstsein,8,-0.663
+Deutsch,Langjährige Erfahrung,15,-0.665
+Excel,Zuverlässigkeit,10,-0.688
+Beratung,Zuverlässigkeit,22,-0.693
+Deutsch,Reliability,14,-0.707
+Social Media,Teamfähigkeit,9,-0.714
+Englisch,Führerschein Klasse B,29,-0.726
+Deutsch,Machine Learning,8,-0.731
+Deutsch,Weiterbildungsmöglichkeiten,14,-0.765
+Deutsch,technische Zeichnungen,22,-0.788
+Automatisierung,Teamfähigkeit,9,-0.791
+Deutsch,Weihnachtsgeld,36,-0.801
+Englisch,Kundenbetreuung,14,-0.847
+Abgeschlossene Berufsausbildung,Engagement,8,-0.855
+Deutsch,Abgeschlossene Berufsausbildung,51,-0.861
+Englisch,Teamfähigkeit,71,-0.929
+Deutsch,Flexible Arbeitszeiten,15,-0.937
+Inbetriebnahme,Teamfähigkeit,14,-0.977
+Englisch,Außendienst,9,-0.985
+Englisch,Flexibilität,44,-1.021
+Englisch,Präzise,14,-1.026
+Energie,Englisch,18,-1.06
+Kommunikationsstärke,Zuverlässigkeit,15,-1.094
+Deutsch,Sport,16,-1.151
+Englisch,Selbstständigkeit,10,-1.159
+Beratung,Abgeschlossene Berufsausbildung,10,-1.174
+Führerschein Klasse B,Teamfähigkeit,10,-1.22
+Englisch,Verlässlichkeit,8,-1.23
+Englisch,Festanstellung,11,-1.261
+Englisch,Engagierte,10,-1.291
+Deutsch,Geduld,8,-1.305
+Englisch,Sorgfalt,14,-1.348
+Englisch,Belastbarkeit,14,-1.367
+Englisch,Lager,10,-1.372
+Englisch,Verantwortungsbewusstsein,26,-1.507
+Beratung,Verantwortungsbewusstsein,8,-1.548
+Englisch,Genauigkeit,9,-1.589
+Englisch,Attraktive Vergütung,8,-1.599
+Englisch,Entwicklungsmöglichkeiten,13,-1.677
+Deutsch,Selbstständigkeit,9,-1.69
+Englisch,Zuverlässigkeit,34,-1.724
+Englisch,Weihnachtsgeld,8,-2.592
+Englisch,Abgeschlossene Berufsausbildung,11,-2.696

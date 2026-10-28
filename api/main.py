@@ -12,11 +12,12 @@ from functools import lru_cache
 from typing import Any
 
 import pandas as pd
-from fastapi import Depends, FastAPI, File, Form, Header, HTTPException, Request, UploadFile
+from fastapi import Depends, FastAPI, File, Form, Header, Request, UploadFile
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
+from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from api.schemas import ClassifyOut, ExtractOut, GapIn, MarketOut, SkillOut, TextIn
 from api.settings import settings
@@ -69,8 +70,8 @@ async def validation_error(_: Request, exc: RequestValidationError) -> JSONRespo
     )
 
 
-@app.exception_handler(HTTPException)
-async def http_error(_: Request, exc: HTTPException) -> JSONResponse:
+@app.exception_handler(StarletteHTTPException)
+async def http_error(_: Request, exc: StarletteHTTPException) -> JSONResponse:
     return JSONResponse(
         {"error": {"code": "http_error", "message": str(exc.detail)}}, exc.status_code
     )
@@ -109,11 +110,21 @@ def extractor() -> Any:
 
 @lru_cache(maxsize=1)
 def classifier() -> tuple[Any, str, list[str]]:
-    """Fine-tuned BERT when present with a valid manifest, otherwise TF-IDF; refuses models
-    whose manifest is missing or inconsistent."""
+    """The trained model with the better test macro-F1 (fine-tuned BERT or TF-IDF), falling
+    back to whichever exists; refuses models whose manifest is missing or inconsistent."""
     bert_dir = ROOT / "models" / "classifier_bert" / "model"
     tfidf_dir = ROOT / "models" / "classifier_tfidf"
-    for d, kind in ((bert_dir, "bert"), (tfidf_dir, "tfidf_lr")):
+    candidates = [(bert_dir, "bert"), (tfidf_dir, "tfidf_lr")]
+    # serve the model with the higher test macro-F1 when the results are known
+    res_path = ROOT / "results" / "classifier_results.json"
+    if res_path.exists():
+        models = json.loads(res_path.read_text("utf-8")).get("models", {})
+        score = {
+            "bert": models.get("bert:title+description", {}).get("macro_f1", -1.0),
+            "tfidf_lr": models.get("tfidf_lr:title+description", {}).get("macro_f1", -1.0),
+        }
+        candidates.sort(key=lambda c: -score[c[1]])
+    for d, kind in candidates:
         if not d.exists():
             continue
         m = verify_manifest(d, "classifier")

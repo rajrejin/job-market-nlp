@@ -64,6 +64,10 @@ class Gazetteer:
             keys: list[tuple[dict[str, Phrase], str]]
             if len(text) <= 3:
                 keys = [(self.exact_short, text)]
+            elif phrase.source == "mined":
+                # names of tools and products: no lemma key ("control" must not match
+                # "Controlling")
+                keys = [(self.surface, _key(t.lower_ for t in doc))]
             else:
                 keys = [
                     (self.surface, _key(t.lower_ for t in doc)),

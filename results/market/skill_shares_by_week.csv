@@ -1,0 +1,221 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+2026-02-16/2026-02-22,mined:festanstellung,Festanstellung,23,30,0.7667,0.5907,0.8821
+2026-02-16/2026-02-22,mined:flexible arbeitszeiten,Flexible Arbeitszeiten,23,30,0.7667,0.5907,0.8821
+2026-02-16/2026-02-22,mined:buchhaltung,Buchhaltung,5,30,0.1667,0.0734,0.3356
+2026-06-08/2026-06-14,mined:lager,Lager,34,172,0.1977,0.145,0.2635
+2026-06-08/2026-06-14,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,32,172,0.186,0.135,0.2508
+2026-06-08/2026-06-14,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,30,172,0.1744,0.125,0.2381
+2026-06-08/2026-06-14,http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532,technische Zeichnungen,22,172,0.1279,0.086,0.1861
+2026-06-08/2026-06-14,mined:zuverlässigkeit,Zuverlässigkeit,22,172,0.1279,0.086,0.1861
+2026-06-08/2026-06-14,mined:teamfähigkeit,Teamfähigkeit,21,172,0.1221,0.0813,0.1794
+2026-06-08/2026-06-14,mined:sap,SAP,18,172,0.1047,0.0672,0.1593
+2026-06-08/2026-06-14,mined:metallbearbeitung,Metallbearbeitung,14,172,0.0814,0.0491,0.132
+2026-06-08/2026-06-14,mined:technisches verständnis,Technisches Verständnis,13,172,0.0756,0.0447,0.125
+2026-06-08/2026-06-14,mined:pc,PC,12,172,0.0698,0.0404,0.118
+2026-06-08/2026-06-14,mined:schleifen,Schleifen,11,172,0.064,0.0361,0.1109
+2026-06-08/2026-06-14,mined:schichtbereitschaft,Schichtbereitschaft,10,172,0.0581,0.0319,0.1037
+2026-06-08/2026-06-14,mined:sie haben gute,Sie haben gute,9,172,0.0523,0.0278,0.0964
+2026-06-08/2026-06-14,mined:sie sind bereit,Sie sind bereit,9,172,0.0523,0.0278,0.0964
+2026-06-08/2026-06-14,mined:mag,MAG,8,172,0.0465,0.0238,0.0891
+2026-06-08/2026-06-14,mined:drehen,Drehen,8,172,0.0465,0.0238,0.0891
+2026-06-08/2026-06-14,mined:staplern,Staplern,8,172,0.0465,0.0238,0.0891
+2026-06-08/2026-06-14,mined:fräsen,Fräsen,8,172,0.0465,0.0238,0.0891
+2026-06-08/2026-06-14,mined:handwerkliches geschick,Handwerkliches Geschick,8,172,0.0465,0.0238,0.0891
+2026-06-08/2026-06-14,mined:wig,WIG,8,172,0.0465,0.0238,0.0891
+2026-06-08/2026-06-14,mined:reinigen,Reinigen,8,172,0.0465,0.0238,0.0891
+2026-06-08/2026-06-14,mined:cnc-maschinen,CNC-Maschinen,7,172,0.0407,0.0199,0.0816
+2026-06-08/2026-06-14,mined:flexibilität,Flexibilität,6,172,0.0349,0.0161,0.074
+2026-06-08/2026-06-14,mined:verpacken,Verpacken,6,172,0.0349,0.0161,0.074
+2026-06-08/2026-06-14,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,6,172,0.0349,0.0161,0.074
+2026-06-08/2026-06-14,mined:flurförderfahrzeugen,Flurförderfahrzeugen,6,172,0.0349,0.0161,0.074
+2026-06-08/2026-06-14,mined:selbstständige,Selbstständige,6,172,0.0349,0.0161,0.074
+2026-06-08/2026-06-14,mined:belastbarkeit,Belastbarkeit,6,172,0.0349,0.0161,0.074
+2026-06-08/2026-06-14,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,6,172,0.0349,0.0161,0.074
+2026-06-08/2026-06-14,mined:cnc-dreher,CNC-Dreher,6,172,0.0349,0.0161,0.074
+2026-07-20/2026-07-26,mined:teamfähigkeit,Teamfähigkeit,24,43,0.5581,0.4111,0.6957
+2026-07-20/2026-07-26,mined:elektroniker,Elektroniker,15,43,0.3488,0.2242,0.4983
+2026-07-20/2026-07-26,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,12,43,0.2791,0.1675,0.4269
+2026-07-20/2026-07-26,mined:sicheres auftreten,Sicheres Auftreten,11,43,0.2558,0.1493,0.4024
+2026-07-20/2026-07-26,mined:selbstständige arbeitsweise,Selbstständige Arbeitsweise,8,43,0.186,0.0974,0.3262
+2026-07-20/2026-07-26,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,8,43,0.186,0.0974,0.3262
+2026-07-20/2026-07-26,mined:selbstständige,Selbstständige,8,43,0.186,0.0974,0.3262
+2026-07-20/2026-07-26,http://data.europa.eu/esco/skill/a0cad388-3c4c-4786-b238-fc39f8c495af,Durchsetzungsvermögen,8,43,0.186,0.0974,0.3262
+2026-07-20/2026-07-26,mined:zuverlässigkeit,Zuverlässigkeit,7,43,0.1628,0.0812,0.2997
+2026-07-20/2026-07-26,mined:schichtbereitschaft,Schichtbereitschaft,6,43,0.1395,0.0656,0.2726
+2026-08-17/2026-08-23,mined:persönliche betreuung,Persönliche Betreuung,19,63,0.3016,0.2024,0.4236
+2026-08-17/2026-08-23,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,11,63,0.1746,0.1004,0.2862
+2026-08-17/2026-08-23,mined:weihnachtsgeld,Weihnachtsgeld,11,63,0.1746,0.1004,0.2862
+2026-08-17/2026-08-23,mined:selbstständige,Selbstständige,10,63,0.1587,0.0886,0.2681
+2026-08-17/2026-08-23,mined:vermögenswirksame leistungen,Vermögenswirksame Leistungen,10,63,0.1587,0.0886,0.2681
+2026-08-17/2026-08-23,mined:kommunikationsfähigkeiten,Kommunikationsfähigkeiten,8,63,0.127,0.0658,0.2311
+2026-08-17/2026-08-23,mined:kommunikationsstärke,Kommunikationsstärke,7,63,0.1111,0.0549,0.212
+2026-08-17/2026-08-23,mined:freude am umgang,Freude am Umgang,7,63,0.1111,0.0549,0.212
+2026-08-17/2026-08-23,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,6,63,0.0952,0.0444,0.1926
+2026-08-17/2026-08-23,mined:teamfähigkeit,Teamfähigkeit,6,63,0.0952,0.0444,0.1926
+2026-08-17/2026-08-23,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,5,63,0.0794,0.0344,0.1727
+2026-08-17/2026-08-23,mined:flexibilität,Flexibilität,5,63,0.0794,0.0344,0.1727
+2026-08-31/2026-09-06,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,13,85,0.1529,0.0916,0.2443
+2026-08-31/2026-09-06,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,13,85,0.1529,0.0916,0.2443
+2026-08-31/2026-09-06,mined:baufinanzierung,Baufinanzierung,10,85,0.1176,0.0652,0.2032
+2026-08-31/2026-09-06,mined:teamfähigkeit,Teamfähigkeit,9,85,0.1059,0.0567,0.1891
+2026-08-31/2026-09-06,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,7,85,0.0824,0.0405,0.1604
+2026-08-31/2026-09-06,mined:selbstständigkeit,Selbstständigkeit,7,85,0.0824,0.0405,0.1604
+2026-08-31/2026-09-06,mined:zuverlässigkeit,Zuverlässigkeit,7,85,0.0824,0.0405,0.1604
+2026-08-31/2026-09-06,mined:flexibilität,Flexibilität,7,85,0.0824,0.0405,0.1604
+2026-08-31/2026-09-06,mined:festanstellung,Festanstellung,5,85,0.0588,0.0254,0.1304
+2026-08-31/2026-09-06,mined:hgb,HGB,5,85,0.0588,0.0254,0.1304
+2026-08-31/2026-09-06,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,5,85,0.0588,0.0254,0.1304
+2026-08-31/2026-09-06,mined:genauigkeit,Genauigkeit,5,85,0.0588,0.0254,0.1304
+2026-08-31/2026-09-06,mined:kommunikationsstärke,Kommunikationsstärke,5,85,0.0588,0.0254,0.1304
+2026-08-31/2026-09-06,http://data.europa.eu/esco/skill/e437eba1-3e22-41f2-8703-741e94785cba,Personalwesen,5,85,0.0588,0.0254,0.1304
+2026-08-31/2026-09-06,mined:sorgfalt,Sorgfalt,5,85,0.0588,0.0254,0.1304
+2026-08-31/2026-09-06,mined:eigeninitiative,Eigeninitiative,5,85,0.0588,0.0254,0.1304
+2026-09-07/2026-09-13,mined:teamfähigkeit,Teamfähigkeit,27,70,0.3857,0.2805,0.5028
+2026-09-07/2026-09-13,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,26,70,0.3714,0.2677,0.4885
+2026-09-07/2026-09-13,mined:zuverlässigkeit,Zuverlässigkeit,21,70,0.3,0.2054,0.4154
+2026-09-07/2026-09-13,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,21,70,0.3,0.2054,0.4154
+2026-09-07/2026-09-13,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,10,70,0.1429,0.0795,0.2434
+2026-09-07/2026-09-13,mined:flexibilität,Flexibilität,9,70,0.1286,0.0691,0.2266
+2026-09-07/2026-09-13,mined:sorgfalt,Sorgfalt,8,70,0.1143,0.0591,0.2096
+2026-09-07/2026-09-13,mined:technisches verständnis,Technisches Verständnis,8,70,0.1143,0.0591,0.2096
+2026-09-07/2026-09-13,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,7,70,0.1,0.0493,0.1923
+2026-09-07/2026-09-13,mined:berufserfahrung wünschenswert,Berufserfahrung wünschenswert,7,70,0.1,0.0493,0.1923
+2026-09-07/2026-09-13,mined:kommunikationsstärke,Kommunikationsstärke,7,70,0.1,0.0493,0.1923
+2026-09-07/2026-09-13,mined:einsatzbereitschaft,Einsatzbereitschaft,7,70,0.1,0.0493,0.1923
+2026-09-07/2026-09-13,mined:selbstständige,Selbstständige,6,70,0.0857,0.0399,0.1747
+2026-09-07/2026-09-13,mined:leistungsbereitschaft,Leistungsbereitschaft,6,70,0.0857,0.0399,0.1747
+2026-09-07/2026-09-13,mined:führerschein klasse b,Führerschein Klasse B,6,70,0.0857,0.0399,0.1747
+2026-09-07/2026-09-13,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,5,70,0.0714,0.0309,0.1566
+2026-09-07/2026-09-13,mined:belastbarkeit,Belastbarkeit,5,70,0.0714,0.0309,0.1566
+2026-09-07/2026-09-13,mined:selbständige,Selbständige,5,70,0.0714,0.0309,0.1566
+2026-09-14/2026-09-20,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,16,66,0.2424,0.1551,0.3581
+2026-09-14/2026-09-20,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,16,66,0.2424,0.1551,0.3581
+2026-09-14/2026-09-20,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,12,66,0.1818,0.1072,0.2915
+2026-09-14/2026-09-20,mined:teamfähigkeit,Teamfähigkeit,7,66,0.1061,0.0523,0.2031
+2026-09-14/2026-09-20,mined:pkw,PKW,7,66,0.1061,0.0523,0.2031
+2026-09-14/2026-09-20,mined:einsatzbereitschaft,Einsatzbereitschaft,6,66,0.0909,0.0423,0.1845
+2026-09-14/2026-09-20,mined:selbstständige,Selbstständige,6,66,0.0909,0.0423,0.1845
+2026-09-14/2026-09-20,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,5,66,0.0758,0.0328,0.1654
+2026-09-14/2026-09-20,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,5,66,0.0758,0.0328,0.1654
+2026-09-14/2026-09-20,mined:excel,Excel,5,66,0.0758,0.0328,0.1654
+2026-09-14/2026-09-20,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,5,66,0.0758,0.0328,0.1654
+2026-09-21/2026-09-27,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,58,270,0.2148,0.17,0.2676
+2026-09-21/2026-09-27,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,34,270,0.1259,0.0915,0.1708
+2026-09-21/2026-09-27,mined:handwerkliches geschick,Handwerkliches Geschick,28,270,0.1037,0.0727,0.1458
+2026-09-21/2026-09-27,mined:teamfähigkeit,Teamfähigkeit,27,270,0.1,0.0696,0.1416
+2026-09-21/2026-09-27,mined:pkw,PKW,26,270,0.0963,0.0666,0.1374
+2026-09-21/2026-09-27,mined:zuverlässigkeit,Zuverlässigkeit,25,270,0.0926,0.0635,0.1331
+2026-09-21/2026-09-27,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,24,270,0.0889,0.0605,0.1289
+2026-09-21/2026-09-27,http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532,technische Zeichnungen,23,270,0.0852,0.0574,0.1246
+2026-09-21/2026-09-27,mined:selbstständige,Selbstständige,21,270,0.0778,0.0514,0.116
+2026-09-21/2026-09-27,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,21,270,0.0778,0.0514,0.116
+2026-09-21/2026-09-27,mined:engagement,Engagement,20,270,0.0741,0.0485,0.1116
+2026-09-21/2026-09-27,mined:technisches verständnis,Technisches Verständnis,19,270,0.0704,0.0455,0.1073
+2026-09-21/2026-09-27,mined:führerschein klasse b,Führerschein Klasse B,17,270,0.063,0.0397,0.0985
+2026-09-21/2026-09-27,mined:festanstellung,Festanstellung,16,270,0.0593,0.0368,0.0941
+2026-09-21/2026-09-27,mined:attraktive vergütung,Attraktive Vergütung,16,270,0.0593,0.0368,0.0941
+2026-09-21/2026-09-27,mined:unbefristeter arbeitsvertrag,Unbefristeter Arbeitsvertrag,16,270,0.0593,0.0368,0.0941
+2026-09-21/2026-09-27,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,15,270,0.0556,0.034,0.0896
+2026-09-21/2026-09-27,mined:elektroniker,Elektroniker,14,270,0.0519,0.0311,0.0851
+2026-09-21/2026-09-27,mined:präzise,Präzise,14,270,0.0519,0.0311,0.0851
+2026-09-21/2026-09-27,mined:schleifen,Schleifen,12,270,0.0444,0.0256,0.0761
+2026-09-21/2026-09-27,mined:weiterbildungsmöglichkeiten,Weiterbildungsmöglichkeiten,11,270,0.0407,0.0229,0.0715
+2026-09-21/2026-09-27,mined:engagierte,Engagierte,11,270,0.0407,0.0229,0.0715
+2026-09-21/2026-09-27,mined:schichtbereitschaft,Schichtbereitschaft,11,270,0.0407,0.0229,0.0715
+2026-09-21/2026-09-27,mined:wig,WIG,11,270,0.0407,0.0229,0.0715
+2026-09-21/2026-09-27,http://data.europa.eu/esco/skill/6cb9c23b-e3bc-4917-b588-26c4cef9d920,Wartung und Reparatur,11,270,0.0407,0.0229,0.0715
+2026-09-21/2026-09-27,mined:flexibilität,Flexibilität,11,270,0.0407,0.0229,0.0715
+2026-09-21/2026-09-27,mined:lager,Lager,10,270,0.037,0.0202,0.0668
+2026-09-21/2026-09-27,mined:kommunikationsstärke,Kommunikationsstärke,10,270,0.037,0.0202,0.0668
+2026-09-21/2026-09-27,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,10,270,0.037,0.0202,0.0668
+2026-09-21/2026-09-27,mined:selbstständige arbeitsweise,Selbstständige Arbeitsweise,10,270,0.037,0.0202,0.0668
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,78,405,0.1926,0.1571,0.2338
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,63,405,0.1556,0.1235,0.1941
+2026-09-28/2026-10-04,mined:zuverlässigkeit,Zuverlässigkeit,62,405,0.1531,0.1213,0.1914
+2026-09-28/2026-10-04,mined:engagierte,Engagierte,49,405,0.121,0.0927,0.1564
+2026-09-28/2026-10-04,mined:kundenbetreuung,Kundenbetreuung,46,405,0.1136,0.0862,0.1482
+2026-09-28/2026-10-04,mined:teamfähigkeit,Teamfähigkeit,43,405,0.1062,0.0798,0.14
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,38,405,0.0938,0.0691,0.1262
+2026-09-28/2026-10-04,mined:flexibilität,Flexibilität,33,405,0.0815,0.0586,0.1122
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,31,405,0.0765,0.0544,0.1066
+2026-09-28/2026-10-04,mined:selbstständige,Selbstständige,31,405,0.0765,0.0544,0.1066
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,29,405,0.0716,0.0503,0.1009
+2026-09-28/2026-10-04,mined:attraktive vergütung,Attraktive Vergütung,27,405,0.0667,0.0462,0.0953
+2026-09-28/2026-10-04,mined:bauen,Bauen,27,405,0.0667,0.0462,0.0953
+2026-09-28/2026-10-04,mined:unbefristeter arbeitsvertrag,Unbefristeter Arbeitsvertrag,26,405,0.0642,0.0442,0.0924
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,25,405,0.0617,0.0422,0.0895
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/b1b118c4-3291-484e-b64d-6d51fd5da8b3,Umwelttechnik,24,405,0.0593,0.0401,0.0867
+2026-09-28/2026-10-04,mined:persönliche betreuung,Persönliche Betreuung,24,405,0.0593,0.0401,0.0867
+2026-09-28/2026-10-04,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,24,405,0.0593,0.0401,0.0867
+2026-09-28/2026-10-04,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,23,405,0.0568,0.0381,0.0838
+2026-09-28/2026-10-04,mined:weiterbildungsangebote,Weiterbildungsangebote,22,405,0.0543,0.0361,0.0809
+2026-09-28/2026-10-04,mined:mitarbeiterrabatte,Mitarbeiterrabatte,22,405,0.0543,0.0361,0.0809
+2026-09-28/2026-10-04,mined:engagement,Engagement,22,405,0.0543,0.0361,0.0809
+2026-09-28/2026-10-04,mined:genauigkeit,Genauigkeit,22,405,0.0543,0.0361,0.0809
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/3cbe8b8d-69ba-4faa-9a7c-4cb95769df88,Politik,21,405,0.0519,0.0342,0.078
+2026-09-28/2026-10-04,mined:kommunikationsstärke,Kommunikationsstärke,21,405,0.0519,0.0342,0.078
+2026-09-28/2026-10-04,mined:sorgfalt,Sorgfalt,21,405,0.0519,0.0342,0.078
+2026-09-28/2026-10-04,mined:haustechnik,Haustechnik,20,405,0.0494,0.0322,0.075
+2026-09-28/2026-10-04,mined:einsatzbereitschaft,Einsatzbereitschaft,17,405,0.042,0.0264,0.0662
+2026-09-28/2026-10-04,http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532,technische Zeichnungen,17,405,0.042,0.0264,0.0662
+2026-09-28/2026-10-04,mined:verhandlungssicher,Verhandlungssicher,16,405,0.0395,0.0245,0.0632
+2026-10-05/2026-10-11,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,198,495,0.4,0.3578,0.4438
+2026-10-05/2026-10-11,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,122,495,0.2465,0.2105,0.2863
+2026-10-05/2026-10-11,mined:flexibilität,Flexibilität,108,495,0.2182,0.184,0.2567
+2026-10-05/2026-10-11,mined:führerschein klasse b,Führerschein Klasse B,101,495,0.204,0.1709,0.2418
+2026-10-05/2026-10-11,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,90,495,0.1818,0.1503,0.2182
+2026-10-05/2026-10-11,mined:kommunikationsstärke,Kommunikationsstärke,87,495,0.1758,0.1448,0.2117
+2026-10-05/2026-10-11,mined:teamfähigkeit,Teamfähigkeit,75,495,0.1515,0.1226,0.1858
+2026-10-05/2026-10-11,mined:langjährige erfahrung,Langjährige Erfahrung,65,495,0.1313,0.1044,0.1639
+2026-10-05/2026-10-11,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,59,495,0.1192,0.0935,0.1507
+2026-10-05/2026-10-11,mined:kundenorientierung,Kundenorientierung,58,495,0.1172,0.0917,0.1485
+2026-10-05/2026-10-11,mined:zuverlässigkeit,Zuverlässigkeit,48,495,0.097,0.0739,0.1262
+2026-10-05/2026-10-11,mined:führungszeugnis,Führungszeugnis,45,495,0.0909,0.0686,0.1195
+2026-10-05/2026-10-11,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,44,495,0.0889,0.0669,0.1172
+2026-10-05/2026-10-11,mined:verkauf,Verkauf,44,495,0.0889,0.0669,0.1172
+2026-10-05/2026-10-11,mined:engagement,Engagement,42,495,0.0848,0.0634,0.1127
+2026-10-05/2026-10-11,mined:professionelles auftreten,Professionelles Auftreten,41,495,0.0828,0.0616,0.1104
+2026-10-05/2026-10-11,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,41,495,0.0828,0.0616,0.1104
+2026-10-05/2026-10-11,mined:außendienst,Außendienst,38,495,0.0768,0.0564,0.1036
+2026-10-05/2026-10-11,http://data.europa.eu/esco/skill/a117f32c-662b-4dd9-b739-1230dd04cb60,Pädagogik,38,495,0.0768,0.0564,0.1036
+2026-10-05/2026-10-11,mined:zielorientierung,Zielorientierung,36,495,0.0727,0.053,0.099
+2026-10-05/2026-10-11,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,33,495,0.0667,0.0479,0.0921
+2026-10-05/2026-10-11,mined:sorgfalt,Sorgfalt,33,495,0.0667,0.0479,0.0921
+2026-10-05/2026-10-11,http://data.europa.eu/esco/skill/e862fb43-5acd-4d37-a4a2-63684c164932,Intensivmedizin,30,495,0.0606,0.0428,0.0852
+2026-10-05/2026-10-11,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,29,495,0.0586,0.0411,0.0829
+2026-10-05/2026-10-11,mined:gruppen,Gruppen,28,495,0.0566,0.0394,0.0805
+2026-10-05/2026-10-11,http://data.europa.eu/esco/skill/8e839bce-38f0-472d-8792-9b7c12b197ef,Verhaltensauffälligkeiten,27,495,0.0545,0.0378,0.0782
+2026-10-05/2026-10-11,mined:belastbarkeit,Belastbarkeit,27,495,0.0545,0.0378,0.0782
+2026-10-05/2026-10-11,mined:organisationsfähigkeit,Organisationsfähigkeit,24,495,0.0485,0.0328,0.0711
+2026-10-05/2026-10-11,mined:genauigkeit,Genauigkeit,22,495,0.0444,0.0295,0.0664
+2026-10-05/2026-10-11,mined:schichtbereitschaft,Schichtbereitschaft,21,495,0.0424,0.0279,0.064
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,955,2471,0.3865,0.3675,0.4058
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,876,2471,0.3545,0.3359,0.3736
+2026-10-12/2026-10-18,mined:teamfähigkeit,Teamfähigkeit,236,2471,0.0955,0.0845,0.1077
+2026-10-12/2026-10-18,mined:zuverlässigkeit,Zuverlässigkeit,215,2471,0.087,0.0765,0.0988
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),214,2471,0.0866,0.0761,0.0983
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,197,2471,0.0797,0.0697,0.0911
+2026-10-12/2026-10-18,mined:kommunikationsstärke,Kommunikationsstärke,159,2471,0.0643,0.0553,0.0747
+2026-10-12/2026-10-18,mined:weihnachtsgeld,Weihnachtsgeld,135,2471,0.0546,0.0463,0.0643
+2026-10-12/2026-10-18,mined:excel,Excel,132,2471,0.0534,0.0452,0.063
+2026-10-12/2026-10-18,mined:selbstständige,Selbstständige,128,2471,0.0518,0.0437,0.0613
+2026-10-12/2026-10-18,mined:flexibilität,Flexibilität,127,2471,0.0514,0.0434,0.0608
+2026-10-12/2026-10-18,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,126,2471,0.051,0.043,0.0604
+2026-10-12/2026-10-18,mined:eigeninitiative,Eigeninitiative,123,2471,0.0498,0.0419,0.0591
+2026-10-12/2026-10-18,mined:kreativität,Kreativität,120,2471,0.0486,0.0408,0.0578
+2026-10-12/2026-10-18,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,118,2471,0.0478,0.04,0.0569
+2026-10-12/2026-10-18,mined:automatisierung,Automatisierung,115,2471,0.0465,0.0389,0.0556
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/dc9a236c-c640-43c3-812f-269403591edb,Kundenbeziehungsmanagement,113,2471,0.0457,0.0382,0.0547
+2026-10-12/2026-10-18,mined:social media,Social Media,112,2471,0.0453,0.0378,0.0543
+2026-10-12/2026-10-18,mined:sport,Sport,110,2471,0.0445,0.0371,0.0534
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f,Datenbankmanagementsysteme,103,2471,0.0417,0.0345,0.0503
+2026-10-12/2026-10-18,mined:verstehen,Verstehen,102,2471,0.0413,0.0341,0.0499
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,TypeScript,101,2471,0.0409,0.0338,0.0494
+2026-10-12/2026-10-18,mined:engagement,Engagement,98,2471,0.0397,0.0327,0.0481
+2026-10-12/2026-10-18,mined:projektmanagement,Projektmanagement,96,2471,0.0389,0.0319,0.0472
+2026-10-12/2026-10-18,mined:administration,Administration,94,2471,0.038,0.0312,0.0463
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,92,2471,0.0372,0.0305,0.0454
+2026-10-12/2026-10-18,mined:technisches verständnis,Technisches Verständnis,90,2471,0.0364,0.0297,0.0446
+2026-10-12/2026-10-18,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,85,2471,0.0344,0.0279,0.0423
+2026-10-12/2026-10-18,mined:aws,AWS,83,2471,0.0336,0.0272,0.0414
+2026-10-12/2026-10-18,mined:ci/cd,CI/CD,82,2471,0.0332,0.0268,0.041

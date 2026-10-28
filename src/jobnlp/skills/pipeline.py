@@ -15,7 +15,7 @@ from typing import Any
 import pandas as pd
 from spacy.language import Language
 
-from jobnlp.skills.evaluate import GoldItem, evaluate, necessity_accuracy, partial_tp
+from jobnlp.skills.evaluate import GoldItem, evaluate, necessity_accuracy
 from jobnlp.skills.extract import (
     SkillExtractor,
     build_gazetteer,
@@ -27,6 +27,10 @@ from jobnlp.skills.gazetteer import Gazetteer, Match
 from jobnlp.skills.mine import MinedTerm, mine, select
 from jobnlp.text.sections import Section
 
+# Tuning objective. Partial-span F1 was used first and rewarded fragments ("Arbeitsweise"
+# for "strukturierte Arbeitsweise"); skill-set F1 scores canonical skills per posting, which
+# is what the market analysis and the CV tool consume.
+OBJECTIVE = "skill_set"
 BLOCK_GRID = (0.0, 0.1, 0.2, 0.3, 0.4)
 MINING_GRID = [(d, r) for d in (2, 3, 5) for r in (0.0, 0.1, 0.2, 0.3, 0.5)]
 
@@ -51,11 +55,32 @@ def unseen_postings(corpus: pd.DataFrame, gold_ids: set[tuple[str, str]]) -> pd.
     return corpus[keep]
 
 
-def mining_docs(corpus: pd.DataFrame) -> list[tuple[str, str]]:
-    return [
-        (str(e or "unknown"), requirement_text(s))
-        for e, s in zip(corpus.employer, corpus.sections, strict=True)
-    ]
+def mining_docs(corpus: pd.DataFrame) -> list[tuple[str, str, str]]:
+    """(employer, requirements text, tasks text) per posting."""
+    out = []
+    for employer, sections in zip(corpus.employer, corpus.sections, strict=True):
+        secs = [Section(**x) for x in json.loads(sections)]
+        req = "\n".join(x.text for x in secs if x.label == "requirements")
+        tasks = "\n".join(x.text for x in secs if x.label == "tasks")
+        out.append((str(employer or "unknown"), req[:3000], tasks[:3000]))
+    return out
+
+
+ADJECTIVE_LIKE = {"ADJ", "ADV", "VERB", "AUX", "PRON", "DET", "ADP"}
+
+
+def plausible_skill_terms(terms: list[MinedTerm], base: Gazetteer) -> list[MinedTerm]:
+    """Drop single-word adjectives ("Strukturierte", "Zuverlässig") and terms that already
+    resolve to an existing skill as a compound ("Englischkenntnisse" is English)."""
+    nlp = load_nlp("de")
+    keep = []
+    for t, doc in zip(terms, nlp.pipe([t.term for t in terms], batch_size=512), strict=True):
+        if len(doc) == 1 and doc[0].pos_ in ADJECTIVE_LIKE:
+            continue
+        if base._compound_stem(t.term) is not None:
+            continue
+        keep.append(t)
+    return keep
 
 
 def with_mined(base: Gazetteer, terms: list[MinedTerm]) -> Gazetteer:
@@ -96,16 +121,19 @@ def predictor(
 
 
 def tune_blocking(gaz: Gazetteer, dev: list[GoldItem], max_precision: float = 0.2) -> set[str]:
-    """Surface keys whose matches on the dev half are mostly false positives (partial match)."""
+    """Surface keys whose matches on the dev half are mostly wrong at the skill level: the
+    matched canonical skill is not among the canonical skills of the posting's gold spans
+    (so a fragment such as "Arbeitsweise" inside "strukturierte Arbeitsweise" counts as wrong)."""
+    canon = canon_for(gaz)
     pred_n: Counter[str] = Counter()
     pred_tp: Counter[str] = Counter()
     for it in dev:
         doc = load_nlp(it.lang)(it.text)
-        gold = [(a, b) for a, b, _, _ in it.spans]
+        gold = {canon(it.text[a:b], it.lang) for a, b, _, _ in it.spans}
         for m in gaz.match(doc):
             key = " ".join(t.lower_ for t in doc.char_span(m.start, m.end) or [])
             pred_n[key] += 1
-            pred_tp[key] += partial_tp([(m.start, m.end)], gold)
+            pred_tp[key] += canon(m.text, it.lang) in gold
     return {k for k, n in pred_n.items() if n >= 2 and pred_tp[k] / n <= max_precision}
 
 
@@ -117,14 +145,14 @@ def tune(
 ) -> tuple[Gazetteer, Gazetteer, dict[str, Any], list[MinedTerm]]:
     """Return (ESCO gazetteer, ESCO+mined gazetteer, tuning record, selected mined terms)."""
     base = build_gazetteer(esco)
-    terms = mine(mining_docs(unseen_postings(corpus, gold_ids)))
+    terms = plausible_skill_terms(mine(mining_docs(unseen_postings(corpus, gold_ids))), base)
     known = set(base.surface) | {k.lower() for k in base.exact_short}
     grid = []
     for min_df, ratio in MINING_GRID:
         sel = select(terms, known, min_df=min_df, min_cue_ratio=ratio)
         gaz = with_mined(base, sel)
         canon = canon_for(gaz)
-        f1 = evaluate(dev, predictor(gaz, None, canon), canon)["all"]["partial"]
+        f1 = evaluate(dev, predictor(gaz, None, canon), canon)["all"][OBJECTIVE]
         grid.append({"min_df": min_df, "min_cue_ratio": ratio, "n_terms": len(sel), **f1})
     best = max(grid, key=lambda g: (g["f1"], -g["n_terms"]))
     selected = select(terms, known, min_df=best["min_df"], min_cue_ratio=best["min_cue_ratio"])
@@ -136,14 +164,15 @@ def tune(
         trial = mined_gaz.copy()
         trial.blocked |= cand
         canon = canon_for(trial)
-        f1 = evaluate(dev, predictor(trial, None, canon), canon)["all"]["partial"]["f1"]
-        block_grid.append({"max_precision": max_p, "n_blocked": len(cand), "dev_partial_f1": f1})
+        f1 = evaluate(dev, predictor(trial, None, canon), canon)["all"][OBJECTIVE]["f1"]
+        block_grid.append({"max_precision": max_p, "n_blocked": len(cand), "dev_objective_f1": f1})
         if f1 > best_block[0]:
             best_block = (f1, max_p, cand)
     blocked = best_block[2]
     base.blocked |= blocked
     mined_gaz.blocked |= blocked
     info = {
+        "objective": OBJECTIVE,
         "blocking_grid": block_grid,
         "blocking_chosen_max_precision": best_block[1],
         "mining_grid": grid,

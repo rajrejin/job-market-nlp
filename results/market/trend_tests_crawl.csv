@@ -1,0 +1,121 @@
+skill,share_early,share_late,diff,ci_low,ci_high,flag_uncorrected,flag_bonferroni
+Schaltpläne,0.0097,0.0101,0.0004,-0.0077,0.0093,False,False
+Energie,0.0438,0.0284,-0.0154,-0.0315,0.0003,False,False
+Politik,0.0224,0.0,-0.0224,-0.0321,-0.0136,True,True
+Deutsch,0.1887,0.3418,0.1531,0.1124,0.1936,True,True
+Beratung,0.0574,0.074,0.0166,-0.0041,0.0382,False,False
+Inbetriebnahme,0.0924,0.0396,-0.0529,-0.0736,-0.0329,True,True
+Sozialpädagogik,0.0019,0.0183,0.0163,0.0081,0.0254,True,True
+technische Zeichnungen,0.0447,0.0355,-0.0093,-0.0249,0.0094,False,False
+Marken,0.0204,0.001,-0.0194,-0.0291,-0.0116,True,True
+Wartung und Reparatur,0.0243,0.0142,-0.0101,-0.0212,0.0014,False,False
+Englisch,0.0846,0.1552,0.0705,0.0416,0.0984,True,True
+Projektleitung,0.0165,0.0061,-0.0105,-0.0203,-0.0015,True,False
+Qualitätsstandards,0.0156,0.0233,0.0078,-0.0043,0.0189,False,False
+Verhaltensauffälligkeiten,0.0,0.0274,0.0274,0.0183,0.0385,True,True
+Getränke,0.0292,0.0183,-0.0109,-0.0239,0.0019,False,False
+Elektronik,0.0175,0.0071,-0.0104,-0.0201,-0.0014,True,False
+Durchsetzungsvermögen,0.0204,0.0152,-0.0052,-0.0173,0.0067,False,False
+Pädagogik,0.0039,0.0396,0.0357,0.0235,0.0488,True,True
+Datenschutz,0.0379,0.0801,0.0422,0.022,0.0619,True,True
+Umwelttechnik,0.0233,0.0,-0.0233,-0.0331,-0.0146,True,True
+Mechatronik,0.0126,0.0132,0.0005,-0.0094,0.0104,False,False
+Personalwesen,0.0126,0.0081,-0.0045,-0.0135,0.0037,False,False
+Intensivmedizin,0.001,0.0375,0.0366,0.0254,0.0488,True,True
+Abgeschlossene Berufsausbildung,0.0973,0.0953,-0.0019,-0.0296,0.0238,False,False
+Abgeschlossene kaufmännische Ausbildung,0.0165,0.0203,0.0037,-0.0081,0.0149,False,False
+Abgeschlossene technische Ausbildung,0.0136,0.0101,-0.0035,-0.0132,0.0055,False,False
+Abitur,0.0146,0.0091,-0.0055,-0.0144,0.0035,False,False
+Anlagenbau,0.0195,0.0041,-0.0154,-0.0243,-0.0066,True,True
+Attraktive Vergütung,0.0457,0.0274,-0.0183,-0.0336,-0.0023,True,False
+Außendienst,0.0049,0.0436,0.0387,0.0255,0.053,True,True
+Bauen,0.0399,0.0162,-0.0237,-0.0374,-0.0098,True,False
+Belastbarkeit,0.0233,0.0943,0.071,0.0498,0.0911,True,True
+Berufseinsteiger,0.0156,0.0335,0.0179,0.0048,0.0318,True,False
+Berufserfahrung wünschenswert,0.0165,0.0071,-0.0094,-0.0184,0.0004,False,False
+C1-C2,0.0126,0.0345,0.0218,0.0089,0.036,True,True
+EDV-Kenntnisse,0.0117,0.0101,-0.0015,-0.0095,0.0073,False,False
+Eigeninitiative,0.0204,0.0243,0.0039,-0.009,0.0169,False,False
+Einen unbefristeten Arbeitsvertrag,0.0214,0.003,-0.0184,-0.0281,-0.0094,True,True
+Einkauf,0.0146,0.0112,-0.0034,-0.0143,0.0065,False,False
+Einsatzbereitschaft,0.0428,0.0203,-0.0225,-0.0372,-0.0059,True,False
+Einschlägige Berufserfahrung,0.0146,0.0142,-0.0004,-0.0113,0.0105,False,False
+Elektriker,0.0185,0.0051,-0.0134,-0.0223,-0.0044,True,False
+Elektroniker,0.0477,0.0507,0.003,-0.0178,0.0217,False,False
+Engagement,0.0584,0.07,0.0116,-0.0091,0.0325,False,False
+Engagierte,0.0574,0.0203,-0.0371,-0.0526,-0.0216,True,True
+Entwicklungsmöglichkeiten,0.0321,0.1176,0.0855,0.0635,0.1076,True,True
+Ergebnisorientierung,0.0058,0.0203,0.0144,0.0054,0.0246,True,True
+Excel,0.0117,0.0152,0.0035,-0.0065,0.0136,False,False
+Fehleranalyse,0.0126,0.0172,0.0046,-0.0055,0.0156,False,False
+Festanstellung,0.0321,0.0264,-0.0057,-0.0204,0.0091,False,False
+Flexibilität,0.0681,0.1856,0.1175,0.0892,0.1467,True,True
+Freude am Umgang,0.0126,0.0314,0.0188,0.0068,0.0316,True,False
+Freundliches Auftreten,0.0078,0.0132,0.0054,-0.0027,0.0144,False,False
+Führerschein Klasse B,0.0311,0.1197,0.0885,0.0685,0.1116,True,True
+Führungszeugnis,0.0117,0.0497,0.038,0.0231,0.0541,True,True
+Geduld,0.0097,0.0507,0.041,0.026,0.0562,True,True
+Genauigkeit,0.0379,0.0548,0.0168,-0.0013,0.0348,False,False
+Gruppen,0.0039,0.0304,0.0265,0.0155,0.0386,True,True
+Handeln,0.0126,0.0172,0.0046,-0.0051,0.0148,False,False
+Handwerkliches Geschick,0.0545,0.0304,-0.024,-0.0416,-0.007,True,False
+Haustechnik,0.0204,0.001,-0.0194,-0.0292,-0.0106,True,True
+Hohe Einsatzbereitschaft,0.0136,0.0081,-0.0055,-0.0145,0.0034,False,False
+Know-How,0.0224,0.0162,-0.0061,-0.019,0.0049,False,False
+Kommunikationsfähigkeit,0.0282,0.0568,0.0286,0.0106,0.0465,True,True
+Kommunikationsfähigkeiten,0.0185,0.0061,-0.0124,-0.0222,-0.0035,True,False
+Kommunikationsstärke,0.0545,0.1227,0.0682,0.043,0.0916,True,True
+Kreativität,0.0126,0.0751,0.0624,0.0444,0.0805,True,True
+Kundenbetreuung,0.0467,0.0071,-0.0396,-0.0533,-0.0261,True,True
+Kundenorientierung,0.0156,0.0862,0.0706,0.0525,0.09,True,True
+Körperliche Belastbarkeit,0.0136,0.0101,-0.0035,-0.0125,0.0065,False,False
+Lager,0.0331,0.0314,-0.0016,-0.0166,0.0142,False,False
+Langjährige Erfahrung,0.0019,0.07,0.068,0.0529,0.0842,True,True
+Leistungsbereitschaft,0.0126,0.0223,0.0097,-0.0014,0.0207,False,False
+MAG,0.0165,0.0071,-0.0094,-0.0192,-0.0007,True,False
+Mitarbeiterrabatte,0.0292,0.003,-0.0261,-0.0368,-0.0162,True,True
+Organisationsfähigkeit,0.0068,0.0456,0.0388,0.0248,0.0529,True,True
+Organisationstalent,0.0136,0.0101,-0.0035,-0.0125,0.0056,False,False
+Patienten,0.0097,0.0517,0.042,0.0269,0.0572,True,True
+Persönliche Betreuung,0.0438,0.0213,-0.0225,-0.0372,-0.0069,True,False
+PKW,0.037,0.0172,-0.0197,-0.0344,-0.0048,True,False
+Professionelles Auftreten,0.0,0.0487,0.0487,0.0345,0.0629,True,True
+Programmieren,0.0126,0.0071,-0.0055,-0.0136,0.0032,False,False
+Präzise,0.0302,0.0446,0.0145,-0.0017,0.0286,False,False
+Qualitätsbewusstsein,0.0165,0.0112,-0.0054,-0.0153,0.0055,False,False
+SAP,0.0175,0.0172,-0.0003,-0.0112,0.0116,False,False
+Schichtbereitschaft,0.0272,0.0294,0.0022,-0.0117,0.0171,False,False
+Schleifen,0.0224,0.0172,-0.0051,-0.0171,0.0076,False,False
+Selbstständige,0.0866,0.0416,-0.045,-0.0666,-0.0235,True,True
+Selbstständige Arbeitsweise,0.0243,0.0274,0.0031,-0.0111,0.0169,False,False
+Selbstständigkeit,0.0146,0.0548,0.0402,0.0242,0.0564,True,True
+Sicheres Auftreten,0.0165,0.0183,0.0017,-0.0094,0.0129,False,False
+Sorgfalt,0.0477,0.0822,0.0345,0.0126,0.0551,True,False
+Sorgfältige Arbeitsweise,0.0272,0.0183,-0.009,-0.0227,0.0046,False,False
+Sport,0.0,0.0984,0.0984,0.0801,0.1167,True,True
+Strukturierte Arbeitsweise,0.037,0.0304,-0.0065,-0.0211,0.0088,False,False
+Teamfähigkeit,0.1401,0.215,0.0749,0.0421,0.1087,True,True
+Technisches Verständnis,0.0399,0.0365,-0.0034,-0.0203,0.0119,False,False
+Ticketsystemen,0.0,0.0203,0.0203,0.0121,0.0294,True,True
+Unbefristeter Arbeitsvertrag,0.0428,0.0061,-0.0367,-0.0504,-0.0237,True,True
+Urlaubsgeld,0.0311,0.0193,-0.0119,-0.0256,0.0023,False,False
+Urlaubsplanung,0.001,0.0243,0.0234,0.0142,0.0335,True,True
+Verantwortungsbewusste,0.0146,0.0091,-0.0055,-0.0153,0.0043,False,False
+Verantwortungsbewusstsein,0.0837,0.1045,0.0208,-0.006,0.0468,False,False
+Verhandlungssicher,0.0136,0.0345,0.0209,0.0069,0.034,True,False
+Verkauf,0.0049,0.0487,0.0438,0.0306,0.0599,True,True
+Verlässlichkeit,0.0224,0.0385,0.0162,0.0021,0.0314,True,False
+Vermögenswirksame Leistungen,0.0204,0.003,-0.0174,-0.0262,-0.0077,True,True
+Verpacken,0.0117,0.0284,0.0167,0.0056,0.0286,True,False
+Verstehen,0.0156,0.0375,0.022,0.0089,0.0351,True,True
+Weihnachtsgeld,0.0253,0.1552,0.1299,0.1054,0.1544,True,True
+Weiterbildungsangebote,0.0243,0.0041,-0.0203,-0.031,-0.0105,True,True
+Weiterbildungsmöglichkeiten,0.034,0.002,-0.032,-0.0438,-0.0213,True,True
+Werkzeugen,0.0117,0.0223,0.0106,0.0005,0.0226,True,False
+WIG,0.0185,0.0091,-0.0094,-0.0193,0.0006,False,False
+Windows,0.0019,0.0274,0.0254,0.0153,0.0366,True,True
+Work-Life-Balance,0.0224,0.0294,0.007,-0.0065,0.0211,False,False
+Zielorientierung,0.001,0.0365,0.0355,0.0244,0.0477,True,True
+Zielstrebigkeit,0.0058,0.0193,0.0134,0.0043,0.0235,True,False
+Zuverlässigkeit,0.1235,0.2069,0.0834,0.0521,0.1156,True,True
+ZVK,0.0165,0.0112,-0.0054,-0.0163,0.0054,False,False

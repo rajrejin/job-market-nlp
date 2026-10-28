@@ -1,0 +1,609 @@
+{
+"s000": {},
+"s001": {
+"0": "company",
+"2": "tasks",
+"9": "requirements",
+"18": "offer"
+},
+"s002": {
+"2": "offer",
+"8": "tasks",
+"13": "requirements",
+"22": "other"
+},
+"s003": {
+"0": "offer",
+"10": "requirements",
+"16": "tasks"
+},
+"s004": {
+"2": "tasks",
+"6": "requirements",
+"7": "requirements",
+"12": "offer",
+"13": "offer"
+},
+"s005": {
+"0": "company",
+"2": "offer",
+"13": "tasks",
+"19": "requirements",
+"27": "requirements"
+},
+"s006": {
+"3": "company",
+"6": "company",
+"7": "tasks",
+"9": "requirements",
+"12": "offer",
+"13": "offer",
+"27": "other"
+},
+"s007": {},
+"s008": {
+"0": "offer",
+"4": "requirements",
+"9": "tasks"
+},
+"s009": {
+"1": "tasks",
+"8": "requirements",
+"15": "requirements",
+"19": "offer",
+"26": "company",
+"30": "other"
+},
+"s010": {
+"8": "tasks",
+"14": "requirements",
+"20": "requirements",
+"24": "offer",
+"25": "offer"
+},
+"s011": {
+"0": "company",
+"6": "tasks",
+"14": "tasks",
+"21": "requirements",
+"30": "company"
+},
+"s012": {
+"3": "tasks",
+"18": "requirements",
+"32": "offer"
+},
+"s013": {
+"3": "tasks",
+"7": "requirements",
+"18": "offer"
+},
+"s014": {
+"4": "offer",
+"8": "tasks",
+"16": "requirements",
+"20": "other"
+},
+"s015": {
+"0": "company",
+"4": "company",
+"7": "tasks",
+"11": "tasks",
+"23": "requirements",
+"25": "requirements",
+"32": "requirements",
+"36": "other",
+"39": "other"
+},
+"s016": {
+"0": "company",
+"3": "tasks",
+"12": "requirements",
+"21": "offer",
+"31": "other"
+},
+"s017": {
+"4": "tasks",
+"12": "requirements",
+"21": "offer"
+},
+"s018": {
+"2": "tasks",
+"7": "requirements",
+"13": "offer"
+},
+"s019": {
+"0": "company",
+"3": "tasks",
+"11": "requirements",
+"19": "offer"
+},
+"s020": {
+"0": "company",
+"4": "tasks",
+"10": "requirements",
+"17": "requirements",
+"19": "other",
+"24": "company",
+"27": "company",
+"31": "offer"
+},
+"s021": {
+"1": "tasks",
+"10": "requirements",
+"15": "offer",
+"16": "offer"
+},
+"s022": {
+"0": "company",
+"3": "tasks",
+"11": "requirements",
+"21": "requirements",
+"23": "offer"
+},
+"s023": {
+"2": "offer",
+"10": "tasks",
+"15": "requirements"
+},
+"s024": {
+"0": "company",
+"4": "tasks",
+"8": "tasks",
+"16": "requirements"
+},
+"s025": {
+"4": "offer",
+"8": "tasks",
+"13": "requirements",
+"18": "other"
+},
+"s026": {
+"2": "tasks",
+"10": "requirements",
+"18": "offer",
+"32": "other"
+},
+"s027": {
+"0": "company",
+"3": "tasks",
+"12": "requirements",
+"21": "offer",
+"30": "other"
+},
+"s028": {
+"2": "offer",
+"6": "tasks",
+"10": "offer",
+"12": "requirements"
+},
+"s029": {},
+"s030": {
+"3": "tasks",
+"7": "requirements",
+"11": "offer",
+"13": "offer"
+},
+"s031": {
+"0": "company",
+"7": "tasks",
+"14": "requirements",
+"25": "offer",
+"33": "other",
+"40": "other",
+"42": "other"
+},
+"s032": {
+"0": "tasks",
+"5": "tasks",
+"13": "requirements",
+"14": "requirements",
+"22": "requirements"
+},
+"s033": {
+"2": "company",
+"4": "company",
+"6": "tasks",
+"9": "tasks",
+"17": "requirements",
+"26": "requirements",
+"29": "requirements"
+},
+"s034": {
+"2": "company",
+"7": "tasks",
+"17": "offer",
+"31": "requirements",
+"43": "other",
+"46": "other"
+},
+"s035": {
+"0": "company",
+"2": "tasks",
+"7": "tasks",
+"14": "requirements",
+"24": "offer",
+"31": "offer"
+},
+"s036": {
+"0": "tasks",
+"4": "tasks",
+"5": "tasks",
+"10": "requirements",
+"11": "requirements",
+"17": "offer",
+"18": "offer"
+},
+"s037": {
+"0": "company",
+"4": "tasks",
+"6": "tasks",
+"12": "requirements",
+"21": "requirements",
+"28": "other"
+},
+"s038": {
+"2": "company",
+"6": "tasks",
+"11": "requirements",
+"18": "offer",
+"20": "offer",
+"29": "other"
+},
+"s039": {
+"0": "company",
+"4": "offer",
+"13": "tasks",
+"20": "requirements",
+"25": "other"
+},
+"s040": {
+"7": "offer",
+"12": "tasks",
+"18": "requirements",
+"24": "company",
+"27": "offer",
+"28": "offer",
+"39": "other",
+"46": "other"
+},
+"s041": {
+"2": "offer",
+"9": "tasks",
+"14": "requirements",
+"23": "other",
+"26": "other"
+},
+"s042": {
+"0": "offer",
+"19": "requirements",
+"25": "tasks"
+},
+"s043": {
+"2": "tasks",
+"10": "requirements",
+"17": "offer"
+},
+"s044": {
+"0": "company",
+"2": "company",
+"4": "tasks",
+"5": "tasks",
+"13": "requirements",
+"14": "requirements",
+"22": "offer",
+"23": "offer"
+},
+"s045": {
+"0": "company",
+"6": "tasks",
+"14": "requirements",
+"23": "offer",
+"25": "requirements",
+"29": "other",
+"32": "offer"
+},
+"s046": {
+"4": "tasks",
+"6": "tasks",
+"15": "requirements",
+"22": "offer",
+"30": "other"
+},
+"s047": {
+"1": "tasks",
+"4": "requirements",
+"8": "offer"
+},
+"s048": {
+"5": "tasks",
+"11": "requirements",
+"18": "offer",
+"26": "other",
+"30": "other"
+},
+"s049": {
+"0": "company",
+"3": "tasks",
+"11": "requirements",
+"17": "offer"
+},
+"s050": {
+"0": "company",
+"3": "tasks",
+"10": "requirements",
+"19": "offer"
+},
+"s051": {
+"0": "tasks",
+"2": "tasks",
+"9": "requirements",
+"16": "offer"
+},
+"s052": {
+"2": "tasks",
+"8": "tasks",
+"15": "tasks",
+"19": "requirements",
+"28": "offer",
+"37": "other",
+"41": "other"
+},
+"s053": {},
+"s054": {
+"4": "tasks",
+"10": "requirements",
+"15": "offer"
+},
+"s055": {
+"4": "offer",
+"6": "tasks",
+"11": "requirements",
+"18": "offer"
+},
+"s056": {},
+"s057": {
+"7": "offer",
+"14": "tasks",
+"18": "requirements",
+"21": "company",
+"24": "offer",
+"25": "offer",
+"36": "other",
+"43": "other"
+},
+"s058": {
+"1": "tasks",
+"10": "requirements",
+"16": "offer",
+"24": "other"
+},
+"s059": {
+"9": "tasks",
+"28": "requirements",
+"39": "offer"
+},
+"s060": {},
+"s061": {
+"0": "company",
+"2": "tasks",
+"9": "requirements",
+"10": "requirements",
+"17": "offer",
+"26": "company"
+},
+"s062": {
+"0": "company",
+"5": "tasks",
+"29": "requirements",
+"30": "requirements",
+"46": "requirements",
+"54": "offer",
+"69": "other"
+},
+"s063": {
+"0": "company",
+"4": "tasks",
+"9": "tasks",
+"17": "requirements",
+"24": "requirements",
+"34": "requirements",
+"43": "offer"
+},
+"s064": {
+"0": "company",
+"3": "tasks",
+"9": "requirements",
+"14": "offer"
+},
+"s065": {
+"8": "offer",
+"14": "tasks",
+"19": "requirements",
+"24": "company",
+"27": "offer",
+"28": "offer",
+"39": "other",
+"46": "other"
+},
+"s066": {
+"4": "tasks",
+"8": "requirements",
+"14": "offer",
+"24": "other",
+"29": "other"
+},
+"s067": {
+"3": "offer",
+"11": "tasks",
+"15": "requirements"
+},
+"s068": {},
+"s069": {
+"4": "tasks",
+"32": "requirements",
+"45": "offer",
+"55": "other",
+"58": "other"
+},
+"s070": {
+"1": "tasks",
+"8": "requirements",
+"16": "offer"
+},
+"s071": {
+"0": "company",
+"2": "tasks",
+"9": "requirements",
+"20": "offer",
+"26": "other"
+},
+"s072": {
+"0": "company",
+"2": "tasks",
+"10": "requirements",
+"17": "offer",
+"22": "offer"
+},
+"s073": {
+"2": "offer",
+"9": "offer",
+"11": "tasks",
+"17": "requirements",
+"29": "other"
+},
+"s074": {},
+"s075": {},
+"s076": {},
+"s077": {
+"0": "company",
+"4": "offer",
+"9": "tasks",
+"14": "tasks",
+"22": "requirements",
+"32": "other"
+},
+"s078": {
+"3": "tasks",
+"15": "requirements",
+"18": "requirements",
+"31": "requirements",
+"36": "offer",
+"46": "company"
+},
+"s079": {
+"6": "tasks",
+"14": "requirements",
+"24": "offer",
+"26": "offer",
+"38": "other",
+"49": "company"
+},
+"s080": {
+"6": "tasks",
+"11": "requirements",
+"18": "offer"
+},
+"s081": {
+"0": "tasks",
+"7": "requirements",
+"14": "offer",
+"24": "other"
+},
+"s082": {
+"0": "tasks",
+"2": "company",
+"5": "tasks",
+"12": "requirements",
+"21": "offer"
+},
+"s083": {
+"0": "company",
+"5": "tasks",
+"32": "requirements",
+"33": "requirements",
+"42": "offer",
+"54": "other"
+},
+"s084": {
+"2": "tasks",
+"8": "requirements",
+"17": "offer"
+},
+"s085": {},
+"s086": {
+"0": "company",
+"2": "tasks",
+"7": "requirements",
+"13": "offer",
+"18": "other"
+},
+"s087": {
+"0": "company",
+"3": "tasks",
+"6": "requirements",
+"14": "offer",
+"20": "company"
+},
+"s088": {
+"2": "tasks",
+"11": "requirements",
+"19": "requirements",
+"24": "offer"
+},
+"s089": {},
+"s090": {
+"1": "tasks",
+"11": "requirements",
+"22": "offer",
+"29": "company",
+"31": "other"
+},
+"s091": {
+"0": "company",
+"2": "tasks",
+"4": "tasks",
+"11": "requirements",
+"22": "offer",
+"28": "other",
+"34": "other"
+},
+"s092": {
+"2": "tasks",
+"8": "requirements",
+"14": "offer"
+},
+"s093": {},
+"s094": {
+"0": "tasks",
+"4": "tasks",
+"9": "requirements",
+"18": "requirements",
+"24": "offer"
+},
+"s095": {},
+"s096": {
+"6": "tasks",
+"11": "requirements",
+"18": "offer"
+},
+"s097": {
+"6": "tasks",
+"12": "requirements",
+"18": "offer",
+"23": "other"
+},
+"s098": {
+"0": "company",
+"2": "tasks",
+"7": "requirements",
+"14": "offer"
+},
+"s099": {
+"0": "company",
+"3": "tasks",
+"11": "requirements",
+"19": "offer",
+"22": "other"
+}
+}

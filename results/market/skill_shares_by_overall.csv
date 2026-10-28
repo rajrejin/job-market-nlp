@@ -1,0 +1,31 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+all,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,1524,4934,0.3089,0.2961,0.3219
+all,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,1172,4934,0.2375,0.2259,0.2496
+all,mined:teamfähigkeit,Teamfähigkeit,569,4934,0.1153,0.1067,0.1245
+all,mined:zuverlässigkeit,Zuverlässigkeit,473,4934,0.0959,0.088,0.1044
+all,mined:flexibilität,Flexibilität,376,4934,0.0762,0.0691,0.0839
+all,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,371,4934,0.0752,0.0682,0.0829
+all,mined:kommunikationsstärke,Kommunikationsstärke,334,4934,0.0677,0.061,0.075
+all,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,311,4934,0.063,0.0566,0.0702
+all,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,300,4934,0.0608,0.0545,0.0678
+all,mined:selbstständige,Selbstständige,277,4934,0.0561,0.0501,0.0629
+all,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,239,4934,0.0484,0.0428,0.0548
+all,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),239,4934,0.0484,0.0428,0.0548
+all,mined:engagement,Engagement,238,4934,0.0482,0.0426,0.0546
+all,mined:weihnachtsgeld,Weihnachtsgeld,203,4934,0.0411,0.0359,0.0471
+all,mined:führerschein klasse b,Führerschein Klasse B,202,4934,0.0409,0.0358,0.0468
+all,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,200,4934,0.0405,0.0354,0.0464
+all,mined:technisches verständnis,Technisches Verständnis,199,4934,0.0403,0.0352,0.0462
+all,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,175,4934,0.0355,0.0307,0.041
+all,mined:eigeninitiative,Eigeninitiative,171,4934,0.0347,0.0299,0.0401
+all,mined:excel,Excel,168,4934,0.034,0.0293,0.0395
+all,mined:elektroniker,Elektroniker,167,4934,0.0338,0.0292,0.0393
+all,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,165,4934,0.0334,0.0288,0.0388
+all,mined:verstehen,Verstehen,161,4934,0.0326,0.028,0.038
+all,mined:kreativität,Kreativität,160,4934,0.0324,0.0278,0.0377
+all,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,158,4934,0.032,0.0275,0.0373
+all,mined:bauen,Bauen,158,4934,0.032,0.0275,0.0373
+all,mined:belastbarkeit,Belastbarkeit,152,4934,0.0308,0.0263,0.036
+all,mined:sorgfalt,Sorgfalt,150,4934,0.0304,0.026,0.0356
+all,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,148,4934,0.03,0.0256,0.0351
+all,mined:kundenorientierung,Kundenorientierung,146,4934,0.0296,0.0252,0.0347

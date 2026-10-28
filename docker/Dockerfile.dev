@@ -1,0 +1,10 @@
+# Development and pipeline image: pinned runtime and dev requirements, no project code.
+# The project folder is mounted at /work at run time (see scripts/dev.ps1 and scripts/dev.sh).
+FROM python:3.13.14-slim-bookworm
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential git \
+    && rm -rf /var/lib/apt/lists/*
+COPY requirements.txt requirements-dev.txt /tmp/
+RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r /tmp/requirements-dev.txt
+ENV PYTHONPATH=/work/src:/work JOBNLP_ROOT=/work HF_HOME=/work/stores/hf PYTHONUNBUFFERED=1 \
+    OLLAMA_HOST=http://host.docker.internal:11434 MYPY_CACHE_DIR=/tmp/mypy_cache
+WORKDIR /work

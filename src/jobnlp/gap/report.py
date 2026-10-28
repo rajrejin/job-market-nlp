@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
+from jobnlp.gap.demand import demand_function
 from jobnlp.gap.embed import get_embedder
 from jobnlp.gap.llm import LocalLLM, guarded_suggestion
 from jobnlp.gap.match import GapResult, analyse
@@ -40,7 +41,10 @@ def run_gap(
             embedder = get_embedder()
         except Exception:
             notes.append("embedding model could not be loaded: related matching skipped")
-    gap: GapResult = analyse(job_text, cv_text, extractor, embedder, related_threshold)
+    demand = demand_function()
+    if demand is None:
+        notes.append("market skill table missing: missing skills ranked without demand")
+    gap: GapResult = analyse(job_text, cv_text, extractor, embedder, related_threshold, demand)
     result = gap.as_dict()
     result["notes"] = gap.notes + notes
     result["disclaimer"] = DISCLAIMER

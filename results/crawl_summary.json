@@ -1,0 +1,18 @@
+{
+ "snapshot": "2026-10-17",
+ "candidate_hosts": 1291,
+ "hosts": 1291,
+ "status": {
+  "no_job_urls": 569,
+  "error": 150,
+  "crawled": 389,
+  "blocked_robots_status": 20,
+  "no_markup": 121,
+  "aggregator": 30,
+  "blocked_robots": 12
+ },
+ "pages_fetched": 9673,
+ "postings_seen": 5037,
+ "postings_germany": 4025,
+ "hosts_with_postings": 115
+}

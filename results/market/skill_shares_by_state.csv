@@ -1,0 +1,400 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+Baden-Württemberg,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,164,466,0.3519,0.3099,0.3963
+Baden-Württemberg,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,119,466,0.2554,0.2179,0.2968
+Baden-Württemberg,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,110,466,0.2361,0.1998,0.2767
+Baden-Württemberg,mined:flexibilität,Flexibilität,90,466,0.1931,0.1599,0.2314
+Baden-Württemberg,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,74,466,0.1588,0.1284,0.1948
+Baden-Württemberg,mined:langjährige erfahrung,Langjährige Erfahrung,61,466,0.1309,0.1033,0.1646
+Baden-Württemberg,mined:teamfähigkeit,Teamfähigkeit,55,466,0.118,0.0918,0.1505
+Baden-Württemberg,mined:kommunikationsstärke,Kommunikationsstärke,54,466,0.1159,0.0899,0.1481
+Baden-Württemberg,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,53,466,0.1137,0.088,0.1458
+Baden-Württemberg,mined:engagement,Engagement,51,466,0.1094,0.0842,0.141
+Baden-Württemberg,http://data.europa.eu/esco/skill/922032c3-9dfa-45dd-9bcd-f14dedf4709e,Getränke,47,466,0.1009,0.0767,0.1315
+Baden-Württemberg,mined:führerschein klasse b,Führerschein Klasse B,44,466,0.0944,0.0711,0.1244
+Baden-Württemberg,http://data.europa.eu/esco/skill/a117f32c-662b-4dd9-b739-1230dd04cb60,Pädagogik,38,466,0.0815,0.06,0.1099
+Baden-Württemberg,mined:zvk,ZVK,36,466,0.0773,0.0563,0.1051
+Baden-Württemberg,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,35,466,0.0751,0.0545,0.1027
+Baden-Württemberg,mined:zuverlässigkeit,Zuverlässigkeit,30,466,0.0644,0.0455,0.0904
+Baden-Württemberg,http://data.europa.eu/esco/skill/e862fb43-5acd-4d37-a4a2-63684c164932,Intensivmedizin,29,466,0.0622,0.0437,0.0879
+Baden-Württemberg,mined:einsatzbereitschaft,Einsatzbereitschaft,27,466,0.0579,0.0401,0.083
+Baden-Württemberg,mined:gruppen,Gruppen,24,466,0.0515,0.0349,0.0755
+Baden-Württemberg,mined:freude am umgang,Freude am Umgang,24,466,0.0515,0.0349,0.0755
+Baden-Württemberg,http://data.europa.eu/esco/skill/8e839bce-38f0-472d-8792-9b7c12b197ef,Verhaltensauffälligkeiten,24,466,0.0515,0.0349,0.0755
+Baden-Württemberg,mined:selbstständige,Selbstständige,23,466,0.0494,0.0331,0.073
+Baden-Württemberg,http://data.europa.eu/esco/skill/e0c6fdd1-336a-4e2f-91d1-ab4a2f9c385d,Betten machen,23,466,0.0494,0.0331,0.073
+Baden-Württemberg,mined:excel,Excel,20,466,0.0429,0.028,0.0654
+Baden-Württemberg,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,20,466,0.0429,0.028,0.0654
+Baden-Württemberg,mined:belastbarkeit,Belastbarkeit,20,466,0.0429,0.028,0.0654
+Baden-Württemberg,mined:sorgfalt,Sorgfalt,17,466,0.0365,0.0229,0.0576
+Baden-Württemberg,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,17,466,0.0365,0.0229,0.0576
+Baden-Württemberg,http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1,Ernährung,15,466,0.0322,0.0196,0.0524
+Baden-Württemberg,mined:abitur,Abitur,15,466,0.0322,0.0196,0.0524
+Bayern,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,254,728,0.3489,0.3152,0.3842
+Bayern,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,252,728,0.3462,0.3125,0.3814
+Bayern,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,77,728,0.1058,0.0855,0.1302
+Bayern,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),72,728,0.0989,0.0793,0.1227
+Bayern,mined:teamfähigkeit,Teamfähigkeit,58,728,0.0797,0.0621,0.1016
+Bayern,mined:kommunikationsstärke,Kommunikationsstärke,49,728,0.0673,0.0513,0.0879
+Bayern,mined:consulting,Consulting,38,728,0.0522,0.0383,0.0708
+Bayern,mined:führerschein klasse b,Führerschein Klasse B,36,728,0.0495,0.0359,0.0677
+Bayern,mined:selbstständige,Selbstständige,36,728,0.0495,0.0359,0.0677
+Bayern,mined:excel,Excel,36,728,0.0495,0.0359,0.0677
+Bayern,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,34,728,0.0467,0.0336,0.0646
+Bayern,mined:automatisierung,Automatisierung,33,728,0.0453,0.0325,0.063
+Bayern,mined:linux,Linux,32,728,0.044,0.0313,0.0614
+Bayern,mined:administration,Administration,31,728,0.0426,0.0302,0.0598
+Bayern,http://data.europa.eu/esco/skill/e87ec79a-c9ff-46f5-84fa-7a0f394cdf40,Robotik,30,728,0.0412,0.029,0.0582
+Bayern,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,30,728,0.0412,0.029,0.0582
+Bayern,mined:eigeninitiative,Eigeninitiative,29,728,0.0398,0.0279,0.0566
+Bayern,mined:projektmanagement,Projektmanagement,29,728,0.0398,0.0279,0.0566
+Bayern,mined:sap,SAP,28,728,0.0385,0.0267,0.055
+Bayern,mined:kreativität,Kreativität,26,728,0.0357,0.0245,0.0518
+Bayern,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,TypeScript,26,728,0.0357,0.0245,0.0518
+Bayern,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,26,728,0.0357,0.0245,0.0518
+Bayern,mined:azure,Azure,26,728,0.0357,0.0245,0.0518
+Bayern,mined:engagement,Engagement,26,728,0.0357,0.0245,0.0518
+Bayern,mined:technisches verständnis,Technisches Verständnis,25,728,0.0343,0.0234,0.0502
+Bayern,mined:zuverlässigkeit,Zuverlässigkeit,25,728,0.0343,0.0234,0.0502
+Bayern,mined:flexibilität,Flexibilität,25,728,0.0343,0.0234,0.0502
+Bayern,mined:aws,AWS,25,728,0.0343,0.0234,0.0502
+Bayern,mined:festanstellung,Festanstellung,24,728,0.033,0.0223,0.0486
+Bayern,mined:business development,Business Development,24,728,0.033,0.0223,0.0486
+Berlin,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,339,904,0.375,0.344,0.407
+Berlin,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,295,904,0.3263,0.2966,0.3576
+Berlin,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),79,904,0.0874,0.0707,0.1076
+Berlin,mined:teamfähigkeit,Teamfähigkeit,69,904,0.0763,0.0608,0.0955
+Berlin,mined:zuverlässigkeit,Zuverlässigkeit,63,904,0.0697,0.0548,0.0882
+Berlin,http://data.europa.eu/esco/skill/dc9a236c-c640-43c3-812f-269403591edb,Kundenbeziehungsmanagement,60,904,0.0664,0.0519,0.0845
+Berlin,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,53,904,0.0586,0.0451,0.0759
+Berlin,http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f,Datenbankmanagementsysteme,50,904,0.0553,0.0422,0.0722
+Berlin,http://data.europa.eu/esco/skill/c8d53d69-d900-4092-af80-c5d0422bcdb3,Source (Videospielerstellungssysteme),42,904,0.0465,0.0346,0.0622
+Berlin,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,TypeScript,42,904,0.0465,0.0346,0.0622
+Berlin,mined:excel,Excel,41,904,0.0454,0.0336,0.0609
+Berlin,mined:ci/cd,CI/CD,38,904,0.042,0.0308,0.0572
+Berlin,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,36,904,0.0398,0.0289,0.0546
+Berlin,mined:social media,Social Media,35,904,0.0387,0.028,0.0534
+Berlin,mined:verstehen,Verstehen,35,904,0.0387,0.028,0.0534
+Berlin,mined:eigeninitiative,Eigeninitiative,35,904,0.0387,0.028,0.0534
+Berlin,mined:reliability,Reliability,35,904,0.0387,0.028,0.0534
+Berlin,mined:engagement,Engagement,34,904,0.0376,0.027,0.0521
+Berlin,mined:sap,SAP,34,904,0.0376,0.027,0.0521
+Berlin,mined:automatisierung,Automatisierung,34,904,0.0376,0.027,0.0521
+Berlin,mined:react,React,34,904,0.0376,0.027,0.0521
+Berlin,mined:lager,Lager,34,904,0.0376,0.027,0.0521
+Berlin,mined:kommunikationsstärke,Kommunikationsstärke,33,904,0.0365,0.0261,0.0508
+Berlin,mined:consulting,Consulting,33,904,0.0365,0.0261,0.0508
+Berlin,mined:e-commerce,E-Commerce,32,904,0.0354,0.0252,0.0495
+Berlin,http://data.europa.eu/esco/skill/83218cac-3599-417e-93d2-26013cdccd98,serviceorientierte Modellierung,31,904,0.0343,0.0243,0.0483
+Berlin,mined:technisches verständnis,Technisches Verständnis,31,904,0.0343,0.0243,0.0483
+Berlin,mined:aws,AWS,30,904,0.0332,0.0233,0.047
+Berlin,mined:bauen,Bauen,30,904,0.0332,0.0233,0.047
+Berlin,mined:flexibilität,Flexibilität,30,904,0.0332,0.0233,0.047
+Brandenburg,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,48,135,0.3556,0.2798,0.4393
+Brandenburg,mined:zuverlässigkeit,Zuverlässigkeit,36,135,0.2667,0.1993,0.347
+Brandenburg,mined:teamfähigkeit,Teamfähigkeit,30,135,0.2222,0.1603,0.2995
+Brandenburg,mined:weihnachtsgeld,Weihnachtsgeld,24,135,0.1778,0.1225,0.2509
+Brandenburg,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,22,135,0.163,0.1102,0.2344
+Brandenburg,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,19,135,0.1407,0.092,0.2094
+Brandenburg,mined:sport,Sport,19,135,0.1407,0.092,0.2094
+Brandenburg,mined:kundenorientierung,Kundenorientierung,18,135,0.1333,0.086,0.2009
+Brandenburg,mined:flexibilität,Flexibilität,18,135,0.1333,0.086,0.2009
+Brandenburg,mined:belastbarkeit,Belastbarkeit,16,135,0.1185,0.0743,0.1839
+Brandenburg,mined:c1-c2,C1-C2,16,135,0.1185,0.0743,0.1839
+Brandenburg,mined:sorgfalt,Sorgfalt,16,135,0.1185,0.0743,0.1839
+Brandenburg,mined:verhandlungssicher,Verhandlungssicher,15,135,0.1111,0.0685,0.1752
+Brandenburg,mined:geduld,Geduld,15,135,0.1111,0.0685,0.1752
+Brandenburg,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,15,135,0.1111,0.0685,0.1752
+Brandenburg,mined:kreativität,Kreativität,14,135,0.1037,0.0628,0.1666
+Brandenburg,mined:selbstständigkeit,Selbstständigkeit,14,135,0.1037,0.0628,0.1666
+Brandenburg,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,14,135,0.1037,0.0628,0.1666
+Brandenburg,mined:genauigkeit,Genauigkeit,13,135,0.0963,0.0571,0.1578
+Brandenburg,mined:organisationsfähigkeit,Organisationsfähigkeit,12,135,0.0889,0.0516,0.1489
+Brandenburg,mined:festanstellung,Festanstellung,11,135,0.0815,0.0461,0.14
+Brandenburg,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,11,135,0.0815,0.0461,0.14
+Brandenburg,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,11,135,0.0815,0.0461,0.14
+Brandenburg,mined:pkw,PKW,11,135,0.0815,0.0461,0.14
+Brandenburg,mined:patienten,Patienten,11,135,0.0815,0.0461,0.14
+Brandenburg,mined:kommunikationsstärke,Kommunikationsstärke,10,135,0.0741,0.0407,0.131
+Brandenburg,mined:führerschein klasse b,Führerschein Klasse B,9,135,0.0667,0.0355,0.1218
+Brandenburg,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,9,135,0.0667,0.0355,0.1218
+Brandenburg,mined:elektroniker,Elektroniker,9,135,0.0667,0.0355,0.1218
+Brandenburg,mined:attraktive vergütung,Attraktive Vergütung,7,135,0.0519,0.0253,0.1032
+Bremen,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,12,36,0.3333,0.2021,0.4967
+Bremen,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,11,36,0.3056,0.18,0.4686
+Bremen,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,8,36,0.2222,0.1172,0.3809
+Bremen,mined:kommunikationsstärke,Kommunikationsstärke,8,36,0.2222,0.1172,0.3809
+Hamburg,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,66,248,0.2661,0.215,0.3244
+Hamburg,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,60,248,0.2419,0.1928,0.2989
+Hamburg,mined:teamfähigkeit,Teamfähigkeit,60,248,0.2419,0.1928,0.2989
+Hamburg,mined:elektroniker,Elektroniker,35,248,0.1411,0.1033,0.1899
+Hamburg,mined:sicheres auftreten,Sicheres Auftreten,29,248,0.1169,0.0827,0.1629
+Hamburg,http://data.europa.eu/esco/skill/a0cad388-3c4c-4786-b238-fc39f8c495af,Durchsetzungsvermögen,25,248,0.1008,0.0692,0.1446
+Hamburg,mined:zuverlässigkeit,Zuverlässigkeit,25,248,0.1008,0.0692,0.1446
+Hamburg,mined:selbstständige arbeitsweise,Selbstständige Arbeitsweise,23,248,0.0927,0.0626,0.1353
+Hamburg,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,23,248,0.0927,0.0626,0.1353
+Hamburg,mined:selbstständige,Selbstständige,21,248,0.0847,0.056,0.126
+Hamburg,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,20,248,0.0806,0.0528,0.1213
+Hamburg,mined:flexibilität,Flexibilität,20,248,0.0806,0.0528,0.1213
+Hamburg,mined:kommunikationsstärke,Kommunikationsstärke,17,248,0.0685,0.0432,0.107
+Hamburg,mined:weihnachtsgeld,Weihnachtsgeld,17,248,0.0685,0.0432,0.107
+Hamburg,mined:engagement,Engagement,15,248,0.0605,0.037,0.0974
+Hamburg,http://data.europa.eu/esco/skill/cab07957-4f35-4bdd-9d6d-dc5a0cf42e13,Sicherheitstechnik,15,248,0.0605,0.037,0.0974
+Hamburg,http://data.europa.eu/esco/skill/dc9a236c-c640-43c3-812f-269403591edb,Kundenbeziehungsmanagement,15,248,0.0605,0.037,0.0974
+Hamburg,mined:e-commerce,E-Commerce,14,248,0.0565,0.0339,0.0925
+Hamburg,mined:kreativität,Kreativität,14,248,0.0565,0.0339,0.0925
+Hamburg,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,13,248,0.0524,0.0309,0.0876
+Hamburg,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,12,248,0.0484,0.0279,0.0827
+Hamburg,mined:kundenorientierung,Kundenorientierung,12,248,0.0484,0.0279,0.0827
+Hamburg,mined:work-life-balance,Work-Life-Balance,11,248,0.0444,0.0249,0.0777
+Hamburg,mined:belastbarkeit,Belastbarkeit,11,248,0.0444,0.0249,0.0777
+Hamburg,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,11,248,0.0444,0.0249,0.0777
+Hamburg,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,11,248,0.0444,0.0249,0.0777
+Hamburg,mined:persönliche betreuung,Persönliche Betreuung,10,248,0.0403,0.022,0.0726
+Hamburg,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,10,248,0.0403,0.022,0.0726
+Hamburg,mined:social media,Social Media,10,248,0.0403,0.022,0.0726
+Hamburg,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),10,248,0.0403,0.022,0.0726
+Hessen,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,87,216,0.4028,0.3396,0.4693
+Hessen,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,70,216,0.3241,0.2652,0.3891
+Hessen,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,23,216,0.1065,0.072,0.1547
+Hessen,mined:kommunikationsstärke,Kommunikationsstärke,23,216,0.1065,0.072,0.1547
+Hessen,mined:teamfähigkeit,Teamfähigkeit,19,216,0.088,0.057,0.1333
+Hessen,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,13,216,0.0602,0.0355,0.1002
+Hessen,mined:eigeninitiative,Eigeninitiative,13,216,0.0602,0.0355,0.1002
+Hessen,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,12,216,0.0556,0.0321,0.0946
+Hessen,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),12,216,0.0556,0.0321,0.0946
+Hessen,mined:social media,Social Media,12,216,0.0556,0.0321,0.0946
+Hessen,mined:technisches verständnis,Technisches Verständnis,11,216,0.0509,0.0287,0.0889
+Hessen,mined:selbstständige,Selbstständige,11,216,0.0509,0.0287,0.0889
+Hessen,mined:kundenorientierung,Kundenorientierung,10,216,0.0463,0.0253,0.0831
+Hessen,http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f,Datenbankmanagementsysteme,10,216,0.0463,0.0253,0.0831
+Hessen,mined:zuverlässigkeit,Zuverlässigkeit,10,216,0.0463,0.0253,0.0831
+Hessen,mined:linkedin,LinkedIn,10,216,0.0463,0.0253,0.0831
+Hessen,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,10,216,0.0463,0.0253,0.0831
+Hessen,mined:administration,Administration,9,216,0.0417,0.0221,0.0773
+Hessen,mined:kreativität,Kreativität,9,216,0.0417,0.0221,0.0773
+Hessen,http://data.europa.eu/esco/skill/d88cb3f1-8e02-4618-bf32-4b0488066934,Mechatronik,9,216,0.0417,0.0221,0.0773
+Hessen,mined:excel,Excel,9,216,0.0417,0.0221,0.0773
+Hessen,mined:weiterbildungsmöglichkeiten,Weiterbildungsmöglichkeiten,9,216,0.0417,0.0221,0.0773
+Hessen,mined:engagement,Engagement,9,216,0.0417,0.0221,0.0773
+Hessen,mined:flexibilität,Flexibilität,9,216,0.0417,0.0221,0.0773
+Hessen,mined:projektmanagement,Projektmanagement,9,216,0.0417,0.0221,0.0773
+Hessen,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,9,216,0.0417,0.0221,0.0773
+Hessen,mined:instagram,Instagram,8,216,0.037,0.0189,0.0714
+Hessen,http://data.europa.eu/esco/skill/66da3162-6c8d-44cb-9dd5-6f9efe1fcf67,Marken,8,216,0.037,0.0189,0.0714
+Hessen,mined:azure,Azure,8,216,0.037,0.0189,0.0714
+Hessen,mined:automatisierung,Automatisierung,8,216,0.037,0.0189,0.0714
+Niedersachsen,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,96,429,0.2238,0.1869,0.2656
+Niedersachsen,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,46,429,0.1072,0.0814,0.1401
+Niedersachsen,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,46,429,0.1072,0.0814,0.1401
+Niedersachsen,mined:zuverlässigkeit,Zuverlässigkeit,45,429,0.1049,0.0793,0.1375
+Niedersachsen,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,39,429,0.0909,0.0672,0.1219
+Niedersachsen,mined:weihnachtsgeld,Weihnachtsgeld,38,429,0.0886,0.0652,0.1192
+Niedersachsen,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,32,429,0.0746,0.0533,0.1034
+Niedersachsen,mined:teamfähigkeit,Teamfähigkeit,32,429,0.0746,0.0533,0.1034
+Niedersachsen,mined:handwerkliches geschick,Handwerkliches Geschick,32,429,0.0746,0.0533,0.1034
+Niedersachsen,mined:flexibilität,Flexibilität,32,429,0.0746,0.0533,0.1034
+Niedersachsen,mined:selbstständige,Selbstständige,28,429,0.0653,0.0455,0.0927
+Niedersachsen,mined:kundenbetreuung,Kundenbetreuung,27,429,0.0629,0.0436,0.09
+Niedersachsen,mined:führerschein klasse b,Führerschein Klasse B,26,429,0.0606,0.0417,0.0873
+Niedersachsen,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,26,429,0.0606,0.0417,0.0873
+Niedersachsen,http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532,technische Zeichnungen,26,429,0.0606,0.0417,0.0873
+Niedersachsen,mined:elektroniker,Elektroniker,25,429,0.0583,0.0398,0.0846
+Niedersachsen,http://data.europa.eu/esco/skill/b1b118c4-3291-484e-b64d-6d51fd5da8b3,Umwelttechnik,20,429,0.0466,0.0304,0.0709
+Niedersachsen,mined:sport,Sport,20,429,0.0466,0.0304,0.0709
+Niedersachsen,mined:kommunikationsstärke,Kommunikationsstärke,20,429,0.0466,0.0304,0.0709
+Niedersachsen,mined:haustechnik,Haustechnik,20,429,0.0466,0.0304,0.0709
+Niedersachsen,mined:verstehen,Verstehen,19,429,0.0443,0.0285,0.0681
+Niedersachsen,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,19,429,0.0443,0.0285,0.0681
+Niedersachsen,mined:präzise,Präzise,18,429,0.042,0.0267,0.0653
+Niedersachsen,mined:kreativität,Kreativität,18,429,0.042,0.0267,0.0653
+Niedersachsen,mined:pkw,PKW,18,429,0.042,0.0267,0.0653
+Niedersachsen,mined:schleifen,Schleifen,16,429,0.0373,0.0231,0.0597
+Niedersachsen,mined:kundenorientierung,Kundenorientierung,15,429,0.035,0.0213,0.0569
+Niedersachsen,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,15,429,0.035,0.0213,0.0569
+Niedersachsen,mined:technisches verständnis,Technisches Verständnis,14,429,0.0326,0.0195,0.054
+Niedersachsen,mined:lager,Lager,14,429,0.0326,0.0195,0.054
+Nordrhein-Westfalen,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,209,683,0.306,0.2726,0.3416
+Nordrhein-Westfalen,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,164,683,0.2401,0.2096,0.2735
+Nordrhein-Westfalen,mined:zuverlässigkeit,Zuverlässigkeit,66,683,0.0966,0.0767,0.1211
+Nordrhein-Westfalen,mined:kommunikationsstärke,Kommunikationsstärke,61,683,0.0893,0.0702,0.1131
+Nordrhein-Westfalen,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,58,683,0.0849,0.0663,0.1082
+Nordrhein-Westfalen,mined:teamfähigkeit,Teamfähigkeit,57,683,0.0835,0.065,0.1066
+Nordrhein-Westfalen,mined:selbstständige,Selbstständige,50,683,0.0732,0.056,0.0952
+Nordrhein-Westfalen,mined:persönliche betreuung,Persönliche Betreuung,46,683,0.0673,0.0509,0.0887
+Nordrhein-Westfalen,mined:flexibilität,Flexibilität,46,683,0.0673,0.0509,0.0887
+Nordrhein-Westfalen,mined:verstehen,Verstehen,41,683,0.06,0.0446,0.0804
+Nordrhein-Westfalen,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,35,683,0.0512,0.0371,0.0704
+Nordrhein-Westfalen,mined:eigeninitiative,Eigeninitiative,35,683,0.0512,0.0371,0.0704
+Nordrhein-Westfalen,mined:engagierte,Engagierte,34,683,0.0498,0.0358,0.0688
+Nordrhein-Westfalen,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,33,683,0.0483,0.0346,0.0671
+Nordrhein-Westfalen,mined:weihnachtsgeld,Weihnachtsgeld,33,683,0.0483,0.0346,0.0671
+Nordrhein-Westfalen,mined:technisches verständnis,Technisches Verständnis,31,683,0.0454,0.0322,0.0637
+Nordrhein-Westfalen,mined:excel,Excel,30,683,0.0439,0.0309,0.062
+Nordrhein-Westfalen,mined:know-how,Know-How,30,683,0.0439,0.0309,0.062
+Nordrhein-Westfalen,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),29,683,0.0425,0.0297,0.0603
+Nordrhein-Westfalen,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,28,683,0.041,0.0285,0.0586
+Nordrhein-Westfalen,http://data.europa.eu/esco/skill/66da3162-6c8d-44cb-9dd5-6f9efe1fcf67,Marken,27,683,0.0395,0.0273,0.0569
+Nordrhein-Westfalen,mined:digitalisierung,Digitalisierung,24,683,0.0351,0.0237,0.0518
+Nordrhein-Westfalen,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,24,683,0.0351,0.0237,0.0518
+Nordrhein-Westfalen,mined:festanstellung,Festanstellung,23,683,0.0337,0.0225,0.05
+Nordrhein-Westfalen,mined:controlling,Controlling,23,683,0.0337,0.0225,0.05
+Nordrhein-Westfalen,mined:mitarbeiterrabatte,Mitarbeiterrabatte,23,683,0.0337,0.0225,0.05
+Nordrhein-Westfalen,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,23,683,0.0337,0.0225,0.05
+Nordrhein-Westfalen,mined:automatisierung,Automatisierung,23,683,0.0337,0.0225,0.05
+Nordrhein-Westfalen,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,23,683,0.0337,0.0225,0.05
+Nordrhein-Westfalen,mined:kommunikationsfähigkeiten,Kommunikationsfähigkeiten,22,683,0.0322,0.0214,0.0483
+Rheinland-Pfalz,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,42,160,0.2625,0.2005,0.3357
+Rheinland-Pfalz,mined:teamfähigkeit,Teamfähigkeit,32,160,0.2,0.1454,0.2687
+Rheinland-Pfalz,mined:zuverlässigkeit,Zuverlässigkeit,29,160,0.1812,0.1293,0.2482
+Rheinland-Pfalz,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,24,160,0.15,0.1029,0.2135
+Rheinland-Pfalz,mined:handwerkliches geschick,Handwerkliches Geschick,23,160,0.1438,0.0977,0.2065
+Rheinland-Pfalz,mined:selbstständige,Selbstständige,20,160,0.125,0.0824,0.1852
+Rheinland-Pfalz,mined:technisches verständnis,Technisches Verständnis,19,160,0.1188,0.0774,0.178
+Rheinland-Pfalz,mined:weihnachtsgeld,Weihnachtsgeld,19,160,0.1188,0.0774,0.178
+Rheinland-Pfalz,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,18,160,0.1125,0.0724,0.1708
+Rheinland-Pfalz,mined:sorgfältige arbeitsweise,Sorgfältige Arbeitsweise,15,160,0.0938,0.0576,0.1489
+Rheinland-Pfalz,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,13,160,0.0812,0.0481,0.134
+Rheinland-Pfalz,mined:abgeschlossene kaufmännische ausbildung,Abgeschlossene kaufmännische Ausbildung,13,160,0.0812,0.0481,0.134
+Rheinland-Pfalz,mined:flexibilität,Flexibilität,12,160,0.075,0.0434,0.1265
+Rheinland-Pfalz,http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532,technische Zeichnungen,12,160,0.075,0.0434,0.1265
+Rheinland-Pfalz,mined:urlaubsgeld,Urlaubsgeld,11,160,0.0688,0.0388,0.1189
+Rheinland-Pfalz,mined:persönliche betreuung,Persönliche Betreuung,11,160,0.0688,0.0388,0.1189
+Rheinland-Pfalz,mined:flurförderzeugen,Flurförderzeugen,9,160,0.0562,0.0299,0.1034
+Rheinland-Pfalz,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,9,160,0.0562,0.0299,0.1034
+Rheinland-Pfalz,mined:patienten,Patienten,9,160,0.0562,0.0299,0.1034
+Rheinland-Pfalz,mined:gültiger staplerschein,Gültiger Staplerschein,8,160,0.05,0.0256,0.0956
+Rheinland-Pfalz,mined:kommunikationsstärke,Kommunikationsstärke,8,160,0.05,0.0256,0.0956
+Rheinland-Pfalz,mined:verantwortungsbewusste,Verantwortungsbewusste,8,160,0.05,0.0256,0.0956
+Rheinland-Pfalz,mined:kreativität,Kreativität,7,160,0.0438,0.0214,0.0875
+Rheinland-Pfalz,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,7,160,0.0438,0.0214,0.0875
+Rheinland-Pfalz,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,7,160,0.0438,0.0214,0.0875
+Rheinland-Pfalz,http://data.europa.eu/esco/skill/02c71cde-f513-43da-8952-0974763c7568,Schaltpläne,7,160,0.0438,0.0214,0.0875
+Rheinland-Pfalz,mined:sicherer arbeitsplatz,Sicherer Arbeitsplatz,7,160,0.0438,0.0214,0.0875
+Rheinland-Pfalz,mined:ms-office,MS-Office,7,160,0.0438,0.0214,0.0875
+Rheinland-Pfalz,mined:verpacken,Verpacken,6,160,0.0375,0.0173,0.0794
+Rheinland-Pfalz,mined:eigeninitiative,Eigeninitiative,5,160,0.0312,0.0134,0.0711
+Sachsen,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,58,216,0.2685,0.2138,0.3313
+Sachsen,mined:zuverlässigkeit,Zuverlässigkeit,44,216,0.2037,0.1554,0.2624
+Sachsen,mined:teamfähigkeit,Teamfähigkeit,34,216,0.1574,0.1149,0.2119
+Sachsen,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,28,216,0.1296,0.0912,0.181
+Sachsen,mined:elektroniker,Elektroniker,23,216,0.1065,0.072,0.1547
+Sachsen,mined:pkw,PKW,21,216,0.0972,0.0645,0.1441
+Sachsen,mined:attraktive vergütung,Attraktive Vergütung,18,216,0.0833,0.0534,0.1279
+Sachsen,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,18,216,0.0833,0.0534,0.1279
+Sachsen,mined:flexibilität,Flexibilität,17,216,0.0787,0.0497,0.1224
+Sachsen,mined:selbstständige,Selbstständige,17,216,0.0787,0.0497,0.1224
+Sachsen,mined:weihnachtsgeld,Weihnachtsgeld,16,216,0.0741,0.0461,0.1169
+Sachsen,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,16,216,0.0741,0.0461,0.1169
+Sachsen,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,16,216,0.0741,0.0461,0.1169
+Sachsen,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,15,216,0.0694,0.0425,0.1114
+Sachsen,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,14,216,0.0648,0.039,0.1058
+Sachsen,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,13,216,0.0602,0.0355,0.1002
+Sachsen,mined:belastbarkeit,Belastbarkeit,13,216,0.0602,0.0355,0.1002
+Sachsen,mined:elektriker,Elektriker,13,216,0.0602,0.0355,0.1002
+Sachsen,mined:sport,Sport,13,216,0.0602,0.0355,0.1002
+Sachsen,mined:engagement,Engagement,12,216,0.0556,0.0321,0.0946
+Sachsen,mined:kommunikationsstärke,Kommunikationsstärke,12,216,0.0556,0.0321,0.0946
+Sachsen,mined:verlässlichkeit,Verlässlichkeit,12,216,0.0556,0.0321,0.0946
+Sachsen,mined:verkauf,Verkauf,11,216,0.0509,0.0287,0.0889
+Sachsen,mined:jobrad,Jobrad,11,216,0.0509,0.0287,0.0889
+Sachsen,mined:kreativität,Kreativität,11,216,0.0509,0.0287,0.0889
+Sachsen,mined:sorgfalt,Sorgfalt,10,216,0.0463,0.0253,0.0831
+Sachsen,http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388,Projektleitung,10,216,0.0463,0.0253,0.0831
+Sachsen,mined:genauigkeit,Genauigkeit,9,216,0.0417,0.0221,0.0773
+Sachsen,mined:c1-c2,C1-C2,9,216,0.0417,0.0221,0.0773
+Sachsen,mined:know-how,Know-How,9,216,0.0417,0.0221,0.0773
+Sachsen-Anhalt,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,46,186,0.2473,0.1908,0.314
+Sachsen-Anhalt,mined:teamfähigkeit,Teamfähigkeit,40,186,0.2151,0.1621,0.2795
+Sachsen-Anhalt,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,38,186,0.2043,0.1526,0.268
+Sachsen-Anhalt,mined:zuverlässigkeit,Zuverlässigkeit,26,186,0.1398,0.0972,0.1969
+Sachsen-Anhalt,mined:pkw,PKW,24,186,0.129,0.0883,0.1848
+Sachsen-Anhalt,mined:engagement,Engagement,23,186,0.1237,0.0838,0.1787
+Sachsen-Anhalt,mined:flexibilität,Flexibilität,22,186,0.1183,0.0794,0.1726
+Sachsen-Anhalt,mined:patienten,Patienten,22,186,0.1183,0.0794,0.1726
+Sachsen-Anhalt,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,19,186,0.1022,0.0664,0.154
+Sachsen-Anhalt,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,16,186,0.086,0.0536,0.1352
+Sachsen-Anhalt,mined:handwerkliches geschick,Handwerkliches Geschick,16,186,0.086,0.0536,0.1352
+Sachsen-Anhalt,mined:elektroniker,Elektroniker,16,186,0.086,0.0536,0.1352
+Sachsen-Anhalt,mined:selbstständige,Selbstständige,14,186,0.0753,0.0454,0.1224
+Sachsen-Anhalt,mined:präzise,Präzise,13,186,0.0699,0.0413,0.1159
+Sachsen-Anhalt,mined:elektriker,Elektriker,13,186,0.0699,0.0413,0.1159
+Sachsen-Anhalt,http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532,technische Zeichnungen,13,186,0.0699,0.0413,0.1159
+Sachsen-Anhalt,mined:technisches verständnis,Technisches Verständnis,12,186,0.0645,0.0373,0.1094
+Sachsen-Anhalt,mined:einsatzbereitschaft,Einsatzbereitschaft,11,186,0.0591,0.0333,0.1028
+Sachsen-Anhalt,mined:belastbarkeit,Belastbarkeit,11,186,0.0591,0.0333,0.1028
+Sachsen-Anhalt,http://data.europa.eu/esco/skill/6cb9c23b-e3bc-4917-b588-26c4cef9d920,Wartung und Reparatur,11,186,0.0591,0.0333,0.1028
+Sachsen-Anhalt,mined:führerschein klasse b,Führerschein Klasse B,10,186,0.0538,0.0295,0.0961
+Sachsen-Anhalt,http://data.europa.eu/esco/skill/02c71cde-f513-43da-8952-0974763c7568,Schaltpläne,9,186,0.0484,0.0257,0.0894
+Sachsen-Anhalt,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,9,186,0.0484,0.0257,0.0894
+Sachsen-Anhalt,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,9,186,0.0484,0.0257,0.0894
+Sachsen-Anhalt,mined:verstehen,Verstehen,8,186,0.043,0.022,0.0826
+Sachsen-Anhalt,mined:berufserfahrung wünschenswert,Berufserfahrung wünschenswert,8,186,0.043,0.022,0.0826
+Sachsen-Anhalt,mined:sorgfalt,Sorgfalt,8,186,0.043,0.022,0.0826
+Sachsen-Anhalt,mined:berufserfahrung ist wünschenswert,Berufserfahrung ist wünschenswert,8,186,0.043,0.022,0.0826
+Sachsen-Anhalt,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,7,186,0.0376,0.0183,0.0756
+Sachsen-Anhalt,mined:eigeninitiative,Eigeninitiative,7,186,0.0376,0.0183,0.0756
+Schleswig-Holstein,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,15,81,0.1852,0.1156,0.2833
+Schleswig-Holstein,mined:bauen,Bauen,15,81,0.1852,0.1156,0.2833
+Schleswig-Holstein,mined:flexibilität,Flexibilität,13,81,0.1605,0.0963,0.2555
+Schleswig-Holstein,mined:teamfähigkeit,Teamfähigkeit,12,81,0.1481,0.0868,0.2413
+Schleswig-Holstein,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,11,81,0.1358,0.0776,0.227
+Schleswig-Holstein,mined:weihnachtsgeld,Weihnachtsgeld,10,81,0.1235,0.0685,0.2126
+Schleswig-Holstein,mined:kommunikationsstärke,Kommunikationsstärke,9,81,0.1111,0.0596,0.1979
+Schleswig-Holstein,mined:sorgfalt,Sorgfalt,9,81,0.1111,0.0596,0.1979
+Schleswig-Holstein,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,8,81,0.0988,0.0509,0.183
+Schleswig-Holstein,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,8,81,0.0988,0.0509,0.183
+Schleswig-Holstein,mined:zuverlässigkeit,Zuverlässigkeit,8,81,0.0988,0.0509,0.183
+Schleswig-Holstein,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,8,81,0.0988,0.0509,0.183
+Schleswig-Holstein,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,7,81,0.0864,0.0425,0.1678
+Schleswig-Holstein,mined:geduld,Geduld,6,81,0.0741,0.0344,0.1523
+Schleswig-Holstein,mined:selbstständige,Selbstständige,6,81,0.0741,0.0344,0.1523
+Schleswig-Holstein,http://data.europa.eu/esco/skill/539edd73-5c9b-4498-96f2-68a9cd2e6073,Lüftungsanlagen,6,81,0.0741,0.0344,0.1523
+Schleswig-Holstein,mined:sport,Sport,6,81,0.0741,0.0344,0.1523
+Schleswig-Holstein,mined:engagement,Engagement,5,81,0.0617,0.0267,0.1365
+Schleswig-Holstein,mined:technisches verständnis,Technisches Verständnis,5,81,0.0617,0.0267,0.1365
+Schleswig-Holstein,mined:work-life-balance,Work-Life-Balance,5,81,0.0617,0.0267,0.1365
+Schleswig-Holstein,http://data.europa.eu/esco/skill/a0cad388-3c4c-4786-b238-fc39f8c495af,Durchsetzungsvermögen,5,81,0.0617,0.0267,0.1365
+Schleswig-Holstein,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,5,81,0.0617,0.0267,0.1365
+Schleswig-Holstein,mined:präzision,Präzision,5,81,0.0617,0.0267,0.1365
+Schleswig-Holstein,mined:kreativität,Kreativität,5,81,0.0617,0.0267,0.1365
+Thüringen,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,15,45,0.3333,0.2136,0.4793
+Thüringen,mined:teamfähigkeit,Teamfähigkeit,13,45,0.2889,0.1773,0.4337
+Thüringen,mined:zuverlässigkeit,Zuverlässigkeit,11,45,0.2444,0.1424,0.3867
+Thüringen,mined:organisationsfähigkeit,Organisationsfähigkeit,10,45,0.2222,0.1254,0.3627
+Thüringen,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,8,45,0.1778,0.0929,0.3133
+Thüringen,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,8,45,0.1778,0.0929,0.3133
+Thüringen,mined:berufseinsteiger,Berufseinsteiger,7,45,0.1556,0.0775,0.2878
+Thüringen,mined:sorgfalt,Sorgfalt,6,45,0.1333,0.0626,0.2618
+Thüringen,mined:kundenorientierung,Kundenorientierung,5,45,0.1111,0.0484,0.235
+Thüringen,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,5,45,0.1111,0.0484,0.235
+Thüringen,mined:genauigkeit,Genauigkeit,5,45,0.1111,0.0484,0.235
+unknown,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,78,357,0.2185,0.1787,0.2642
+unknown,mined:bauen,Bauen,56,357,0.1569,0.1228,0.1982
+unknown,mined:teamfähigkeit,Teamfähigkeit,48,357,0.1345,0.1029,0.1738
+unknown,mined:zuverlässigkeit,Zuverlässigkeit,45,357,0.1261,0.0956,0.1645
+unknown,mined:flexibilität,Flexibilität,35,357,0.098,0.0713,0.1333
+unknown,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,33,357,0.0924,0.0666,0.127
+unknown,mined:weiterbildungsmöglichkeiten,Weiterbildungsmöglichkeiten,25,357,0.07,0.0479,0.1013
+unknown,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,23,357,0.0644,0.0433,0.0948
+unknown,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,22,357,0.0616,0.041,0.0915
+unknown,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,21,357,0.0588,0.0388,0.0882
+unknown,mined:elektroniker,Elektroniker,21,357,0.0588,0.0388,0.0882
+unknown,mined:urlaubsgeld,Urlaubsgeld,21,357,0.0588,0.0388,0.0882
+unknown,mined:mitarbeiterrabatte,Mitarbeiterrabatte,20,357,0.056,0.0366,0.0849
+unknown,mined:pkw,PKW,19,357,0.0532,0.0343,0.0816
+unknown,mined:technisches verständnis,Technisches Verständnis,19,357,0.0532,0.0343,0.0816
+unknown,mined:sorgfalt,Sorgfalt,18,357,0.0504,0.0321,0.0783
+unknown,mined:engagement,Engagement,18,357,0.0504,0.0321,0.0783
+unknown,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,16,357,0.0448,0.0278,0.0716
+unknown,mined:belastbarkeit,Belastbarkeit,16,357,0.0448,0.0278,0.0716
+unknown,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,16,357,0.0448,0.0278,0.0716
+unknown,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,15,357,0.042,0.0256,0.0682
+unknown,mined:genauigkeit,Genauigkeit,15,357,0.042,0.0256,0.0682
+unknown,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,15,357,0.042,0.0256,0.0682
+unknown,mined:einsatzbereitschaft,Einsatzbereitschaft,15,357,0.042,0.0256,0.0682
+unknown,mined:handwerkliches geschick,Handwerkliches Geschick,15,357,0.042,0.0256,0.0682
+unknown,mined:berufseinsteiger,Berufseinsteiger,15,357,0.042,0.0256,0.0682
+unknown,mined:selbstständige,Selbstständige,14,357,0.0392,0.0235,0.0647
+unknown,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,13,357,0.0364,0.0214,0.0613
+unknown,mined:kundenbetreuung,Kundenbetreuung,13,357,0.0364,0.0214,0.0613
+unknown,mined:kommunikationsstärke,Kommunikationsstärke,12,357,0.0336,0.0193,0.0578

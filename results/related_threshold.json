@@ -1,0 +1,8 @@
+{
+ "threshold": 0.85,
+ "dev_pair_f1": 0.8939,
+ "n_pos": 95,
+ "n_neg": 95,
+ "mean_sim_pos": 0.9072,
+ "mean_sim_neg": 0.8046
+}

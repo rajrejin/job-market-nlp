@@ -1,0 +1,2225 @@
+{
+ "n": {
+  "train": 1138,
+  "test": 325,
+  "val": 162
+ },
+ "classes": [
+  "Customer Service",
+  "Engineering",
+  "Finance",
+  "IT",
+  "Management",
+  "Marketing",
+  "Marketing and Communication",
+  "Operations",
+  "Product",
+  "Sales",
+  "Software Development",
+  "Technology"
+ ],
+ "models": {
+  "tfidf_lr:title": {
+   "macro_f1": 0.5286,
+   "accuracy": 0.5692,
+   "top3_accuracy": 0.8523,
+   "per_class": {
+    "Customer Service": {
+     "precision": 0.7647,
+     "recall": 0.619,
+     "f1": 0.6842,
+     "support": 21
+    },
+    "Engineering": {
+     "precision": 0.625,
+     "recall": 0.5385,
+     "f1": 0.5785,
+     "support": 65
+    },
+    "Finance": {
+     "precision": 0.6296,
+     "recall": 0.7083,
+     "f1": 0.6667,
+     "support": 24
+    },
+    "IT": {
+     "precision": 0.4074,
+     "recall": 0.5,
+     "f1": 0.449,
+     "support": 22
+    },
+    "Management": {
+     "precision": 0.2941,
+     "recall": 0.2778,
+     "f1": 0.2857,
+     "support": 18
+    },
+    "Marketing": {
+     "precision": 0.4667,
+     "recall": 0.5385,
+     "f1": 0.5,
+     "support": 13
+    },
+    "Marketing and Communication": {
+     "precision": 0.6087,
+     "recall": 0.5385,
+     "f1": 0.5714,
+     "support": 26
+    },
+    "Operations": {
+     "precision": 0.5238,
+     "recall": 0.4074,
+     "f1": 0.4583,
+     "support": 27
+    },
+    "Product": {
+     "precision": 0.5882,
+     "recall": 0.625,
+     "f1": 0.6061,
+     "support": 16
+    },
+    "Sales": {
+     "precision": 0.7021,
+     "recall": 0.7674,
+     "f1": 0.7333,
+     "support": 43
+    },
+    "Software Development": {
+     "precision": 0.6136,
+     "recall": 0.6429,
+     "f1": 0.6279,
+     "support": 42
+    },
+    "Technology": {
+     "precision": 0.1429,
+     "recall": 0.25,
+     "f1": 0.1818,
+     "support": 8
+    }
+   },
+   "confusion": [
+    [
+     13,
+     1,
+     3,
+     1,
+     0,
+     0,
+     0,
+     0,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     35,
+     1,
+     6,
+     0,
+     0,
+     0,
+     2,
+     1,
+     1,
+     10,
+     9
+    ],
+    [
+     0,
+     0,
+     17,
+     1,
+     2,
+     0,
+     1,
+     1,
+     0,
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     11,
+     0,
+     0,
+     0,
+     2,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     0,
+     2,
+     4,
+     0,
+     5,
+     1,
+     3,
+     1,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     1,
+     7,
+     3,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1,
+     4,
+     3,
+     14,
+     0,
+     0,
+     2,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     0,
+     11,
+     2,
+     5,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     2,
+     0,
+     0,
+     1,
+     1,
+     10,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     3,
+     3,
+     0,
+     2,
+     0,
+     33,
+     0,
+     0
+    ],
+    [
+     0,
+     8,
+     0,
+     3,
+     0,
+     0,
+     1,
+     0,
+     2,
+     0,
+     27,
+     1
+    ],
+    [
+     0,
+     4,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     2
+    ]
+   ],
+   "classes": [
+    "Customer Service",
+    "Engineering",
+    "Finance",
+    "IT",
+    "Management",
+    "Marketing",
+    "Marketing and Communication",
+    "Operations",
+    "Product",
+    "Sales",
+    "Software Development",
+    "Technology"
+   ],
+   "macro_f1_95ci": [
+    0.4702,
+    0.5804
+   ],
+   "accuracy_95ci": [
+    0.52,
+    0.6215
+   ],
+   "fit": {
+    "best_C": 3.0,
+    "grid": [
+     {
+      "C": 0.3,
+      "val_macro_f1": 0.4595
+     },
+     {
+      "C": 1.0,
+      "val_macro_f1": 0.5112
+     },
+     {
+      "C": 3.0,
+      "val_macro_f1": 0.5168
+     },
+     {
+      "C": 10.0,
+      "val_macro_f1": 0.4885
+     },
+     {
+      "C": 30.0,
+      "val_macro_f1": 0.499
+     }
+    ],
+    "train_seconds": 53.4
+   },
+   "latency_seconds_per_posting": 0.00135,
+   "rss_mb_after": 476
+  },
+  "tfidf_lr:description": {
+   "macro_f1": 0.5867,
+   "accuracy": 0.6431,
+   "top3_accuracy": 0.8769,
+   "per_class": {
+    "Customer Service": {
+     "precision": 0.5833,
+     "recall": 0.6667,
+     "f1": 0.6222,
+     "support": 21
+    },
+    "Engineering": {
+     "precision": 0.5938,
+     "recall": 0.8769,
+     "f1": 0.7081,
+     "support": 65
+    },
+    "Finance": {
+     "precision": 0.6923,
+     "recall": 0.75,
+     "f1": 0.72,
+     "support": 24
+    },
+    "IT": {
+     "precision": 0.375,
+     "recall": 0.2727,
+     "f1": 0.3158,
+     "support": 22
+    },
+    "Management": {
+     "precision": 0.7273,
+     "recall": 0.4444,
+     "f1": 0.5517,
+     "support": 18
+    },
+    "Marketing": {
+     "precision": 0.625,
+     "recall": 0.7692,
+     "f1": 0.6897,
+     "support": 13
+    },
+    "Marketing and Communication": {
+     "precision": 0.6897,
+     "recall": 0.7692,
+     "f1": 0.7273,
+     "support": 26
+    },
+    "Operations": {
+     "precision": 0.8182,
+     "recall": 0.3333,
+     "f1": 0.4737,
+     "support": 27
+    },
+    "Product": {
+     "precision": 0.8182,
+     "recall": 0.5625,
+     "f1": 0.6667,
+     "support": 16
+    },
+    "Sales": {
+     "precision": 0.7727,
+     "recall": 0.7907,
+     "f1": 0.7816,
+     "support": 43
+    },
+    "Software Development": {
+     "precision": 0.575,
+     "recall": 0.5476,
+     "f1": 0.561,
+     "support": 42
+    },
+    "Technology": {
+     "precision": 1.0,
+     "recall": 0.125,
+     "f1": 0.2222,
+     "support": 8
+    }
+   },
+   "confusion": [
+    [
+     14,
+     4,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     57,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7,
+     0
+    ],
+    [
+     1,
+     3,
+     18,
+     0,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     5,
+     1,
+     6,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     6,
+     0
+    ],
+    [
+     0,
+     1,
+     3,
+     2,
+     8,
+     0,
+     2,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     10,
+     2,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     20,
+     0,
+     0,
+     0,
+     4,
+     0
+    ],
+    [
+     1,
+     5,
+     3,
+     0,
+     0,
+     2,
+     0,
+     9,
+     1,
+     6,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     2,
+     1,
+     1,
+     9,
+     1,
+     0,
+     0
+    ],
+    [
+     6,
+     1,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     34,
+     0,
+     0
+    ],
+    [
+     0,
+     11,
+     0,
+     6,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     23,
+     0
+    ],
+    [
+     0,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "classes": [
+    "Customer Service",
+    "Engineering",
+    "Finance",
+    "IT",
+    "Management",
+    "Marketing",
+    "Marketing and Communication",
+    "Operations",
+    "Product",
+    "Sales",
+    "Software Development",
+    "Technology"
+   ],
+   "macro_f1_95ci": [
+    0.5187,
+    0.6422
+   ],
+   "accuracy_95ci": [
+    0.5908,
+    0.6954
+   ],
+   "fit": {
+    "best_C": 30.0,
+    "grid": [
+     {
+      "C": 0.3,
+      "val_macro_f1": 0.4651
+     },
+     {
+      "C": 1.0,
+      "val_macro_f1": 0.5167
+     },
+     {
+      "C": 3.0,
+      "val_macro_f1": 0.5169
+     },
+     {
+      "C": 10.0,
+      "val_macro_f1": 0.5106
+     },
+     {
+      "C": 30.0,
+      "val_macro_f1": 0.5207
+     }
+    ],
+    "train_seconds": 419.9
+   },
+   "latency_seconds_per_posting": 0.03016,
+   "rss_mb_after": 689
+  },
+  "tfidf_lr:title+description": {
+   "macro_f1": 0.5964,
+   "accuracy": 0.6585,
+   "top3_accuracy": 0.8554,
+   "per_class": {
+    "Customer Service": {
+     "precision": 0.6,
+     "recall": 0.7143,
+     "f1": 0.6522,
+     "support": 21
+    },
+    "Engineering": {
+     "precision": 0.6386,
+     "recall": 0.8154,
+     "f1": 0.7162,
+     "support": 65
+    },
+    "Finance": {
+     "precision": 0.7,
+     "recall": 0.875,
+     "f1": 0.7778,
+     "support": 24
+    },
+    "IT": {
+     "precision": 0.3529,
+     "recall": 0.2727,
+     "f1": 0.3077,
+     "support": 22
+    },
+    "Management": {
+     "precision": 0.6667,
+     "recall": 0.4444,
+     "f1": 0.5333,
+     "support": 18
+    },
+    "Marketing": {
+     "precision": 0.5882,
+     "recall": 0.7692,
+     "f1": 0.6667,
+     "support": 13
+    },
+    "Marketing and Communication": {
+     "precision": 0.7,
+     "recall": 0.8077,
+     "f1": 0.75,
+     "support": 26
+    },
+    "Operations": {
+     "precision": 0.75,
+     "recall": 0.3333,
+     "f1": 0.4615,
+     "support": 27
+    },
+    "Product": {
+     "precision": 0.75,
+     "recall": 0.5625,
+     "f1": 0.6429,
+     "support": 16
+    },
+    "Sales": {
+     "precision": 0.7907,
+     "recall": 0.7907,
+     "f1": 0.7907,
+     "support": 43
+    },
+    "Software Development": {
+     "precision": 0.6279,
+     "recall": 0.6429,
+     "f1": 0.6353,
+     "support": 42
+    },
+    "Technology": {
+     "precision": 1.0,
+     "recall": 0.125,
+     "f1": 0.2222,
+     "support": 8
+    }
+   },
+   "confusion": [
+    [
+     15,
+     2,
+     1,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     53,
+     1,
+     3,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7,
+     0
+    ],
+    [
+     1,
+     0,
+     21,
+     0,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     3,
+     1,
+     6,
+     2,
+     0,
+     0,
+     1,
+     0,
+     0,
+     7,
+     0
+    ],
+    [
+     0,
+     1,
+     3,
+     2,
+     8,
+     0,
+     2,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     10,
+     2,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     21,
+     0,
+     1,
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     4,
+     3,
+     1,
+     0,
+     3,
+     0,
+     9,
+     1,
+     5,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     2,
+     1,
+     1,
+     9,
+     1,
+     0,
+     0
+    ],
+    [
+     6,
+     1,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     34,
+     0,
+     0
+    ],
+    [
+     0,
+     10,
+     0,
+     3,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     27,
+     0
+    ],
+    [
+     0,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "classes": [
+    "Customer Service",
+    "Engineering",
+    "Finance",
+    "IT",
+    "Management",
+    "Marketing",
+    "Marketing and Communication",
+    "Operations",
+    "Product",
+    "Sales",
+    "Software Development",
+    "Technology"
+   ],
+   "macro_f1_95ci": [
+    0.531,
+    0.6519
+   ],
+   "accuracy_95ci": [
+    0.6031,
+    0.7108
+   ],
+   "fit": {
+    "best_C": 3.0,
+    "grid": [
+     {
+      "C": 0.3,
+      "val_macro_f1": 0.4677
+     },
+     {
+      "C": 1.0,
+      "val_macro_f1": 0.5117
+     },
+     {
+      "C": 3.0,
+      "val_macro_f1": 0.5306
+     },
+     {
+      "C": 10.0,
+      "val_macro_f1": 0.5111
+     },
+     {
+      "C": 30.0,
+      "val_macro_f1": 0.5146
+     }
+    ],
+    "train_seconds": 327.6
+   },
+   "latency_seconds_per_posting": 0.01652,
+   "rss_mb_after": 628,
+   "breakdown": {
+    "by_language": {
+     "de": {
+      "n": 150,
+      "macro_f1": 0.3749,
+      "accuracy": 0.64
+     },
+     "en": {
+      "n": 175,
+      "macro_f1": 0.3582,
+      "accuracy": 0.6743
+     }
+    },
+    "by_length_tercile": {
+     "short (<= 459 words)": {
+      "n": 109,
+      "macro_f1": 0.4895,
+      "accuracy": 0.633
+     },
+     "medium (459 to 732 words)": {
+      "n": 109,
+      "macro_f1": 0.5964,
+      "accuracy": 0.6972
+     },
+     "long (> 732 words)": {
+      "n": 107,
+      "macro_f1": 0.4032,
+      "accuracy": 0.6449
+     }
+    }
+   }
+  },
+  "e5_lr:title": {
+   "macro_f1": 0.571,
+   "accuracy": 0.5969,
+   "top3_accuracy": 0.8492,
+   "per_class": {
+    "Customer Service": {
+     "precision": 0.6667,
+     "recall": 0.7619,
+     "f1": 0.7111,
+     "support": 21
+    },
+    "Engineering": {
+     "precision": 0.7073,
+     "recall": 0.4462,
+     "f1": 0.5472,
+     "support": 65
+    },
+    "Finance": {
+     "precision": 0.6786,
+     "recall": 0.7917,
+     "f1": 0.7308,
+     "support": 24
+    },
+    "IT": {
+     "precision": 0.3462,
+     "recall": 0.4091,
+     "f1": 0.375,
+     "support": 22
+    },
+    "Management": {
+     "precision": 0.35,
+     "recall": 0.3889,
+     "f1": 0.3684,
+     "support": 18
+    },
+    "Marketing": {
+     "precision": 0.5455,
+     "recall": 0.4615,
+     "f1": 0.5,
+     "support": 13
+    },
+    "Marketing and Communication": {
+     "precision": 0.6452,
+     "recall": 0.7692,
+     "f1": 0.7018,
+     "support": 26
+    },
+    "Operations": {
+     "precision": 0.7059,
+     "recall": 0.4444,
+     "f1": 0.5455,
+     "support": 27
+    },
+    "Product": {
+     "precision": 0.6667,
+     "recall": 0.75,
+     "f1": 0.7059,
+     "support": 16
+    },
+    "Sales": {
+     "precision": 0.7949,
+     "recall": 0.7209,
+     "f1": 0.7561,
+     "support": 43
+    },
+    "Software Development": {
+     "precision": 0.617,
+     "recall": 0.6905,
+     "f1": 0.6517,
+     "support": 42
+    },
+    "Technology": {
+     "precision": 0.1739,
+     "recall": 0.5,
+     "f1": 0.2581,
+     "support": 8
+    }
+   },
+   "confusion": [
+    [
+     16,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     29,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     9,
+     15
+    ],
+    [
+     1,
+     0,
+     19,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     2,
+     0,
+     1,
+     9,
+     2,
+     0,
+     0,
+     0,
+     1,
+     0,
+     5,
+     2
+    ],
+    [
+     1,
+     0,
+     5,
+     1,
+     7,
+     1,
+     2,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     1,
+     6,
+     3,
+     1,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     2,
+     1,
+     20,
+     0,
+     0,
+     0,
+     2,
+     0
+    ],
+    [
+     2,
+     1,
+     3,
+     0,
+     1,
+     1,
+     0,
+     12,
+     1,
+     5,
+     0,
+     1
+    ],
+    [
+     0,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     12,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     1,
+     5,
+     2,
+     0,
+     1,
+     1,
+     31,
+     0,
+     0
+    ],
+    [
+     0,
+     5,
+     0,
+     4,
+     0,
+     0,
+     3,
+     1,
+     0,
+     0,
+     29,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     4
+    ]
+   ],
+   "classes": [
+    "Customer Service",
+    "Engineering",
+    "Finance",
+    "IT",
+    "Management",
+    "Marketing",
+    "Marketing and Communication",
+    "Operations",
+    "Product",
+    "Sales",
+    "Software Development",
+    "Technology"
+   ],
+   "macro_f1_95ci": [
+    0.5141,
+    0.6226
+   ],
+   "accuracy_95ci": [
+    0.5446,
+    0.6492
+   ],
+   "fit": {
+    "best_C": 10.0,
+    "grid": [
+     {
+      "C": 0.3,
+      "val_macro_f1": 0.4974
+     },
+     {
+      "C": 1.0,
+      "val_macro_f1": 0.5144
+     },
+     {
+      "C": 3.0,
+      "val_macro_f1": 0.5303
+     },
+     {
+      "C": 10.0,
+      "val_macro_f1": 0.5583
+     },
+     {
+      "C": 30.0,
+      "val_macro_f1": 0.5497
+     }
+    ],
+    "train_seconds": 38.2
+   },
+   "latency_seconds_per_posting": 0.02154,
+   "rss_mb_after": 1344
+  },
+  "e5_lr:description": {
+   "macro_f1": 0.49,
+   "accuracy": 0.5385,
+   "top3_accuracy": 0.8185,
+   "per_class": {
+    "Customer Service": {
+     "precision": 0.5789,
+     "recall": 0.5238,
+     "f1": 0.55,
+     "support": 21
+    },
+    "Engineering": {
+     "precision": 0.623,
+     "recall": 0.5846,
+     "f1": 0.6032,
+     "support": 65
+    },
+    "Finance": {
+     "precision": 0.6552,
+     "recall": 0.7917,
+     "f1": 0.717,
+     "support": 24
+    },
+    "IT": {
+     "precision": 0.3333,
+     "recall": 0.3636,
+     "f1": 0.3478,
+     "support": 22
+    },
+    "Management": {
+     "precision": 0.28,
+     "recall": 0.3889,
+     "f1": 0.3256,
+     "support": 18
+    },
+    "Marketing": {
+     "precision": 0.4706,
+     "recall": 0.6154,
+     "f1": 0.5333,
+     "support": 13
+    },
+    "Marketing and Communication": {
+     "precision": 0.6538,
+     "recall": 0.6538,
+     "f1": 0.6538,
+     "support": 26
+    },
+    "Operations": {
+     "precision": 0.65,
+     "recall": 0.4815,
+     "f1": 0.5532,
+     "support": 27
+    },
+    "Product": {
+     "precision": 0.2941,
+     "recall": 0.3125,
+     "f1": 0.303,
+     "support": 16
+    },
+    "Sales": {
+     "precision": 0.6585,
+     "recall": 0.6279,
+     "f1": 0.6429,
+     "support": 43
+    },
+    "Software Development": {
+     "precision": 0.5526,
+     "recall": 0.5,
+     "f1": 0.525,
+     "support": 42
+    },
+    "Technology": {
+     "precision": 0.125,
+     "recall": 0.125,
+     "f1": 0.125,
+     "support": 8
+    }
+   },
+   "confusion": [
+    [
+     11,
+     1,
+     2,
+     0,
+     3,
+     2,
+     0,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     38,
+     0,
+     5,
+     1,
+     0,
+     0,
+     3,
+     4,
+     2,
+     5,
+     6
+    ],
+    [
+     0,
+     0,
+     19,
+     1,
+     1,
+     0,
+     1,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     1,
+     8,
+     1,
+     0,
+     0,
+     1,
+     0,
+     1,
+     8,
+     0
+    ],
+    [
+     0,
+     1,
+     4,
+     1,
+     7,
+     0,
+     3,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     8,
+     2,
+     0,
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     0,
+     1,
+     2,
+     2,
+     17,
+     0,
+     0,
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     1,
+     3,
+     0,
+     2,
+     1,
+     0,
+     13,
+     2,
+     4,
+     0,
+     0
+    ],
+    [
+     0,
+     5,
+     0,
+     0,
+     1,
+     2,
+     0,
+     2,
+     5,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     0,
+     6,
+     2,
+     1,
+     0,
+     4,
+     27,
+     1,
+     0
+    ],
+    [
+     1,
+     8,
+     0,
+     8,
+     1,
+     0,
+     2,
+     0,
+     0,
+     0,
+     21,
+     1
+    ],
+    [
+     0,
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1
+    ]
+   ],
+   "classes": [
+    "Customer Service",
+    "Engineering",
+    "Finance",
+    "IT",
+    "Management",
+    "Marketing",
+    "Marketing and Communication",
+    "Operations",
+    "Product",
+    "Sales",
+    "Software Development",
+    "Technology"
+   ],
+   "macro_f1_95ci": [
+    0.4349,
+    0.5414
+   ],
+   "accuracy_95ci": [
+    0.4892,
+    0.597
+   ],
+   "fit": {
+    "best_C": 30.0,
+    "grid": [
+     {
+      "C": 0.3,
+      "val_macro_f1": 0.3395
+     },
+     {
+      "C": 1.0,
+      "val_macro_f1": 0.3974
+     },
+     {
+      "C": 3.0,
+      "val_macro_f1": 0.4401
+     },
+     {
+      "C": 10.0,
+      "val_macro_f1": 0.4534
+     },
+     {
+      "C": 30.0,
+      "val_macro_f1": 0.4612
+     }
+    ],
+    "train_seconds": 648.6
+   },
+   "latency_seconds_per_posting": 0.47524,
+   "rss_mb_after": 1501
+  },
+  "e5_lr:title+description": {
+   "macro_f1": 0.5722,
+   "accuracy": 0.6123,
+   "top3_accuracy": 0.8677,
+   "per_class": {
+    "Customer Service": {
+     "precision": 0.7059,
+     "recall": 0.5714,
+     "f1": 0.6316,
+     "support": 21
+    },
+    "Engineering": {
+     "precision": 0.678,
+     "recall": 0.6154,
+     "f1": 0.6452,
+     "support": 65
+    },
+    "Finance": {
+     "precision": 0.6923,
+     "recall": 0.75,
+     "f1": 0.72,
+     "support": 24
+    },
+    "IT": {
+     "precision": 0.32,
+     "recall": 0.3636,
+     "f1": 0.3404,
+     "support": 22
+    },
+    "Management": {
+     "precision": 0.3158,
+     "recall": 0.3333,
+     "f1": 0.3243,
+     "support": 18
+    },
+    "Marketing": {
+     "precision": 0.5556,
+     "recall": 0.7692,
+     "f1": 0.6452,
+     "support": 13
+    },
+    "Marketing and Communication": {
+     "precision": 0.7917,
+     "recall": 0.7308,
+     "f1": 0.76,
+     "support": 26
+    },
+    "Operations": {
+     "precision": 0.65,
+     "recall": 0.4815,
+     "f1": 0.5532,
+     "support": 27
+    },
+    "Product": {
+     "precision": 0.6111,
+     "recall": 0.6875,
+     "f1": 0.6471,
+     "support": 16
+    },
+    "Sales": {
+     "precision": 0.7292,
+     "recall": 0.814,
+     "f1": 0.7692,
+     "support": 43
+    },
+    "Software Development": {
+     "precision": 0.5952,
+     "recall": 0.5952,
+     "f1": 0.5952,
+     "support": 42
+    },
+    "Technology": {
+     "precision": 0.2222,
+     "recall": 0.25,
+     "f1": 0.2353,
+     "support": 8
+    }
+   },
+   "confusion": [
+    [
+     12,
+     1,
+     0,
+     0,
+     3,
+     2,
+     0,
+     0,
+     0,
+     2,
+     1,
+     0
+    ],
+    [
+     0,
+     40,
+     0,
+     6,
+     1,
+     0,
+     0,
+     2,
+     2,
+     2,
+     5,
+     7
+    ],
+    [
+     1,
+     0,
+     18,
+     1,
+     2,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1,
+     8,
+     1,
+     1,
+     0,
+     1,
+     0,
+     1,
+     7,
+     0
+    ],
+    [
+     0,
+     1,
+     4,
+     1,
+     6,
+     0,
+     3,
+     0,
+     1,
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     10,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1,
+     2,
+     2,
+     19,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     3,
+     0,
+     0,
+     2,
+     0,
+     13,
+     3,
+     4,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     11,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     3,
+     1,
+     0,
+     1,
+     0,
+     35,
+     1,
+     0
+    ],
+    [
+     0,
+     7,
+     0,
+     8,
+     1,
+     0,
+     1,
+     0,
+     0,
+     0,
+     25,
+     0
+    ],
+    [
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     2
+    ]
+   ],
+   "classes": [
+    "Customer Service",
+    "Engineering",
+    "Finance",
+    "IT",
+    "Management",
+    "Marketing",
+    "Marketing and Communication",
+    "Operations",
+    "Product",
+    "Sales",
+    "Software Development",
+    "Technology"
+   ],
+   "macro_f1_95ci": [
+    0.5152,
+    0.6235
+   ],
+   "accuracy_95ci": [
+    0.5631,
+    0.6646
+   ],
+   "fit": {
+    "best_C": 30.0,
+    "grid": [
+     {
+      "C": 0.3,
+      "val_macro_f1": 0.3893
+     },
+     {
+      "C": 1.0,
+      "val_macro_f1": 0.4973
+     },
+     {
+      "C": 3.0,
+      "val_macro_f1": 0.5227
+     },
+     {
+      "C": 10.0,
+      "val_macro_f1": 0.5319
+     },
+     {
+      "C": 30.0,
+      "val_macro_f1": 0.5433
+     }
+    ],
+    "train_seconds": 632.1
+   },
+   "latency_seconds_per_posting": 0.50149,
+   "rss_mb_after": 1559,
+   "breakdown": {
+    "by_language": {
+     "de": {
+      "n": 150,
+      "macro_f1": 0.4963,
+      "accuracy": 0.5867
+     },
+     "en": {
+      "n": 175,
+      "macro_f1": 0.4747,
+      "accuracy": 0.6343
+     }
+    },
+    "by_length_tercile": {
+     "short (<= 459 words)": {
+      "n": 109,
+      "macro_f1": 0.3754,
+      "accuracy": 0.5688
+     },
+     "medium (459 to 732 words)": {
+      "n": 109,
+      "macro_f1": 0.5979,
+      "accuracy": 0.6789
+     },
+     "long (> 732 words)": {
+      "n": 107,
+      "macro_f1": 0.419,
+      "accuracy": 0.5888
+     }
+    }
+   }
+  },
+  "bert:title+description": {
+   "macro_f1": 0.1255,
+   "accuracy": 0.2892,
+   "top3_accuracy": 0.6154,
+   "per_class": {
+    "Customer Service": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 21
+    },
+    "Engineering": {
+     "precision": 0.2591,
+     "recall": 0.8769,
+     "f1": 0.4,
+     "support": 65
+    },
+    "Finance": {
+     "precision": 0.5882,
+     "recall": 0.4167,
+     "f1": 0.4878,
+     "support": 24
+    },
+    "IT": {
+     "precision": 0.2857,
+     "recall": 0.1818,
+     "f1": 0.2222,
+     "support": 22
+    },
+    "Management": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 18
+    },
+    "Marketing": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 13
+    },
+    "Marketing and Communication": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 26
+    },
+    "Operations": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 27
+    },
+    "Product": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 16
+    },
+    "Sales": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 43
+    },
+    "Software Development": {
+     "precision": 0.3108,
+     "recall": 0.5476,
+     "f1": 0.3966,
+     "support": 42
+    },
+    "Technology": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 8
+    }
+   },
+   "confusion": [
+    [
+     0,
+     10,
+     4,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0
+    ],
+    [
+     0,
+     57,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0
+    ],
+    [
+     0,
+     13,
+     10,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     8,
+     1,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     9,
+     0
+    ],
+    [
+     0,
+     12,
+     2,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0
+    ],
+    [
+     0,
+     11,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     21,
+     0
+    ],
+    [
+     0,
+     27,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     15,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     38,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0
+    ],
+    [
+     0,
+     16,
+     0,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     23,
+     0
+    ],
+    [
+     0,
+     8,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "classes": [
+    "Customer Service",
+    "Engineering",
+    "Finance",
+    "IT",
+    "Management",
+    "Marketing",
+    "Marketing and Communication",
+    "Operations",
+    "Product",
+    "Sales",
+    "Software Development",
+    "Technology"
+   ],
+   "macro_f1_95ci": [
+    0.0997,
+    0.1496
+   ],
+   "accuracy_95ci": [
+    0.24,
+    0.3354
+   ],
+   "fit": {
+    "model_id": "distilbert-base-german-cased",
+    "train_seconds": 3763.7,
+    "epochs": 2,
+    "max_len": 256,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 5e-05,
+    "seed": 0,
+    "n_train": 1138,
+    "resumed": false
+   },
+   "validation_history": [
+    {
+     "eval_loss": 2.2408483028411865,
+     "eval_macro_f1": 0.07999636567879208,
+     "eval_runtime": 54.5398,
+     "eval_samples_per_second": 2.97,
+     "eval_steps_per_second": 0.202,
+     "epoch": 1.0,
+     "step": 72
+    },
+    {
+     "eval_loss": 2.1502747535705566,
+     "eval_macro_f1": 0.09511936339522546,
+     "eval_runtime": 55.933,
+     "eval_samples_per_second": 2.896,
+     "eval_steps_per_second": 0.197,
+     "epoch": 2.0,
+     "step": 144
+    }
+   ],
+   "latency_seconds_per_posting": 0.34316,
+   "rss_mb_after": 1496,
+   "breakdown": {
+    "by_language": {
+     "de": {
+      "n": 150,
+      "macro_f1": 0.1222,
+      "accuracy": 0.2867
+     },
+     "en": {
+      "n": 175,
+      "macro_f1": 0.0376,
+      "accuracy": 0.2914
+     }
+    },
+    "by_length_tercile": {
+     "short (<= 459 words)": {
+      "n": 109,
+      "macro_f1": 0.1506,
+      "accuracy": 0.3578
+     },
+     "medium (459 to 732 words)": {
+      "n": 109,
+      "macro_f1": 0.0906,
+      "accuracy": 0.2477
+     },
+     "long (> 732 words)": {
+      "n": 107,
+      "macro_f1": 0.0528,
+      "accuracy": 0.2617
+     }
+    }
+   },
+   "budget": "1138 training examples, 2 epochs, seed 0"
+  }
+ },
+ "bert_vs_best_baseline": {
+  "baseline": "tfidf_lr:title+description",
+  "mean_diff": -0.4659,
+  "diff_95ci": [
+   -0.5338,
+   -0.4002
+  ],
+  "share_resamples_a_better": 0.0
+ }
+}

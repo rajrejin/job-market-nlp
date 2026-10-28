@@ -6,6 +6,7 @@ an interrupted run (for example a Colab disconnect) resumes from the last one.
 
 from __future__ import annotations
 
+import math
 import time
 from pathlib import Path
 from typing import Any
@@ -70,6 +71,8 @@ def train_bert(
         gradient_accumulation_steps=grad_accum,
         learning_rate=lr,
         weight_decay=0.01,
+        # a short warm-up (10 percent of all optimiser steps) stabilises the new head
+        warmup_steps=max(1, int(0.1 * epochs * math.ceil(len(x_tr) / (batch_size * grad_accum)))),
         eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
@@ -88,7 +91,7 @@ def train_bert(
         eval_dataset=ds_va,
         processing_class=tok,
         compute_metrics=compute,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=1)],
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
     )
     resume = any((out_dir / "checkpoints").glob("checkpoint-*"))
     t0 = time.time()

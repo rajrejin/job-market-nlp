@@ -40,3 +40,18 @@ def test_most_postings_have_requirements_or_tasks(corpus: pd.DataFrame) -> None:
     de = corpus[corpus.in_germany]
     has = de["section_labels"].apply(lambda s: "requirements" in s or "tasks" in s)
     assert has.mean() > 0.6
+
+
+def test_no_bare_contact_name_next_to_role_line(corpus: pd.DataFrame) -> None:
+    """Real staffing-agency postings put the contact name on its own line next to the role
+    ("Personaldisponentin"); after redaction no such line may remain."""
+    from jobnlp.text.redact import ROLE_LINE, plausible_name
+
+    sample = corpus[corpus.source == "crawl"].sample(400, random_state=0)
+    for text in sample.text:
+        lines = text.split("\n")
+        for i, line in enumerate(lines):
+            bare = line.strip().removeprefix("## ").strip()
+            if plausible_name(bare) and len(bare.split()) <= 3:
+                neighbours = [lines[j] for j in (i - 1, i + 1) if 0 <= j < len(lines)]
+                assert not any(ROLE_LINE.search(n) for n in neighbours), "contact name left"

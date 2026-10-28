@@ -1,0 +1,218 @@
+skill,share_early,share_late,diff,ci_low,ci_high,flag_uncorrected,flag_bonferroni
+Kunden beraten,0.0073,0.0207,0.0134,-0.0007,0.0294,False,False
+Prototyp für User-Experience-Lösung erstellen,0.0243,0.0363,0.012,-0.0075,0.0321,False,False
+Kundendienst,0.02,0.044,0.024,0.0045,0.0458,True,False
+Verantwortung zeigen,0.0121,0.0104,-0.0018,-0.012,0.0096,False,False
+Java (Computerprogrammierung),0.0291,0.0233,-0.0058,-0.0206,0.0112,False,False
+Energie,0.0261,0.0415,0.0153,-0.0041,0.0387,False,False
+Logik,0.017,0.013,-0.004,-0.0161,0.0101,False,False
+Kameras,0.014,0.0233,0.0094,-0.0066,0.0255,False,False
+Geschäftsmodell,0.0182,0.0052,-0.013,-0.0225,-0.0027,True,False
+JavaScript,0.0255,0.0259,0.0004,-0.016,0.0176,False,False
+Elektrotechnik,0.0121,0.0181,0.006,-0.007,0.0212,False,False
+Mathematik,0.0176,0.0104,-0.0072,-0.0187,0.0053,False,False
+Datenbank,0.0255,0.0259,0.0004,-0.0154,0.0187,False,False
+Deutsch,0.4165,0.3912,-0.0253,-0.0801,0.0316,False,False
+Beratung,0.0978,0.0622,-0.0356,-0.0633,-0.0083,True,False
+Inbetriebnahme,0.0352,0.0389,0.0036,-0.0174,0.0262,False,False
+Algorithmen,0.014,0.0155,0.0016,-0.0112,0.0159,False,False
+Detailgenauigkeit,0.0115,0.0104,-0.0012,-0.0115,0.011,False,False
+Raumfahrttechnik,0.0097,0.0104,0.0006,-0.0094,0.0128,False,False
+Marken,0.0364,0.0337,-0.0028,-0.0218,0.0169,False,False
+Physik,0.0146,0.013,-0.0016,-0.0133,0.0119,False,False
+Englisch,0.4256,0.4093,-0.0163,-0.0705,0.0371,False,False
+Ästhetik,0.0097,0.0207,0.011,-0.0034,0.0272,False,False
+Risikomanagement,0.0109,0.0155,0.0046,-0.0077,0.0176,False,False
+Ansible,0.0115,0.0026,-0.0089,-0.0158,-0.0011,True,False
+Sensoren,0.0164,0.013,-0.0034,-0.0149,0.0101,False,False
+Projektleitung,0.0219,0.0207,-0.0011,-0.0159,0.0155,False,False
+Statistik,0.014,0.0155,0.0016,-0.0111,0.0159,False,False
+Bauingenieurwesen,0.0115,0.0052,-0.0064,-0.014,0.0034,False,False
+serviceorientierte Modellierung,0.0304,0.0518,0.0215,-0.0015,0.0458,False,False
+TypeScript,0.0492,0.0518,0.0026,-0.0231,0.0286,False,False
+Qualitätsstandards,0.0158,0.0181,0.0023,-0.0115,0.0177,False,False
+Möglichkeiten erkennen,0.0079,0.0207,0.0128,-0.0015,0.029,False,False
+Elektronik,0.0103,0.013,0.0026,-0.0082,0.016,False,False
+Maschinenbau,0.0079,0.0181,0.0102,-0.0026,0.0262,False,False
+Geschäftsprozesse,0.0237,0.0104,-0.0133,-0.0247,-0.0004,True,False
+Durchsetzungsvermögen,0.017,0.0181,0.0011,-0.0132,0.0157,False,False
+Datenschutz,0.0134,0.0155,0.0022,-0.0102,0.0166,False,False
+ML (Computerprogrammierung),0.0164,0.0181,0.0017,-0.0115,0.0183,False,False
+PostgreSQL,0.0225,0.0259,0.0034,-0.014,0.0222,False,False
+Datenbankmanagementsysteme,0.0486,0.0596,0.011,-0.0153,0.0382,False,False
+Migration,0.0255,0.0259,0.0004,-0.0174,0.0185,False,False
+C++,0.0164,0.0233,0.0069,-0.0077,0.0235,False,False
+Cloud-Technologien,0.0164,0.0104,-0.006,-0.0167,0.0081,False,False
+Source (Videospielerstellungssysteme),0.0383,0.0389,0.0006,-0.0192,0.0238,False,False
+Python (Computerprogrammierung),0.1111,0.101,-0.0101,-0.0434,0.0205,False,False
+verteilte Verzeichnisinformationsdienste,0.0152,0.0155,0.0004,-0.0123,0.0164,False,False
+Scratch (Computerprogrammierung),0.0121,0.0026,-0.0096,-0.017,-0.0013,True,False
+Entscheidungen treffen,0.0134,0.013,-0.0004,-0.0124,0.013,False,False
+Mechatronik,0.0097,0.0155,0.0058,-0.0062,0.0202,False,False
+Kundenbeziehungsmanagement,0.0546,0.0803,0.0257,-0.0017,0.056,False,False
+Ökosysteme,0.0225,0.0337,0.0112,-0.0066,0.0304,False,False
+Personalwesen,0.0188,0.0363,0.0174,-0.0004,0.0376,False,False
+CSS,0.0103,0.0104,0.0,-0.0102,0.011,False,False
+Französisch,0.0103,0.013,0.0026,-0.01,0.0165,False,False
+Logistik,0.014,0.013,-0.001,-0.0126,0.0125,False,False
+Robotik,0.0231,0.0285,0.0054,-0.0127,0.0249,False,False
+Prototyping,0.017,0.0259,0.0089,-0.0072,0.0255,False,False
+DevOps,0.0206,0.0104,-0.0103,-0.0223,0.0024,False,False
+Datenmodelle,0.0213,0.0104,-0.0109,-0.0234,0.0017,False,False
+Abgeschlossene kaufmännische Ausbildung,0.0194,0.013,-0.0065,-0.0187,0.0069,False,False
+Account Management,0.0188,0.0181,-0.0007,-0.0153,0.0145,False,False
+Administration,0.0486,0.0415,-0.0071,-0.0287,0.0149,False,False
+Aerospace,0.0164,0.0233,0.0069,-0.0085,0.0251,False,False
+Agenturen,0.0121,0.0181,0.006,-0.0079,0.0198,False,False
+Analytisches Denken,0.0115,0.0233,0.0118,-0.0032,0.0287,False,False
+Analytisches Denkvermögen,0.0115,0.0155,0.004,-0.0091,0.0188,False,False
+Angular,0.0121,0.0181,0.006,-0.007,0.0208,False,False
+Automatisierung,0.0595,0.0389,-0.0206,-0.042,0.0011,False,False
+Automotive,0.0134,0.0155,0.0022,-0.01,0.0171,False,False
+AWS,0.0401,0.0415,0.0014,-0.0192,0.0228,False,False
+Azure,0.0346,0.0415,0.0068,-0.0133,0.0288,False,False
+B2B SaaS,0.0134,0.013,-0.0004,-0.0118,0.013,False,False
+Balancing,0.0097,0.013,0.0032,-0.0076,0.016,False,False
+Bauen,0.0322,0.0181,-0.014,-0.0287,0.003,False,False
+Berechtigungen,0.0103,0.0104,0.0,-0.0103,0.0124,False,False
+Board,0.0134,0.0078,-0.0056,-0.0149,0.0045,False,False
+Buchhaltung,0.0231,0.0104,-0.0127,-0.0247,-0.001,True,False
+Business Development,0.0328,0.044,0.0113,-0.0116,0.0338,False,False
+BWL,0.0419,0.0181,-0.0238,-0.0397,-0.0073,True,False
+Canva,0.0206,0.013,-0.0077,-0.0197,0.0063,False,False
+CapCut,0.0134,0.013,-0.0004,-0.012,0.0124,False,False
+CEO,0.0134,0.0052,-0.0082,-0.0164,0.0019,False,False
+ChatGPT,0.0164,0.0104,-0.006,-0.0168,0.0055,False,False
+CI/CD,0.0425,0.0337,-0.0088,-0.028,0.0111,False,False
+Claude,0.0237,0.0259,0.0022,-0.0136,0.0216,False,False
+Claude Code,0.0164,0.013,-0.0034,-0.0159,0.0103,False,False
+Clear communication,0.0091,0.0285,0.0194,0.0025,0.0375,True,False
+Consulting,0.0461,0.0389,-0.0073,-0.0272,0.0163,False,False
+Controlling,0.0352,0.0207,-0.0145,-0.0312,0.002,False,False
+Conversion Rate,0.0109,0.0078,-0.0032,-0.0121,0.0072,False,False
+Copy,0.0109,0.013,0.002,-0.0092,0.0156,False,False
+CRM-Systemen,0.0121,0.0052,-0.007,-0.0152,0.0022,False,False
+CTO,0.014,0.0078,-0.0062,-0.0152,0.0054,False,False
+Cursor,0.014,0.0078,-0.0062,-0.0158,0.0048,False,False
+Customer Success,0.0261,0.0285,0.0024,-0.0162,0.024,False,False
+Data Engineering,0.0103,0.0078,-0.0025,-0.0115,0.0077,False,False
+Data Science,0.0164,0.0181,0.0017,-0.0121,0.0177,False,False
+Datenbanken,0.0273,0.0233,-0.004,-0.0185,0.0129,False,False
+Datev,0.0164,0.0155,-0.0008,-0.0142,0.0139,False,False
+Debugging,0.0152,0.0181,0.003,-0.0111,0.0188,False,False
+Dein Profil ab,0.0213,0.0078,-0.0135,-0.0241,-0.0004,True,False
+Digitalisierung,0.0261,0.0311,0.005,-0.0118,0.0245,False,False
+DNS,0.0115,0.0026,-0.0089,-0.0162,-0.0015,True,False
+Docker,0.0383,0.0311,-0.0072,-0.0251,0.0142,False,False
+E-Commerce,0.0322,0.0544,0.0222,-0.0003,0.0466,False,False
+Eigeninitiative,0.0601,0.0415,-0.0187,-0.0417,0.0031,False,False
+Einkauf,0.0182,0.013,-0.0053,-0.0174,0.0081,False,False
+Engagement,0.034,0.0415,0.0074,-0.0131,0.0306,False,False
+Excel,0.0619,0.0725,0.0106,-0.0164,0.0373,False,False
+Facebook,0.0121,0.0104,-0.0018,-0.012,0.0106,False,False
+Fehleranalyse,0.0109,0.0181,0.0072,-0.005,0.0221,False,False
+Figma,0.0158,0.0285,0.0127,-0.0031,0.0315,False,False
+Finanzbuchhaltung,0.0103,0.0078,-0.0025,-0.0108,0.0083,False,False
+Fintech,0.0115,0.0233,0.0118,-0.0024,0.0298,False,False
+Firewalls,0.0134,0.0104,-0.003,-0.0132,0.0092,False,False
+Flexibilität,0.0298,0.0155,-0.0142,-0.0279,0.0015,False,False
+Flexible Arbeitszeiten,0.0158,0.0104,-0.0054,-0.0164,0.0066,False,False
+Forecasting,0.014,0.0207,0.0068,-0.0071,0.024,False,False
+Fundiertes Verständnis,0.0158,0.0052,-0.0106,-0.0194,-0.0019,True,False
+Führerschein Klasse B,0.0134,0.0181,0.0048,-0.0088,0.0197,False,False
+GCP,0.0109,0.0207,0.0098,-0.005,0.0257,False,False
+Gesundheitswesen,0.0103,0.013,0.0026,-0.0088,0.017,False,False
+GitHub,0.0134,0.0052,-0.0082,-0.0164,0.0011,False,False
+GitHub Actions,0.0109,0.0207,0.0098,-0.0044,0.0247,False,False
+Google Ads,0.0152,0.0181,0.003,-0.0109,0.0176,False,False
+Grundlagen,0.0109,0.0052,-0.0057,-0.0134,0.0037,False,False
+Grundverständnis,0.0176,0.0052,-0.0124,-0.0217,-0.0027,True,False
+Guardrails,0.0152,0.0078,-0.0074,-0.0168,0.0042,False,False
+Handeln,0.0128,0.0026,-0.0102,-0.017,-0.0021,True,False
+HGB,0.014,0.0078,-0.0062,-0.0156,0.0054,False,False
+HTML,0.0103,0.0078,-0.0025,-0.0115,0.0092,False,False
+Hubspot,0.0243,0.013,-0.0113,-0.0246,0.0028,False,False
+IAM,0.0097,0.0155,0.0058,-0.0065,0.02,False,False
+Illustrator,0.0091,0.0155,0.0064,-0.0061,0.0211,False,False
+Independent,0.0158,0.0155,-0.0002,-0.0135,0.0139,False,False
+Influencer Marketing,0.0109,0.0181,0.0072,-0.0062,0.022,False,False
+Infrastructure as Code,0.0158,0.0155,-0.0002,-0.0135,0.0132,False,False
+Instagram,0.0316,0.0259,-0.0057,-0.0227,0.0121,False,False
+ISO 27001,0.0128,0.013,0.0002,-0.0112,0.0144,False,False
+JIRA,0.0176,0.0181,0.0005,-0.0135,0.0155,False,False
+Know-How,0.0255,0.0155,-0.01,-0.0249,0.0054,False,False
+Kommunikationsfähigkeit,0.0328,0.0233,-0.0095,-0.0255,0.0083,False,False
+Kommunikationsfähigkeiten,0.0225,0.0155,-0.0069,-0.0208,0.0085,False,False
+Kommunikationsstark,0.0121,0.0155,0.0034,-0.0094,0.0182,False,False
+Kommunikationsstärke,0.0631,0.057,-0.0062,-0.0308,0.0187,False,False
+Kreativität,0.031,0.0259,-0.0051,-0.0209,0.0129,False,False
+Kundenbetreuung,0.0213,0.0207,-0.0005,-0.015,0.0139,False,False
+Kundenorientierung,0.0182,0.0207,0.0025,-0.0119,0.0193,False,False
+Kurze Entscheidungswege,0.0128,0.0026,-0.0102,-0.017,-0.0025,True,False
+Lernbereitschaft,0.0243,0.0052,-0.0191,-0.0288,-0.0083,True,True
+LinkedIn,0.034,0.0233,-0.0107,-0.027,0.0073,False,False
+Linux,0.0376,0.0389,0.0012,-0.019,0.023,False,False
+LLMs,0.0188,0.0233,0.0045,-0.0098,0.0216,False,False
+Machine Learning,0.0182,0.0233,0.0051,-0.0101,0.0219,False,False
+MCP,0.0091,0.0155,0.0064,-0.0057,0.0206,False,False
+Medien,0.0213,0.0155,-0.0057,-0.0185,0.0092,False,False
+Meta,0.0206,0.013,-0.0077,-0.0202,0.0059,False,False
+Microsoft 365,0.0188,0.0155,-0.0033,-0.0167,0.0126,False,False
+Mode,0.0073,0.0207,0.0134,0.0,0.0288,True,False
+n8n,0.0152,0.0207,0.0055,-0.0094,0.0215,False,False
+Netzwerken,0.0109,0.0052,-0.0057,-0.0144,0.0037,False,False
+Next.js,0.0115,0.0104,-0.0012,-0.0114,0.0112,False,False
+Node.js,0.0164,0.0104,-0.006,-0.0164,0.0068,False,False
+Organisationstalent,0.0182,0.0078,-0.0104,-0.0211,0.001,False,False
+Payment,0.0121,0.0155,0.0034,-0.0088,0.0176,False,False
+Performance Marketing,0.0279,0.0285,0.0006,-0.0179,0.0188,False,False
+Photoshop,0.0134,0.0155,0.0022,-0.0098,0.0168,False,False
+PowerPoint,0.0158,0.0207,0.0049,-0.0104,0.0205,False,False
+PowerShell,0.0109,0.0104,-0.0006,-0.0104,0.0122,False,False
+Pre-Sales,0.0146,0.0078,-0.0068,-0.0168,0.0042,False,False
+Pricing,0.0225,0.0155,-0.0069,-0.0217,0.008,False,False
+Product Management,0.0073,0.0207,0.0134,0.0005,0.0288,True,False
+Produktmanagement,0.0103,0.0104,0.0,-0.0098,0.0122,False,False
+Projektmanagement,0.0486,0.0311,-0.0175,-0.0379,0.0029,False,False
+Präzise,0.017,0.013,-0.004,-0.0167,0.0087,False,False
+PyTorch,0.0091,0.013,0.0038,-0.0071,0.0186,False,False
+React,0.0383,0.0363,-0.002,-0.0222,0.0201,False,False
+Rechnungswesen,0.0213,0.0104,-0.0109,-0.022,0.0025,False,False
+Reliability,0.0328,0.0492,0.0164,-0.0067,0.0402,False,False
+Retention,0.0146,0.0311,0.0165,-0.0007,0.0353,False,False
+ROAS,0.0134,0.0052,-0.0082,-0.017,0.0016,False,False
+Routing,0.0146,0.0052,-0.0094,-0.0182,0.0005,False,False
+Salesforce,0.0146,0.0078,-0.0068,-0.0164,0.0046,False,False
+SAP,0.0352,0.044,0.0088,-0.013,0.0332,False,False
+Scale-up,0.0103,0.0207,0.0104,-0.0038,0.027,False,False
+Schnelle Auffassungsgabe,0.0134,0.0052,-0.0082,-0.0164,0.0025,False,False
+Scope,0.0273,0.0363,0.0089,-0.0096,0.0303,False,False
+Scripting,0.0097,0.013,0.0032,-0.0082,0.0166,False,False
+Scrum,0.0164,0.013,-0.0034,-0.0149,0.0112,False,False
+SEA,0.0103,0.0104,0.0,-0.0102,0.0109,False,False
+Selbstständige,0.0504,0.0544,0.004,-0.0188,0.0279,False,False
+Selbstständige Arbeitsweise,0.0249,0.0207,-0.0042,-0.0188,0.0117,False,False
+Selbstständigkeit,0.014,0.0,-0.014,-0.02,-0.0091,True,True
+SEO,0.0219,0.0104,-0.0115,-0.0221,0.0023,False,False
+Serviceorientierung,0.0128,0.0207,0.008,-0.0071,0.0246,False,False
+Sicheres Auftreten,0.0158,0.0078,-0.008,-0.0179,0.0034,False,False
+Simulation,0.0121,0.0311,0.0189,0.0026,0.0395,True,False
+Smartphone,0.0115,0.0052,-0.0064,-0.0146,0.0032,False,False
+Social Media,0.0571,0.0518,-0.0053,-0.0301,0.0199,False,False
+Softwareentwicklung,0.037,0.0207,-0.0163,-0.0315,0.0009,False,False
+Start-Up,0.0128,0.0155,0.0028,-0.0102,0.0168,False,False
+Strukturierte Arbeitsweise,0.0528,0.057,0.0042,-0.0204,0.0307,False,False
+Teamfähigkeit,0.0534,0.0518,-0.0016,-0.0245,0.0238,False,False
+Technisches Verständnis,0.0352,0.0337,-0.0015,-0.0226,0.0201,False,False
+Terraform,0.0279,0.0207,-0.0072,-0.0233,0.0099,False,False
+Testen,0.0188,0.0104,-0.0085,-0.0197,0.0054,False,False
+Unternehmerisches Denken,0.0237,0.013,-0.0107,-0.0226,0.0033,False,False
+Urban Sports Club,0.0097,0.013,0.0032,-0.0071,0.0172,False,False
+Verantwortungsbewusstsein,0.0237,0.0155,-0.0081,-0.0223,0.0065,False,False
+Verhandlungsgeschick,0.0158,0.013,-0.0028,-0.0147,0.0107,False,False
+Verhandlungssichere Deutschkenntnisse,0.0097,0.0104,0.0006,-0.0094,0.0122,False,False
+Verkauf,0.0219,0.0104,-0.0115,-0.022,0.0015,False,False
+Verstehen,0.0346,0.0389,0.0043,-0.0151,0.0285,False,False
+Windows,0.0182,0.0181,-0.0001,-0.0133,0.0151,False,False
+YouTube,0.0128,0.0155,0.0028,-0.0092,0.0168,False,False
+Zuverlässigkeit,0.0401,0.0181,-0.0219,-0.0372,-0.0053,True,False

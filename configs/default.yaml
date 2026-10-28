@@ -10,7 +10,7 @@ harvest:
   corpus_a_per_field: 900
   corpus_b_target: 5000
 market: {min_group_size: 30}
-classifier: {model: distilbert-base-german-cased, max_len: 256, epochs: 2, local_max_train: 3000, seeds: [0]}
+classifier: {model: distilbert/distilbert-base-german-cased, max_len: 256, epochs: 5, local_max_train: 3000, seeds: [0]}
 regions:
   rhine_main: [Frankfurt am Main, Darmstadt, Wiesbaden, Mainz, Offenbach am Main, Hanau, Bad Homburg vor der Höhe, Rüsselsheim, Eschborn, Oberursel (Taunus), Langen, Dreieich, Neu-Isenburg, Bad Vilbel, Friedberg]
   rhine_neckar: [Mannheim, Heidelberg, Ludwigshafen am Rhein, Weinheim, Walldorf, Speyer, Schwetzingen, Wiesloch, Viernheim, Sinsheim, Frankenthal, Hockenheim, Leimen]

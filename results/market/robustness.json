@@ -1,0 +1,93 @@
+{
+ "baseline_postings": 4934,
+ "top_n": 30,
+ "variants": {
+  "with_duplicates": {
+   "postings": 5750,
+   "spearman_rank_correlation_top": 0.9509,
+   "max_abs_share_difference": 0.0164,
+   "skill_with_max_difference": "Deutsch",
+   "top10_overlap": 10
+  },
+  "one_posting_per_employer": {
+   "postings": 1226,
+   "spearman_rank_correlation_top": 0.5807,
+   "max_abs_share_difference": 0.1238,
+   "skill_with_max_difference": "Englisch",
+   "top10_overlap": 6
+  },
+  "without_staffing_agencies": {
+   "postings": 3464,
+   "spearman_rank_correlation_top": 0.8461,
+   "max_abs_share_difference": 0.0393,
+   "skill_with_max_difference": "Englisch",
+   "top10_overlap": 8
+  },
+  "arbeitnow_only": {
+   "postings": 2033,
+   "spearman_rank_correlation_top": 0.5391,
+   "max_abs_share_difference": 0.185,
+   "skill_with_max_difference": "Englisch",
+   "top10_overlap": 4
+  },
+  "career_sites_only": {
+   "postings": 2901,
+   "spearman_rank_correlation_top": 0.7524,
+   "max_abs_share_difference": 0.1296,
+   "skill_with_max_difference": "Englisch",
+   "top10_overlap": 9
+  },
+  "german_language_only": {
+   "postings": 4309,
+   "spearman_rank_correlation_top": 0.8956,
+   "max_abs_share_difference": 0.0298,
+   "skill_with_max_difference": "Englisch",
+   "top10_overlap": 10
+  }
+ },
+ "staffing_agency_postings": 1470,
+ "suppression_sensitivity": {
+  "state": {
+   "min_10": {
+    "groups_kept": 17,
+    "postings_in_kept_groups": 4934
+   },
+   "min_30": {
+    "groups_kept": 15,
+    "postings_in_kept_groups": 4890
+   },
+   "min_50": {
+    "groups_kept": 13,
+    "postings_in_kept_groups": 4809
+   }
+  },
+  "category": {
+   "min_10": {
+    "groups_kept": 44,
+    "postings_in_kept_groups": 4263
+   },
+   "min_30": {
+    "groups_kept": 25,
+    "postings_in_kept_groups": 3924
+   },
+   "min_50": {
+    "groups_kept": 12,
+    "postings_in_kept_groups": 3448
+   }
+  },
+  "region": {
+   "min_10": {
+    "groups_kept": 3,
+    "postings_in_kept_groups": 4934
+   },
+   "min_30": {
+    "groups_kept": 3,
+    "postings_in_kept_groups": 4934
+   },
+   "min_50": {
+    "groups_kept": 3,
+    "postings_in_kept_groups": 4934
+   }
+  }
+ }
+}

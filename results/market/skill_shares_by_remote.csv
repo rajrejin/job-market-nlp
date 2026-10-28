@@ -1,0 +1,61 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+False,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,1384,4581,0.3021,0.289,0.3156
+False,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,1036,4581,0.2262,0.2143,0.2385
+False,mined:teamfähigkeit,Teamfähigkeit,554,4581,0.1209,0.1118,0.1307
+False,mined:zuverlässigkeit,Zuverlässigkeit,451,4581,0.0985,0.0902,0.1074
+False,mined:flexibilität,Flexibilität,365,4581,0.0797,0.0722,0.0879
+False,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,323,4581,0.0705,0.0634,0.0783
+False,mined:kommunikationsstärke,Kommunikationsstärke,309,4581,0.0675,0.0605,0.0751
+False,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,304,4581,0.0664,0.0595,0.0739
+False,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,297,4581,0.0648,0.0581,0.0723
+False,mined:selbstständige,Selbstständige,256,4581,0.0559,0.0496,0.0629
+False,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,234,4581,0.0511,0.0451,0.0578
+False,mined:engagement,Engagement,224,4581,0.0489,0.043,0.0555
+False,mined:weihnachtsgeld,Weihnachtsgeld,203,4581,0.0443,0.0387,0.0507
+False,mined:führerschein klasse b,Führerschein Klasse B,201,4581,0.0439,0.0383,0.0502
+False,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),199,4581,0.0434,0.0379,0.0497
+False,mined:technisches verständnis,Technisches Verständnis,187,4581,0.0408,0.0355,0.0469
+False,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,180,4581,0.0393,0.034,0.0453
+False,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,174,4581,0.038,0.0328,0.0439
+False,mined:elektroniker,Elektroniker,167,4581,0.0365,0.0314,0.0423
+False,mined:excel,Excel,161,4581,0.0351,0.0302,0.0409
+False,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,154,4581,0.0336,0.0288,0.0392
+False,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,151,4581,0.033,0.0282,0.0385
+False,mined:belastbarkeit,Belastbarkeit,151,4581,0.033,0.0282,0.0385
+False,mined:eigeninitiative,Eigeninitiative,150,4581,0.0327,0.028,0.0383
+False,mined:sorgfalt,Sorgfalt,148,4581,0.0323,0.0276,0.0378
+False,mined:verstehen,Verstehen,148,4581,0.0323,0.0276,0.0378
+False,mined:kreativität,Kreativität,147,4581,0.0321,0.0274,0.0376
+False,mined:bauen,Bauen,143,4581,0.0312,0.0266,0.0367
+False,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,142,4581,0.031,0.0264,0.0364
+False,mined:kundenorientierung,Kundenorientierung,138,4581,0.0301,0.0256,0.0355
+True,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,140,353,0.3966,0.3469,0.4485
+True,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,136,353,0.3853,0.336,0.437
+True,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,48,353,0.136,0.1041,0.1757
+True,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),40,353,0.1133,0.0843,0.1506
+True,mined:automatisierung,Automatisierung,32,353,0.0907,0.0649,0.1252
+True,mined:e-commerce,E-Commerce,25,353,0.0708,0.0484,0.1025
+True,mined:kommunikationsstärke,Kommunikationsstärke,25,353,0.0708,0.0484,0.1025
+True,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,TypeScript,24,353,0.068,0.0461,0.0992
+True,mined:social media,Social Media,23,353,0.0652,0.0438,0.0959
+True,mined:zuverlässigkeit,Zuverlässigkeit,22,353,0.0623,0.0415,0.0926
+True,mined:eigeninitiative,Eigeninitiative,21,353,0.0595,0.0392,0.0892
+True,mined:selbstständige,Selbstständige,21,353,0.0595,0.0392,0.0892
+True,http://data.europa.eu/esco/skill/dc9a236c-c640-43c3-812f-269403591edb,Kundenbeziehungsmanagement,21,353,0.0595,0.0392,0.0892
+True,mined:azure,Azure,20,353,0.0567,0.037,0.0859
+True,mined:sap,SAP,20,353,0.0567,0.037,0.0859
+True,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,20,353,0.0567,0.037,0.0859
+True,mined:react,React,20,353,0.0567,0.037,0.0859
+True,mined:linkedin,LinkedIn,19,353,0.0538,0.0347,0.0825
+True,http://data.europa.eu/esco/skill/66da3162-6c8d-44cb-9dd5-6f9efe1fcf67,Marken,19,353,0.0538,0.0347,0.0825
+True,mined:aws,AWS,18,353,0.051,0.0325,0.0792
+True,mined:docker,Docker,18,353,0.051,0.0325,0.0792
+True,http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5,Datenmodelle,17,353,0.0482,0.0303,0.0758
+True,mined:linux,Linux,17,353,0.0482,0.0303,0.0758
+True,mined:ci/cd,CI/CD,17,353,0.0482,0.0303,0.0758
+True,mined:projektmanagement,Projektmanagement,16,353,0.0453,0.0281,0.0724
+True,http://data.europa.eu/esco/skill/c8d53d69-d900-4092-af80-c5d0422bcdb3,Source (Videospielerstellungssysteme),16,353,0.0453,0.0281,0.0724
+True,mined:bauen,Bauen,15,353,0.0425,0.0259,0.0689
+True,mined:kommunikationsfähigkeiten,Kommunikationsfähigkeiten,15,353,0.0425,0.0259,0.0689
+True,mined:instagram,Instagram,15,353,0.0425,0.0259,0.0689
+True,mined:teamfähigkeit,Teamfähigkeit,15,353,0.0425,0.0259,0.0689

@@ -1,0 +1,17 @@
+{
+ "pairs_same_label": 300,
+ "pairs_different_label": 300,
+ "auc_same_vs_different": 0.5998,
+ "auc_95ci": [
+  0.5549,
+  0.6435
+ ],
+ "mean_score_same": 0.3537,
+ "mean_score_different": 0.3122,
+ "self_match_n": 100,
+ "self_match_mean": 1.0,
+ "self_match_min": 1.0,
+ "seconds": 185.9,
+ "related_threshold": 0.85,
+ "embeddings_used": true
+}

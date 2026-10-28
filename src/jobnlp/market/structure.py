@@ -57,8 +57,10 @@ def role_profiles(
     assignments = []
     profiles: list[dict[str, Any]] = []
     for seed in seeds:
-        model = NMF(n_components=k, init="nndsvda", random_state=seed, max_iter=500)
-        w = model.fit_transform(x + 1e-9 * np.random.default_rng(seed).random(x.shape))
+        # random initialisation: the seed changes the start, so agreement across seeds is a
+        # real stability test (the SVD-based "nndsvda" start is the same for every seed)
+        model = NMF(n_components=k, init="random", random_state=seed, max_iter=800)
+        w = model.fit_transform(x)
         assignments.append(w.argmax(axis=1))
         if seed == seeds[0]:
             h = model.components_

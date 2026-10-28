@@ -14,6 +14,7 @@ import matplotlib
 import pandas as pd
 
 from jobnlp.market.aggregate import data_role, employer_concentration, experience_level, shares
+from jobnlp.market.robustness import robustness, suppression_sensitivity, trend_test
 from jobnlp.market.structure import binary_matrix, pmi_edges, role_profiles
 from jobnlp.skills.extract import load_nlp
 from jobnlp.skills.gazetteer import Gazetteer
@@ -23,9 +24,12 @@ matplotlib.use("Agg")
 MIN_CHARS = 200
 
 
-def market_postings(corpus: pd.DataFrame) -> pd.DataFrame:
+def market_postings(corpus: pd.DataFrame, include_duplicates: bool = False) -> pd.DataFrame:
     # postings without a usable description (some JSON-LD lacks it) cannot show skills
-    p = corpus[corpus.in_germany & ~corpus.is_dup & (corpus.n_chars >= MIN_CHARS)].copy()
+    keep = corpus.in_germany & (corpus.n_chars >= MIN_CHARS)
+    if not include_duplicates:
+        keep &= ~corpus.is_dup
+    p = corpus[keep].copy()
     p["posting_key"] = p.source + ":" + p.posting_id
     p["experience"] = [
         experience_level(t or "", x or "") for t, x in zip(p.title, p.text, strict=True)
@@ -58,8 +62,16 @@ def extract_skills(postings: pd.DataFrame, gaz: Gazetteer) -> pd.DataFrame:
 
 def run(corpus: pd.DataFrame, gaz: Gazetteer, out: Path, min_group: int = 30) -> dict[str, Any]:
     out.mkdir(parents=True, exist_ok=True)
-    p = market_postings(corpus)
-    skills = extract_skills(p, gaz)
+    everything = market_postings(corpus, include_duplicates=True)
+    all_skills = extract_skills(everything, gaz)  # duplicates included, for robustness only
+    p = everything[~everything.is_dup]
+    skills = all_skills[all_skills.posting_key.isin(set(p.posting_key))]
+    processed = out.parents[1] / "data" / "processed"
+    if processed.exists():  # per-posting skills for the CV tool's demand ranking (not committed)
+        skills.to_parquet(processed / "market_skills.parquet", index=False)
+        p[["posting_key", "category", "source", "lang"]].to_parquet(
+            processed / "market_postings.parquet", index=False
+        )
     summary: dict[str, Any] = {
         "postings": int(len(p)),
         "postings_with_skills": int(skills.posting_key.nunique()) if len(skills) else 0,
@@ -110,6 +122,20 @@ def run(corpus: pd.DataFrame, gaz: Gazetteer, out: Path, min_group: int = 30) ->
             "data_role_postings": int(((p.region == r) & p.data_role.notna()).sum()),
         }
         for r in ("rhine_main", "rhine_neckar")
+    }
+    rob = robustness(everything, all_skills)
+    rob["suppression_sensitivity"] = suppression_sensitivity(p, ["state", "category", "region"])
+    (out / "robustness.json").write_text(json.dumps(rob, indent=1, ensure_ascii=False), "utf-8")
+    trends: dict[str, Any] = {}
+    for src in sorted(p.source.unique()):
+        trend = trend_test(p[p.source == src], skills)
+        table = trend.pop("table", pd.DataFrame())
+        table.to_csv(out / f"trend_tests_{src}.csv", index=False, encoding="utf-8")
+        trends[src] = trend
+    (out / "trends.json").write_text(json.dumps(trends, indent=1, ensure_ascii=False), "utf-8")
+    summary["trends"] = {
+        src: {k: t[k] for k in ("tested", "flagged_uncorrected", "flagged_bonferroni") if k in t}
+        for src, t in trends.items()
     }
     (out / "market_summary.json").write_text(
         json.dumps(summary, indent=1, ensure_ascii=False, default=str), encoding="utf-8"

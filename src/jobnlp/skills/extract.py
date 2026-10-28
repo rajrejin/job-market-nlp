@@ -16,6 +16,17 @@ from jobnlp.skills.gazetteer import Gazetteer, Match, Phrase
 from jobnlp.skills.necessity import necessity_at
 
 PAREN_QUALIFIER = re.compile(r"\s*\([^)]*\)\s*$")
+LETTER = re.compile(r"[A-Za-zÄÖÜäöüß]")
+# a single-word alternative label is kept only if it looks like a tool or acronym
+# (SQL, JavaScript, C++, .NET): plain words such as "data", "design" or "standards"
+# are alternative labels of unrelated ESCO skills and over-match in job ads
+TOOL_LIKE = re.compile(r"^.+[A-Z0-9+#]|^[^A-Za-z]|[.+#]")
+
+
+def keep_alt_label(label: str) -> bool:
+    return len(label.split()) > 1 or bool(TOOL_LIKE.search(label))
+
+
 OFF = ["parser", "ner"]
 
 
@@ -33,12 +44,14 @@ def esco_phrases(esco: pd.DataFrame) -> dict[str, list[tuple[str, Phrase]]]:
         pref = rec["pref_de"] or rec["pref_en"] or ""
         kind = "language" if "Language" in list(rec["scheme_titles"]) else str(rec["skill_type"])
         phrase = Phrase(str(rec["uri"]), str(pref), "esco", kind)
-        for lang, labels in (
-            ("de", [rec["pref_de"], *list(rec["alt_de"])]),
-            ("en", [rec["pref_en"], *list(rec["alt_en"])]),
+        for lang, pref_label, alts in (
+            ("de", rec["pref_de"], list(rec["alt_de"])),
+            ("en", rec["pref_en"], list(rec["alt_en"])),
         ):
-            for label in labels:
-                if not label:
+            for label in [pref_label, *alts]:
+                if not label or not LETTER.search(str(label)):
+                    continue
+                if label != pref_label and kind != "language" and not keep_alt_label(str(label)):
                     continue
                 out[lang].append((str(label), phrase))
                 short = PAREN_QUALIFIER.sub("", str(label))

@@ -15,7 +15,49 @@ if TYPE_CHECKING:
     from jobnlp.harvest.client import PoliteClient
     from jobnlp.harvest.store import PostingStore
 
-app = typer.Typer(no_args_is_help=True, help="German job market NLP analyser and CV gap tool.")
+TIMED = {
+    "harvest",
+    "crawl",
+    "esco",
+    "build-corpus",
+    "train-ner",
+    "evaluate",
+    "market",
+    "train-classifier",
+    "evaluate-gap",
+}
+_RUN: dict[str, object] = {}
+
+
+def _record_runtime(*_: object, **__: object) -> None:
+    """After a pipeline step succeeds, record its wall-clock time in results/runtime.json."""
+    import time
+
+    step = _RUN.get("step")
+    if step not in TIMED:
+        return
+    path = ROOT / "results" / "runtime.json"
+    data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    data[str(step)] = {
+        "seconds": round(time.time() - float(_RUN["t0"]), 1),  # type: ignore[arg-type]
+        "finished": dt.datetime.now(dt.UTC).isoformat(timespec="seconds"),
+        "machine": "Ryzen 5 laptop, 8 GB RAM, CPU only, Docker VM with 3.5 GB",
+    }
+    path.write_text(json.dumps(data, indent=1), encoding="utf-8")
+
+
+app = typer.Typer(
+    no_args_is_help=True,
+    help="German job market NLP analyser and CV gap tool.",
+    result_callback=_record_runtime,
+)
+
+
+@app.callback()
+def _start(ctx: typer.Context) -> None:
+    import time
+
+    _RUN.update(step=ctx.invoked_subcommand, t0=time.time())
 
 
 @app.command()
@@ -232,123 +274,50 @@ def train_classifier(
     out_dir: str = typer.Option("", help="BERT output folder; default models/classifier_bert."),
 ) -> None:
     """Occupational-field classifier: baselines and BERT on grouped splits, with intervals."""
-    import os
-    import time
-
-    import numpy as np
     import pandas as pd
-    import psutil
 
-    from jobnlp.classify.baselines import EmbeddingLR, TfidfLR
-    from jobnlp.classify.data import group_split, label_table, text_view
-    from jobnlp.classify.evaluate import bootstrap_ci, metrics, paired_bootstrap
+    from jobnlp.classify import experiment as ex
 
     cfg = load_config()["classifier"]
-    corpus = pd.read_parquet(ROOT / "data" / "processed" / "postings.parquet")
-    df, info = label_table(corpus)
-    df["split"] = group_split(df)
-    manifest = {
-        "label_info": info,
-        "split_counts": df.groupby(["split", "label"]).size().unstack(fill_value=0).to_dict(),
-        "employers_per_split": df.groupby("split").employer.nunique().to_dict(),
-        "employer_overlap_train_test": len(
-            set(df[df.split == "train"].employer) & set(df[df.split == "test"].employer) - {""}
-        ),
-        "postings": {
-            s: sorted(df[df.split == s].posting_id.tolist()) for s in ("train", "val", "test")
-        },
-    }
-    _write_result("split_manifest.json", manifest)
-    tr, va, te = (df[df.split == s] for s in ("train", "val", "test"))
+    df, info = ex.dataset(pd.read_parquet(ROOT / "data" / "processed" / "postings.parquet"))
+    _write_result("split_manifest.json", ex.split_manifest(df, info))
     classes = sorted(info["classes"])
-    proc = psutil.Process(os.getpid())
-    results: dict[str, object] = {
-        "n": {"train": len(tr), "val": len(va), "test": len(te)},
+    te = df[df.split == "test"]
+    which = set(models.split(","))
+    proba_dir = ROOT / "models" / "classifier_probas"
+    new: dict[str, object] = {
+        "n": df.split.value_counts().to_dict(),
         "classes": classes,
         "models": {},
     }
-    probas: dict[str, np.ndarray] = {}
-    wanted = set(models.split(","))
-    for name, cls in (("tfidf", TfidfLR), ("e5", EmbeddingLR)):
-        if name not in wanted:
-            continue
-        for view in ("title", "description", "title+description"):
-            model = cls()
-            fit = model.fit(
-                text_view(tr, view), tr.label.tolist(), text_view(va, view), va.label.tolist()
-            )
-            t0 = time.time()
-            proba = model.predict_proba(text_view(te, view))
-            latency = (time.time() - t0) / max(1, len(te))
-            proba = proba[:, [model.classes.index(c) for c in classes]]
-            key = f"{model.name}:{view}"
-            probas[key] = proba
-            if name == "tfidf" and view == "title+description":
-                _save_tfidf(model, classes)
-            results["models"][key] = {  # type: ignore[index]
-                **metrics(te.label.tolist(), proba, classes),
-                **bootstrap_ci(te.label.tolist(), proba, classes),
-                "fit": fit,
-                "latency_seconds_per_posting": round(latency, 5),
-                "rss_mb_after": int(proc.memory_info().rss / 2**20),
-            }
-            typer.echo(f"{key}: macro-F1 {results['models'][key]['macro_f1']}")  # type: ignore[index]
-    if "bert" in wanted:
-        from jobnlp.classify.bert import predict_proba, train_bert
-
-        cap = max_train or int(cfg["local_max_train"])
-        tr_b = tr.sample(n=min(cap, len(tr)), random_state=0)
+    base_res, probas = ex.run_baselines(df, classes, which, ROOT / "models" / "classifier_tfidf")
+    new["models"] = base_res
+    for key, r in base_res.items():
+        typer.echo(f"{key}: macro-F1 {r['macro_f1']}")
+    if probas:
+        ex.save_probas(proba_dir, probas, te.posting_id.tolist())
+    if "bert" in which:
         bert_dir = Path(out_dir) if out_dir else ROOT / "models" / "classifier_bert"
-        stats = train_bert(
-            text_view(tr_b, "title+description"),
-            tr_b.label.tolist(),
-            text_view(va, "title+description"),
-            va.label.tolist(),
+        res, proba = ex.run_bert(
+            df,
             classes,
+            cfg,
             bert_dir,
-            model_id=bert_model or cfg["model"],
-            max_len=int(cfg["max_len"]),
-            epochs=bert_epochs or int(cfg["epochs"]),
-            seed=seed,
+            bert_model or cfg["model"],
+            bert_epochs or int(cfg["epochs"]),
+            max_train or int(cfg["local_max_train"]),
+            seed,
         )
-        proba, order, latency = predict_proba(
-            bert_dir / "model", text_view(te, "title+description")
-        )
-        proba = proba[:, [order.index(c) for c in classes]]
-        probas["bert:title+description"] = proba
-        stats.pop("log_history", None)
-        from jobnlp.manifest import make_manifest, write_manifest
-
-        write_manifest(
-            bert_dir / "model",
-            make_manifest(
-                "classifier",
-                seed,
-                {
-                    "model": "bert",
-                    "classes": classes,
-                    "training": stats,
-                    "split_manifest_sha256": _sha(ROOT / "results" / "split_manifest.json"),
-                },
-            ),
-        )
-        results["models"]["bert:title+description"] = {  # type: ignore[index]
-            **metrics(te.label.tolist(), proba, classes),
-            **bootstrap_ci(te.label.tolist(), proba, classes),
-            "fit": stats,
-            "latency_seconds_per_posting": round(latency, 5),
-            "rss_mb_after": int(proc.memory_info().rss / 2**20),
-            "budget": f"local reduced budget: up to {cap} training examples, one seed",
-        }
-        baselines = [
-            k for k in probas if k.endswith("title+description") and not k.startswith("bert")
-        ]
-        if baselines:
-            best = max(baselines, key=lambda k: results["models"][k]["macro_f1"])  # type: ignore[index]
-            results["bert_vs_best_baseline"] = {
-                "baseline": best,
-                **paired_bootstrap(te.label.tolist(), proba, probas[best], classes),
-            }
+        key = f"bert:title+description:seed{seed}" if out_dir else "bert:title+description"
+        new["models"][key] = res  # type: ignore[index]
+        typer.echo(f"{key}: macro-F1 {res['macro_f1']}")
+        ex.save_probas(proba_dir, {key: proba}, te.posting_id.tolist())
+    results = ex.merge_results(ROOT / "results" / "classifier_results.json", new)
+    bert_keys = [k for k in results["models"] if k.startswith("bert")]
+    if bert_keys:
+        cmp = ex.compare_with_best_baseline(proba_dir, results, te, bert_keys[0], classes)
+        if cmp:
+            results["bert_vs_best_baseline"] = cmp
     _write_result("classifier_results.json", results)
 
 
@@ -358,29 +327,6 @@ def _sha(path: object) -> str:
     from jobnlp.manifest import sha256_file
 
     return sha256_file(Path(str(path)))
-
-
-def _save_tfidf(model: object, classes: list[str]) -> None:
-    import pickle
-
-    from jobnlp.manifest import make_manifest, write_manifest
-
-    d = ROOT / "models" / "classifier_tfidf"
-    d.mkdir(parents=True, exist_ok=True)
-    with (d / "model.pkl").open("wb") as f:
-        pickle.dump(model, f)
-    write_manifest(
-        d,
-        make_manifest(
-            "classifier",
-            0,
-            {
-                "model": "tfidf_lr",
-                "classes": classes,
-                "split_manifest_sha256": _sha(ROOT / "results" / "split_manifest.json"),
-            },
-        ),
-    )
 
 
 @app.command()

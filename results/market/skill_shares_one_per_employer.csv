@@ -1,0 +1,31 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+all,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,491,1226,0.4005,0.3734,0.4282
+all,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,443,1226,0.3613,0.3349,0.3886
+all,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,108,1226,0.0881,0.0735,0.1053
+all,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),104,1226,0.0848,0.0705,0.1018
+all,mined:excel,Excel,78,1226,0.0636,0.0513,0.0787
+all,mined:kommunikationsstärke,Kommunikationsstärke,77,1226,0.0628,0.0505,0.0778
+all,mined:eigeninitiative,Eigeninitiative,77,1226,0.0628,0.0505,0.0778
+all,mined:teamfähigkeit,Teamfähigkeit,74,1226,0.0604,0.0484,0.0751
+all,mined:social media,Social Media,72,1226,0.0587,0.0469,0.0733
+all,mined:selbstständige,Selbstständige,71,1226,0.0579,0.0462,0.0724
+all,http://data.europa.eu/esco/skill/dc9a236c-c640-43c3-812f-269403591edb,Kundenbeziehungsmanagement,68,1226,0.0555,0.044,0.0697
+all,mined:automatisierung,Automatisierung,67,1226,0.0546,0.0433,0.0688
+all,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,65,1226,0.053,0.0418,0.067
+all,mined:projektmanagement,Projektmanagement,65,1226,0.053,0.0418,0.067
+all,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,TypeScript,63,1226,0.0514,0.0404,0.0652
+all,mined:zuverlässigkeit,Zuverlässigkeit,59,1226,0.0481,0.0375,0.0616
+all,mined:administration,Administration,54,1226,0.044,0.0339,0.057
+all,mined:engagement,Engagement,53,1226,0.0432,0.0332,0.0561
+all,mined:e-commerce,E-Commerce,51,1226,0.0416,0.0318,0.0543
+all,http://data.europa.eu/esco/skill/66da3162-6c8d-44cb-9dd5-6f9efe1fcf67,Marken,50,1226,0.0408,0.0311,0.0534
+all,http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f,Datenbankmanagementsysteme,48,1226,0.0392,0.0297,0.0515
+all,mined:technisches verständnis,Technisches Verständnis,48,1226,0.0392,0.0297,0.0515
+all,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,47,1226,0.0383,0.029,0.0506
+all,mined:instagram,Instagram,46,1226,0.0375,0.0282,0.0497
+all,mined:aws,AWS,45,1226,0.0367,0.0275,0.0488
+all,mined:ci/cd,CI/CD,45,1226,0.0367,0.0275,0.0488
+all,mined:linkedin,LinkedIn,44,1226,0.0359,0.0268,0.0478
+all,http://data.europa.eu/esco/skill/83218cac-3599-417e-93d2-26013cdccd98,serviceorientierte Modellierung,44,1226,0.0359,0.0268,0.0478
+all,mined:docker,Docker,43,1226,0.0351,0.0261,0.0469
+all,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,42,1226,0.0343,0.0254,0.046

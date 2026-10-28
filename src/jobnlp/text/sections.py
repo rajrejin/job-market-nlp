@@ -11,43 +11,58 @@ from dataclasses import dataclass
 
 LABELS = ("company", "tasks", "requirements", "offer", "other")
 
+# Cue lists, extended on the development half of the splitter evaluation (postings s000 to
+# s049, results/section_splitter_eval.json); the held-out half was not used to change them.
 CUES: dict[str, re.Pattern[str]] = {
     "requirements": re.compile(
-        r"(profil|qualifikation|anforderung|voraussetzung|das bringst du mit|das bringen sie mit|"
-        r"was du mitbringst|was sie mitbringen|du bringst mit|sie bringen mit|deine skills|"
-        r"requirements|qualifications|who you are|what you bring|what we.?re looking for|"
-        r"what we are looking for|about you|your profile|you have|you bring|must.?have|"
-        r"nice.?to.?have|skills|experience|wünschenswert|kenntnisse|ideal candidate|"
-        r"was wir erwarten|was wir uns wünschen|dein background)",
+        r"(\bprofil|qualifikation|anforderung|voraussetzung|bringst du.{0,20}mit|"
+        r"bringen sie.{0,20}mit|was du mitbringst|was sie mitbringen|du bringst mit|"
+        r"sie bringen mit|solltest du mitbringen|deine skills|wünschen wir uns|wir wünschen uns|"
+        r"wie sie uns überzeugen|zeichnen sich aus|zeichnest du dich aus|das bist du|du passt|"
+        r"passt gut zu uns|eher nichts für dich|dein hintergrund|ihr können|pluspunkte|"
+        r"muss-kriterien|kein muss|cherry on top|von vorteil|requirements|qualifications|"
+        r"who you are|what you bring|what we.?re looking for|what we are looking for|about you|"
+        r"your profile|you have|you bring|must.?have|nice.?to.?have|skills|experience|"
+        r"who thrives|isn.?t for you|tools & stack|tech stack|wünschenswert|kenntnisse|"
+        r"ideal candidate|was wir erwarten|was wir uns wünschen|dein background)",
         re.IGNORECASE,
     ),
     "tasks": re.compile(
-        r"(aufgaben|aufgabengebiet|tätigkeit|deine rolle|ihre rolle|dein job|deine mission|"
-        r"das erwartet dich|was dich erwartet|was sie erwartet|verantwortung|"
-        r"what you.?ll do|what you will do|what you.?ll be doing|what you.?ll own|"
-        r"responsibilities|the role|your role|about the role|tasks|your mission|the job|"
-        r"your impact|day to day|in this role|the opportunity)",
+        r"(aufgaben|aufgabengebiet|tätigkeit|deine rolle|ihre rolle|dein job|das erwartet dich|"
+        r"was dich erwartet|was sie erwartet|verantwortlichkeiten|deine verantwortung|"
+        r"ihre verantwortung|tagesgeschäft|das machst du|was du machst|die aufgabe|"
+        r"über die rolle|und danach\?|what you.?ll do|what you will do|what you.?ll be doing|"
+        r"what you will be doing|what you.?ll own|responsibilities|the role|your role|"
+        r"about the role|tasks|the job|your impact|your challenge|success looks like|"
+        r"day to day|in this role|the opportunity)",
         re.IGNORECASE,
     ),
     "offer": re.compile(
-        r"(benefits|wir bieten|was wir bieten|das bieten wir|unser angebot|deine vorteile|"
-        r"ihre vorteile|warum wir|what we offer|why join|perks|compensation|what.?s in it|"
-        r"we offer|our offer|vergütung|gehalt|salary)",
+        r"(benefits|wir (ihnen |dir )?bieten|bieten (wir|dir|ihnen)|unser angebot|vorteile|"
+        r"darauf (können sie sich|kannst du dich) freuen|was du von uns erwarten|darum wir|"
+        r"^warum\b|rahmenbedingungen|perspektiven|karrierechancen|look forward to|"
+        r"benefit from|career at .* give you|proposition|makes this exciting|what we offer|"
+        r"why join|perks|compensation|what.?s in it|we offer|our offer|vergütung|gehalt|salary)",
         re.IGNORECASE,
     ),
     "company": re.compile(
-        r"(über uns|ueber uns|wer wir sind|das sind wir|unternehmen|about us|who we are|"
-        r"about the company|about the team|our company|our mission|^about \w+)",
+        r"(über uns|ueber uns|^über \w+|wer wir sind|das sind wir|\bunternehmen\b|mission|"
+        r"einleitung|^intro|introduction|our background|how we win|^team$|about us|who we are|"
+        r"about the company|about the team|our company|^about \w+)",
         re.IGNORECASE,
     ),
     "other": re.compile(
-        r"(bewerbung|application|interview|hiring process|kontakt|contact|location|standort|"
+        r"(bewerbung|bewirb dich|bewerben sie sich|bewirbst du dich|application|interview|"
+        r"hiring process|kontakt|contact|noch fragen|fragen zur stelle|interessiert\?|"
+        r"interesse geweckt|klingt nach|worauf wartest du|zum schluss|einstiegstermin|eckdaten|"
+        r"persönlich für sie da|join us$|join the team|privacy|datenschutz|location|standort|"
         r"diversity|equal opportunit|chancengleichheit)",
         re.IGNORECASE,
     ),
 }
 ORDER = ("requirements", "tasks", "offer", "company", "other")
 MAX_PLAIN_HEADING = 60
+MAX_MARKUP_HEADING_WORDS = 12
 
 
 @dataclass
@@ -65,11 +80,16 @@ def classify_heading(heading: str) -> str | None:
     return None
 
 
+KEY_VALUE = re.compile(r"^[^:]{1,30}:\s+\S")  # "Standort: Hildesheim" is data, not a heading
+
+
 def _heading_of(line: str) -> str | None:
     if line.startswith("## "):
-        return line[3:].strip()
+        head = line[3:].strip()
+        # a bold sentence is emphasis, not a heading
+        return head if len(head.split()) <= MAX_MARKUP_HEADING_WORDS else None
     s = line.strip()
-    if 0 < len(s) <= MAX_PLAIN_HEADING and not s.startswith("- "):
+    if 0 < len(s) <= MAX_PLAIN_HEADING and not s.startswith("- ") and not KEY_VALUE.match(s):
         if s.endswith(":") or (classify_heading(s) and len(s.split()) <= 6):
             return s
     return None

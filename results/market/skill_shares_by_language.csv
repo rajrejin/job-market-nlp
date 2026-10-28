@@ -1,0 +1,61 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+de,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,1292,4309,0.2998,0.2863,0.3137
+de,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,895,4309,0.2077,0.1959,0.2201
+de,mined:teamfähigkeit,Teamfähigkeit,569,4309,0.132,0.1223,0.1425
+de,mined:zuverlässigkeit,Zuverlässigkeit,473,4309,0.1098,0.1008,0.1195
+de,mined:flexibilität,Flexibilität,376,4309,0.0873,0.0792,0.0961
+de,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,369,4309,0.0856,0.0776,0.0944
+de,mined:kommunikationsstärke,Kommunikationsstärke,334,4309,0.0775,0.0699,0.0859
+de,mined:verantwortungsbewusstsein,Verantwortungsbewusstsein,311,4309,0.0722,0.0648,0.0803
+de,mined:abgeschlossene berufsausbildung,Abgeschlossene Berufsausbildung,300,4309,0.0696,0.0624,0.0776
+de,mined:selbstständige,Selbstständige,277,4309,0.0643,0.0573,0.072
+de,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,204,4309,0.0473,0.0414,0.0541
+de,mined:weihnachtsgeld,Weihnachtsgeld,203,4309,0.0471,0.0412,0.0539
+de,mined:führerschein klasse b,Führerschein Klasse B,202,4309,0.0469,0.041,0.0536
+de,mined:engagement,Engagement,201,4309,0.0466,0.0407,0.0534
+de,mined:strukturierte arbeitsweise,Strukturierte Arbeitsweise,200,4309,0.0464,0.0405,0.0531
+de,mined:technisches verständnis,Technisches Verständnis,199,4309,0.0462,0.0403,0.0529
+de,mined:entwicklungsmöglichkeiten,Entwicklungsmöglichkeiten,175,4309,0.0406,0.0351,0.0469
+de,mined:eigeninitiative,Eigeninitiative,171,4309,0.0397,0.0343,0.0459
+de,mined:elektroniker,Elektroniker,167,4309,0.0388,0.0334,0.0449
+de,mined:kommunikationsfähigkeit,Kommunikationsfähigkeit,165,4309,0.0383,0.033,0.0444
+de,mined:verstehen,Verstehen,161,4309,0.0374,0.0321,0.0435
+de,mined:kreativität,Kreativität,160,4309,0.0371,0.0319,0.0432
+de,http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee,Energie,158,4309,0.0367,0.0315,0.0427
+de,mined:bauen,Bauen,158,4309,0.0367,0.0315,0.0427
+de,mined:belastbarkeit,Belastbarkeit,152,4309,0.0353,0.0302,0.0412
+de,mined:sorgfalt,Sorgfalt,150,4309,0.0348,0.0297,0.0407
+de,mined:kundenorientierung,Kundenorientierung,146,4309,0.0339,0.0289,0.0397
+de,mined:handwerkliches geschick,Handwerkliches Geschick,136,4309,0.0316,0.0267,0.0372
+de,mined:automatisierung,Automatisierung,135,4309,0.0313,0.0265,0.037
+de,http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5,Datenschutz,135,4309,0.0313,0.0265,0.037
+en,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,277,623,0.4446,0.4061,0.4839
+en,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,232,623,0.3724,0.3353,0.411
+en,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),137,623,0.2199,0.1892,0.2541
+en,mined:reliability,Reliability,74,623,0.1188,0.0957,0.1466
+en,http://data.europa.eu/esco/skill/c8d53d69-d900-4092-af80-c5d0422bcdb3,Source (Videospielerstellungssysteme),71,623,0.114,0.0913,0.1413
+en,http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f,Datenbankmanagementsysteme,58,623,0.0931,0.0727,0.1185
+en,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,TypeScript,58,623,0.0931,0.0727,0.1185
+en,http://data.europa.eu/esco/skill/83218cac-3599-417e-93d2-26013cdccd98,serviceorientierte Modellierung,57,623,0.0915,0.0713,0.1167
+en,http://data.europa.eu/esco/skill/dc9a236c-c640-43c3-812f-269403591edb,Kundenbeziehungsmanagement,56,623,0.0899,0.0699,0.1149
+en,mined:ci/cd,CI/CD,55,623,0.0883,0.0685,0.1132
+en,mined:consulting,Consulting,54,623,0.0867,0.067,0.1114
+en,mined:scope,Scope,54,623,0.0867,0.067,0.1114
+en,http://data.europa.eu/esco/skill/e87ec79a-c9ff-46f5-84fa-7a0f394cdf40,Robotik,46,623,0.0738,0.0558,0.0971
+en,http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0,Ökosysteme,46,623,0.0738,0.0558,0.0971
+en,mined:react,React,44,623,0.0706,0.053,0.0935
+en,http://data.europa.eu/esco/skill/43ae58b9-5e56-4524-b45a-b422777a0576,Datenbank,43,623,0.069,0.0516,0.0917
+en,mined:docker,Docker,42,623,0.0674,0.0503,0.0899
+en,mined:aws,AWS,42,623,0.0674,0.0503,0.0899
+en,mined:engagement,Engagement,37,623,0.0594,0.0434,0.0808
+en,mined:linux,Linux,36,623,0.0578,0.042,0.079
+en,mined:business development,Business Development,36,623,0.0578,0.042,0.079
+en,http://data.europa.eu/esco/skill/4ca91852-c534-4b98-ab1c-59a126534c88,Inbetriebnahme,35,623,0.0562,0.0407,0.0771
+en,mined:aerospace,Aerospace,35,623,0.0562,0.0407,0.0771
+en,mined:pricing,Pricing,33,623,0.053,0.038,0.0735
+en,mined:machine learning,Machine Learning,33,623,0.053,0.038,0.0735
+en,mined:excel,Excel,33,623,0.053,0.038,0.0735
+en,http://data.europa.eu/esco/skill/a4d336a6-9ffd-402a-91cc-f359716ba4e0,ML (Computerprogrammierung),33,623,0.053,0.038,0.0735
+en,http://data.europa.eu/esco/skill/294cf13e-4fdf-4cb8-bb6b-31b9da7f4819,Logik,32,623,0.0514,0.0366,0.0716
+en,mined:independent,Independent,32,623,0.0514,0.0366,0.0716
+en,mined:administration,Administration,32,623,0.0514,0.0366,0.0716

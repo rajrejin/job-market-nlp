@@ -1,0 +1,30 @@
+group,skill_id,label,postings_with_skill,postings_in_group,share,ci_low,ci_high
+ml_ai_engineer,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,Python (Computerprogrammierung),40,63,0.6349,0.5115,0.7428
+ml_ai_engineer,http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647,Deutsch,21,63,0.3333,0.2295,0.4563
+ml_ai_engineer,http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0,Englisch,21,63,0.3333,0.2295,0.4563
+ml_ai_engineer,mined:machine learning,Machine Learning,20,63,0.3175,0.2159,0.44
+ml_ai_engineer,http://data.europa.eu/esco/skill/a4d336a6-9ffd-402a-91cc-f359716ba4e0,ML (Computerprogrammierung),17,63,0.2698,0.1758,0.3903
+ml_ai_engineer,mined:pytorch,PyTorch,13,63,0.2063,0.1248,0.3217
+ml_ai_engineer,mined:docker,Docker,13,63,0.2063,0.1248,0.3217
+ml_ai_engineer,mined:llms,LLMs,12,63,0.1905,0.1125,0.3041
+ml_ai_engineer,mined:rag,RAG,11,63,0.1746,0.1004,0.2862
+ml_ai_engineer,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,TypeScript,11,63,0.1746,0.1004,0.2862
+ml_ai_engineer,mined:reliability,Reliability,10,63,0.1587,0.0886,0.2681
+ml_ai_engineer,mined:ci/cd,CI/CD,10,63,0.1587,0.0886,0.2681
+ml_ai_engineer,mined:react,React,9,63,0.1429,0.077,0.2497
+ml_ai_engineer,mined:data science,Data Science,9,63,0.1429,0.077,0.2497
+ml_ai_engineer,http://data.europa.eu/esco/skill/4339176e-3acd-4f7f-a5d9-445bee3d23f2,Mathematik,7,63,0.1111,0.0549,0.212
+ml_ai_engineer,mined:azure,Azure,7,63,0.1111,0.0549,0.212
+ml_ai_engineer,mined:aws,AWS,7,63,0.1111,0.0549,0.212
+ml_ai_engineer,mined:automatisierung,Automatisierung,6,63,0.0952,0.0444,0.1926
+ml_ai_engineer,mined:datenbanken,Datenbanken,6,63,0.0952,0.0444,0.1926
+ml_ai_engineer,http://data.europa.eu/esco/skill/3795f2ca-7c0a-4a80-88d9-052c9d1b36c3,Kameras,6,63,0.0952,0.0444,0.1926
+ml_ai_engineer,http://data.europa.eu/esco/skill/e87ec79a-c9ff-46f5-84fa-7a0f394cdf40,Robotik,6,63,0.0952,0.0444,0.1926
+ml_ai_engineer,mined:terraform,Terraform,6,63,0.0952,0.0444,0.1926
+ml_ai_engineer,mined:ml models,ML models,6,63,0.0952,0.0444,0.1926
+ml_ai_engineer,http://data.europa.eu/esco/skill/70a7b3b3-31ef-4b29-a30f-bb7299dff39b,Sensoren,5,63,0.0794,0.0344,0.1727
+ml_ai_engineer,http://data.europa.eu/esco/skill/4b3c8605-819d-4b38-83fc-f23663e78dc9,Beratung,5,63,0.0794,0.0344,0.1727
+ml_ai_engineer,http://data.europa.eu/esco/skill/c8d53d69-d900-4092-af80-c5d0422bcdb3,Source (Videospielerstellungssysteme),5,63,0.0794,0.0344,0.1727
+ml_ai_engineer,mined:openai,OpenAI,5,63,0.0794,0.0344,0.1727
+ml_ai_engineer,mined:fastapi,FastAPI,5,63,0.0794,0.0344,0.1727
+ml_ai_engineer,mined:deep learning,Deep Learning,5,63,0.0794,0.0344,0.1727

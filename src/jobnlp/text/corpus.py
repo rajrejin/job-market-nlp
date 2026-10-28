@@ -32,6 +32,52 @@ def _as_list(x: Any) -> list[str]:
     return [str(x)]
 
 
+MONTHS = {
+    m: i + 1
+    for i, names in enumerate(
+        [
+            ("jan", "januar", "january", "jänner"),
+            ("feb", "februar", "february"),
+            ("mar", "mär", "märz", "march"),
+            ("apr", "april"),
+            ("may", "mai"),
+            ("jun", "juni", "june"),
+            ("jul", "juli", "july"),
+            ("aug", "august"),
+            ("sep", "sept", "september"),
+            ("oct", "okt", "oktober", "october"),
+            ("nov", "november"),
+            ("dec", "dez", "dezember", "december"),
+        ]
+    )
+    for m in names
+}
+ISO_DATE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})")
+EN_DATE = re.compile(r"^([A-Za-zä]+)\.?\s+(\d{1,2}),?\s+(\d{4})")  # "Mar 01, 2025"
+DE_DATE = re.compile(r"^(\d{1,2})\.\s*([A-Za-zä]+)\.?\s+(\d{4})")  # "24. August 2025"
+DOT_DATE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.(\d{4})")  # "24.08.2025"
+
+
+def parse_published(raw: Any) -> str | None:
+    """JSON-LD datePosted as an ISO date. Employers write ISO, English and German forms;
+    anything unrecognised becomes None rather than a wrong date."""
+    s = str(raw or "").strip()
+    try:
+        if m := ISO_DATE.match(s):
+            y, mo, d = int(m[1]), int(m[2]), int(m[3])
+        elif m := EN_DATE.match(s):
+            y, mo, d = int(m[3]), MONTHS[m[1].lower()], int(m[2])
+        elif m := DE_DATE.match(s):
+            y, mo, d = int(m[3]), MONTHS[m[2].lower()], int(m[1])
+        elif m := DOT_DATE.match(s):
+            y, mo, d = int(m[3]), int(m[2]), int(m[1])
+        else:
+            return None
+        return dt.date(y, mo, d).isoformat()
+    except (KeyError, ValueError):
+        return None
+
+
 def unify(source: str, pid: str, p: dict[str, Any], first: str, last: str) -> dict[str, Any]:
     if source == "arbeitnow":
         published = dt.datetime.fromtimestamp(int(p["created_at"]), dt.UTC).date().isoformat()
@@ -49,7 +95,6 @@ def unify(source: str, pid: str, p: dict[str, Any], first: str, last: str) -> di
             "first_seen": first,
             "last_seen": last,
         }
-    published_raw = str(p.get("date_posted") or "")[:10]
     return {
         "source": source,
         "posting_id": pid,
@@ -59,7 +104,7 @@ def unify(source: str, pid: str, p: dict[str, Any], first: str, last: str) -> di
         "remote": False,
         "categories": _as_list(p.get("occupational_category")) + _as_list(p.get("industry")),
         "job_types": _as_list(p.get("employment_type")),
-        "published": published_raw or None,
+        "published": parse_published(p.get("date_posted")),
         "html": _text_field(p.get("description")),
         "first_seen": first,
         "last_seen": last,
