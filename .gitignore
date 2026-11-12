@@ -19,7 +19,4 @@ dist/
 logs/
 models/
 stores/
-
-# personal study guide, kept local
-docs/study_guide/
-scripts/build_study_guide.py
+docs/*.pdf

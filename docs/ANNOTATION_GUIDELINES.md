@@ -39,4 +39,4 @@ Each span gets `must` or `nice`:
 
 ## Procedure and status
 
-The gold set was annotated by the build agent (a language model) in a single pass, reading each text in full before writing spans as exact substrings. It was not annotated by independent human experts, and no second independent pass was possible inside one build session; inter-annotator agreement is therefore not reported. `jobnlp annotate-export` writes the gold set to JSONL and a CSV review sheet so a person can correct it; evaluation reruns without code changes.
+The gold set was annotated by a language model in a single pass, reading each text in full before writing spans as exact substrings. It was not annotated by independent human experts, and no second independent pass was possible; inter-annotator agreement is therefore not reported. `jobnlp annotate-export` writes the gold set to JSONL and a CSV review sheet so a person can correct it; evaluation reruns without code changes.

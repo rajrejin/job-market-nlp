@@ -59,19 +59,29 @@ class GapResult:
         }
 
 
+def _display_label(mention: SkillMention) -> str:
+    """Dictionary skills show their canonical label, NER-only finds show the text as written."""
+    return mention.label if mention.source in ("esco", "mined") else mention.text
+
+
 def group_mentions(mentions: list[SkillMention], text_len: int) -> dict[str, JobSkill]:
     """One entry per canonical skill; must-have wins over nice-to-have."""
-    out: dict[str, JobSkill] = {}
-    for m in mentions:
-        key = m.skill_id
-        nec = m.necessity
-        if key in out:
-            if nec == "must":
-                out[key].necessity = "must"
+    skills: dict[str, JobSkill] = {}
+    for mention in mentions:
+        key = mention.skill_id
+        if key in skills:
+            if mention.necessity == "must":
+                skills[key].necessity = "must"
             continue
-        label = m.label if m.source in ("esco", "mined") else m.text
-        out[key] = JobSkill(key, label, m.text, nec, m.start / max(1, text_len), m.source)
-    return out
+        skills[key] = JobSkill(
+            key=key,
+            label=_display_label(mention),
+            surface=mention.text,
+            necessity=mention.necessity,
+            first_pos=mention.start / max(1, text_len),
+            source=mention.source,
+        )
+    return skills
 
 
 def importance(skill: JobSkill) -> float:
@@ -90,34 +100,48 @@ def analyse(
     related_threshold: float = 0.9,
     demand: Callable[[list[str]], dict[str, float]] | None = None,
 ) -> GapResult:
+    """Compare a posting with a CV in four steps.
+
+    1. Extract skills from both texts.
+    2. A job skill is "covered" if the CV contains the same canonical skill.
+    3. Otherwise it is "related" if some CV skill is close enough in embedding space.
+    4. Everything else is "missing" and gets ranked by importance.
+    """
     job_lang, cv_lang = detect(job_text), detect(cv_text)
-    lang = lambda x: "en" if x == "en" else "de"  # noqa: E731
-    job = group_mentions(extractor.extract(job_text, lang(job_lang)), len(job_text))
-    cv_mentions = extractor.extract(cv_text, lang(cv_lang))
+
+    def extractor_lang(detected: str) -> str:
+        return "en" if detected == "en" else "de"  # the extractor only knows these two
+
+    job_mentions = extractor.extract(job_text, extractor_lang(job_lang))
+    cv_mentions = extractor.extract(cv_text, extractor_lang(cv_lang))
+    job_skills = list(group_mentions(job_mentions, len(job_text)).values())
     cv_keys = {m.skill_id for m in cv_mentions}
-    cv_labels = sorted({m.label if m.source in ("esco", "mined") else m.text for m in cv_mentions})
+    cv_labels = sorted({_display_label(m) for m in cv_mentions})
     notes: list[str] = []
-    for s in job.values():
-        if s.key in cv_keys:
-            s.status = "covered"
-    open_skills = [s for s in job.values() if s.status == "missing"]
-    if embedder is not None and open_skills and cv_labels:
-        sims = embedder.similarity([s.label for s in open_skills], cv_labels)
-        for s, row in zip(open_skills, sims, strict=True):
-            best = max(range(len(row)), key=lambda j: row[j])
-            if row[best] >= related_threshold:
-                s.status, s.related_to, s.similarity = (
-                    "related",
-                    cv_labels[best],
-                    round(row[best], 4),
-                )
+
+    for skill in job_skills:
+        if skill.key in cv_keys:
+            skill.status = "covered"
+
+    uncovered = [s for s in job_skills if s.status == "missing"]
+    if embedder is not None and uncovered and cv_labels:
+        similarities = embedder.similarity([s.label for s in uncovered], cv_labels)
+        for skill, row in zip(uncovered, similarities, strict=True):
+            closest = max(range(len(row)), key=lambda j: row[j])
+            if row[closest] >= related_threshold:
+                skill.status = "related"
+                skill.related_to = cv_labels[closest]
+                skill.similarity = round(row[closest], 4)
     elif embedder is None:
         notes.append("embedding model unavailable: related-skill matching skipped")
+
+    # Optional: how often similar postings ask for each skill, used to rank what is missing.
     if demand is not None:
-        shares = demand([s.key for s in job.values()])
-        for s in job.values():
-            s.demand = shares.get(s.key)
-    for s in job.values():
-        s.importance = importance(s)
-    score, breakdown = match_score([(s.key, s.label, s.necessity, s.status) for s in job.values()])
-    return GapResult(job_lang, cv_lang, list(job.values()), cv_labels, score, breakdown, notes)
+        shares = demand([s.key for s in job_skills])
+        for skill in job_skills:
+            skill.demand = shares.get(skill.key)
+    for skill in job_skills:
+        skill.importance = importance(skill)
+
+    score, breakdown = match_score([(s.key, s.label, s.necessity, s.status) for s in job_skills])
+    return GapResult(job_lang, cv_lang, job_skills, cv_labels, score, breakdown, notes)

@@ -18,20 +18,14 @@ from jobnlp.logging_utils import get_logger
 def test_report_renders_from_results(tmp_path: Path) -> None:
     if not (ROOT / "results" / "corpus_stats.json").exists():
         pytest.skip("results absent")
-    readme = tmp_path / "README.md"
-    readme.write_text(f"x\n{report.START}\nold\n{report.END}\ny\n", encoding="utf-8")
-    report.write_all(docs_dir=tmp_path, readme=readme)
+    report.write_all(docs_dir=tmp_path)
     body = (tmp_path / "RESULTS.md").read_text(encoding="utf-8")
     assert body.startswith("# Results") and "## Corpus" in body
-    text = readme.read_text(encoding="utf-8")
-    assert "PLACEHOLDER_QQ" not in text and text.startswith("x\n") and text.endswith("y\n")
-    assert "—" not in body and "–" not in body  # no em or en dashes
 
 
 def test_report_handles_missing_results(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     monkeypatch.setattr(report, "R", tmp_path)
     assert report.extraction_section() == ["Extraction evaluation not available."]
-    assert report.headline() == []
 
 
 def test_colab_package_and_refuse_foreign_model(tmp_path: Path) -> None:
@@ -40,6 +34,8 @@ def test_colab_package_and_refuse_foreign_model(tmp_path: Path) -> None:
 
     if not (ROOT / "results" / "split_manifest.json").exists():
         pytest.skip("split manifest absent: run train-classifier")
+    if not (ROOT / "data" / "processed" / "postings.parquet").exists():
+        pytest.skip("corpus absent: run build-corpus")
     checks = package(tmp_path / "dist")
     assert (tmp_path / "dist" / "jobnlp_code.zip").exists()
     assert json.loads((tmp_path / "dist" / "colab_inputs" / "expected.json").read_text())

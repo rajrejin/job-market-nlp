@@ -506,11 +506,11 @@ def import_colab(
 
 @app.command()
 def report() -> None:
-    """Regenerate docs/RESULTS.md and the README headline block from results/."""
+    """Regenerate docs/RESULTS.md from results/."""
     from jobnlp.report import write_all
 
     write_all()
-    typer.echo("wrote docs/RESULTS.md and README headline")
+    typer.echo("wrote docs/RESULTS.md")
 
 
 @app.command("serve-api")

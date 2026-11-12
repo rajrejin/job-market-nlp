@@ -1,89 +1,120 @@
-# German job market NLP analyser and CV gap tool
+# German job market NLP and CV gap tool
 
-Skill extraction, occupational-field classification and skill-demand analysis on real German job postings, plus a local CV gap analyser with a guarded local LLM. Everything runs on a CPU laptop; no paid API or cloud service is used.
+Two things in one repo:
 
-## Summary
+1. An NLP pipeline over real German job postings: pull the skills out of each posting, classify
+   the posting into an occupational field, and count which skills are in demand where.
+2. A CV gap tool: give it a job posting and your CV and it tells you which required skills you
+   cover, which are related to something you have, and which are missing. A small local LLM then
+   suggests how to word things, with guards so it cannot invent skills you do not have.
 
-<!-- results:start -->
-- Corpus: 5118 German postings after deduplication (published 2014-08-14 to 2026-10-17).
-- Skill extraction, held-out gold half (union): partial-match F1 0.568, exact-span F1 0.458 (gold set annotated by a model, see limitations).
-- Occupational-field classifier: best tfidf_lr:title+description, macro-F1 0.596 (95% CI 0.531 to 0.652).
-- CV matching sanity: same-field versus different-field AUC 0.600.
-<!-- results:end -->
+Everything runs on a CPU laptop. No paid API, no cloud.
 
-Full tables: [docs/RESULTS.md](docs/RESULTS.md). Every number there is generated from a file in `results/`.
+## Where the data comes from
 
-## Architecture
+My first plan was the Bundesagentur für Arbeit Jobbörse. Its terms of use forbid automated
+collection, so I dropped it ([docs/DATA_TERMS.md](docs/DATA_TERMS.md)). The corpus instead comes
+from:
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the diagram and module list. In short: two permitted sources (the Arbeitnow public API and employer career sites with schema.org JobPosting markup) feed a raw store; a corpus build cleans, redacts, locates and deduplicates; an ESCO-based extractor tuned on a gold set feeds the market analysis and the CV tool; a FastAPI service and a Streamlit UI sit on top.
+- the public [Arbeitnow](https://www.arbeitnow.com) job board API, and
+- employer career pages that publish schema.org `JobPosting` markup, crawled politely
+  (robots.txt respected, one request per 5 seconds per site, everything cached).
 
-## Quick start
+That gave 10,284 postings, 5,118 of them German postings after removing near-duplicates. Emails,
+phone numbers and contact names are stripped at ingestion. The posting text itself stays on my
+machine and is not in this repo, only aggregated results are.
 
-Everything runs in a Linux development container with the project folder mounted, so results land in the same folders you see in Explorer. (On this Windows laptop, Smart App Control blocks some compiled Python packages in a native virtual environment; the container avoids that without touching security settings.)
+This is not a representative sample of the German labour market. Arbeitnow leans towards tech
+and startups, the crawled sites towards large employers and staffing agencies.
 
-```
+## Results
+
+| Task | Best approach | Score |
+|---|---|---|
+| Skill extraction (held-out half of the gold set) | ESCO dictionary + mined terms + weakly supervised NER | partial-match F1 0.57, exact F1 0.46 |
+| Occupational field, 12 classes | TF-IDF + logistic regression on title and description | macro-F1 0.60 (95% CI 0.53 to 0.65) |
+| Must-have vs nice-to-have | cue-word rules | accuracy 0.94 |
+| LLM suggestions passing the guards | Qwen2.5 3B via Ollama, with retries | 100% (17.5% failed on the first attempt) |
+
+What I learned along the way:
+
+- The ESCO skill dictionary alone finds only 13 to 17% of the annotated skills. Job ads say
+  "Kenntnisse in SAP FI", ESCO says something much more formal. Mining candidate terms after cue
+  phrases ("Kenntnisse in", "experience with") roughly doubled F1.
+- Plain TF-IDF beat a fine-tuned German DistilBERT (macro-F1 0.60 vs 0.47). With about 1,100
+  training postings, noisy labels and a CPU-sized training budget, the simple model wins.
+- Skill rankings are fragile. Counting one posting per employer changes 4 of the top 10 skills,
+  so I report the robustness table next to every ranking.
+
+One important caveat: **the 200-posting gold set for skill extraction was annotated by a language
+model in a single pass, not by human annotators.** Treat the extraction scores as indicative.
+`jobnlp annotate-export` writes the annotations to a review sheet so they can be corrected.
+
+All tables are in [docs/RESULTS.md](docs/RESULTS.md).
+
+## Running it
+
+I run everything inside a development container, because Windows Smart App Control on my laptop
+blocks some compiled Python packages in a normal virtual environment. The project folder is
+mounted into the container, so results appear in the normal folders.
+
+```powershell
 docker build -f docker/Dockerfile.dev -t jobnlp-dev .      # once, about 10 minutes
-.\scripts\run_pipeline.ps1                                  # every step in order
-.\scripts\dev.ps1 python -m jobnlp.cli market               # or any single step
+.\scripts\run_pipeline.ps1                                  # all steps in order
+.\scripts\dev.ps1 python -m jobnlp.cli market               # or a single step
 .\scripts\dev.ps1 python -m pytest -q                       # tests
-docker compose -f docker/docker-compose.yml up --build      # API on :8000, app on :8501
 ```
 
-Pipeline steps (`python -m jobnlp.cli <step>`): `harvest`, `crawl`, `esco`, `build-corpus`, `train-ner` (tunes the extractor on the gold development half, needs `annotation/`), `evaluate`, `market`, `train-classifier`, `evaluate-gap`, `report`.
+On Linux or macOS use `scripts/dev.sh`, or skip the container: `pip install -r requirements.txt
+&& pip install -e .`
 
-CV analysis on the command line (output to the terminal only): `.\scripts\dev.ps1 python -m jobnlp.cli gap job.txt data/private/my_cv.pdf`. The local LLM needs Ollama on the host with `qwen2.5:3b-instruct` (`ollama pull qwen2.5:3b-instruct`); without it the tool still returns the gap and the score.
+Pipeline steps, in order: `harvest`, `crawl`, `esco`, `build-corpus`, `train-ner`, `evaluate`,
+`market`, `train-classifier`, `evaluate-gap`, `report`.
 
-Weekly snapshots: run `scripts\schedule_harvest.ps1` once in PowerShell to register a Sunday task in Windows Task Scheduler (it runs `scripts\harvest.ps1`: harvest, crawl and rebuild in the container; Docker Desktop must be running).
+API and app:
 
-
-## Data
-
-- **Sources.** The Bundesagentur für Arbeit Jobbörse was the intended source, but its terms forbid robots and the use of its interfaces for data collection, so it is not used ([docs/DATA_TERMS.md](docs/DATA_TERMS.md)). Instead: the [Arbeitnow](https://www.arbeitnow.com) public job board API (jobs listed by Arbeitnow; thank you for the free API), and employer career sites that publish schema.org JobPosting markup, found through the Web Data Commons host list and crawled with robots.txt and text-and-data-mining reservations honoured, at most one request per 5 seconds per site. Job boards and agency feeds are excluded.
-- **Coverage and bias.** Arbeitnow shows about one week of postings and leans towards technology, startups and English-language roles; the crawled career sites lean towards larger employers, care providers and staffing agencies that publish structured markup. Neither is representative of the whole German labour market. Only postings active at harvest time are visible, so long-running postings are over-represented; real trends need the weekly snapshots.
-- **Privacy.** Emails, phone numbers, URLs and contact names are removed at ingestion; posting text stays in gitignored folders; only aggregates are published.
-- **ESCO.** Skills from the ESCO classification, © European Union, https://esco.ec.europa.eu, via the ESCO web service API. Locations from GeoNames (CC BY 4.0).
-
-## Method
-
-- **Cleaning:** HTML to text with headings kept, redaction, lingua language detection, rule-based German and English section splitting, MinHash near-duplicate clusters.
-- **Skill extraction:** ESCO labels (German and English, surface and lemma forms) plus terms mined from requirement sections after cues such as "Kenntnisse in" or "experience with" and from short list items; thresholds and blocked keys tuned on the gold development half; a spaCy NER model trained on the dictionary's weak labels; must-have versus nice-to-have from necessity cues.
-- **Gold set:** 200 real postings (120 German, 80 English), requirement sections annotated at span level following [docs/ANNOTATION_GUIDELINES.md](docs/ANNOTATION_GUIDELINES.md). **The gold set was annotated by a language model in a single pass, not by independent human experts**; no agreement figure exists. `jobnlp annotate-export` writes it to an editable review sheet; corrections rerun without code changes.
-- **Classifier:** platform department tags as labels; TF-IDF and e5 embedding baselines with logistic regression and a fine-tuned German DistilBERT, on splits grouped by employer and duplicate cluster, with bootstrap intervals and ablations (title only, description only, both).
-- **Market analysis:** shares of postings mentioning each skill, with 95% Wilson intervals, by state, region (Rhine-Main and Rhine-Neckar), category, language, experience level, remote flag and week; groups under 30 postings suppressed; PMI co-occurrence; NMF role profiles with stability across seeds; a data and ML role view.
-- **CV tool:** deterministic gap (covered, related, missing), a transparent weighted-coverage score ([docs/MODEL_CARD.md](docs/MODEL_CARD.md)) and guarded LLM suggestions.
-
-## API and app
-
-`GET /v1/health`, `GET /v1/ready`, `POST /v1/extract`, `POST /v1/classify`, `POST /v1/gap` (JSON) and `POST /v1/gap/upload` (txt, pdf or docx), `GET /v1/market/skills`, `GET /v1/market/profile`, `GET /metrics`. Inputs are size-limited, uploads are type-checked and parsed with a timeout, errors follow one schema without stack traces, logs never contain CV or posting text, an API key can be set with `JOBNLP_API_KEY`, and CORS is off unless `JOBNLP_CORS_ORIGINS` is set. The Streamlit app has two tabs, Market Trends and CV Analyser, and talks to the API over HTTP only.
-
-## Docker
-
-```
-docker compose -f docker/docker-compose.yml up --build
+```bash
+docker compose -f docker/docker-compose.yml up --build      # API on :8000, Streamlit on :8501
 ```
 
-The API (port 8000) and the app (port 8501) run as non-root containers; data, models, stores and results are mounted from the project folder; Ollama is reached on the host.
+CV gap on the command line (nothing is stored, output goes to the terminal):
+
+```powershell
+.\scripts\dev.ps1 python -m jobnlp.cli gap job.txt data/private/my_cv.pdf
+```
+
+The LLM suggestions need [Ollama](https://ollama.com) with `qwen2.5:3b-instruct` running on the
+host. Without it you still get the gap and the score.
+
+## How it works
+
+- **Cleaning** (`src/jobnlp/text/`): HTML to text, redaction, language detection, splitting
+  postings into sections (tasks, requirements, benefits), MinHash near-duplicate detection.
+- **Skills** (`src/jobnlp/skills/`): ESCO labels in German and English, terms mined from
+  requirement sections, a spaCy NER model trained on those weak labels, and cue-word rules for
+  must-have versus nice-to-have.
+- **Classifier** (`src/jobnlp/classify/`): TF-IDF, e5 embeddings and DistilBERT compared on
+  splits grouped by employer, so the same company never appears in both train and test.
+- **Market** (`src/jobnlp/market/`): share of postings mentioning each skill with Wilson
+  intervals, by state, region, language and experience level. Groups under 30 postings are hidden.
+- **CV gap** (`src/jobnlp/gap/`): deterministic matching and a transparent weighted score first,
+  the LLM only for wording. Its output is checked against the CV and rejected if it adds skills
+  or facts.
+- **API** (`api/`): FastAPI with size limits, typed uploads (txt, pdf, docx) and no CV text in logs.
+
+More: [architecture](docs/ARCHITECTURE.md), [model card](docs/MODEL_CARD.md),
+[decisions](docs/DECISIONS.md), [known issues](docs/KNOWN_ISSUES.md),
+[Colab runbook for the larger BERT run](docs/COLAB_RUNBOOK.md).
 
 ## Limitations
 
-- The data sources are not official labour-market statistics and can change or end; Arbeitnow can revoke API access.
-- Only currently active postings are visible: the window favours long-running postings, and trends need repeated snapshots.
-- Platform department tags are noisy, overlapping labels.
-- Postings are a proxy for employer demand, not for hiring.
-- The gold set is model-annotated by one annotator in one pass.
-- ESCO misses many tools and German soft-skill nouns; mined skills are less reliable.
-- The match score is a heuristic, not a prediction of recruiter decisions or applicant tracking systems.
-- Small groups are suppressed; results come from one machine and one harvest period.
+- One snapshot of about a week, so the trend analysis is only a sketch. It needs the weekly
+  harvest (`scripts/schedule_harvest.ps1`) running for a few months.
+- Job postings show what employers ask for, not who gets hired.
+- The department tags used as classifier labels are noisy and overlap.
+- The match score is a heuristic. It does not predict what a recruiter or an ATS will do.
 
-## Reproduction
+## Credits
 
-See [HANDOFF.md](HANDOFF.md) for the exact commands, timings and status, and [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) for a step-by-step path with checks.
-
-## References
-
-- ESCO classification, European Commission, https://esco.ec.europa.eu
-- Arbeitnow job board API, https://www.arbeitnow.com/blog/job-board-api
-- Web Data Commons, Schema.org Table Corpus, https://webdatacommons.org/structureddata/schemaorgtables/
-- GeoNames, https://www.geonames.org
-- Wilson, E. B. (1927). Probable inference, the law of succession, and statistical inference. Journal of the American Statistical Association, 22(158), 209-212.
-- spaCy, https://spacy.io; Hugging Face Transformers, https://huggingface.co/docs/transformers; multilingual-e5, https://huggingface.co/intfloat/multilingual-e5-small
+Skills from the ESCO classification, © European Union. Job data from the Arbeitnow API (thank you
+for keeping it free). Locations from GeoNames (CC BY 4.0). Host list from Web Data Commons.
